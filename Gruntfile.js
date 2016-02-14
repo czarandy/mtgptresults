@@ -13,8 +13,16 @@ module.exports = function(grunt) {
             dest: 'build/index.html'
           },
           {
+            src: 'src/index.html',
+            dest: 'build/404.html'
+          },
+          {
             src: 'src/ptlogo.png',
             dest: 'build/logo/ptlogo.png'
+          },
+          {
+            src: 'src/CNAME',
+            dest: 'build/CNAME'
           }
         ]
       },
@@ -22,12 +30,9 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            src: 'data/**/*.png',
-            dest: 'build/logo/',
-            rename: function(dest, src) {
-              var parts = src.split('/');
-              return dest + parts[1] + '.png';
-            }
+            cwd: 'data/',
+            src: 'logo/*.png',
+            dest: 'build/',
           }
         ],
       },
@@ -96,6 +101,13 @@ module.exports = function(grunt) {
           'build/js/app.js' : ['build/js/app.js']
         }
       }
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'build'
+      },
+      src: '**/*'
     }
   });
 
@@ -106,9 +118,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-jsxhint');
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
   grunt.registerTask('default', ['copy', 'css', 'js'])
-  grunt.registerTask('prod', ['default', 'uglify'])
+  grunt.registerTask('prod', ['default', 'uglify', 'gh-pages'])
 }
