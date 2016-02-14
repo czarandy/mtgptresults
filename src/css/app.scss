@@ -1,0 +1,114 @@
+.lead.tournamentLead {
+  margin-bottom: 0;
+}
+
+.page-header.pageHeader {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.statsWrapper {
+  padding: 10px;
+  text-align: center;
+
+  .alert {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .statsValue {
+    font-weight: bold;
+  }
+}
+
+.page-header.pageHeader.recentHeader {
+  border: 0;
+}
+
+.recentTournamentWrapper {
+  .recentTournament {
+    display: flex;
+    justify-content: space-between;
+
+    .topfour {
+      list-style-type: none;
+      width: 50%;
+
+      li > span {
+        margin-right: 5px;
+      }
+    }
+
+    .topfour li:nth-child(1),
+    .topfour li:nth-child(2),
+    .topfour li:nth-child(3) {
+      font-size: 1.5em;
+      margin-left: -5px;
+
+      a {
+        margin-left: -4px;
+      }
+    }
+
+    .topfour.topfour2hg li:nth-child(3) {
+      font-size: inherit;
+      margin-left: inherit;
+      a {
+        margin-left: inherit;
+      }
+    }
+
+    .topeight {
+      list-style-type: none;
+      width: 50%;
+
+      li > span {
+        margin-right: 5px;
+      }
+    }
+
+    .topeight li:first-child {
+      font-size: 1.5em;
+      margin-left: -5px;
+
+      a {
+        margin-left: -4px;
+      }
+    }
+
+    .image {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      img {
+        max-height: 80px;
+        max-width: 100%
+      }
+    }
+  }
+
+}
+
+.standingsTable {
+  tbody > tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  tbody > tr:hover {
+    background-color: #f5f5f5;
+  }
+  tbody > tr > td:nth-child(1) {
+    text-align: right;
+  }
+}
+
+.jumbotron.notFound {
+  background-color: #f5f5f5;
+}
+
+.searchInput.form-control {
+  margin-right: 6px;
+}
