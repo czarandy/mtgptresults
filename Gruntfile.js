@@ -98,7 +98,10 @@ module.exports = function(grunt) {
     uglify: {
       all: {
         files: {
-          'build/js/app.js' : ['build/js/app.js']
+          'build/js/app.js' : ['build/js/app.js'],
+          'build/data/players.js' : ['build/data/players.js'],
+          'build/data/recent.js' : ['build/data/recent.js'],
+          'build/data/tournament.js' : ['build/data/tournament.js']
         }
       }
     },
