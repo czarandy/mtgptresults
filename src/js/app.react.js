@@ -241,6 +241,10 @@ var RecentTournaments = React.createClass({
     var that = this;
     return (
       <div className="col-md-offset-3 col-md-6">
+        <div className="alert alert-info" role="alert">
+          {'This site is now open source on '}
+          <a className="alert-link" href="https://github.com/czarandy/mtgptresults">GitHub</a>.
+        </div>
         <DocumentTitle title="MTG Pro Tour Results" />
         {_.map(window.Recent, function(tournament) {
           var id = tournament.id;
