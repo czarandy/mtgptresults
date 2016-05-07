@@ -1,5 +1,52 @@
 [
     {
+        "date": "April 22-24, 2016",
+        "formats": [
+            "Draft",
+            "Standard"
+        ],
+        "id": "pro-tour-shadows-over-innistrad-2016",
+        "location": "Barcelona, Spain",
+        "logo": "ptsoi.png",
+        "name": "Pro Tour Shadows over Innistrad",
+        "team": false,
+        "team2hg": false,
+        "top": [
+            {
+                "id": "steve-rubin",
+                "name": "Steve Rubin"
+            },
+            {
+                "id": "andrea-mengucci",
+                "name": "Andrea Mengucci"
+            },
+            {
+                "id": "seth-manfield",
+                "name": "Seth Manfield"
+            },
+            {
+                "id": "shota-yasooka",
+                "name": "Shota Yasooka"
+            },
+            {
+                "id": "jon-finkel",
+                "name": "Jon Finkel"
+            },
+            {
+                "id": "brad-nelson",
+                "name": "Brad Nelson"
+            },
+            {
+                "id": "luis-scott-vargas",
+                "name": "Luis Scott-Vargas"
+            },
+            {
+                "id": "luis-salvatto",
+                "name": "Luis Salvatto"
+            }
+        ]
+    },
+    {
         "date": "February 5-7, 2016",
         "formats": [
             "Draft",
