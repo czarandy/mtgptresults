@@ -1,3 +1,5 @@
+var _ = require('underscore');
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -127,4 +129,49 @@ module.exports = function(grunt) {
   grunt.registerTask('css', ['sass']);
   grunt.registerTask('default', ['copy', 'css', 'js'])
   grunt.registerTask('prod', ['default', 'uglify', 'gh-pages'])
+  grunt.registerTask('players', function (key, value) {
+    var path = './data/tournaments.json';
+
+    if (!grunt.file.exists(path)) {
+      grunt.log.error("file " + path + " not found");
+      return false;
+    }
+
+    var data = grunt.file.readJSON(path);
+    var tournaments = data;
+    var players = {};
+
+    _.each(tournaments, function(tournament) {
+      var standings = tournament.standings;
+
+      _.each(standings, function(standing, index) {
+
+        if (!(standing.id in players)) {
+          players[standing.id] = {
+            id: standing.id,
+            name: standing.name,
+            tournaments: []
+          };
+        }
+
+        players[standing.id].tournaments.push({
+          finish: index + 1,
+          propoints: standing.propoints,
+          tid: tournament.id,
+          money: standing.money
+        });
+      })
+    })
+
+    players = _.sortBy(players, function(player) {
+      return player.id;
+    })
+
+    players = JSON.stringify(players, null, 4);
+    players = players.replace(/[\u007F-\uFFFF]/g, function(chr) {
+      return "\\u" + ("0000" + chr.charCodeAt(0).toString(16)).substr(-4)
+    })
+
+    grunt.file.write('./data/players.json', players);
+  });
 }
