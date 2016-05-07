@@ -166,7 +166,7 @@ module.exports = function(grunt) {
     players = _.mapObject(players, function(player) {
       return {
         id: player.id,
-        player: player.name,
+        name: player.name,
         tournaments: _.sortBy(player.tournaments, function(tournament) {
           var date = tournaments[tournament.tid].date;
           var year = date.substr(-4);
