@@ -161,7 +161,23 @@ module.exports = function(grunt) {
           money: standing.money
         });
       })
-    })
+    });
+
+    players = _.mapObject(players, function(player) {
+      return {
+        id: player.id,
+        player: player.name,
+        tournaments: _.sortBy(player.tournaments, function(tournament) {
+          var date = tournaments[tournament.tid].date;
+          var year = date.substr(-4);
+          var month = date.match(/\w+/)[0].substr(0, 3);
+          var day = date.match(/\d+/)[0];
+          var test = Date.parse(month + ' ' + day + ', ' + year);
+
+          return - test;
+        })
+      };
+    });
 
     players = JSON.stringify(players, null, 4);
     players = players.replace(/[\u007F-\uFFFF]/g, function(chr) {
