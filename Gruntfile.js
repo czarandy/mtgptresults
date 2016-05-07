@@ -163,10 +163,6 @@ module.exports = function(grunt) {
       })
     })
 
-    players = _.sortBy(players, function(player) {
-      return player.id;
-    })
-
     players = JSON.stringify(players, null, 4);
     players = players.replace(/[\u007F-\uFFFF]/g, function(chr) {
       return "\\u" + ("0000" + chr.charCodeAt(0).toString(16)).substr(-4)
