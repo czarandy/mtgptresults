@@ -47,10 +47,6 @@ module.exports = function(grunt) {
           {
             src: 'data/tournaments.json',
             dest: 'build/data/tournaments.js',
-          },
-          {
-            src: 'data/players.json',
-            dest: 'build/data/players.js',
           }
         ],
         options: {
@@ -128,7 +124,7 @@ module.exports = function(grunt) {
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
   grunt.registerTask('default', ['copy', 'css', 'js'])
-  grunt.registerTask('prod', ['default', 'uglify', 'gh-pages'])
+  grunt.registerTask('prod', ['players', 'default', 'uglify', 'gh-pages'])
   grunt.registerTask('players', function (key, value) {
     var path = './data/tournaments.json';
 
@@ -184,6 +180,6 @@ module.exports = function(grunt) {
       return "\\u" + ("0000" + chr.charCodeAt(0).toString(16)).substr(-4)
     })
 
-    grunt.file.write('./data/players.json', players);
+    grunt.file.write('./build/data/players.js', 'window.Players = ' + players);
   });
 }
