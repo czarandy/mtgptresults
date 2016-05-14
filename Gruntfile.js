@@ -63,7 +63,7 @@ module.exports = function(grunt) {
     sass: {
       all: {
         options: {
-          style: 'compressed'
+          outputStyle: 'compressed'
         },
         files: {
           'build/css/app.css': 'src/css/app.scss'
@@ -115,7 +115,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-jsxhint');
   grunt.loadNpmTasks('grunt-shell');
