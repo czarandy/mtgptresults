@@ -133,9 +133,21 @@ module.exports = function(grunt) {
       return false;
     }
 
-    var data = grunt.file.readJSON(path);
-    var tournaments = data;
+    var tournaments = grunt.file.readJSON(path);
     var players = {};
+    var calculateFinish = function(index, team, team2hg) {
+      var persons;
+
+      if (team && team2hg) {
+        persons = 2;
+      } else if (team) {
+        persons = 3;
+      } else {
+        persons = 1;
+      }
+
+      return Math.floor(index / persons) + 1;
+    };
 
     _.each(tournaments, function(tournament) {
       var standings = tournament.standings;
@@ -151,7 +163,7 @@ module.exports = function(grunt) {
         }
 
         players[standing.id].tournaments.push({
-          finish: index + 1,
+          finish: calculateFinish(index, tournament.team, tournament.team2hg),
           propoints: standing.propoints,
           tid: tournament.id,
           money: standing.money
