@@ -4,16 +4,15 @@ A static site showing results for every MTG Pro Tour (as much as I've been able 
 
 ## Contributing
 
-The site loads all data from the `tournaments.json` data file. From this it
-generates two derived views: `players.js` and `recent.js`, which correspond to
-the views for player pages and the recent tournament views (the initial page
-that includes tournament summaries).
+The site loads all data from the `data` directory. From this it
+generates three derived views: `players.js`, `recent.js`, and `tournaments.js`, which correspond to
+the views for player pages, the recent tournament views (the initial page
+that includes tournament summaries), and the detailed tournament views.
 
-If you want to make any changes or corrections, make them to the
-`tournaments.json` file:
+If you want to make any changes or corrections, make them to the files in the `data` directory. To add a new tournament, simply create a new file that matches the format of the existing files:
 
 1. [Fork this repository](https://help.github.com/articles/fork-a-repo/).
-2. Edit `tournaments.json`.
+2. Edit the appropriate file in the `data` directory.
 3. Commit your changes to your fork. Write [good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages).
 4. [Submit a pull request](https://help.github.com/articles/using-pull-requests/).
 
