@@ -4,14 +4,18 @@ A static site showing results for every MTG Pro Tour (as much as I've been able 
 
 ## Contributing
 
-The site loads all data statically from three data files: `players.json`, `recent.json`, and `tournaments.json`. These are used for the three types of views: player, recent (the initial page showing tournament summaries), and tournament. If you want to add more tournaments or correct any data, make your desired changes in the `data` folder.
+The site loads all data from the `tournaments.json` data file. From this it
+generates two derived views: `players.js` and `recent.js`, which correspond to
+the views for player pages and the recent tournament views (the initial page
+that includes tournament summaries).
+
+If you want to make any changes or corrections, make them to the
+`tournaments.json` file:
 
 1. [Fork this repository](https://help.github.com/articles/fork-a-repo/).
-2. Edit `tournaments.json` and `recent.json`.
+2. Edit `tournaments.json`.
 3. Commit your changes to your fork. Write [good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages).
 4. [Submit a pull request](https://help.github.com/articles/using-pull-requests/).
-
-NB: `players.json` is generated automatically and does not need to be changed.
 
 ## Development
 
@@ -19,7 +23,6 @@ NB: `players.json` is generated automatically and does not need to be changed.
 
 * [node.js](https://nodejs.org/en/)
 * [Grunt](http://gruntjs.com/getting-started)
-* [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
 ### Installation
 
@@ -31,10 +34,13 @@ Install dependencies:
 
 Create a local build:
 
-    $ grunt default
+    $ grunt
 
 ### Preview
 
 Run a simple HTTP server in the build folder, e.g:
 
     $ cd build && python -m SimpleHTTPServer
+
+You can then test your changes in your browser, e.g. at localhost:8000. Once you
+have verified your change looks good, submit the pull request.

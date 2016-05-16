@@ -7,6 +7,7 @@
     "type": "git"
   },
   "devDependencies": {
+    "deepcopy": "^0.6.1",
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.4.0",
     "grunt-contrib-clean": "^0.6.0",
