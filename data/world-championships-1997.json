@@ -1,0 +1,762 @@
+{
+    "date": "August 13-17, 1997",
+    "formats": [
+        "Draft",
+        "Extended"
+    ],
+    "id": "world-championships-1997",
+    "location": "Seattle, Washington, United States",
+    "logo": "ptlogo.png",
+    "name": "World Championships",
+    "standings": [
+        {
+            "id": "jakub-slemr",
+            "money": 34000,
+            "name": "Jakub Slemr",
+            "propoints": 30
+        },
+        {
+            "id": "janosch-k-hn",
+            "money": 22000,
+            "name": "Janosch Kühn",
+            "propoints": 25
+        },
+        {
+            "id": "svend-sparre-geertsen",
+            "money": 12000,
+            "name": "Svend Sparre Geertsen",
+            "propoints": 20
+        },
+        {
+            "id": "paul-mccabe",
+            "money": 12000,
+            "name": "Paul McCabe",
+            "propoints": 20
+        },
+        {
+            "id": "john-chinnock",
+            "money": 8000,
+            "name": "John Chinnock",
+            "propoints": 10
+        },
+        {
+            "id": "nate-clarke",
+            "money": 8000,
+            "name": "Nate Clarke",
+            "propoints": 10
+        },
+        {
+            "id": "gabriel-tsang",
+            "money": 8000,
+            "name": "Gabriel Tsang",
+            "propoints": 10
+        },
+        {
+            "id": "nikolai-weibull",
+            "money": 8000,
+            "name": "Nikolai Weibull",
+            "propoints": 10
+        },
+        {
+            "id": "terry-borer",
+            "money": 4200,
+            "name": "Terry Borer",
+            "propoints": 4
+        },
+        {
+            "id": "robert-maher",
+            "money": 4200,
+            "name": "Robert Maher",
+            "propoints": 4
+        },
+        {
+            "id": "ondrej-baudys",
+            "money": 4200,
+            "name": "Ondrej Baudys",
+            "propoints": 4
+        },
+        {
+            "id": "donald-gallitz",
+            "money": 4200,
+            "name": "Donald Gallitz",
+            "propoints": 4
+        },
+        {
+            "id": "jon-finkel",
+            "money": 4200,
+            "name": "Jon Finkel",
+            "propoints": 4
+        },
+        {
+            "id": "worth-wollpert",
+            "money": 4200,
+            "name": "Worth Wollpert",
+            "propoints": 4
+        },
+        {
+            "id": "tommi-hovi",
+            "money": 4200,
+            "name": "Tommi Hovi",
+            "propoints": 4
+        },
+        {
+            "id": "olle-r-de",
+            "money": 4200,
+            "name": "Olle Råde",
+            "propoints": 4
+        },
+        {
+            "id": "mark-justice",
+            "money": 2400,
+            "name": "Mark Justice",
+            "propoints": 2
+        },
+        {
+            "id": "jeff-donais",
+            "money": 2400,
+            "name": "Jeff Donais",
+            "propoints": 2
+        },
+        {
+            "id": "oliver-krebs",
+            "money": 2400,
+            "name": "Oliver Krebs",
+            "propoints": 2
+        },
+        {
+            "id": "john-yoo",
+            "money": 2400,
+            "name": "John Yoo",
+            "propoints": 2
+        },
+        {
+            "id": "john-larkin",
+            "money": 2400,
+            "name": "John Larkin",
+            "propoints": 2
+        },
+        {
+            "id": "juha-ilmari-helppi",
+            "money": 2400,
+            "name": "Juha Ilmari Helppi",
+            "propoints": 2
+        },
+        {
+            "id": "justin-gary",
+            "money": 2400,
+            "name": "Justin Gary",
+            "propoints": 2,
+            "report": "http://web.archive.org/web/19980504203848/http://thedojo.com/tourney/w.970825jga.txt"
+        },
+        {
+            "id": "michael-long",
+            "money": 2400,
+            "name": "Michael Long",
+            "propoints": 2
+        },
+        {
+            "id": "mark-chalice",
+            "money": 2400,
+            "name": "Mark Chalice",
+            "propoints": 2
+        },
+        {
+            "id": "ju-nyun-kim",
+            "money": 2400,
+            "name": "Ju Nyun Kim",
+            "propoints": 2
+        },
+        {
+            "id": "ivan-stanoev",
+            "money": 2400,
+            "name": "Ivan Stanoev",
+            "propoints": 2
+        },
+        {
+            "id": "toshiki-tsukamoto",
+            "money": 2400,
+            "name": "Toshiki Tsukamoto",
+            "propoints": 2
+        },
+        {
+            "id": "lenny-collins",
+            "money": 2400,
+            "name": "Lenny Collins",
+            "propoints": 2
+        },
+        {
+            "id": "oscar-jaho-jahn",
+            "money": 2400,
+            "name": "Oscar Jaho Jahn",
+            "propoints": 2
+        },
+        {
+            "id": "david-kearney",
+            "money": 2400,
+            "name": "David Kearney",
+            "propoints": 2,
+            "report": "http://web.archive.org/web/19980504203855/http://thedojo.com/tourney/w.970823dke.txt"
+        },
+        {
+            "id": "christopher-gibbons",
+            "money": 2400,
+            "name": "Christopher Gibbons",
+            "propoints": 2
+        },
+        {
+            "id": "sam-lau",
+            "money": 500,
+            "name": "Sam Lau",
+            "propoints": 1
+        },
+        {
+            "id": "arto-hiltunen",
+            "money": 500,
+            "name": "Arto Hiltunen",
+            "propoints": 1
+        },
+        {
+            "id": "alex-menal-coronado",
+            "money": 500,
+            "name": "Alex Menal Coronado",
+            "propoints": 1
+        },
+        {
+            "id": "denis-ozren-zagmester",
+            "money": 500,
+            "name": "Denis-Ozren Zagmester",
+            "propoints": 1
+        },
+        {
+            "id": "jason-gordon",
+            "money": 500,
+            "name": "Jason Gordon",
+            "propoints": 1
+        },
+        {
+            "id": "brendan-white",
+            "money": 500,
+            "name": "Brendan White",
+            "propoints": 1
+        },
+        {
+            "id": "mike-donais",
+            "money": 500,
+            "name": "Mike Donais",
+            "propoints": 1
+        },
+        {
+            "id": "kyle-bigos",
+            "money": 500,
+            "name": "Kyle Bigos",
+            "propoints": 1
+        },
+        {
+            "id": "jason-zila",
+            "money": 500,
+            "name": "Jason Zila",
+            "propoints": 1
+        },
+        {
+            "id": "oliver-schneider",
+            "money": 500,
+            "name": "Oliver Schneider",
+            "propoints": 1
+        },
+        {
+            "id": "peter-evans",
+            "money": 500,
+            "name": "Peter Evans",
+            "propoints": 1
+        },
+        {
+            "id": "david-mills",
+            "money": 500,
+            "name": "David Mills",
+            "propoints": 1
+        },
+        {
+            "id": "mattias-jorstedt",
+            "money": 500,
+            "name": "Mattias Jorstedt",
+            "propoints": 1
+        },
+        {
+            "id": "francois-fressin",
+            "money": 500,
+            "name": "Francois Fressin",
+            "propoints": 1
+        },
+        {
+            "id": "david-liersch",
+            "money": 500,
+            "name": "David Liersch",
+            "propoints": 1
+        },
+        {
+            "id": "gary-krakower",
+            "money": 500,
+            "name": "Gary Krakower",
+            "propoints": 1
+        },
+        {
+            "id": "chris-pikula",
+            "money": 500,
+            "name": "Chris Pikula",
+            "propoints": 1,
+            "report": "http://web.archive.org/web/19980504203841/http://thedojo.com/tourney/w.970822cpi1.txt"
+        },
+        {
+            "id": "sigurd-eskeland",
+            "money": 500,
+            "name": "Sigurd Eskeland",
+            "propoints": 1
+        },
+        {
+            "id": "wouter-bekkers",
+            "money": 500,
+            "name": "Wouter Bekkers",
+            "propoints": 1
+        },
+        {
+            "id": "marcus-angelin",
+            "money": 500,
+            "name": "Marcus Angelin",
+            "propoints": 1
+        },
+        {
+            "id": "rapha-l-l-vy",
+            "money": 500,
+            "name": "Raphaël Lévy",
+            "propoints": 1
+        },
+        {
+            "id": "andrew-nishioka",
+            "money": 500,
+            "name": "Andrew Nishioka",
+            "propoints": 1
+        },
+        {
+            "id": "michael-debard",
+            "money": 500,
+            "name": "Michael Debard",
+            "propoints": 1
+        },
+        {
+            "id": "joshua-aw",
+            "money": 500,
+            "name": "Joshua Aw",
+            "propoints": 1
+        },
+        {
+            "id": "edward-ito",
+            "money": 500,
+            "name": "Edward Ito",
+            "propoints": 1
+        },
+        {
+            "id": "christian-strebel",
+            "money": 500,
+            "name": "Christian Strebel",
+            "propoints": 1
+        },
+        {
+            "id": "gabriele-pisicchio",
+            "money": 500,
+            "name": "Gabriele Pisicchio",
+            "propoints": 1
+        },
+        {
+            "id": "rafael-lirag",
+            "money": 500,
+            "name": "Rafael Lirag",
+            "propoints": 1
+        },
+        {
+            "id": "daniel-brickwell",
+            "money": 500,
+            "name": "Daniel Brickwell",
+            "propoints": 1,
+            "report": "http://web.archive.org/web/19980504203818/http://thedojo.com/tourney/w.970802dbr.txt"
+        },
+        {
+            "id": "thomas-elias-felsberg",
+            "money": 500,
+            "name": "Thomas Elias Felsberg",
+            "propoints": 1
+        },
+        {
+            "id": "tihor-miklos",
+            "money": 500,
+            "name": "Tihor Miklos",
+            "propoints": 1
+        },
+        {
+            "id": "tom-chanpheng",
+            "money": 500,
+            "name": "Tom Chanpheng",
+            "propoints": 1
+        },
+        {
+            "id": "massimo-de-matteo",
+            "name": "Massimo De Matteo"
+        },
+        {
+            "id": "jeffrey-butz",
+            "name": "Jeffrey Butz"
+        },
+        {
+            "id": "rod-ho",
+            "name": "Rod Ho"
+        },
+        {
+            "id": "johan-cedercrantz",
+            "name": "Johan Cedercrantz"
+        },
+        {
+            "id": "eric-phillipps",
+            "name": "Eric Phillipps"
+        },
+        {
+            "id": "damian-brown-santirso",
+            "name": "Damian Brown-Santirso"
+        },
+        {
+            "id": "daniel-ruscic",
+            "name": "Daniel Ruscic"
+        },
+        {
+            "id": "timur-dogan",
+            "name": "Timur Dogan"
+        },
+        {
+            "id": "ricardo-guerra-guerra",
+            "name": "Ricardo Guerra Guerra"
+        },
+        {
+            "id": "bram-snepvangers",
+            "name": "Bram Snepvangers"
+        },
+        {
+            "id": "filip-ruscic",
+            "name": "Filip Ruscic"
+        },
+        {
+            "id": "jose-ricardo-pde-castro",
+            "name": "Jose Ricardo Pde Castro"
+        },
+        {
+            "id": "frank-adler",
+            "name": "Frank Adler"
+        },
+        {
+            "id": "petri-kalevi-wathen",
+            "name": "Petri Kalevi Wathen"
+        },
+        {
+            "id": "christian-gregorich",
+            "name": "Christian Gregorich"
+        },
+        {
+            "id": "gabor-nagy",
+            "name": "Gabor Nagy"
+        },
+        {
+            "id": "nathan-russell",
+            "name": "Nathan Russell"
+        },
+        {
+            "id": "darwin-kastle",
+            "name": "Darwin Kastle"
+        },
+        {
+            "id": "nicolas-fournier",
+            "name": "Nicolas Fournier"
+        },
+        {
+            "id": "david-bachmann",
+            "name": "David Bachmann"
+        },
+        {
+            "id": "thomas-dall-jensen",
+            "name": "Thomas Dall Jensen"
+        },
+        {
+            "id": "david-vall-brillas",
+            "name": "David Vall Brillas"
+        },
+        {
+            "id": "sang-seok-lee",
+            "name": "Sang-Seok Lee"
+        },
+        {
+            "id": "jan-sorensen",
+            "name": "Jan Sorensen"
+        },
+        {
+            "id": "tadayoshi-komiya",
+            "name": "Tadayoshi Komiya"
+        },
+        {
+            "id": "vincent-gieling",
+            "name": "Vincent Gieling"
+        },
+        {
+            "id": "enric-rodamilans",
+            "name": "Enric Rodamilans",
+            "report": "http://web.archive.org/web/19980504203826/http://thedojo.com/tourney/w.970829ero.txt"
+        },
+        {
+            "id": "ng-chi-fai",
+            "name": "Ng Chi Fai"
+        },
+        {
+            "id": "mike-dando",
+            "name": "Mike Dando"
+        },
+        {
+            "id": "lukas-ladra",
+            "name": "Lukas Ladra"
+        },
+        {
+            "id": "tom-mcdonnell",
+            "name": "Tom McDonnell"
+        },
+        {
+            "id": "frederic-lenoir",
+            "name": "Frederic Lenoir"
+        },
+        {
+            "id": "gabor-papp",
+            "name": "Gabor Papp"
+        },
+        {
+            "id": "jose-mitch-tatco",
+            "name": "Jose Mitch Tatco"
+        },
+        {
+            "id": "gustavo-chapela",
+            "name": "Gustavo Chapela"
+        },
+        {
+            "id": "osanobu-funakoshi",
+            "name": "Osanobu Funakoshi"
+        },
+        {
+            "id": "frode-stzigum",
+            "name": "Frode Stzigum"
+        },
+        {
+            "id": "egill-stefansson",
+            "name": "Egill Stefansson"
+        },
+        {
+            "id": "gunnar-johannsson",
+            "name": "Gunnar Johannsson"
+        },
+        {
+            "id": "dominique-coene",
+            "name": "Dominique Coene"
+        },
+        {
+            "id": "joao-isidro",
+            "name": "Joao Isidro"
+        },
+        {
+            "id": "ivan-chi-fai-wong",
+            "name": "Ivan Chi Fai Wong",
+            "report": "http://web.archive.org/web/19980504203833/http://thedojo.com/tourney/w.970827iwo.txt"
+        },
+        {
+            "id": "ernst-janvan-diggelen",
+            "name": "Ernst JanVan Diggelen"
+        },
+        {
+            "id": "goro-matsuo",
+            "name": "Goro Matsuo"
+        },
+        {
+            "id": "johann-moller",
+            "name": "Johann Moller"
+        },
+        {
+            "id": "rafael-jimenez-bano",
+            "name": "Rafael Jimenez Bano"
+        },
+        {
+            "id": "alexander-proschofsky",
+            "name": "Alexander Proschofsky"
+        },
+        {
+            "id": "tore-fiil",
+            "name": "Tore Fiil"
+        },
+        {
+            "id": "eoin-gibb",
+            "name": "Eoin Gibb"
+        },
+        {
+            "id": "amiel-feldman",
+            "name": "Amiel Feldman"
+        },
+        {
+            "id": "ramon-macutay",
+            "name": "Ramon Macutay"
+        },
+        {
+            "id": "homero-caballero",
+            "name": "Homero Caballero"
+        },
+        {
+            "id": "teddy-sy",
+            "name": "Teddy Sy"
+        },
+        {
+            "id": "kent-wei-wei-tay",
+            "name": "Kent Wei Wei Tay"
+        },
+        {
+            "id": "christian-peschta",
+            "name": "Christian Peschta"
+        },
+        {
+            "id": "dong-woo-son",
+            "name": "Dong-Woo Son"
+        },
+        {
+            "id": "shaun-drummond",
+            "name": "Shaun Drummond"
+        },
+        {
+            "id": "thiago-de-oliveira-machado",
+            "name": "Thiago de Oliveira Machado"
+        },
+        {
+            "id": "alejandro-gimena",
+            "name": "Alejandro Gimena"
+        },
+        {
+            "id": "steve-hill",
+            "name": "Steve Hill"
+        },
+        {
+            "id": "rob-salmon",
+            "name": "Rob Salmon"
+        },
+        {
+            "id": "freek-de-backer",
+            "name": "Freek De Backer"
+        },
+        {
+            "id": "allan-grooby",
+            "name": "Allan Grooby"
+        },
+        {
+            "id": "hans-ejimaal",
+            "name": "Hans Ejimaal"
+        },
+        {
+            "id": "craig-sheppard",
+            "name": "Craig Sheppard"
+        },
+        {
+            "id": "julius-einarsson",
+            "name": "Julius Einarsson"
+        },
+        {
+            "id": "cristino-luca",
+            "name": "Cristino Luca"
+        },
+        {
+            "id": "alberto-morena",
+            "name": "Alberto Morena"
+        },
+        {
+            "id": "thomas-hucol",
+            "name": "Thomas Hucol"
+        },
+        {
+            "id": "johnson-yeh",
+            "name": "Johnson Yeh"
+        },
+        {
+            "id": "gyorgy-szalay",
+            "name": "Gyorgy Szalay"
+        },
+        {
+            "id": "henry-purnomo",
+            "name": "Henry Purnomo"
+        },
+        {
+            "id": "octavio-santos",
+            "name": "Octavio Santos"
+        },
+        {
+            "id": "jack-ho",
+            "name": "Jack Ho"
+        },
+        {
+            "id": "au-yeung-hon-ming",
+            "name": "Au Yeung Hon Ming"
+        },
+        {
+            "id": "javier-falcon",
+            "name": "Javier Falcon"
+        },
+        {
+            "id": "david-da-costa-aquiar-de-souza",
+            "name": "David da Costa Aquiar de Souza"
+        },
+        {
+            "id": "diego-rivas",
+            "name": "Diego Rivas"
+        },
+        {
+            "id": "jose-manuel-cristo",
+            "name": "Jose Manuel Cristo"
+        },
+        {
+            "id": "alexander-olsen",
+            "name": "Alexander Olsen"
+        },
+        {
+            "id": "kyung-nyun-kim",
+            "name": "Kyung-Nyun Kim"
+        },
+        {
+            "id": "gero-maier",
+            "name": "Gero Maier"
+        },
+        {
+            "id": "luis-barros-figueira",
+            "name": "Luis Barros Figueira"
+        },
+        {
+            "id": "daniel-yew-boon-phua",
+            "name": "Daniel Yew Boon Phua"
+        },
+        {
+            "id": "pablo-mantaras",
+            "name": "Pablo Mantaras"
+        },
+        {
+            "id": "nicholas-jonatha-wong",
+            "name": "Nicholas Jonatha Wong"
+        },
+        {
+            "id": "adam-tamzil",
+            "name": "Adam Tamzil"
+        },
+        {
+            "id": "cheung-chun-lap",
+            "name": "Cheung Chun Lap"
+        },
+        {
+            "id": "diarmuid-quirke",
+            "name": "Diarmuid Quirke",
+            "report": "http://web.archive.org/web/19980504203907/http://thedojo.com/tourney/w.970820dqu.txt"
+        }
+    ],
+    "team": false,
+    "team2hg": false
+}

@@ -1,8 +1,6 @@
 var _ = require('underscore');
 var deepcopy = require('deepcopy');
 
-var TOURNAMENTS_PATH = './data/tournaments.json';
-
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -41,22 +39,6 @@ module.exports = function(grunt) {
           }
         ],
       },
-      data: {
-        files: [
-          {
-            src: 'data/tournaments.json',
-            dest: 'build/data/tournaments.js',
-          }
-        ],
-        options: {
-          process: function(data, path) {
-            path = path.replace('data/', '');
-            path = path.replace('.json', '');
-            arg = path.charAt(0).toUpperCase() + path.slice(1);
-            return 'window.' + arg + ' = ' + data + ';';
-          },
-        }
-      }
     },
 
     sass: {
@@ -132,16 +114,23 @@ module.exports = function(grunt) {
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
   grunt.registerTask('json', ['jsonlint']);
-  grunt.registerTask('build-data', ['players', 'recent']);
+  grunt.registerTask('build-data', ['tournaments', 'players', 'recent']);
   grunt.registerTask('default', ['build-data', 'copy', 'css', 'js', 'json',]);
   grunt.registerTask('prod', ['default', 'uglify', 'gh-pages']);
 
+  var _tournaments = null;
   function loadTournaments() {
-    if (!grunt.file.exists(TOURNAMENTS_PATH)) {
-      grunt.log.error("file " + TOURNAMENTS_PATH + " not found");
-      return false;
+    if (_tournaments) {
+      return _tournaments;
     }
-    return grunt.file.readJSON(TOURNAMENTS_PATH);
+    _tournaments = {};
+    grunt.file.recurse('./data/', function(abspath, rootdir, subdir, filename) {
+      if (filename.endsWith('.json')) {
+        var tid = filename.replace('.json', '');
+        _tournaments[tid] = grunt.file.readJSON(abspath);
+      }
+    });
+    return _tournaments;
   }
 
   function getDate(date) {
@@ -155,7 +144,14 @@ module.exports = function(grunt) {
     return JSON.stringify(json, null, 4);
   }
 
-  grunt.registerTask('recent', function(key, value) {
+  grunt.registerTask('tournaments', function() {
+    grunt.file.write(
+      './build/data/tournaments.js',
+      'window.Tournaments = ' + jsonToStr(loadTournaments())
+    );
+  });
+
+  grunt.registerTask('recent', function() {
     var tournaments = loadTournaments();
     var list = [];
     _.each(tournaments, function(tournament) {
@@ -175,7 +171,7 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('players', function (key, value) {
+  grunt.registerTask('players', function () {
     var tournaments = loadTournaments();
     var players = {};
     var calculateFinish = function(index, team, team2hg) {
