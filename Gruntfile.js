@@ -152,18 +152,14 @@ module.exports = function(grunt) {
   }
 
   function jsonToStr(json) {
-    json = JSON.stringify(json, null, 4);
-    return json;
-    return json.replace(/[\u007F-\uFFFF]/g, function(chr) {
-      return "\\u" + ("0000" + chr.charCodeAt(0).toString(16)).substr(-4)
-    });
+    return JSON.stringify(json, null, 4);
   }
 
   grunt.registerTask('recent', function(key, value) {
     var tournaments = loadTournaments();
     var list = [];
     _.each(tournaments, function(tournament) {
-      var topN = (tournament.team || tournament.team2hg) ? 4 : 8;
+      var topN = tournament.team ? 12 : 8;
       var recent = deepcopy(tournament);
       recent.top = recent.standings.slice(0, topN);
       delete recent.standings;
