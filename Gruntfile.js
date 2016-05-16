@@ -81,6 +81,15 @@ module.exports = function(grunt) {
       }
     },
 
+    jsonlint: {
+      all: {
+        src: [
+          'data/tournaments.json',
+          'data/recent.json'
+        ]
+      }
+    },
+
     browserify: {
       all: {
         files: {
@@ -120,11 +129,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jsxhint');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-jsonlint');
 
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
-  grunt.registerTask('default', ['copy', 'css', 'js'])
-  grunt.registerTask('prod', ['players', 'default', 'uglify', 'gh-pages'])
+  grunt.registerTask('json', ['jsonlint']);
+  grunt.registerTask('default', ['copy', 'css', 'js', 'json']);
+  grunt.registerTask('prod', ['players', 'default', 'uglify', 'gh-pages']);
   grunt.registerTask('players', function (key, value) {
     var path = './data/tournaments.json';
 
