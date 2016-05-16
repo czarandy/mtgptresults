@@ -81,6 +81,15 @@ module.exports = function(grunt) {
       }
     },
 
+    jsonlint: {
+      all: {
+        src: [
+          'data/tournaments.json',
+          'data/recent.json'
+        ]
+      }
+    },
+
     browserify: {
       all: {
         files: {
@@ -120,11 +129,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jsxhint');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-jsonlint');
 
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
-  grunt.registerTask('default', ['copy', 'css', 'js'])
-  grunt.registerTask('prod', ['players', 'default', 'uglify', 'gh-pages'])
+  grunt.registerTask('json', ['jsonlint']);
+  grunt.registerTask('default', ['copy', 'css', 'js', 'json']);
+  grunt.registerTask('prod', ['players', 'default', 'uglify', 'gh-pages']);
   grunt.registerTask('players', function (key, value) {
     var path = './data/tournaments.json';
 
@@ -133,9 +144,21 @@ module.exports = function(grunt) {
       return false;
     }
 
-    var data = grunt.file.readJSON(path);
-    var tournaments = data;
+    var tournaments = grunt.file.readJSON(path);
     var players = {};
+    var calculateFinish = function(index, team, team2hg) {
+      var persons;
+
+      if (team && team2hg) {
+        persons = 2;
+      } else if (team) {
+        persons = 3;
+      } else {
+        persons = 1;
+      }
+
+      return Math.floor(index / persons) + 1;
+    };
 
     _.each(tournaments, function(tournament) {
       var standings = tournament.standings;
@@ -151,7 +174,7 @@ module.exports = function(grunt) {
         }
 
         players[standing.id].tournaments.push({
-          finish: index + 1,
+          finish: calculateFinish(index, tournament.team, tournament.team2hg),
           propoints: standing.propoints,
           tid: tournament.id,
           money: standing.money
