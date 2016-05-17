@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var deepcopy = require('deepcopy');
 
 module.exports = function(grunt) {
 
@@ -38,36 +39,12 @@ module.exports = function(grunt) {
           }
         ],
       },
-      data: {
-        files: [
-          {
-            src: 'data/recent.json',
-            dest: 'build/data/recent.js',
-          },
-          {
-            src: 'data/tournaments.json',
-            dest: 'build/data/tournaments.js',
-          },
-          {
-            src: 'data/players.json',
-            dest: 'build/data/players.js',
-          }
-        ],
-        options: {
-          process: function(data, path) {
-            path = path.replace('data/', '');
-            path = path.replace('.json', '');
-            arg = path.charAt(0).toUpperCase() + path.slice(1);
-            return 'window.' + arg + ' = ' + data + ';';
-          },
-        }
-      }
     },
 
     sass: {
       all: {
         options: {
-          style: 'compressed'
+          outputStyle: 'compressed'
         },
         files: {
           'build/css/app.css': 'src/css/app.scss'
@@ -82,6 +59,14 @@ module.exports = function(grunt) {
         jquery: true,
         node: true,
         strict: true
+      }
+    },
+
+    jsonlint: {
+      all: {
+        src: [
+          'data/tournaments.json',
+        ]
       }
     },
 
@@ -119,27 +104,89 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-jsxhint');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-jsonlint');
 
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
-  grunt.registerTask('default', ['copy', 'css', 'js'])
-  grunt.registerTask('prod', ['default', 'uglify', 'gh-pages'])
-  grunt.registerTask('players', function (key, value) {
-    var path = './data/tournaments.json';
+  grunt.registerTask('json', ['jsonlint']);
+  grunt.registerTask('build-data', ['tournaments', 'players', 'recent']);
+  grunt.registerTask('default', ['build-data', 'copy', 'css', 'js', 'json',]);
+  grunt.registerTask('prod', ['default', 'uglify', 'gh-pages']);
 
-    if (!grunt.file.exists(path)) {
-      grunt.log.error("file " + path + " not found");
-      return false;
+  var _tournaments = null;
+  function loadTournaments() {
+    if (_tournaments) {
+      return _tournaments;
     }
+    _tournaments = {};
+    grunt.file.recurse('./data/', function(abspath, rootdir, subdir, filename) {
+      if (filename.endsWith('.json')) {
+        var tid = filename.replace('.json', '');
+        _tournaments[tid] = grunt.file.readJSON(abspath);
+      }
+    });
+    return _tournaments;
+  }
 
-    var data = grunt.file.readJSON(path);
-    var tournaments = data;
+  function getDate(date) {
+    var year = date.substr(-4);
+    var month = date.match(/\w+/)[0].substr(0, 3);
+    var day = date.match(/\d+/)[0];
+    return Date.parse(month + ' ' + day + ', ' + year);
+  }
+
+  function jsonToStr(json) {
+    return JSON.stringify(json, null, 4);
+  }
+
+  grunt.registerTask('tournaments', function() {
+    grunt.file.write(
+      './build/data/tournaments.js',
+      'window.Tournaments = ' + jsonToStr(loadTournaments())
+    );
+  });
+
+  grunt.registerTask('recent', function() {
+    var tournaments = loadTournaments();
+    var list = [];
+    _.each(tournaments, function(tournament) {
+      var topN = tournament.team ? 12 : 8;
+      var recent = deepcopy(tournament);
+      recent.top = recent.standings.slice(0, topN);
+      delete recent.standings;
+      list.push(recent);
+    });
+    grunt.file.write(
+      './build/data/recent.js',
+      'window.Recent = ' +
+      jsonToStr(
+        _.sortBy(list, function(item) { return -getDate(item.date); })
+      )
+    );
+
+  });
+
+  grunt.registerTask('players', function () {
+    var tournaments = loadTournaments();
     var players = {};
+    var calculateFinish = function(index, team, team2hg) {
+      var persons;
+
+      if (team && team2hg) {
+        persons = 2;
+      } else if (team) {
+        persons = 3;
+      } else {
+        persons = 1;
+      }
+
+      return Math.floor(index / persons) + 1;
+    };
 
     _.each(tournaments, function(tournament) {
       var standings = tournament.standings;
@@ -155,7 +202,7 @@ module.exports = function(grunt) {
         }
 
         players[standing.id].tournaments.push({
-          finish: index + 1,
+          finish: calculateFinish(index, tournament.team, tournament.team2hg),
           propoints: standing.propoints,
           tid: tournament.id,
           money: standing.money
@@ -168,22 +215,11 @@ module.exports = function(grunt) {
         id: player.id,
         name: player.name,
         tournaments: _.sortBy(player.tournaments, function(tournament) {
-          var date = tournaments[tournament.tid].date;
-          var year = date.substr(-4);
-          var month = date.match(/\w+/)[0].substr(0, 3);
-          var day = date.match(/\d+/)[0];
-          var test = Date.parse(month + ' ' + day + ', ' + year);
-
-          return - test;
+          return -getDate(tournaments[tournament.tid].date);
         })
       };
     });
 
-    players = JSON.stringify(players, null, 4);
-    players = players.replace(/[\u007F-\uFFFF]/g, function(chr) {
-      return "\\u" + ("0000" + chr.charCodeAt(0).toString(16)).substr(-4)
-    })
-
-    grunt.file.write('./data/players.json', players);
+    grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
   });
 }

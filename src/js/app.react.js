@@ -47,14 +47,15 @@ var App = React.createClass({
     return (
       <div>
         <div className="navbar navbar-default">
-          <div className="navbar-header">
-            <Link className="navbar-brand" to="default">MTG Pro Tour Results</Link>
-          </div>
-          <div className="navbar-form navbar-right">
-            <SearchInput />
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <Link className="navbar-brand" to="default">MTG Pro Tour Results</Link>
+            </div>
+            <div className="navbar-form navbar-right">
+              <SearchInput />
+            </div>
           </div>
         </div>
-
         <RouteHandler />
       </div>
     );
@@ -185,7 +186,11 @@ var Tournament = React.createClass({
       <div className="col-md-offset-3 col-md-6">
         <DocumentTitle title={t.name} />
         <div className="page-header pageHeader">
-          <h1>{t.name}</h1>
+          <h1> 
+            {t.coverage ? (
+              <a href={t.coverage}>{t.name}</a>
+            ) : t.name}
+          </h1>
           <p className="lead tournamentLead">
             {t.formats.join(' / ')}
           </p>
@@ -223,7 +228,12 @@ var Tournament = React.createClass({
               return (
                 <tr className={c} key={p.id}>
                   <td>{index + 1}</td>
-                  <td><Link to="player" params={{id: p.id}}>{p.name}</Link></td>
+                  <td>
+		    <Link to="player" params={{id: p.id}}>{p.name}</Link>{' '}
+                    {p.report ? (
+                      <a href={p.report}>(report)</a>
+                    ) : null}
+                  </td>
                   <td>{p.propoints}</td>
                   <td>{p.money ? accounting.formatMoney(p.money, '$', 0) : null}</td>
                 </tr>
@@ -305,7 +315,7 @@ var RecentTournaments = React.createClass({
 
 var routes = (
   <Route handler={App} path="/">
-    <Route name="player" path="/player/:id" handler={Player} />
+    <Route name="player" path="player/:id" handler={Player} />
     <Route name="tournament" path="/tournament/:id" handler={Tournament} />
     <DefaultRoute name="default" handler={RecentTournaments} />
     <NotFoundRoute name="notfound" handler={NotFound} />
