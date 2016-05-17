@@ -47,14 +47,15 @@ var App = React.createClass({
     return (
       <div>
         <div className="navbar navbar-default">
-          <div className="navbar-header">
-            <Link className="navbar-brand" to="default">MTG Pro Tour Results</Link>
-          </div>
-          <div className="navbar-form navbar-right">
-            <SearchInput />
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <Link className="navbar-brand" to="default">MTG Pro Tour Results</Link>
+            </div>
+            <div className="navbar-form navbar-right">
+              <SearchInput />
+            </div>
           </div>
         </div>
-
         <RouteHandler />
       </div>
     );
