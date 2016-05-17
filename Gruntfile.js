@@ -65,7 +65,7 @@ module.exports = function(grunt) {
     jsonlint: {
       all: {
         src: [
-          'data/tournaments.json',
+          'data/**/*.json',
         ]
       }
     },
