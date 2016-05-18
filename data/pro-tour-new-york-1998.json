@@ -13,7 +13,8 @@
             "id": "jon-finkel",
             "money": 25000,
             "name": "Jon Finkel",
-            "propoints": 32
+            "propoints": 32,
+            "report": "http://web.archive.org/web/19980504175700/http://thedojo.com/t982/ptny.980422jfi.txt"
         },
         {
             "id": "dominic-crapuchettes",
@@ -31,7 +32,8 @@
             "id": "david-bachmann",
             "money": 8000,
             "name": "David Bachmann",
-            "propoints": 16
+            "propoints": 16,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980422dba.txt",
         },
         {
             "id": "truc-bui",
@@ -43,7 +45,8 @@
             "id": "nate-clarke",
             "money": 5500,
             "name": "Nate Clarke",
-            "propoints": 12
+            "propoints": 12,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980422ncl.txt",
         },
         {
             "id": "mark-justice",
@@ -61,7 +64,8 @@
             "id": "thomas-guevin",
             "money": 4000,
             "name": "Thomas Guevin",
-            "propoints": 8
+            "propoints": 8,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980422tgu.txt",
         },
         {
             "id": "brian-loynachan",
@@ -73,7 +77,8 @@
             "id": "andrew-wolf",
             "money": 3520,
             "name": "Andrew Wolf",
-            "propoints": 8
+            "propoints": 8,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980422awo.txt",
         },
         {
             "id": "sigurd-eskeland",
@@ -115,7 +120,8 @@
             "id": "gary-wise",
             "money": 2300,
             "name": "Gary Wise",
-            "propoints": 7
+            "propoints": 7,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980422gwi.txt",
         },
         {
             "id": "olle-r-de",
@@ -229,7 +235,8 @@
             "id": "david-price",
             "money": 880,
             "name": "David Price",
-            "propoints": 5
+            "propoints": 5,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980427dep.txt",
         },
         {
             "id": "eric-kesselman",
@@ -337,7 +344,8 @@
             "id": "donald-gallitz",
             "money": 460,
             "name": "Donald Gallitz",
-            "propoints": 4
+            "propoints": 4,
+            "report": "http://web.archive.org/web/19980504175004/http://thedojo.com/t982/ptny.980429dga.txt",
         },
         {
             "id": "jason-mchale",
@@ -392,6 +400,17 @@
             "money": 400,
             "name": "Craig Sheppard",
             "propoints": 4
+        }
+        {
+            "id": "bill-macey",
+            "name": "Bill Macey",
+            "propoints": 3
+        }
+        {
+            "id": "sceadeau-d-tela",
+            "name": "Sceadeau D'Tela",
+            "propoints": 3,
+            "report": "http://web.archive.org/web/19980504175802/http://thedojo.com/t982/gp.980430sdt.txt",
         }
     ],
     "team": false,
