@@ -1,10 +1,10 @@
 'use strict';
 
-var accounting = require('accounting');
-var _ = require('underscore');
-var Router = require('react-router');
-var React = require('react');
 var DocumentTitle = require('react-document-title');
+var React = require('react');
+var Router = require('react-router');
+var _ = require('underscore');
+var accounting = require('accounting');
 
 var Link = Router.Link;
 var Route = Router.Route;
@@ -16,7 +16,13 @@ var SearchInput = React.createClass({
   mixins: [Router.Navigation],
   render: function() {
     return (
-      <input type="text" className="searchInput form-control" placeholder="Search" autoComplete="off" ref="input" />
+      <input
+        type="text"
+        className="searchInput form-control"
+        placeholder="Search"
+        autoComplete="off"
+        ref="input"
+      />
     );
   },
   componentDidMount: function() {
@@ -49,7 +55,9 @@ var App = React.createClass({
         <div className="navbar navbar-default">
           <div className="container-fluid">
             <div className="navbar-header">
-              <Link className="navbar-brand" to="default">MTG Pro Tour Results</Link>
+              <Link className="navbar-brand" to="default">
+                MTG Pro Tour Results
+              </Link>
             </div>
             <div className="navbar-form navbar-right">
               <SearchInput />
@@ -160,10 +168,16 @@ var Player = React.createClass({
               return (
                 <tr key={index} className={c}>
                   <td>{tdata.date}</td>
-                  <td><Link to="tournament" params={{id: t.tid}}>{tdata.name}</Link></td>
+                  <td>
+                    <Link to="tournament" params={{id: t.tid}}>
+                      {tdata.name}
+                    </Link>
+                  </td>
                   <td>{t.finish}</td>
                   <td>{t.propoints}</td>
-                  <td>{t.money ? accounting.formatMoney(t.money, '$', 0) : null}</td>
+                  <td>
+                    {t.money ? accounting.formatMoney(t.money, '$', 0) : null}
+                  </td>
                 </tr>
               );
             })}
@@ -186,7 +200,7 @@ var Tournament = React.createClass({
       <div className="col-md-offset-3 col-md-6">
         <DocumentTitle title={t.name} />
         <div className="page-header pageHeader">
-          <h1> 
+          <h1>
             {t.coverage ? (
               <a href={t.coverage}>{t.name}</a>
             ) : t.name}
@@ -235,7 +249,9 @@ var Tournament = React.createClass({
                     ) : null}
                   </td>
                   <td>{p.propoints}</td>
-                  <td>{p.money ? accounting.formatMoney(p.money, '$', 0) : null}</td>
+                  <td>
+                    {p.money ? accounting.formatMoney(p.money, '$', 0) : null}
+                  </td>
                 </tr>
               );
             })}
