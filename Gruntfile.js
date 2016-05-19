@@ -6,6 +6,12 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
+    githooks: {
+      all: {
+        'pre-commit': 'jshint jsonlint'
+      },
+    },
+
     clean: ['build/*'],
 
     copy: {
@@ -110,6 +116,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-jsonlint');
+  grunt.loadNpmTasks('grunt-githooks');
 
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
