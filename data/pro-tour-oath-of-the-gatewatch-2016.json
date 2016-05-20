@@ -26,13 +26,15 @@
             "id": "luis-scott-vargas",
             "money": 12500,
             "name": "Luis Scott-Vargas",
-            "propoints": 22
+            "propoints": 22,
+            "report": "http://www.channelfireball.com/articles/eye-made-top-8/"
         },
         {
             "id": "patrick-dickmann",
             "money": 12500,
             "name": "Patrick Dickmann",
-            "propoints": 22
+            "propoints": 22,
+            "report": "http://www.mtgmintcard.com/articles/writers/patrick-dickmann/tournament-report-pt-oath-of-the-gatewatch-4th"
         },
         {
             "id": "shuhei-nakamura",
@@ -50,13 +52,15 @@
             "id": "pascal-maynard",
             "money": 10000,
             "name": "Pascal Maynard",
-            "propoints": 18
+            "propoints": 18,
+            "report": "http://www.channelfireball.com/articles/the-diary-of-a-pro-player-top-8-at-pro-tour-oath-of-the-gatewatch/"
         },
         {
             "id": "frank-lepore",
             "money": 10000,
             "name": "Frank Lepore",
-            "propoints": 18
+            "propoints": 18,
+            "report": "http://www.starcitygames.com/article/32384_I-Will-Take-The-Oath-To-Top-8-My-First-Pro-Tour.html"
         },
         {
             "id": "william-jensen",
@@ -68,7 +72,8 @@
             "id": "jason-chung",
             "money": 5000,
             "name": "Jason Chung",
-            "propoints": 15
+            "propoints": 15,
+            "report": "http://www.mtgmintcard.com/articles/writers/jason-chung/tournament-report-pt-oath-of-the-gatewatch-10th"
         },
         {
             "id": "paul-cheon",
@@ -146,7 +151,8 @@
             "id": "mike-sigrist",
             "money": 2500,
             "name": "Mike Sigrist",
-            "propoints": 10
+            "propoints": 10,
+            "report": "http://www.starcitygames.com/article/32365_How-We-Found-Colorless-Eldrazi.html"
         },
         {
             "id": "grzegorz-kowalski",
@@ -278,7 +284,8 @@
             "id": "frank-karsten",
             "money": 1500,
             "name": "Frank Karsten",
-            "propoints": 6
+            "propoints": 6,
+            "report": "http://www.channelfireball.com/articles/a-pick-order-list-for-oath-of-the-gatewatch-draft/"
         },
         {
             "id": "nathaniel-smith",
@@ -308,7 +315,8 @@
             "id": "andrea-mengucci",
             "money": 1500,
             "name": "Andrea Mengucci",
-            "propoints": 6
+            "propoints": 6,
+            "report": "http://www.channelfireball.com/articles/breaking-eldrazi/"
         },
         {
             "id": "immanuel-gerschenson",
@@ -380,7 +388,8 @@
             "id": "gabriel-nassif",
             "money": 1000,
             "name": "Gabriel Nassif",
-            "propoints": 6
+            "propoints": 6,
+            "report": "http://www.channelfireball.com/articles/the-pantheon-deck-tech-affinity/"
         },
         {
             "id": "jelger-wiegersma",
@@ -473,7 +482,8 @@
         {
             "id": "ari-lax",
             "name": "Ari Lax",
-            "propoints": 6
+            "propoints": 6,
+            "report": "http://www.starcitygames.com/article/32363_Abzan-Company-At-PTOGW.html"
         },
         {
             "id": "dan-lanthier",
@@ -483,7 +493,8 @@
         {
             "id": "florian-reiter",
             "name": "Florian Reiter",
-            "propoints": 6
+            "propoints": 6,
+            "report": "http://www.mtgmintcard.com/articles/writers/florian-reiter/tackling-ogw-limited-at-atlanta"
         },
         {
             "id": "paul-dean",
@@ -1078,7 +1089,8 @@
         {
             "id": "tomoharu-saito",
             "name": "Tomoharu Saito",
-            "propoints": 3
+            "propoints": 3,
+            "report": "http://www.hareruyamtg.com/article/category/detail/2467"
         },
         {
             "id": "paul-costentin",
@@ -1118,7 +1130,8 @@
         {
             "id": "yoshihiko-ikawa",
             "name": "Yoshihiko Ikawa",
-            "propoints": 3
+            "propoints": 3,
+            "report": ["http://www.hareruyamtg.com/article/category/detail/2473", "http://www.hareruyamtg.com/article/category/detail/2509"]
         },
         {
             "id": "anthony-huynh",
@@ -1178,7 +1191,8 @@
         {
             "id": "kenji-tsumura",
             "name": "Kenji Tsumura",
-            "propoints": 3
+            "propoints": 3,
+            "report": ["http://www.hareruyamtg.com/article/category/detail/2462", "http://www.hareruyamtg.com/article/category/detail/2480"]
         },
         {
             "id": "daniel-duan",
@@ -1198,7 +1212,8 @@
         {
             "id": "yuta-takahashi",
             "name": "Yuta Takahashi",
-            "propoints": 3
+            "propoints": 3,
+            "report": "http://www.hareruyamtg.com/article/category/detail/2478"
         },
         {
             "id": "caio-amaral",
@@ -1283,7 +1298,8 @@
         {
             "id": "brian-kibler",
             "name": "Brian Kibler",
-            "propoints": 3
+            "propoints": 3,
+            "report": "http://www.starcitygames.com/article/32392_Thanks-Gatewatch.html"
         },
         {
             "id": "carlos-ballester",
@@ -1778,7 +1794,8 @@
         {
             "id": "zen-takahashi",
             "name": "Zen Takahashi",
-            "propoints": 3
+            "propoints": 3,
+            "report": "http://www.mtgmintcard.com/articles/writers/zen-takahashi/reviewing-team-mtg-mint-cards-thoughts-for-ptogw"
         },
         {
             "id": "huancheng-kim-jin",
