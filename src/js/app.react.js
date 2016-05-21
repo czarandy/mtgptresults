@@ -5,6 +5,7 @@ var React = require('react');
 var Router = require('react-router');
 var _ = require('underscore');
 var accounting = require('accounting');
+var Helper = require('./../../lib/helper.js');
 
 var Link = Router.Link;
 var Route = Router.Route;
@@ -283,6 +284,7 @@ var RecentTournaments = React.createClass({
                   </Link>
                 </div>
                 <div className="panel-body recentTournament">
+<<<<<<< HEAD
                   <div className="row">
                     <div className="col-sm-5">
                       <div className="image">
@@ -300,12 +302,11 @@ var RecentTournaments = React.createClass({
                       <ul className="List">
                         {
                           _.map(tournament.top, function(player, idx) {
-                            if (tournament.team2hg) {
-                              idx = (idx / 2) | 0;
-                            }
-                            else if (tournament.team) {
-                              idx = (idx / 3) | 0;
-                            }
+                            idx = Helper.getPlayerIndex(
+                              idx,
+                              tournament.team,
+                              tournament.team2hg
+                            );
                             return (
                               <li className={idx === 0 ? 'List-item List-item--big' : 'List-item '} key={player.id}>
                                 <span className="List-index">{idx + 1}{'. '}</span>
