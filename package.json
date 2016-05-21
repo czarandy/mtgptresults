@@ -2,10 +2,16 @@
   "name": "MTG_PT_Results",
   "version": "1.0.0",
   "description": "Site that shows MTG Pro Tour stats",
-  "author": "Andrey Goder",
+  "author": {
+    "name": "Andrey Goder",
+    "email": "andy.goder@gmail.com"
+  },
+  "contributors": [
+  ],
   "license": "MIT",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/czarandy/mtgptresults"
   },
   "devDependencies": {
     "ava": "^0.14.0",
