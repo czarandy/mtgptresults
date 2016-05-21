@@ -283,32 +283,42 @@ var RecentTournaments = React.createClass({
                   </Link>
                 </div>
                 <div className="panel-body recentTournament">
-                  <div className="image">
-                    {that._renderLogo(id, tournament)}
-                    {tournament.formats.join(' / ')}
-                    {tournament.date}
-                    {tournament.location}
+                  <div className="row">
+                    <div className="col-sm-5">
+                      <div className="image">
+                        {that._renderLogo(id, tournament)}
+                        <p>
+                          {tournament.formats.join(' / ')}
+                          <br />
+                          {tournament.date}
+                          <br />
+                          {tournament.location}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-sm-7">
+                      <ul className="List">
+                        {
+                          _.map(tournament.top, function(player, idx) {
+                            if (tournament.team2hg) {
+                              idx = (idx / 2) | 0;
+                            }
+                            else if (tournament.team) {
+                              idx = (idx / 3) | 0;
+                            }
+                            return (
+                              <li className={idx === 0 ? 'List-item List-item--big' : 'List-item '} key={player.id}>
+                                <span className="List-index">{idx + 1}{'. '}</span>
+                                <Link className="List-link" to="player" params={{id: player.id}}>
+                                  {player.name}
+                                </Link>
+                              </li>
+                            );
+                          })
+                        }
+                      </ul>
+                    </div>
                   </div>
-                  <ul className={tournament.team ? (tournament.team2hg ? 'topfour topfour2hg' : 'topfour') : 'topeight'}>
-                    {
-                      _.map(tournament.top, function(player, idx) {
-                        if (tournament.team2hg) {
-                          idx = (idx / 2) | 0;
-                        }
-                        else if (tournament.team) {
-                          idx = (idx / 3) | 0;
-                        }
-                        return (
-                          <li key={player.id}>
-                            <span>{idx + 1}{'. '}</span>
-                            <Link to="player" params={{id: player.id}}>
-                              {player.name}
-                            </Link>
-                          </li>
-                        );
-                      })
-                    }
-                  </ul>
                 </div>
               </div>
             </div>
