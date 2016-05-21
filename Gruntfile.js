@@ -154,13 +154,6 @@ module.exports = function(grunt) {
     return _tournaments;
   }
 
-  function getDate(date) {
-    var year = date.substr(-4);
-    var month = date.match(/\w+/)[0].substr(0, 3);
-    var day = date.match(/\d+/)[0];
-    return Date.parse(month + ' ' + day + ', ' + year);
-  }
-
   function jsonToStr(json) {
     return JSON.stringify(json, null, 4);
   }
@@ -186,7 +179,7 @@ module.exports = function(grunt) {
       './build/data/recent.js',
       'window.Recent = ' +
       jsonToStr(
-        _.sortBy(list, function(item) { return -getDate(item.date); })
+        _.sortBy(list, function(item) { return -Helper.getDate(item.date); })
       )
     );
 
@@ -226,7 +219,7 @@ module.exports = function(grunt) {
         id: player.id,
         name: player.name,
         tournaments: _.sortBy(player.tournaments, function(tournament) {
-          return -getDate(tournaments[tournament.tid].date);
+          return -Helper.getDate(tournaments[tournament.tid].date);
         })
       };
     });
