@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Site that shows MTG Pro Tour stats",
   "author": "Andrey Goder",
+  "license": "MIT",
   "repository": {
     "type": "git"
   },
@@ -22,8 +23,7 @@
     "grunt-react": "^0.10.0",
     "grunt-sass": "^1.2.0",
     "grunt-shell": "^1.1.1",
-    "react-tools": "^0.12.2",
-    "underscore": "^1.8.3"
+    "react-tools": "^0.12.2"
   },
   "dependencies": {
     "accounting": "^0.4.1",
