@@ -5,6 +5,7 @@ var React = require('react');
 var Router = require('react-router');
 var _ = require('underscore');
 var accounting = require('accounting');
+var Helper = require('./../../lib/helper.js');
 
 var Link = Router.Link;
 var Route = Router.Route;
@@ -292,12 +293,11 @@ var RecentTournaments = React.createClass({
                   <ul className={tournament.team ? (tournament.team2hg ? 'topfour topfour2hg' : 'topfour') : 'topeight'}>
                     {
                       _.map(tournament.top, function(player, idx) {
-                        if (tournament.team2hg) {
-                          idx = (idx / 2) | 0;
-                        }
-                        else if (tournament.team) {
-                          idx = (idx / 3) | 0;
-                        }
+                        idx = Helper.getPlayerIndex(
+                          idx,
+                          tournament.team,
+                          tournament.team2hg
+                        );
                         return (
                           <li key={player.id}>
                             <span>{idx + 1}{'. '}</span>
