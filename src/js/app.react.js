@@ -284,7 +284,6 @@ var RecentTournaments = React.createClass({
                   </Link>
                 </div>
                 <div className="panel-body recentTournament">
-<<<<<<< HEAD
                   <div className="row">
                     <div className="col-sm-5">
                       <div className="image">
