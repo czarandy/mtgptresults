@@ -1,10 +1,17 @@
+'use strict';
+
 var _ = require('underscore');
 var deepcopy = require('deepcopy');
+var Helper = require('./lib/helper.js');
 
 module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
+    ava: {
+      target: ['test/*.js']
+    },
 
     githooks: {
       all: {
@@ -59,7 +66,13 @@ module.exports = function(grunt) {
     },
 
     jshint: {
-      all: ['src/**/*.js', 'src/**/*.jsx'],
+      all: [
+        'Gruntfile.js',
+        'lib/**/*.js',
+        'test/**/*.js',
+        'src/**/*.js',
+        'src/**/*.jsx'
+      ],
       options: {
         browser: true,
         jquery: true,
@@ -117,6 +130,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-jsonlint');
   grunt.loadNpmTasks('grunt-githooks');
+  grunt.loadNpmTasks('grunt-ava');
 
   grunt.registerTask('js', ['jshint', 'browserify']);
   grunt.registerTask('css', ['sass']);
@@ -138,13 +152,6 @@ module.exports = function(grunt) {
       }
     });
     return _tournaments;
-  }
-
-  function getDate(date) {
-    var year = date.substr(-4);
-    var month = date.match(/\w+/)[0].substr(0, 3);
-    var day = date.match(/\d+/)[0];
-    return Date.parse(month + ' ' + day + ', ' + year);
   }
 
   function jsonToStr(json) {
@@ -172,7 +179,7 @@ module.exports = function(grunt) {
       './build/data/recent.js',
       'window.Recent = ' +
       jsonToStr(
-        _.sortBy(list, function(item) { return -getDate(item.date); })
+        _.sortBy(list, function(item) { return -Helper.getDate(item.date); })
       )
     );
 
@@ -181,19 +188,6 @@ module.exports = function(grunt) {
   grunt.registerTask('players', function () {
     var tournaments = loadTournaments();
     var players = {};
-    var calculateFinish = function(index, team, team2hg) {
-      var persons;
-
-      if (team && team2hg) {
-        persons = 2;
-      } else if (team) {
-        persons = 3;
-      } else {
-        persons = 1;
-      }
-
-      return Math.floor(index / persons) + 1;
-    };
 
     _.each(tournaments, function(tournament) {
       var standings = tournament.standings;
@@ -209,12 +203,15 @@ module.exports = function(grunt) {
         }
 
         players[standing.id].tournaments.push({
-          finish: calculateFinish(index, tournament.team, tournament.team2hg),
+          finish: Helper.getPlayerIndex(
+            index,
+            tournament.team,
+            tournament.team2hg) + 1,
           propoints: standing.propoints,
           tid: tournament.id,
           money: standing.money
         });
-      })
+      });
     });
 
     players = _.mapObject(players, function(player) {
@@ -222,11 +219,11 @@ module.exports = function(grunt) {
         id: player.id,
         name: player.name,
         tournaments: _.sortBy(player.tournaments, function(tournament) {
-          return -getDate(tournaments[tournament.tid].date);
+          return -Helper.getDate(tournaments[tournament.tid].date);
         })
       };
     });
 
     grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
   });
-}
+};
