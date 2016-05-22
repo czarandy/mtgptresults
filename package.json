@@ -6,7 +6,15 @@
     "name": "Andrey Goder",
     "email": "andy.goder@gmail.com"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Florian Koch"
+    },
+    {
+      "name": "Milan Matull",
+      "email": "mtgmagicalhack@gmail.com"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
