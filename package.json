@@ -6,8 +6,7 @@
     "name": "Andrey Goder",
     "email": "andy.goder@gmail.com"
   },
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,6 +28,7 @@
     "grunt-react": "^0.10.0",
     "grunt-sass": "^1.2.0",
     "grunt-shell": "^1.1.1",
+    "load-grunt-config": "^0.19.2",
     "react-tools": "^0.12.2"
   },
   "dependencies": {
