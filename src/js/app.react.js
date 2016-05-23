@@ -280,13 +280,17 @@ var Rankings = React.createClass({
   },
   render: function() {
     var col = this.state.sortColumn;
-    var players =
+    var sortedPlayers =
       _.chain(window.Players)
         .values()
         .sortBy(function(player) { return player.stats[col]; })
         .reverse()
-        .first(100)
         .value();
+
+    // Include anyone tied with the 100th rank
+    var cutoff = sortedPlayers[99].stats[col];
+    var players = _.filter(sortedPlayers, function(p) { return p.stats[col] >= cutoff; });
+    var prev = {value: null};
     return (
       <div className="col-md-offset-3 col-md-6">
         <DocumentTitle title="Player Rankings" />
@@ -307,10 +311,17 @@ var Rankings = React.createClass({
             </tr>
           </thead>
           <tbody>
-            {_.map(players, function(player, idx) {
+            {_.map(players, function(player, index) {
+              if (prev.value !== player.stats[col]) {
+                prev.value = player.stats[col];
+                prev.index = index;
+                ++index;
+              } else {
+                index = null;
+              }
               return (
                 <tr key={player.id}>
-                  <td>{idx + 1}</td>
+                  <td>{index}</td>
                   <td>
                     <Link to="player" params={{id: player.id}}>
                       {player.name}
