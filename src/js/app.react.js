@@ -114,19 +114,35 @@ var Player = React.createClass({
             <div className="statsValue">
               {p.stats.t1} / {p.stats.t8} / {p.stats.t16} / {p.stats.total}
             </div>
-            <div>Wins / T8 / T16 / Total</div>
+            <div>
+              <Link to="rankings" params={{col: 't1'}}>Wins</Link>
+              {' / '}
+              <Link to="rankings" params={{col: 't8'}}>T8</Link>
+              {' / '}
+              <Link to="rankings" params={{col: 't16'}}>T16</Link>
+              {' / '}
+              <Link to="rankings" params={{col: 'total'}}>Total</Link>
+            </div>
           </div>
           <div className="alert alert-info" >
             <div className="statsValue">
               {accounting.formatMoney(p.stats.money, '$', 0)}
             </div>
-            <div>Total Money</div>
+            <div>
+              <Link to="rankings" params={{col: 'money'}}>
+                Total Money
+              </Link>
+            </div>
           </div>
           <div className="alert alert-info" >
             <div className="statsValue">
               {p.stats.points}
             </div>
-            <div>Total Pro Points</div>
+            <div>
+              <Link to="rankings" params={{col: 'money'}}>
+                Total Pro Points
+              </Link>
+            </div>
           </div>
         </div>
         <table className="table table-hover table-striped">
