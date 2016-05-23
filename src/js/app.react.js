@@ -64,7 +64,7 @@ var App = React.createClass({
             </div>
             <ul className="nav navbar-nav">
               <li className={route.name === 'rankings' ? 'active' : null}>
-                <Link to="rankings">
+                <Link to="rankings" params={{col: 'total'}}>
                   Player Rankings
                 </Link>
               </li>
@@ -249,13 +249,9 @@ var Tournament = React.createClass({
 });
 
 var Rankings = React.createClass({
-  getInitialState: function() {
-    return {
-      sortColumn: 'total',
-    };
-  },
+  mixins: [Router.State],
   render: function() {
-    var col = this.state.sortColumn;
+    var col = this.getParams().col;
     var sortedPlayers =
       _.chain(window.Players)
         .values()
@@ -266,7 +262,9 @@ var Rankings = React.createClass({
     // Include anyone tied with the 100th rank
     var cutoff = sortedPlayers[99].stats[col];
     var players = _.filter(sortedPlayers, function(p) { return p.stats[col] >= cutoff; });
+
     var prev = {value: null};
+    var sortImage = <img src="/arrowicon.png" />;
     return (
       <div className="col-md-offset-2 col-md-8">
         <DocumentTitle title="Player Rankings" />
@@ -278,12 +276,42 @@ var Rankings = React.createClass({
             <tr>
               <th></th>
               <th>Player</th>
-              <th>Total PTs</th>
-              <th>Wins</th>
-              <th>Top 8s</th>
-              <th>Top 16s</th>
-              <th>Pro Points</th>
-              <th>Money</th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 'total'}}>
+                  Total PTs
+                </Link>
+                {col === 'total' ? sortImage : null}
+              </th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 't1'}}>
+                  Wins
+                </Link>
+                {col === 't1' ? sortImage : null}
+              </th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 't8'}}>
+                  Top 8s
+                </Link>
+                {col === 't8' ? sortImage : null}
+              </th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 't16'}}>
+                  Top 16s
+                </Link>
+                {col === 't16' ? sortImage : null}
+              </th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 'points'}}>
+                  Pro Points
+                </Link>
+                {col === 'points' ? sortImage : null}
+              </th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 'money'}}>
+                  Money
+                </Link>
+                {col === 'money' ? sortImage : null}
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -402,7 +430,7 @@ var routes = (
     <Route name="player" path="/player/:id" handler={Player} />
     <Route name="tournament" path="/tournament/:id" handler={Tournament} />
     <DefaultRoute name="default" handler={RecentTournaments} />
-    <Route name="rankings" path="/rankings/" handler={Rankings} />
+    <Route name="rankings" path="/rankings/:col" handler={Rankings} />
     <NotFoundRoute name="notfound" handler={NotFound} />
   </Route>
 );
