@@ -103,32 +103,6 @@ var Player = React.createClass({
     if (!p) {
       return (<NotFound />);
     }
-    var total = 0;
-    var t1 = 0;
-    var t8 = 0;
-    var t16 = 0;
-    var totalMoney = 0;
-    var totalPoints = 0;
-    _.map(p.tournaments, function(t) {
-      var tdata = window.Tournaments[t.tid];
-      if (!tdata) { return; }
-      if (t.money) {
-        totalMoney += t.money;
-      }
-      if (t.propoints) {
-        totalPoints += t.propoints;
-      }
-      ++total;
-      if (t.finish === 1) {
-        ++t1;
-      }
-      if ((tdata.team && t.finish <= 4) || (!tdata.team && t.finish <= 8)) {
-        ++t8;
-      }
-      if ((tdata.team && t.finish <= 8) || (!tdata.team && t.finish <= 16)) {
-        ++t16;
-      }
-    });
     return (
       <div className="col-md-offset-3 col-md-6">
         <DocumentTitle title={p.name} />
@@ -137,18 +111,20 @@ var Player = React.createClass({
         </div>
         <div className="statsWrapper">
           <div className="alert alert-info" >
-            <div className="statsValue">{t1} / {t8} / {t16} / {total} </div>
+            <div className="statsValue">
+              {p.stats.t1} / {p.stats.t8} / {p.stats.t16} / {p.stats.total}
+            </div>
             <div>Wins / T8 / T16 / Total</div>
           </div>
           <div className="alert alert-info" >
             <div className="statsValue">
-              {accounting.formatMoney(totalMoney, '$', 0)}
+              {accounting.formatMoney(p.stats.money, '$', 0)}
             </div>
             <div>Total Money</div>
           </div>
           <div className="alert alert-info" >
             <div className="statsValue">
-              {totalPoints}
+              {p.stats.points}
             </div>
             <div>Total Pro Points</div>
           </div>
@@ -333,8 +309,7 @@ var Rankings = React.createClass({
                   <td>{player.stats.t16}</td>
                   <td>{player.stats.points}</td>
                   <td>
-                    {player.stats.money ?
-                      accounting.formatMoney(player.stats.money, '$', 0) : '$0'}
+                    {accounting.formatMoney(player.stats.money, '$', 0)}
                   </td>
                 </tr>
               );
