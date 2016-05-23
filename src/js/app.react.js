@@ -268,7 +268,7 @@ var Rankings = React.createClass({
     var players = _.filter(sortedPlayers, function(p) { return p.stats[col] >= cutoff; });
     var prev = {value: null};
     return (
-      <div className="col-md-offset-3 col-md-6">
+      <div className="col-md-offset-2 col-md-8">
         <DocumentTitle title="Player Rankings" />
         <div className="page-header pageHeader">
           <h1>Player Rankings</h1>
