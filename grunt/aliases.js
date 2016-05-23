@@ -61,18 +61,40 @@ module.exports = function(grunt, options) {
           players[standing.id] = {
             id: standing.id,
             name: standing.name,
-            tournaments: []
+            tournaments: [],
+            stats: {
+              money: 0,
+              points: 0,
+              total: 0,
+              t1: 0,
+              t8: 0,
+              t16: 0
+            }
           };
         }
+        var finish = Helper.getPlayerIndex(
+          index,
+          tournament.team,
+          tournament.team2hg
+        ) + 1;
         players[standing.id].tournaments.push({
-          finish: Helper.getPlayerIndex(
-            index,
-            tournament.team,
-            tournament.team2hg) + 1,
+          finish: finish,
           propoints: standing.propoints,
           tid: tournament.id,
           money: standing.money
         });
+        ++players[standing.id].stats.total;
+        players[standing.id].stats.money += (standing.money || 0);
+        players[standing.id].stats.points += (standing.propoints || 0);
+        if (finish === 1) {
+          ++players[standing.id].stats.t1;
+        }
+        if ((tournament.team && finish <= 4) || (!tournament.team && finish <= 8)) {
+          ++players[standing.id].stats.t8;
+        }
+        if ((tournament.team && finish <= 8) || (!tournament.team && finish <= 16)) {
+          ++players[standing.id].stats.t16;
+        }
       });
     });
     players = _.mapObject(players, function(player) {
@@ -81,7 +103,8 @@ module.exports = function(grunt, options) {
         name: player.name,
         tournaments: _.sortBy(player.tournaments, function(tournament) {
           return -Helper.getDate(tournaments[tournament.tid].date);
-        })
+        }),
+        stats: player.stats
       };
     });
     grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
