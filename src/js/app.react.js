@@ -50,7 +50,9 @@ var SearchInput = React.createClass({
 });
 
 var App = React.createClass({
+  mixins: [Router.State],
   render: function() {
+    var route = _.last(this.getRoutes());
     return (
       <div>
         <div className="navbar navbar-default">
@@ -60,6 +62,13 @@ var App = React.createClass({
                 MTG Pro Tour Results
               </Link>
             </div>
+            <ul className="nav navbar-nav">
+              <li className={route.name === 'rankings' ? 'active' : null}>
+                <Link to="rankings">
+                  Player Rankings
+                </Link>
+              </li>
+            </ul>
             <div className="navbar-form navbar-right">
               <SearchInput />
             </div>
@@ -263,6 +272,69 @@ var Tournament = React.createClass({
   }
 });
 
+var Rankings = React.createClass({
+  getInitialState: function() {
+    return {
+      sortColumn: 'total',
+    };
+  },
+  render: function() {
+    var col = this.state.sortColumn;
+    var players =
+      _.chain(window.Players)
+        .values()
+        .sortBy(function(player) { return player.stats[col]; })
+        .reverse()
+        .first(100)
+        .value();
+    return (
+      <div className="col-md-offset-3 col-md-6">
+        <DocumentTitle title="Player Rankings" />
+        <div className="page-header pageHeader">
+          <h1>Player Rankings</h1>
+        </div>
+        <table className="table table-hover sortable standingsTable">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Player</th>
+              <th>Total PTs</th>
+              <th>Wins</th>
+              <th>Top 8s</th>
+              <th>Top 16s</th>
+              <th>Pro Points</th>
+              <th>Money</th>
+            </tr>
+          </thead>
+          <tbody>
+            {_.map(players, function(player, idx) {
+              return (
+                <tr key={player.id}>
+                  <td>{idx + 1}</td>
+                  <td>
+                    <Link to="player" params={{id: player.id}}>
+                      {player.name}
+                    </Link>
+                  </td>
+                  <td>{player.stats.total}</td>
+                  <td>{player.stats.t1}</td>
+                  <td>{player.stats.t8}</td>
+                  <td>{player.stats.t16}</td>
+                  <td>{player.stats.points}</td>
+                  <td>
+                    {player.stats.money ?
+                      accounting.formatMoney(player.stats.money, '$', 0) : '$0'}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+});
+
 var RecentTournaments = React.createClass({
   render: function() {
     var that = this;
@@ -341,9 +413,10 @@ var RecentTournaments = React.createClass({
 
 var routes = (
   <Route handler={App} path="/">
-    <Route name="player" path="player/:id" handler={Player} />
+    <Route name="player" path="/player/:id" handler={Player} />
     <Route name="tournament" path="/tournament/:id" handler={Tournament} />
     <DefaultRoute name="default" handler={RecentTournaments} />
+    <Route name="rankings" path="/rankings/" handler={Rankings} />
     <NotFoundRoute name="notfound" handler={NotFound} />
   </Route>
 );
