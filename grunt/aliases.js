@@ -3,10 +3,14 @@
 var _ = require('underscore');
 var deepcopy = require('deepcopy');
 var Helper = require('./../lib/helper.js');
+var unidecode = require('unidecode');
 
 module.exports = function(grunt) {
-  var _tournaments = null;
+  function nameToID(name) {
+    return unidecode(name).toLowerCase().replace(/[^a-z-]/g, '-');
+  }
 
+  var _tournaments = null;
   function loadTournaments() {
     if (_tournaments) {
       return _tournaments;
@@ -16,6 +20,13 @@ module.exports = function(grunt) {
       if (filename.endsWith('.json')) {
         var tid = filename.replace('.json', '');
         _tournaments[tid] = grunt.file.readJSON(abspath);
+        _tournaments[tid].standings = _.map(
+          _tournaments[tid].standings,
+          function(p) {
+            p.id = nameToID(p.name);
+            return p;
+          }
+        );
       }
     });
     return _tournaments;
@@ -25,14 +36,14 @@ module.exports = function(grunt) {
     return JSON.stringify(json, null, 4);
   }
 
-  var buildTournaments = function() {
+  function buildTournaments() {
     grunt.file.write(
       './build/data/tournaments.js',
       'window.Tournaments = ' + jsonToStr(loadTournaments())
     );
-  };
+  }
 
-  var buildRecent = function() {
+  function buildRecent() {
     var tournaments = loadTournaments();
     var list = [];
     _.each(tournaments, function(tournament) {
@@ -49,9 +60,9 @@ module.exports = function(grunt) {
         _.sortBy(list, function(item) { return -Helper.getDate(item.date); })
       )
     );
-  };
+  }
 
-  var buildPlayers = function() {
+  function buildPlayers() {
     var tournaments = loadTournaments();
     var players = {};
     _.each(tournaments, function(tournament) {
@@ -117,7 +128,7 @@ module.exports = function(grunt) {
       };
     });
     grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
-  };
+  }
 
   return {
     'js': ['eslint', 'ava', 'browserify'],
