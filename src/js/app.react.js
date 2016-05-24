@@ -243,7 +243,7 @@ var Tournament = React.createClass({
               }
               return (
                 <tr className={c} key={p.id}>
-                  <td>{index + 1}</td>
+                  <td>{p.rank || (index + 1)}</td>
                   <td>
 		    <Link to="player" params={{id: p.id}}>{p.name}</Link>{' '}
                     {p.report ? (
