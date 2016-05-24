@@ -4,7 +4,7 @@ var _ = require('underscore');
 var deepcopy = require('deepcopy');
 var Helper = require('./../lib/helper.js');
 
-module.exports = function(grunt, options) {
+module.exports = function(grunt) {
   var _tournaments = null;
 
   function loadTournaments() {
@@ -116,7 +116,7 @@ module.exports = function(grunt, options) {
   };
 
   return {
-    'js': ['jshint', 'ava', 'browserify'],
+    'js': ['eslint', 'ava', 'browserify'],
     'css': ['sass'],
     'json': ['jsonlint'],
     'tournaments': buildTournaments,

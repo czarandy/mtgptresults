@@ -31,8 +31,8 @@ module.exports = {
         expand: true,
         cwd: 'data/',
         src: 'logo/*.png',
-        dest: 'build/',
+        dest: 'build/'
       }
-    ],
+    ]
   }
 };
