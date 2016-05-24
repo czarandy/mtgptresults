@@ -7,7 +7,7 @@ module.exports = {
     }
   },
   options: {
-    transform: [ require('grunt-react').browserify ],
+    transform: [ ['babelify', {presets: ["es2015", "react"]}] ],
     extensions: ['js', 'jsx']
   }
 };
