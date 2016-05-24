@@ -229,12 +229,11 @@ var Tournament = React.createClass({
           <tbody>
             {_.map(t.standings, function(p, index) {
               var c = null;
-              if (t.team2hg) {
-                index = (index / 2) | 0;
-              }
-              else if (t.team) {
-                index = (index / 3) | 0;
-              }
+              index = Helper.getPlayerIndex(
+                index,
+                t.team,
+                t.team2hg
+              );
               var top_limit = t.team ? 4 : 8;
               if (index === 0) {
                 c = 'success';
