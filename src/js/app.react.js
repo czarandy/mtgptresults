@@ -175,7 +175,7 @@ var Player = React.createClass({
                       {tdata.name}
                     </Link>
                   </td>
-                  <td>{t.finish}</td>
+                  <td>{t.rank || t.finish}</td>
                   <td>{t.propoints}</td>
                   <td>
                     {t.money ? accounting.formatMoney(t.money, '$', 0) : null}

@@ -77,12 +77,16 @@ module.exports = function(grunt) {
           tournament.team,
           tournament.team2hg
         ) + 1;
-        players[standing.id].tournaments.push({
+        var t = {
           finish: finish,
           propoints: standing.propoints,
           tid: tournament.id,
           money: standing.money
-        });
+        };
+        if (standing.rank) {
+          t.rank = standing.rank;
+        }
+        players[standing.id].tournaments.push(t);
         ++players[standing.id].stats.total;
         players[standing.id].stats.money += (standing.money || 0);
         players[standing.id].stats.points += (standing.propoints || 0);
