@@ -1,4 +1,5 @@
 {
+    "coverage": "http://magic.wizards.com/en/events/coverage/szleifer-seizes-sunday",
     "date": "May 6-8, 2005",
     "formats": [
         "Block Constructed"
@@ -7,1833 +8,1521 @@
     "location": "Philadelphia, Pennsylvania, United States",
     "logo": "ptlogo.png",
     "name": "Pro Tour Philadelphia",
-    "coverage": "http://magic.wizards.com/en/events/coverage/szleifer-seizes-sunday",
     "standings": [
         {
-            "id": "gadiel-szleifer",
             "money": 21725,
             "name": "Gadiel Szleifer",
             "propoints": 25
         },
         {
-            "id": "kenji-tsumura",
             "money": 12275,
             "name": "Kenji Tsumura",
             "propoints": 20
         },
         {
-            "id": "steven-wolfman",
             "money": 7475,
             "name": "Steven Wolfman",
             "propoints": 16
         },
         {
-            "id": "olivier-ruel",
             "money": 6950,
             "name": "Olivier Ruel",
             "propoints": 16
         },
         {
-            "id": "ryan-cimera",
             "money": 2825,
             "name": "Ryan Cimera",
             "propoints": 12
         },
         {
-            "id": "jeff-novekoff",
             "money": 4750,
             "name": "Jeff Novekoff",
             "propoints": 12
         },
         {
-            "id": "mark-herberholz",
             "money": 3175,
             "name": "Mark Herberholz",
             "propoints": 12
         },
         {
-            "id": "andr--m-ller",
             "money": 2075,
             "name": "André Müller",
             "propoints": 12
         },
         {
-            "id": "shuhei-nakamura",
             "money": 3375,
             "name": "Shuhei Nakamura",
             "propoints": 8
         },
         {
-            "id": "ichirou-shimura",
             "money": 1775,
             "name": "Ichirou Shimura",
             "propoints": 8
         },
         {
-            "id": "truls-stokka",
             "money": 2350,
             "name": "Truls Stokka",
             "propoints": 8
         },
         {
-            "id": "jim-roy",
             "money": 1875,
             "name": "Jim Roy",
             "propoints": 8
         },
         {
-            "id": "craig-a-jones",
             "money": 2225,
             "name": "Craig A Jones",
             "propoints": 8
         },
         {
-            "id": "erik-gr-ndahl",
             "money": 2175,
             "name": "Erik Gröndahl",
             "propoints": 8
         },
         {
-            "id": "gerard-fabiano",
             "money": 2250,
             "name": "Gerard Fabiano",
             "propoints": 8
         },
         {
-            "id": "simon-carlsson",
             "money": 1075,
             "name": "Simon Carlsson",
             "propoints": 8
         },
         {
-            "id": "jelger-wiegersma",
             "money": 1175,
             "name": "Jelger Wiegersma",
             "propoints": 7
         },
         {
-            "id": "mario-girolami",
             "money": 1425,
             "name": "Mario Girolami",
             "propoints": 7
         },
         {
-            "id": "wilson-freeman",
             "money": 1425,
             "name": "Wilson Freeman",
             "propoints": 7
         },
         {
-            "id": "tsuyoshi-fujita",
             "money": 1425,
             "name": "Tsuyoshi Fujita",
             "propoints": 7
         },
         {
-            "id": "harald-stein",
             "money": 1987,
             "name": "Harald Stein",
             "propoints": 7
         },
         {
-            "id": "benjamin-caumes",
             "money": 1600,
             "name": "Benjamin Caumes",
             "propoints": 7
         },
         {
-            "id": "antti-malin",
             "money": 1600,
             "name": "Antti Malin",
             "propoints": 7
         },
         {
-            "id": "daniel-neiman",
             "money": 1575,
             "name": "Daniel Neiman",
             "propoints": 7
         },
         {
-            "id": "don-smith",
             "money": 1625,
             "name": "Don Smith",
             "propoints": 6
         },
         {
-            "id": "takayuki-tochika",
             "money": 2000,
             "name": "Takayuki Tochika",
             "propoints": 6
         },
         {
-            "id": "kai-budde",
             "money": 775,
             "name": "Kai Budde",
             "propoints": 6
         },
         {
-            "id": "oliver-oks",
             "money": 975,
             "name": "Oliver Oks",
             "propoints": 6
         },
         {
-            "id": "chris-jilot",
             "money": 925,
             "name": "Chris Jilot",
             "propoints": 6
         },
         {
-            "id": "kunisato-ebie",
             "money": 975,
             "name": "Kunisato Ebie",
             "propoints": 6
         },
         {
-            "id": "uri-peleg",
             "money": 975,
             "name": "Uri Peleg",
             "propoints": 6
         },
         {
-            "id": "vasco-jos--cruz",
             "money": 975,
             "name": "Vasco José Cruz",
             "propoints": 6
         },
         {
-            "id": "morgan-douglass",
             "money": 925,
             "name": "Morgan Douglass",
             "propoints": 5
         },
         {
-            "id": "lucas-glavin",
             "money": 1350,
             "name": "Lucas Glavin",
             "propoints": 5
         },
         {
-            "id": "gabe-walls",
             "money": 925,
             "name": "Gabe Walls",
             "propoints": 5
         },
         {
-            "id": "nicolas-bornarel",
             "money": 875,
             "name": "Nicolas Bornarel",
             "propoints": 5
         },
         {
-            "id": "antonino-de-rosa",
             "money": 925,
             "name": "Antonino De Rosa",
             "propoints": 5
         },
         {
-            "id": "pierre-canali",
             "money": 1350,
             "name": "Pierre Canali",
             "propoints": 5
         },
         {
-            "id": "tsuyoshi-ikeda",
             "money": 975,
             "name": "Tsuyoshi Ikeda",
             "propoints": 5
         },
         {
-            "id": "david-solis",
             "money": 1075,
             "name": "David Solis",
             "propoints": 5
         },
         {
-            "id": "robert-watson",
             "money": 1050,
             "name": "Robert Watson",
             "propoints": 5
         },
         {
-            "id": "osamu-fujita",
             "money": 1100,
             "name": "Osamu Fujita",
             "propoints": 5
         },
         {
-            "id": "paul-cheon",
             "money": 1100,
             "name": "Paul Cheon",
             "propoints": 5
         },
         {
-            "id": "kyle-goodman",
             "money": 1125,
             "name": "Kyle Goodman",
             "propoints": 5
         },
         {
-            "id": "timothy-gruneich",
             "money": 575,
             "name": "Timothy Gruneich",
             "propoints": 5
         },
         {
-            "id": "masahiko-morita",
             "money": 575,
             "name": "Masahiko Morita",
             "propoints": 5
         },
         {
-            "id": "osyp-lebedowicz",
             "money": 700,
             "name": "Osyp Lebedowicz",
             "propoints": 5
         },
         {
-            "id": "takuya-osawa",
             "money": 800,
             "name": "Takuya Osawa",
             "propoints": 5
         },
         {
-            "id": "alex-lieberman",
             "money": 675,
             "name": "Alex Lieberman",
             "propoints": 4
         },
         {
-            "id": "tomohide-sasagawa",
             "money": 700,
             "name": "Tomohide Sasagawa",
             "propoints": 4
         },
         {
-            "id": "tim-kincaid",
             "money": 700,
             "name": "Tim Kincaid",
             "propoints": 4
         },
         {
-            "id": "stuart-wright",
             "money": 675,
             "name": "Stuart Wright",
             "propoints": 4
         },
         {
-            "id": "jim-dyke",
             "money": 775,
             "name": "Jim Dyke",
             "propoints": 4
         },
         {
-            "id": "kamiel-cornelissen",
             "money": 675,
             "name": "Kamiel Cornelissen",
             "propoints": 4
         },
         {
-            "id": "lucien-barbou",
             "money": 650,
             "name": "Lucien Barbou",
             "propoints": 4
         },
         {
-            "id": "lucien-bui",
             "money": 800,
             "name": "Lucien Bui",
             "propoints": 4
         },
         {
-            "id": "andrew-pacifico",
             "money": 700,
             "name": "Andrew Pacifico",
             "propoints": 4
         },
         {
-            "id": "ryouma-shiozu",
             "money": 700,
             "name": "Ryouma Shiozu",
             "propoints": 4
         },
         {
-            "id": "petr-nahodil",
             "money": 775,
             "name": "Petr Nahodil",
             "propoints": 4
         },
         {
-            "id": "richard-hoaen",
             "money": 675,
             "name": "Richard Hoaen",
             "propoints": 4
         },
         {
-            "id": "omid-najafpoor",
             "money": 775,
             "name": "Omid Najafpoor",
             "propoints": 4
         },
         {
-            "id": "eduardo-echag-e",
             "money": 725,
             "name": "Eduardo Echagüe",
             "propoints": 4
         },
         {
-            "id": "ernie-marchesano",
             "money": 800,
             "name": "Ernie Marchesano",
             "propoints": 4
         },
         {
-            "id": "itaru-ishida",
             "money": 775,
             "name": "Itaru Ishida",
             "propoints": 4
         },
         {
-            "id": "futoshi-iwata",
             "money": 825,
             "name": "Futoshi Iwata",
             "propoints": 3
         },
         {
-            "id": "chris-mcdaniel",
             "money": 775,
             "name": "Chris McDaniel",
             "propoints": 3
         },
         {
-            "id": "roel-heeswijk",
             "money": 825,
             "name": "Roel Heeswijk",
             "propoints": 3
         },
         {
-            "id": "eugene-harvey",
             "money": 825,
             "name": "Eugene Harvey",
             "propoints": 3
         },
         {
-            "id": "kenny-oberg",
             "money": 825,
             "name": "Kenny Oberg",
             "propoints": 3
         },
         {
-            "id": "dennis-johannsen",
             "money": 425,
             "name": "Dennis Johannsen",
             "propoints": 3
         },
         {
-            "id": "rogier-maaten",
             "money": 425,
             "name": "Rogier Maaten",
             "propoints": 3
         },
         {
-            "id": "artem-dushkevich",
             "money": 425,
             "name": "Artem Dushkevich",
             "propoints": 3
         },
         {
-            "id": "michael-purn",
             "money": 475,
             "name": "Michael Purn",
             "propoints": 3
         },
         {
-            "id": "juan-carlos-adebo-diaz",
             "money": 475,
             "name": "Juan Carlos Adebo Diaz",
             "propoints": 3
         },
         {
-            "id": "brian-kibler",
             "money": 425,
             "name": "Brian Kibler",
             "propoints": 3
         },
         {
-            "id": "matthew-rivera",
             "money": 550,
             "name": "Matthew Rivera",
             "propoints": 3
         },
         {
-            "id": "nikola-skorolupov",
             "money": 475,
             "name": "Nikola Skorolupov",
             "propoints": 3
         },
         {
-            "id": "john-e-glass",
             "money": 562,
             "name": "John E Glass",
             "propoints": 3
         },
         {
-            "id": "ryuichi-arita",
             "money": 450,
             "name": "Ryuichi Arita",
             "propoints": 3
         },
         {
-            "id": "camille-brassem",
             "money": 525,
             "name": "Camille Brassem",
             "propoints": 3
         },
         {
-            "id": "jasper-blaas",
             "money": 475,
             "name": "Jasper Blaas",
             "propoints": 3
         },
         {
-            "id": "antoine-ruel",
             "money": 500,
             "name": "Antoine Ruel",
             "propoints": 3
         },
         {
-            "id": "gabriel-willmon",
             "money": 525,
             "name": "Gabriel Willmon",
             "propoints": 3
         },
         {
-            "id": "rasmus-sibast",
             "money": 525,
             "name": "Rasmus Sibast",
             "propoints": 3
         },
         {
-            "id": "bernardo-da-costa-cabral",
             "money": 525,
             "name": "Bernardo Da Costa Cabral",
             "propoints": 3
         },
         {
-            "id": "craig-c-krempels",
             "money": 525,
             "name": "Craig C Krempels",
             "propoints": 3
         },
         {
-            "id": "murray-evans",
             "money": 450,
             "name": "Murray Evans",
             "propoints": 3
         },
         {
-            "id": "diego-ostrovich",
             "money": 475,
             "name": "Diego Ostrovich",
             "propoints": 3
         },
         {
-            "id": "bram-snepvangers",
             "money": 525,
             "name": "Bram Snepvangers",
             "propoints": 3
         },
         {
-            "id": "douglas-potter",
             "money": 550,
             "name": "Douglas Potter",
             "propoints": 3
         },
         {
-            "id": "adam-koska",
             "money": 550,
             "name": "Adam Koska",
             "propoints": 3
         },
         {
-            "id": "akira-asahara",
             "money": 550,
             "name": "Akira Asahara",
             "propoints": 3
         },
         {
-            "id": "william-moreno",
             "money": 550,
             "name": "William Moreno",
             "propoints": 3
         },
         {
-            "id": "jerret-rocha",
             "money": 475,
             "name": "Jerret Rocha",
             "propoints": 3
         },
         {
-            "id": "david-brucker",
             "money": 525,
             "name": "David Brucker",
             "propoints": 3
         },
         {
-            "id": "jun-bandou",
             "money": 525,
             "name": "Jun Bandou",
             "propoints": 3
         },
         {
-            "id": "stewart-shinkins",
             "money": 575,
             "name": "Stewart Shinkins",
             "propoints": 3
         },
         {
-            "id": "shaheen-soorani",
             "money": 550,
             "name": "Shaheen Soorani",
             "propoints": 3
         },
         {
-            "id": "nicholas-neary",
             "money": 550,
             "name": "Nicholas Neary",
             "propoints": 3
         },
         {
-            "id": "william-blennow",
             "money": 575,
             "name": "William Blennow",
             "propoints": 3
         },
         {
-            "id": "adam-horvath",
             "money": 550,
             "name": "Adam Horvath",
             "propoints": 3
         },
         {
-            "id": "gon-alo-pinto",
             "money": 575,
             "name": "Gonçalo Pinto",
             "propoints": 3
         },
         {
-            "id": "nobuki-morisaki",
             "money": 575,
             "name": "Nobuki Morisaki",
             "propoints": 3
         },
         {
-            "id": "akihiro-kawamura",
             "money": 575,
             "name": "akihiro kawamura",
             "propoints": 3
         },
         {
-            "id": "mark-glenister",
             "money": 575,
             "name": "Mark Glenister",
             "propoints": 3
         },
         {
-            "id": "bastien-perez",
             "money": 300,
             "name": "Bastien Perez",
             "propoints": 3
         },
         {
-            "id": "judah-alt",
             "money": 325,
             "name": "Judah Alt",
             "propoints": 3
         },
         {
-            "id": "pedro-bailadeira",
             "money": 325,
             "name": "Pedro Bailadeira",
             "propoints": 3
         },
         {
-            "id": "thomas-wood",
             "money": 325,
             "name": "Thomas Wood",
             "propoints": 3
         },
         {
-            "id": "john-ormerod",
             "money": 325,
             "name": "John Ormerod",
             "propoints": 3
         },
         {
-            "id": "tomoharu-saito",
             "money": 350,
             "name": "Tomoharu Saito",
             "propoints": 3
         },
         {
-            "id": "vincent-lemoine",
             "money": 325,
             "name": "Vincent Lemoine",
             "propoints": 3
         },
         {
-            "id": "anthony-impellizzieri",
             "money": 325,
             "name": "Anthony Impellizzieri",
             "propoints": 3
         },
         {
-            "id": "adam-simoneaux",
             "money": 325,
             "name": "Adam Simoneaux",
             "propoints": 3
         },
         {
-            "id": "daniel-paardekooper",
             "money": 325,
             "name": "Daniel Paardekooper",
             "propoints": 3
         },
         {
-            "id": "jacques-misonne",
             "money": 300,
             "name": "Jacques Misonne",
             "propoints": 3
         },
         {
-            "id": "katsuhiro-mori",
             "money": 300,
             "name": "Katsuhiro Mori",
             "propoints": 3
         },
         {
-            "id": "mathieu-le-montagner",
             "money": 325,
             "name": "Mathieu Le Montagner",
             "propoints": 3
         },
         {
-            "id": "paul-rietzl",
             "money": 350,
             "name": "Paul Rietzl",
             "propoints": 3
         },
         {
-            "id": "shuu-komuro",
             "money": 300,
             "name": "Shuu Komuro",
             "propoints": 3
         },
         {
-            "id": "tsuyoshi-iwai",
             "money": 350,
             "name": "Tsuyoshi Iwai",
             "propoints": 3
         },
         {
-            "id": "john-moore",
             "money": 350,
             "name": "John Moore",
             "propoints": 3
         },
         {
-            "id": "benjamin-bailey",
             "money": 375,
             "name": "Benjamin Bailey",
             "propoints": 3
         },
         {
-            "id": "julien-goron",
             "money": 375,
             "name": "Julien Goron",
             "propoints": 3
         },
         {
-            "id": "alexandre-peset",
             "money": 375,
             "name": "Alexandre Peset",
             "propoints": 3
         },
         {
-            "id": "bryan-upham",
             "money": 350,
             "name": "Bryan Upham",
             "propoints": 3
         },
         {
-            "id": "gabri-de-la-cerda",
             "money": 350,
             "name": "Gabri De La Cerda",
             "propoints": 3
         },
         {
-            "id": "corbett-gray",
             "money": 350,
             "name": "Corbett Gray",
             "propoints": 3
         },
         {
-            "id": "jan-brozek",
             "money": 350,
             "name": "Jan Brozek",
             "propoints": 2
         },
         {
-            "id": "bryn-kenney",
             "money": 350,
             "name": "Bryn Kenney",
             "propoints": 2
         },
         {
-            "id": "ruud-warmenhoven",
             "money": 325,
             "name": "Ruud Warmenhoven",
             "propoints": 2
         },
         {
-            "id": "tatsuya-oonishi",
             "money": 412,
             "name": "Tatsuya Oonishi",
             "propoints": 2
         },
         {
-            "id": "michael-pinnegar",
             "money": 375,
             "name": "Michael Pinnegar",
             "propoints": 2
         },
         {
-            "id": "gabriel-kang",
             "money": 350,
             "name": "Gabriel Kang",
             "propoints": 2
         },
         {
-            "id": "markus-petterson",
             "money": 325,
             "name": "Markus Petterson",
             "propoints": 2
         },
         {
-            "id": "david-carvajal-blanco",
             "money": 375,
             "name": "David Carvajal Blanco",
             "propoints": 2
         },
         {
-            "id": "benjamin-dempsey",
             "money": 375,
             "name": "Benjamin Dempsey",
             "propoints": 2
         },
         {
-            "id": "gerjan-ter-wal",
             "money": 375,
             "name": "Gerjan ter Wal",
             "propoints": 2
         },
         {
-            "id": "julien-nuijten",
             "money": 350,
             "name": "Julien Nuijten",
             "propoints": 2
         },
         {
-            "id": "timothy-aten",
             "money": 325,
             "name": "Timothy Aten",
             "propoints": 2
         },
         {
-            "id": "nicholas-west",
             "money": 325,
             "name": "Nicholas West",
             "propoints": 2
         },
         {
-            "id": "bastian-knapen",
             "money": 325,
             "name": "Bastian Knapen",
             "propoints": 2
         },
         {
-            "id": "joshua-ravitz",
             "money": 350,
             "name": "Joshua Ravitz",
             "propoints": 2
         },
         {
-            "id": "luis-scott-vargas",
             "money": 375,
             "name": "Luis Scott-Vargas",
             "propoints": 2
         },
         {
-            "id": "kouichirou-maki",
             "money": 375,
             "name": "Kouichirou Maki",
             "propoints": 2
         },
         {
-            "id": "enric-rodamilans",
             "money": 375,
             "name": "Enric Rodamilans",
             "propoints": 2
         },
         {
-            "id": "emanuele-milio",
             "money": 375,
             "name": "Emanuele Milio",
             "propoints": 2
         },
         {
-            "id": "doug-azzano",
             "money": 375,
             "name": "Doug Azzano",
             "propoints": 2
         },
         {
-            "id": "brian-stroh",
             "money": 375,
             "name": "Brian Stroh",
             "propoints": 2
         },
         {
-            "id": "sebastien-roux",
             "money": 375,
             "name": "Sebastien Roux",
             "propoints": 2
         },
         {
-            "id": "jeff-cunningham",
             "money": 350,
             "name": "Jeff Cunningham",
             "propoints": 2
         },
         {
-            "id": "jose-barbero",
             "money": 375,
             "name": "Jose Barbero",
             "propoints": 2
         },
         {
-            "id": "juan-pablo-diez-del-corral",
             "money": 350,
             "name": "Juan Pablo Diez del Corral",
             "propoints": 2
         },
         {
-            "id": "patrick-tomelitsch",
             "money": 200,
             "name": "Patrick Tomelitsch",
             "propoints": 2
         },
         {
-            "id": "tiago-chan",
             "money": 262,
             "name": "Tiago Chan",
             "propoints": 2
         },
         {
-            "id": "christian-zoli",
             "money": 200,
             "name": "Christian Zoli",
             "propoints": 2
         },
         {
-            "id": "evan-chada",
             "money": 225,
             "name": "Evan Chada",
             "propoints": 2
         },
         {
-            "id": "yui-takagi",
             "money": 200,
             "name": "Yui Takagi",
             "propoints": 2
         },
         {
-            "id": "rapha-l-l-vy",
             "money": 200,
             "name": "Raphaël Lévy",
             "propoints": 2
         },
         {
-            "id": "kyle-felter",
             "money": 225,
             "name": "Kyle Felter",
             "propoints": 2
         },
         {
-            "id": "michael-brodt",
             "money": 225,
             "name": "Michael Brodt",
             "propoints": 2
         },
         {
-            "id": "emilio-campos",
             "money": 200,
             "name": "Emilio Campos",
             "propoints": 2
         },
         {
-            "id": "michael-w-hayner",
             "money": 200,
             "name": "Michael W Hayner",
             "propoints": 2
         },
         {
-            "id": "masatake-shimada",
             "money": 200,
             "name": "Masatake Shimada",
             "propoints": 2
         },
         {
-            "id": "justin-gary",
             "money": 225,
             "name": "Justin Gary",
             "propoints": 2
         },
         {
-            "id": "jimmy-pan",
             "money": 200,
             "name": "Jimmy Pan",
             "propoints": 2
         },
         {
-            "id": "chris-buker",
             "money": 200,
             "name": "Chris Buker",
             "propoints": 2
         },
         {
-            "id": "anael-bergeron",
             "money": 225,
             "name": "Anael Bergeron",
             "propoints": 2
         },
         {
-            "id": "taylor-putnam",
             "money": 200,
             "name": "Taylor Putnam",
             "propoints": 2
         },
         {
-            "id": "larry-waymon",
             "money": 200,
             "name": "Larry Waymon",
             "propoints": 2
         },
         {
-            "id": "sean-vandover",
             "money": 225,
             "name": "Sean Vandover",
             "propoints": 2
         },
         {
-            "id": "mattias-jorstedt",
             "money": 200,
             "name": "Mattias Jorstedt",
             "propoints": 2
         },
         {
-            "id": "jon-hopkins",
             "money": 225,
             "name": "Jon Hopkins",
             "propoints": 2
         },
         {
-            "id": "jeffrey-meyerson",
             "money": 225,
             "name": "Jeffrey Meyerson",
             "propoints": 2
         },
         {
-            "id": "mark-dictus",
             "money": 225,
             "name": "Mark Dictus",
             "propoints": 2
         },
         {
-            "id": "masami-ibamoto",
             "money": 200,
             "name": "Masami Ibamoto",
             "propoints": 2
         },
         {
-            "id": "torben-twiefel",
             "money": 200,
             "name": "Torben Twiefel",
             "propoints": 2
         },
         {
-            "id": "jean-baptiste-hernandez",
             "money": 200,
             "name": "Jean-Baptiste Hernandez",
             "propoints": 2
         },
         {
-            "id": "sam-gomersall",
             "money": 225,
             "name": "Sam Gomersall",
             "propoints": 2
         },
         {
-            "id": "gerry-thompson",
             "money": 200,
             "name": "Gerry Thompson",
             "propoints": 2
         },
         {
-            "id": "guillaume-mathieu",
             "money": 200,
             "name": "Guillaume Mathieu",
             "propoints": 2
         },
         {
-            "id": "vasilis-fatouros",
             "money": 200,
             "name": "Vasilis Fatouros",
             "propoints": 2
         },
         {
-            "id": "dimitrio-petridis",
             "money": 200,
             "name": "Dimitrio Petridis",
             "propoints": 2
         },
         {
-            "id": "roy-huts",
             "money": 200,
             "name": "Roy Huts",
             "propoints": 2
         },
         {
-            "id": "adam-chambers",
             "money": 225,
             "name": "Adam Chambers",
             "propoints": 2
         },
         {
-            "id": "mikael-polgary",
             "money": 200,
             "name": "Mikael Polgary",
             "propoints": 2
         },
         {
-            "id": "luke-weaver",
             "money": 200,
             "name": "Luke Weaver",
             "propoints": 2
         },
         {
-            "id": "jo-inge-sandell",
             "money": 275,
             "name": "Jo-Inge Sandell",
             "propoints": 2
         },
         {
-            "id": "youichirou-yamakawa",
             "money": 200,
             "name": "Youichirou Yamakawa",
             "propoints": 2
         },
         {
-            "id": "eugene-levin",
             "money": 200,
             "name": "Eugene Levin",
             "propoints": 2
         },
         {
-            "id": "david-w-irvine",
             "money": 200,
             "name": "David W Irvine",
             "propoints": 2
         },
         {
-            "id": "charles-lancaster",
             "money": 225,
             "name": "Charles Lancaster",
             "propoints": 2
         },
         {
-            "id": "stephen-behrle",
             "money": 200,
             "name": "Stephen Behrle",
             "propoints": 2
         },
         {
-            "id": "taylor-webb",
             "money": 225,
             "name": "Taylor Webb",
             "propoints": 2
         },
         {
-            "id": "tomohiro-kaji",
             "money": 225,
             "name": "Tomohiro Kaji",
             "propoints": 2
         },
         {
-            "id": "wessel-oomens",
             "money": 225,
             "name": "Wessel Oomens",
             "propoints": 2
         },
         {
-            "id": "rafal-arendt",
             "money": 225,
             "name": "Rafal Arendt",
             "propoints": 2
         },
         {
-            "id": "steve-chapman",
             "money": 225,
             "name": "Steve Chapman",
             "propoints": 2
         },
         {
-            "id": "jon-stern",
             "money": 225,
             "name": "Jon Stern",
             "propoints": 2
         },
         {
-            "id": "max-gamper",
             "money": 225,
             "name": "Max Gamper",
             "propoints": 2
         },
         {
-            "id": "anthony-menzer",
             "money": 225,
             "name": "Anthony Menzer",
             "propoints": 2
         },
         {
-            "id": "winslow-wilton",
             "money": 225,
             "name": "Winslow Wilton",
             "propoints": 2
         },
         {
-            "id": "jeremy-muir",
             "money": 225,
             "name": "Jeremy Muir",
             "propoints": 2
         },
         {
-            "id": "douglas-millar",
             "money": 225,
             "name": "Douglas Millar",
             "propoints": 2
         },
         {
-            "id": "ketil-aukrust",
             "money": 225,
             "name": "Ketil Aukrust",
             "propoints": 2
         },
         {
-            "id": "don-huang",
             "money": 200,
             "name": "Don Huang",
             "propoints": 2
         },
         {
-            "id": "geoffrey-siron",
             "money": 225,
             "name": "Geoffrey Siron",
             "propoints": 2
         },
         {
-            "id": "juan-morgado-cruz",
             "money": 225,
             "name": "Juan Morgado Cruz",
             "propoints": 2
         },
         {
-            "id": "miguel-gonz-lez-fern-ndez",
             "money": 225,
             "name": "Miguel González Fernández",
             "propoints": 2
         },
         {
-            "id": "timo-kempf",
             "money": 225,
             "name": "Timo Kempf",
             "propoints": 2
         },
         {
-            "id": "simon-g-rtzen",
             "money": 225,
             "name": "Simon Görtzen",
             "propoints": 2
         },
         {
-            "id": "tom-van-de-logt",
             "money": 225,
             "name": "Tom Van de Logt",
             "propoints": 2
         },
         {
-            "id": "maxime-hermes",
             "money": 100,
             "name": "Maxime Hermes",
             "propoints": 2
         },
         {
-            "id": "ryou-ogura",
             "money": 100,
             "name": "Ryou Ogura",
             "propoints": 2
         },
         {
-            "id": "lauri-manninen",
             "money": 100,
             "name": "Lauri Manninen",
             "propoints": 2
         },
         {
-            "id": "luca-chiera",
             "money": 100,
             "name": "Luca Chiera",
             "propoints": 2
         },
         {
-            "id": "zack-hall",
             "money": 100,
             "name": "Zack Hall",
             "propoints": 2
         },
         {
-            "id": "jose-folgado-gracia",
             "money": 100,
             "name": "Jose Folgado Gracia",
             "propoints": 2
         },
         {
-            "id": "sean-mcnally",
             "money": 100,
             "name": "Sean McNally",
             "propoints": 2
         },
         {
-            "id": "jarno-harkonen",
             "money": 100,
             "name": "Jarno Harkonen",
             "propoints": 2
         },
         {
-            "id": "dimitri-katz",
             "money": 100,
             "name": "Dimitri Katz",
             "propoints": 2
         },
         {
-            "id": "keith-mclaughlin",
             "money": 100,
             "name": "Keith McLaughlin",
             "propoints": 2
         },
         {
-            "id": "michael-patnik",
             "money": 100,
             "name": "Michael Patnik",
             "propoints": 2
         },
         {
-            "id": "geoffrey-kirsch",
             "money": 100,
             "name": "Geoffrey Kirsch",
             "propoints": 2
         },
         {
-            "id": "fried-meulders",
             "money": 100,
             "name": "Fried Meulders",
             "propoints": 2
         },
         {
-            "id": "gabriel-nassif",
             "money": 100,
             "name": "Gabriel Nassif",
             "propoints": 2
         },
         {
-            "id": "michael-jacob",
             "money": 100,
             "name": "Michael Jacob",
             "propoints": 2
         },
         {
-            "id": "mike-thompson",
             "money": 100,
             "name": "Mike Thompson",
             "propoints": 2
         },
         {
-            "id": "adam-yurchick",
             "money": 100,
             "name": "Adam Yurchick",
             "propoints": 2
         },
         {
-            "id": "jonathan-m-job",
             "money": 100,
             "name": "Jonathan M Job",
             "propoints": 2
         },
         {
-            "id": "werner-cloete",
             "money": 100,
             "name": "Werner Cloete",
             "propoints": 2
         },
         {
-            "id": "asami-kataoka",
             "money": 100,
             "name": "Asami Kataoka",
             "propoints": 2
         },
         {
-            "id": "bas-postema",
             "money": 150,
             "name": "Bas Postema",
             "propoints": 2
         },
         {
-            "id": "jonathan-sonne",
             "money": 100,
             "name": "Jonathan Sonne",
             "propoints": 2
         },
         {
-            "id": "grant-struck",
             "money": 100,
             "name": "Grant Struck",
             "propoints": 2
         },
         {
-            "id": "brodie-martin",
             "money": 100,
             "name": "Brodie Martin",
             "propoints": 2
         },
         {
-            "id": "justin-tannehill",
             "money": 100,
             "name": "Justin Tannehill",
             "propoints": 2
         },
         {
-            "id": "zac-hill",
             "money": 100,
             "name": "Zac Hill",
             "propoints": 2
         },
         {
-            "id": "alessandro-betti",
             "money": 100,
             "name": "Alessandro Betti",
             "propoints": 2
         },
         {
-            "id": "john-pelcak",
             "money": 100,
             "name": "John Pelcak",
             "propoints": 2
         },
         {
-            "id": "nathan-zimmerman",
             "money": 100,
             "name": "Nathan Zimmerman",
             "propoints": 2
         },
         {
-            "id": "gionata-dal-farra",
             "money": 100,
             "name": "Gionata Dal Farra",
             "propoints": 2
         },
         {
-            "id": "shaun-mack",
             "money": 100,
             "name": "Shaun Mack",
             "propoints": 2
         },
         {
-            "id": "alex-yatsenko",
             "money": 100,
             "name": "Alex Yatsenko",
             "propoints": 2
         },
         {
-            "id": "frank-karsten",
             "money": 100,
             "name": "Frank Karsten",
             "propoints": 2
         },
         {
-            "id": "marshall-arthurs",
             "money": 100,
             "name": "Marshall Arthurs",
             "propoints": 2
         },
         {
-            "id": "oliver-polak-rottmann",
             "money": 100,
             "name": "Oliver Polak-Rottmann",
             "propoints": 2
         },
         {
-            "id": "david-fitzgerald-ii",
             "money": 100,
             "name": "David Fitzgerald II",
             "propoints": 2
         },
         {
-            "id": "tobias-radloff",
             "money": 100,
             "name": "Tobias Radloff",
             "propoints": 2
         },
         {
-            "id": "camille-fenet",
             "money": 100,
             "name": "Camille Fenet",
             "propoints": 2
         },
         {
-            "id": "justin-meyer",
             "money": 100,
             "name": "Justin Meyer",
             "propoints": 2
         },
         {
-            "id": "steve-canty",
             "money": 100,
             "name": "Steve Canty",
             "propoints": 2
         },
         {
-            "id": "fabio-padovani",
             "money": 150,
             "name": "Fabio Padovani",
             "propoints": 2
         },
         {
-            "id": "david-sharfman",
             "money": 100,
             "name": "David Sharfman",
             "propoints": 2
         },
         {
-            "id": "anton-jonsson",
             "money": 100,
             "name": "Anton Jonsson",
             "propoints": 2
         },
         {
-            "id": "romain-clere",
             "money": 100,
             "name": "Romain Clere",
             "propoints": 2
         },
         {
-            "id": "david-ochoa",
             "money": 100,
             "name": "David Ochoa",
             "propoints": 2
         },
         {
-            "id": "jeroen-remie",
             "money": 100,
             "name": "Jeroen Remie",
             "propoints": 2
         },
         {
-            "id": "eric-suttle",
             "money": 100,
             "name": "Eric Suttle",
             "propoints": 2
         },
         {
-            "id": "john-pehlke",
             "money": 100,
             "name": "John Pehlke",
             "propoints": 2
         },
         {
-            "id": "holger-wiedenbein",
             "money": 100,
             "name": "Holger Wiedenbein",
             "propoints": 2
         },
         {
-            "id": "julien-stropoli",
             "money": 100,
             "name": "Julien Stropoli",
             "propoints": 2
         },
         {
-            "id": "jim-still",
             "money": 100,
             "name": "Jim Still",
             "propoints": 2
         },
         {
-            "id": "patrick-miller",
             "money": 100,
             "name": "Patrick Miller",
             "propoints": 2
         },
         {
-            "id": "richard-hagon",
             "money": 100,
             "name": "Richard Hagon",
             "propoints": 2
         },
         {
-            "id": "paolo-bergamaschi",
             "money": 100,
             "name": "Paolo Bergamaschi",
             "propoints": 2
         },
         {
-            "id": "andrei-hayrynen",
             "money": 100,
             "name": "Andrei Hayrynen",
             "propoints": 2
         },
         {
-            "id": "jari-inkinen",
             "money": 100,
             "name": "Jari Inkinen",
             "propoints": 2
         },
         {
-            "id": "john-fiorillo",
             "money": 100,
             "name": "John Fiorillo",
             "propoints": 2
         },
         {
-            "id": "jin-okamoto",
             "money": 100,
             "name": "Jin Okamoto",
             "propoints": 2
         },
         {
-            "id": "leonard-barbou",
             "money": 100,
             "name": "Leonard Barbou",
             "propoints": 2
         },
         {
-            "id": "mark-zajdner",
             "name": "Mark Zajdner",
             "propoints": 2
         },
         {
-            "id": "jason-jeanette",
             "name": "Jason Jeanette",
             "propoints": 2
         },
         {
-            "id": "david-garcia-copete",
             "money": 50,
             "name": "David Garcia Copete",
             "propoints": 2
         },
         {
-            "id": "conrad-duncker",
             "name": "Conrad Duncker",
             "propoints": 2
         },
         {
-            "id": "roman-bucht-k",
             "name": "Roman Buchtík",
             "propoints": 2
         },
         {
-            "id": "wilco-pinkster",
             "name": "Wilco Pinkster",
             "propoints": 2
         },
         {
-            "id": "william-postlethwait",
             "name": "William Postlethwait",
             "propoints": 2
         },
         {
-            "id": "james-king",
             "name": "James King",
             "propoints": 2
         },
         {
-            "id": "martin-juza",
             "name": "Martin Juza",
             "propoints": 2
         },
         {
-            "id": "matt-schmaltz",
             "name": "Matt Schmaltz",
             "propoints": 2
         },
         {
-            "id": "barry-smith",
             "name": "Barry Smith",
             "propoints": 2
         },
         {
-            "id": "david-rood",
             "name": "David Rood",
             "propoints": 2
         },
         {
-            "id": "eric-rufener",
             "name": "Eric Rufener",
             "propoints": 2
         },
         {
-            "id": "takehik-matsumura",
             "name": "Takehik Matsumura",
             "propoints": 2
         },
         {
-            "id": "jorge-padilla-chinas",
             "name": "Jorge Padilla Chinas",
             "propoints": 2
         },
         {
-            "id": "sean-mangner",
             "name": "Sean Mangner",
             "propoints": 2
         },
         {
-            "id": "kenneth-cordell",
             "name": "Kenneth Cordell",
             "propoints": 2
         },
         {
-            "id": "christi-blanchard",
             "name": "Christi Blanchard",
             "propoints": 2
         },
         {
-            "id": "javier-dominguez",
             "name": "Javier Dominguez",
             "propoints": 2
         },
         {
-            "id": "stefan-heumann",
             "money": 50,
             "name": "Stefan Heumann",
             "propoints": 2
         },
         {
-            "id": "jorge-iramain",
             "name": "Jorge Iramain",
             "propoints": 2
         },
         {
-            "id": "federico-trobia",
             "name": "Federico Trobia",
             "propoints": 2
         },
         {
-            "id": "emanuele-canavesi",
             "name": "Emanuele Canavesi",
             "propoints": 2
         },
         {
-            "id": "alberto-santos",
             "name": "Alberto Santos",
             "propoints": 2
         },
         {
-            "id": "thomas-refsdal",
             "name": "Thomas Refsdal",
             "propoints": 2
         },
         {
-            "id": "remy-solna",
             "name": "Remy Solna",
             "propoints": 2
         },
         {
-            "id": "vishu-doshi",
             "name": "Vishu Doshi",
             "propoints": 2
         },
         {
-            "id": "eddy-de-la-rosa",
             "name": "Eddy De La Rosa",
             "propoints": 2
         },
         {
-            "id": "crispin-moakler",
             "name": "Crispin Moakler",
             "propoints": 2
         },
         {
-            "id": "michae-miranville",
             "name": "Michae Miranville",
             "propoints": 2
         },
         {
-            "id": "jason-gray",
             "name": "Jason Gray",
             "propoints": 2
         },
         {
-            "id": "adam-klein",
             "name": "Adam Klein",
             "propoints": 2
         },
         {
-            "id": "paolo-caverzaghi",
             "name": "Paolo Caverzaghi",
             "propoints": 2
         },
         {
-            "id": "toshifumi-hanaoka",
             "name": "Toshifumi Hanaoka",
             "propoints": 2
         },
         {
-            "id": "eugeni-sanchez-i-mata",
             "name": "Eugeni Sanchez i Mata",
             "propoints": 2
         },
         {
-            "id": "paul-russell",
             "name": "Paul Russell",
             "propoints": 2
         },
         {
-            "id": "damir-delic",
             "name": "Damir Delic",
             "propoints": 2
         },
         {
-            "id": "zach-d-bell",
             "name": "Zach D Bell",
             "propoints": 2
         },
         {
-            "id": "alex-bakopoulos",
             "name": "Alex Bakopoulos",
             "propoints": 2
         },
         {
-            "id": "colby-sorenson",
             "name": "Colby Sorenson",
             "propoints": 2
         }

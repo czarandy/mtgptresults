@@ -10,1611 +10,1302 @@
     "name": "Pro Tour London",
     "standings": [
         {
-            "id": "kyle-rose",
             "money": 25000,
             "name": "Kyle Rose",
             "propoints": 32
         },
         {
-            "id": "thomas-preyer",
             "money": 15000,
             "name": "Thomas Preyer",
             "propoints": 24
         },
         {
-            "id": "mike-bregoli",
             "money": 10000,
             "name": "Mike Bregoli",
             "propoints": 16
         },
         {
-            "id": "ben-rubin",
             "money": 8000,
             "name": "Ben Rubin",
             "propoints": 16
         },
         {
-            "id": "gunnar-refsdal",
             "money": 6500,
             "name": "Gunnar Refsdal",
             "propoints": 12
         },
         {
-            "id": "william-jensen",
             "money": 5500,
             "name": "William Jensen",
             "propoints": 12
         },
         {
-            "id": "marc-hernandez",
             "money": 4800,
             "name": "Marc Hernandez",
             "propoints": 12
         },
         {
-            "id": "darwin-kastle",
             "money": 4300,
             "name": "Darwin Kastle",
             "propoints": 12
         },
         {
-            "id": "roc-herms",
             "money": 4000,
             "name": "Roc Herms",
             "propoints": 8
         },
         {
-            "id": "zvi-mowshowitz",
             "money": 3750,
             "name": "Zvi Mowshowitz",
             "propoints": 8
         },
         {
-            "id": "kai-budde",
             "money": 3520,
             "name": "Kai Budde",
             "propoints": 8
         },
         {
-            "id": "tommi-hovi",
             "money": 3310,
             "name": "Tommi Hovi",
             "propoints": 8
         },
         {
-            "id": "gary-wise",
             "money": 3110,
             "name": "Gary Wise",
             "propoints": 8
         },
         {
-            "id": "alex-shvartsman",
             "money": 2920,
             "name": "Alex Shvartsman",
             "propoints": 8
         },
         {
-            "id": "kristian-hellman",
             "money": 2750,
             "name": "Kristian Hellman",
             "propoints": 8
         },
         {
-            "id": "jean-louis-d-hondt",
             "money": 2590,
             "name": "Jean-Louis D'Hondt",
             "propoints": 8
         },
         {
-            "id": "rapha-l-l-vy",
             "money": 2440,
             "name": "Raphaël Lévy",
             "propoints": 7
         },
         {
-            "id": "steven-o-mahoney-schwartz",
             "money": 2300,
             "name": "Steven O'Mahoney-Schwartz",
             "propoints": 7
         },
         {
-            "id": "daniel-clegg",
             "money": 2170,
             "name": "Daniel Clegg",
             "propoints": 7
         },
         {
-            "id": "raffaele-lo-moro",
             "money": 2050,
             "name": "Raffaele Lo Moro",
             "propoints": 7
         },
         {
-            "id": "igor-frayman",
             "money": 1940,
             "name": "Igor Frayman",
             "propoints": 7
         },
         {
-            "id": "michael-katz",
             "money": 1840,
             "name": "Michael Katz",
             "propoints": 7
         },
         {
-            "id": "brian-hacker",
             "money": 1750,
             "name": "Brian Hacker",
             "propoints": 7
         },
         {
-            "id": "donald-gallitz",
             "money": 1660,
             "name": "Donald Gallitz",
             "propoints": 7
         },
         {
-            "id": "dirk-baberowski",
             "money": 1580,
             "name": "Dirk Baberowski",
             "propoints": 6
         },
         {
-            "id": "justin-gary",
             "money": 1500,
             "name": "Justin Gary",
             "propoints": 6
         },
         {
-            "id": "antoine-menard",
             "money": 1430,
             "name": "Antoine Menard",
             "propoints": 6
         },
         {
-            "id": "sturla-bingen",
             "money": 1360,
             "name": "Sturla Bingen",
             "propoints": 6
         },
         {
-            "id": "gary-krakower",
             "money": 1290,
             "name": "Gary Krakower",
             "propoints": 6
         },
         {
-            "id": "michael-turian",
             "money": 1230,
             "name": "Michael Turian",
             "propoints": 6
         },
         {
-            "id": "ayumi-hidaka",
             "money": 1170,
             "name": "Ayumi Hidaka",
             "propoints": 6
         },
         {
-            "id": "satoshi-nakamura",
             "money": 1110,
             "name": "Satoshi Nakamura",
             "propoints": 6
         },
         {
-            "id": "osamu-fujita",
             "money": 1060,
             "name": "Osamu Fujita",
             "propoints": 5
         },
         {
-            "id": "jakob-steinaa",
             "money": 1010,
             "name": "Jakob Steinaa",
             "propoints": 5
         },
         {
-            "id": "linus-vernyns",
             "money": 960,
             "name": "Linus Vernyns",
             "propoints": 5
         },
         {
-            "id": "gabriel-tsang",
             "money": 920,
             "name": "Gabriel Tsang",
             "propoints": 5
         },
         {
-            "id": "andrew-johnson",
             "money": 880,
             "name": "Andrew Johnson",
             "propoints": 5
         },
         {
-            "id": "bram-snepvangers",
             "money": 840,
             "name": "Bram Snepvangers",
             "propoints": 5
         },
         {
-            "id": "ken-wallach",
             "money": 810,
             "name": "Ken Wallach",
             "propoints": 5
         },
         {
-            "id": "erik-landriz",
             "money": 780,
             "name": "Erik Landriz",
             "propoints": 5
         },
         {
-            "id": "mike-krzywicki",
             "money": 750,
             "name": "Mike Krzywicki",
             "propoints": 5
         },
         {
-            "id": "bryan-hubble",
             "money": 720,
             "name": "Bryan Hubble",
             "propoints": 5
         },
         {
-            "id": "john-larkin",
             "money": 690,
             "name": "John Larkin",
             "propoints": 5
         },
         {
-            "id": "ken-bearl",
             "money": 660,
             "name": "Ken Bearl",
             "propoints": 5
         },
         {
-            "id": "thomas-dall-jensen",
             "money": 630,
             "name": "Thomas Dall Jensen",
             "propoints": 5
         },
         {
-            "id": "karl-schmidt",
             "money": 610,
             "name": "Karl Schmidt",
             "propoints": 5
         },
         {
-            "id": "eivind-nitter",
             "money": 590,
             "name": "Eivind Nitter",
             "propoints": 5
         },
         {
-            "id": "andreas-pischner",
             "money": 570,
             "name": "Andreas Pischner",
             "propoints": 5
         },
         {
-            "id": "steven-wolfman",
             "money": 550,
             "name": "Steven Wolfman",
             "propoints": 4
         },
         {
-            "id": "brad-swan",
             "money": 530,
             "name": "Brad Swan",
             "propoints": 4
         },
         {
-            "id": "joe-weber",
             "money": 510,
             "name": "Joe Weber",
             "propoints": 4
         },
         {
-            "id": "matt-linde",
             "money": 490,
             "name": "Matt Linde",
             "propoints": 4
         },
         {
-            "id": "jamie-parke",
             "money": 480,
             "name": "Jamie Parke",
             "propoints": 4
         },
         {
-            "id": "stephan-valkyser",
             "money": 470,
             "name": "Stephan Valkyser",
             "propoints": 4
         },
         {
-            "id": "jakub-slemr",
             "money": 460,
             "name": "Jakub Slemr",
             "propoints": 4
         },
         {
-            "id": "tobias-gemuend",
             "money": 450,
             "name": "Tobias Gemuend",
             "propoints": 4
         },
         {
-            "id": "-yvind--degaard",
             "money": 440,
             "name": "Øyvind Ødegaard",
             "propoints": 4
         },
         {
-            "id": "steven-cowley",
             "money": 430,
             "name": "Steven Cowley",
             "propoints": 4
         },
         {
-            "id": "mikko-lintamo",
             "money": 425,
             "name": "Mikko Lintamo",
             "propoints": 4
         },
         {
-            "id": "eric-froehlich",
             "money": 420,
             "name": "Eric Froehlich",
             "propoints": 4
         },
         {
-            "id": "michael-pustilnik",
             "money": 415,
             "name": "Michael Pustilnik",
             "propoints": 4
         },
         {
-            "id": "chris-cade",
             "money": 410,
             "name": "Chris Cade",
             "propoints": 4
         },
         {
-            "id": "rich-frangiosa",
             "money": 405,
             "name": "Rich Frangiosa",
             "propoints": 4
         },
         {
-            "id": "sylvain-lauriol",
             "money": 400,
             "name": "Sylvain Lauriol",
             "propoints": 4
         },
         {
-            "id": "alexander-blumke",
             "name": "Alexander Blumke",
             "propoints": 3
         },
         {
-            "id": "svend-sparre-geertsen",
             "name": "Svend Sparre Geertsen",
             "propoints": 3
         },
         {
-            "id": "brock-parker",
             "name": "Brock Parker",
             "propoints": 3
         },
         {
-            "id": "mattias-jorstedt",
             "name": "Mattias Jorstedt",
             "propoints": 3
         },
         {
-            "id": "jack-stanton",
             "name": "Jack Stanton",
             "propoints": 3
         },
         {
-            "id": "antunio-filipe",
             "name": "Antunio Filipe",
             "propoints": 3
         },
         {
-            "id": "manuel-bevand",
             "name": "Manuel Bevand",
             "propoints": 3
         },
         {
-            "id": "phil-freneau",
             "name": "Phil Freneau",
             "propoints": 3
         },
         {
-            "id": "tsuyoshi-doyama",
             "name": "Tsuyoshi Doyama",
             "propoints": 3
         },
         {
-            "id": "christen-ljones",
             "name": "Christen Ljones",
             "propoints": 3
         },
         {
-            "id": "federico-dato",
             "name": "Federico Dato",
             "propoints": 3
         },
         {
-            "id": "ryan-fuller",
             "name": "Ryan Fuller",
             "propoints": 3
         },
         {
-            "id": "david-price",
             "name": "David Price",
             "propoints": 3
         },
         {
-            "id": "mike-lewis",
             "name": "Mike Lewis",
             "propoints": 3
         },
         {
-            "id": "pablo-lozoya",
             "name": "Pablo Lozoya",
             "propoints": 3
         },
         {
-            "id": "sam-waller",
             "name": "Sam Waller",
             "propoints": 3
         },
         {
-            "id": "jeff-kitchen",
             "name": "Jeff Kitchen",
             "propoints": 3
         },
         {
-            "id": "erwin-cetl",
             "name": "Erwin Cetl",
             "propoints": 3
         },
         {
-            "id": "jason-opalka",
             "name": "Jason Opalka",
             "propoints": 3
         },
         {
-            "id": "maurizio-vergendo",
             "name": "Maurizio Vergendo",
             "propoints": 3
         },
         {
-            "id": "pierre-cools",
             "name": "Pierre Cools",
             "propoints": 3
         },
         {
-            "id": "charles-kornblith",
             "name": "Charles Kornblith",
             "propoints": 3
         },
         {
-            "id": "chris-manners",
             "name": "Chris Manners",
             "propoints": 3
         },
         {
-            "id": "benedikt-klauser",
             "name": "Benedikt Klauser",
             "propoints": 3
         },
         {
-            "id": "pascal-desjardin",
             "name": "Pascal Desjardin",
             "propoints": 3
         },
         {
-            "id": "jin-okamoto",
             "name": "Jin Okamoto",
             "propoints": 3
         },
         {
-            "id": "pietro-tanasini",
             "name": "Pietro Tanasini",
             "propoints": 3
         },
         {
-            "id": "haakon-monsen",
             "name": "Haakon Monsen",
             "propoints": 3
         },
         {
-            "id": "andrea-redi",
             "name": "Andrea Redi",
             "propoints": 3
         },
         {
-            "id": "poy-kok-tan",
             "name": "Poy Kok Tan",
             "propoints": 3
         },
         {
-            "id": "tim-rasmusen",
             "name": "Tim Rasmusen",
             "propoints": 3
         },
         {
-            "id": "seppo-toikka",
             "name": "Seppo Toikka",
             "propoints": 3
         },
         {
-            "id": "kazuykuki-momose",
             "name": "Kazuykuki Momose",
             "propoints": 3
         },
         {
-            "id": "warren-marsh",
             "name": "Warren Marsh",
             "propoints": 3
         },
         {
-            "id": "alan-comer",
             "name": "Alan Comer",
             "propoints": 3
         },
         {
-            "id": "itaru-ishida",
             "name": "Itaru Ishida",
             "propoints": 3
         },
         {
-            "id": "ken-russell",
             "name": "Ken Russell",
             "propoints": 3
         },
         {
-            "id": "david-alexander",
             "name": "David Alexander",
             "propoints": 3
         },
         {
-            "id": "masashiro-kuroda",
             "name": "Masashiro Kuroda",
             "propoints": 3
         },
         {
-            "id": "tomi-walamies",
             "name": "Tomi Walamies",
             "propoints": 3
         },
         {
-            "id": "james-osborne",
             "name": "James Osborne",
             "propoints": 3
         },
         {
-            "id": "mark-le-pine",
             "name": "Mark Le Pine",
             "propoints": 3
         },
         {
-            "id": "jacob-janoska",
             "name": "Jacob Janoska",
             "propoints": 3
         },
         {
-            "id": "gottlieb-yeh",
             "name": "Gottlieb Yeh",
             "propoints": 3
         },
         {
-            "id": "stewart-walker",
             "name": "Stewart Walker",
             "propoints": 3
         },
         {
-            "id": "robert-swarowski",
             "name": "Robert Swarowski",
             "propoints": 3
         },
         {
-            "id": "uri-peleg",
             "name": "Uri Peleg",
             "propoints": 3
         },
         {
-            "id": "vipul-kothori",
             "name": "Vipul Kothori",
             "propoints": 3
         },
         {
-            "id": "kurt-verbinnen",
             "name": "Kurt Verbinnen",
             "propoints": 3
         },
         {
-            "id": "fletcher-peatross",
             "name": "Fletcher Peatross",
             "propoints": 3
         },
         {
-            "id": "danny-victor",
             "name": "Danny Victor",
             "propoints": 3
         },
         {
-            "id": "randy-buehler",
             "name": "Randy Buehler",
             "propoints": 3
         },
         {
-            "id": "daniel-diamant",
             "name": "Daniel Diamant",
             "propoints": 3
         },
         {
-            "id": "guido-pacifici",
             "name": "Guido Pacifici",
             "propoints": 3
         },
         {
-            "id": "miguel-ragull",
             "name": "Miguel Ragull",
             "propoints": 3
         },
         {
-            "id": "christian-l-hrs",
             "name": "Christian Lührs",
             "propoints": 3
         },
         {
-            "id": "masami-ibamoto",
             "name": "Masami Ibamoto",
             "propoints": 3
         },
         {
-            "id": "kevin-cheng",
             "name": "Kevin Cheng",
             "propoints": 3
         },
         {
-            "id": "stuart-cresswell",
             "name": "Stuart Cresswell",
             "propoints": 3
         },
         {
-            "id": "tim-rivera",
             "name": "Tim Rivera",
             "propoints": 3
         },
         {
-            "id": "bas-postema",
             "name": "Bas Postema",
             "propoints": 3
         },
         {
-            "id": "daniel-steinsd-rfer",
             "name": "Daniel Steinsdörfer",
             "propoints": 3
         },
         {
-            "id": "tore-fiil",
             "name": "Tore Fiil",
             "propoints": 3
         },
         {
-            "id": "masayaki-higashino",
             "name": "Masayaki Higashino",
             "propoints": 3
         },
         {
-            "id": "bryan-petersen",
             "name": "Bryan Petersen",
             "propoints": 2
         },
         {
-            "id": "alen-magdic",
             "name": "Alen Magdic",
             "propoints": 2
         },
         {
-            "id": "pepijn-van-abbe",
             "name": "Pepijn Van Abbe",
             "propoints": 2
         },
         {
-            "id": "sigurd-eskeland",
             "name": "Sigurd Eskeland",
             "propoints": 2
         },
         {
-            "id": "patrick-donovan",
             "name": "Patrick Donovan",
             "propoints": 2
         },
         {
-            "id": "nicolas-lacorne",
             "name": "Nicolas Lacorne",
             "propoints": 2
         },
         {
-            "id": "cary-newburger",
             "name": "Cary Newburger",
             "propoints": 2
         },
         {
-            "id": "helmut-summersberger",
             "name": "Helmut Summersberger",
             "propoints": 2
         },
         {
-            "id": "tommaso-natale",
             "name": "Tommaso Natale",
             "propoints": 2
         },
         {
-            "id": "arto-hiltunen",
             "name": "Arto Hiltunen",
             "propoints": 2
         },
         {
-            "id": "robert-dougherty",
             "name": "Robert Dougherty",
             "propoints": 2
         },
         {
-            "id": "oystein-buene",
             "name": "Oystein Buene",
             "propoints": 2
         },
         {
-            "id": "tsuyoshi-fujita",
             "name": "Tsuyoshi Fujita",
             "propoints": 2
         },
         {
-            "id": "koji-nose",
             "name": "Koji Nose",
             "propoints": 2
         },
         {
-            "id": "jim-herold",
             "name": "Jim Herold",
             "propoints": 2
         },
         {
-            "id": "kenta-suzuki",
             "name": "Kenta Suzuki",
             "propoints": 2
         },
         {
-            "id": "vincent-boulanger",
             "name": "Vincent Boulanger",
             "propoints": 2
         },
         {
-            "id": "pedro-marcos",
             "name": "Pedro Marcos",
             "propoints": 2
         },
         {
-            "id": "patrick-chapin",
             "name": "Patrick Chapin",
             "propoints": 2
         },
         {
-            "id": "eli-kassis",
             "name": "Eli Kassis",
             "propoints": 2
         },
         {
-            "id": "justin-rider",
             "name": "Justin Rider",
             "propoints": 2
         },
         {
-            "id": "niklaus-hugi",
             "name": "Niklaus Hugi",
             "propoints": 2
         },
         {
-            "id": "matthias-schindler",
             "name": "Matthias Schindler",
             "propoints": 2
         },
         {
-            "id": "palle-poulsen",
             "name": "Palle Poulsen",
             "propoints": 2
         },
         {
-            "id": "jonathan-brown",
             "name": "Jonathan Brown",
             "propoints": 2
         },
         {
-            "id": "marc-aquino",
             "name": "Marc Aquino",
             "propoints": 2
         },
         {
-            "id": "luca-cristino",
             "name": "Luca Cristino",
             "propoints": 2
         },
         {
-            "id": "holger-meinecke",
             "name": "Holger Meinecke",
             "propoints": 2
         },
         {
-            "id": "bjorn-skogseth",
             "name": "Bjorn Skogseth",
             "propoints": 2
         },
         {
-            "id": "antonino-de-rosa",
             "name": "Antonino De Rosa",
             "propoints": 2
         },
         {
-            "id": "rui-mariani",
             "name": "Rui Mariani",
             "propoints": 2
         },
         {
-            "id": "david-humphreys",
             "name": "David Humphreys",
             "propoints": 2
         },
         {
-            "id": "dave-lawson",
             "name": "Dave Lawson",
             "propoints": 2
         },
         {
-            "id": "ray-tai",
             "name": "Ray Tai",
             "propoints": 2
         },
         {
-            "id": "philippe-prosper",
             "name": "Philippe Prosper",
             "propoints": 2
         },
         {
-            "id": "matteo-bianchi",
             "name": "Matteo Bianchi",
             "propoints": 2
         },
         {
-            "id": "tony-dobson",
             "name": "Tony Dobson",
             "propoints": 2
         },
         {
-            "id": "nicolas-labarre",
             "name": "Nicolas Labarre",
             "propoints": 2
         },
         {
-            "id": "terry-tsang",
             "name": "Terry Tsang",
             "propoints": 2
         },
         {
-            "id": "mika-ollila",
             "name": "Mika Ollila",
             "propoints": 2
         },
         {
-            "id": "noah-weil",
             "name": "Noah Weil",
             "propoints": 2
         },
         {
-            "id": "glen-dudley",
             "name": "Glen Dudley",
             "propoints": 2
         },
         {
-            "id": "iwao-takemasa",
             "name": "Iwao Takemasa",
             "propoints": 2
         },
         {
-            "id": "vincent-gieling",
             "name": "Vincent Gieling",
             "propoints": 2
         },
         {
-            "id": "yutaka-seki",
             "name": "Yutaka Seki",
             "propoints": 2
         },
         {
-            "id": "jeff-fung",
             "name": "Jeff Fung",
             "propoints": 2
         },
         {
-            "id": "brian-kowal",
             "name": "Brian Kowal",
             "propoints": 2
         },
         {
-            "id": "daniel-o-mahoney-schwartz",
             "name": "Daniel O'Mahoney-Schwartz",
             "propoints": 2
         },
         {
-            "id": "teddy-ng",
             "name": "Teddy Ng",
             "propoints": 2
         },
         {
-            "id": "jon-finkel",
             "name": "Jon Finkel",
             "propoints": 2
         },
         {
-            "id": "alex-dominguez",
             "name": "Alex Dominguez",
             "propoints": 2
         },
         {
-            "id": "mauro-bongiovanni",
             "name": "Mauro Bongiovanni",
             "propoints": 2
         },
         {
-            "id": "thomas-andersson",
             "name": "Thomas Andersson",
             "propoints": 2
         },
         {
-            "id": "adrian-sullivan",
             "name": "Adrian Sullivan",
             "propoints": 2
         },
         {
-            "id": "eric-ziegler",
             "name": "Eric Ziegler",
             "propoints": 2
         },
         {
-            "id": "richard-jones",
             "name": "Richard Jones",
             "propoints": 2
         },
         {
-            "id": "mats-clays",
             "name": "Mats Clays",
             "propoints": 2
         },
         {
-            "id": "alec-hsu",
             "name": "Alec Hsu",
             "propoints": 2
         },
         {
-            "id": "william-cavaglieri",
             "name": "William Cavaglieri",
             "propoints": 2
         },
         {
-            "id": "scott-mccord",
             "name": "Scott McCord",
             "propoints": 2
         },
         {
-            "id": "joel-frank",
             "name": "Joel Frank",
             "propoints": 2
         },
         {
-            "id": "stewart-shinkins",
             "name": "Stewart Shinkins",
             "propoints": 2
         },
         {
-            "id": "ellis-romero",
             "name": "Ellis Romero",
             "propoints": 2
         },
         {
-            "id": "michal-smetana",
             "name": "Michal Smetana",
             "propoints": 2
         },
         {
-            "id": "satoshi-sugimoto",
             "name": "Satoshi Sugimoto",
             "propoints": 2
         },
         {
-            "id": "andre-konstanczer",
             "name": "Andre Konstanczer",
             "propoints": 2
         },
         {
-            "id": "henning-rimkus",
             "name": "Henning Rimkus",
             "propoints": 2
         },
         {
-            "id": "bill-macey",
             "name": "Bill Macey",
             "propoints": 2
         },
         {
-            "id": "peter-myrvig",
             "name": "Peter Myrvig",
             "propoints": 2
         },
         {
-            "id": "jimmy-oman",
             "name": "Jimmy Oman",
             "propoints": 2
         },
         {
-            "id": "tadayoshi-komiya",
             "name": "Tadayoshi Komiya",
             "propoints": 2
         },
         {
-            "id": "ralf-kohler",
             "name": "Ralf Kohler",
             "propoints": 2
         },
         {
-            "id": "david-devenport",
             "name": "David Devenport",
             "propoints": 2
         },
         {
-            "id": "ben-jacobson",
             "name": "Ben Jacobson",
             "propoints": 2
         },
         {
-            "id": "rune-espenhein",
             "name": "Rune Espenhein",
             "propoints": 2
         },
         {
-            "id": "matthew-vienneau",
             "name": "Matthew Vienneau",
             "propoints": 2
         },
         {
-            "id": "bjorn-falenski",
             "name": "Bjorn Falenski",
             "propoints": 2
         },
         {
-            "id": "pierre-girodroux",
             "name": "Pierre Girodroux",
             "propoints": 2
         },
         {
-            "id": "thomas-felsberg",
             "name": "Thomas Felsberg",
             "propoints": 2
         },
         {
-            "id": "shawn-regnier",
             "name": "Shawn Regnier",
             "propoints": 2
         },
         {
-            "id": "yann-hamon",
             "name": "Yann Hamon",
             "propoints": 2
         },
         {
-            "id": "marius-johnsen",
             "name": "Marius Johnsen",
             "propoints": 2
         },
         {
-            "id": "alexander-witt",
             "name": "Alexander Witt",
             "propoints": 2
         },
         {
-            "id": "carlos-barrado",
             "name": "Carlos Barrado",
             "propoints": 2
         },
         {
-            "id": "michele-slama-saad",
             "name": "Michele Slama Saad",
             "propoints": 2
         },
         {
-            "id": "junyang-ang",
             "name": "Junyang Ang",
             "propoints": 2
         },
         {
-            "id": "casey-mccarrel",
             "name": "Casey McCarrel",
             "propoints": 2
         },
         {
-            "id": "michael-dresel",
             "name": "Michael Dresel",
             "propoints": 2
         },
         {
-            "id": "jason-webster",
             "name": "Jason Webster",
             "propoints": 2
         },
         {
-            "id": "felix-schneiders",
             "name": "Felix Schneiders",
             "propoints": 2
         },
         {
-            "id": "ron-schubert",
             "name": "Ron Schubert",
             "propoints": 2
         },
         {
-            "id": "jesse-cornelissen",
             "name": "Jesse Cornelissen",
             "propoints": 2
         },
         {
-            "id": "kurt-burgner",
             "name": "Kurt Burgner",
             "propoints": 2
         },
         {
-            "id": "matt-duncan",
             "name": "Matt Duncan",
             "propoints": 2
         },
         {
-            "id": "toshiki-tsukamoto",
             "name": "Toshiki Tsukamoto",
             "propoints": 2
         },
         {
-            "id": "toby-elliott",
             "name": "Toby Elliott",
             "propoints": 2
         },
         {
-            "id": "ben-stark",
             "name": "Ben Stark",
             "propoints": 2
         },
         {
-            "id": "theron-martin",
             "name": "Theron Martin",
             "propoints": 2
         },
         {
-            "id": "bill-goldman",
             "name": "Bill Goldman",
             "propoints": 2
         },
         {
-            "id": "marka-etelapera",
             "name": "Marka Etelapera",
             "propoints": 2
         },
         {
-            "id": "eric-vinh",
             "name": "Eric Vinh",
             "propoints": 2
         },
         {
-            "id": "viktor-rovo",
             "name": "Viktor Rovo",
             "propoints": 2
         },
         {
-            "id": "naoya-wada",
             "name": "Naoya Wada",
             "propoints": 2
         },
         {
-            "id": "lucien-bui",
             "name": "Lucien Bui",
             "propoints": 2
         },
         {
-            "id": "jason-moungey",
             "name": "Jason Moungey",
             "propoints": 2
         },
         {
-            "id": "andras-suveges",
             "name": "Andras Suveges",
             "propoints": 2
         },
         {
-            "id": "florian-dworak",
             "name": "Florian Dworak",
             "propoints": 2
         },
         {
-            "id": "nathan-russell",
             "name": "Nathan Russell",
             "propoints": 2
         },
         {
-            "id": "kenichi-hatanaka",
             "name": "Kenichi Hatanaka",
             "propoints": 2
         },
         {
-            "id": "chris-deroche",
             "name": "Chris DeRoche",
             "propoints": 2
         },
         {
-            "id": "ilja-rotelli",
             "name": "Ilja Rotelli",
             "propoints": 2
         },
         {
-            "id": "hiroshi-harada",
             "name": "Hiroshi Harada",
             "propoints": 2
         },
         {
-            "id": "justin-walsh",
             "name": "Justin Walsh",
             "propoints": 2
         },
         {
-            "id": "erik-lauer",
             "name": "Erik Lauer",
             "propoints": 2
         },
         {
-            "id": "jordan-boyle",
             "name": "Jordan Boyle",
             "propoints": 2
         },
         {
-            "id": "scott-valleroy",
             "name": "Scott Valleroy",
             "propoints": 2
         },
         {
-            "id": "tobey-tamber",
             "name": "Tobey Tamber",
             "propoints": 2
         },
         {
-            "id": "trey-van-cleave",
             "name": "Trey Van Cleave",
             "propoints": 2
         },
         {
-            "id": "david-williams",
             "name": "David Williams",
             "propoints": 2
         },
         {
-            "id": "thomas-keller",
             "name": "Thomas Keller",
             "propoints": 2
         },
         {
-            "id": "ric-watts",
             "name": "Ric Watts",
             "propoints": 2
         },
         {
-            "id": "vago-anagnostopoulos",
             "name": "Vago Anagnostopoulos",
             "propoints": 2
         },
         {
-            "id": "nicolai-herzog",
             "name": "Nicolai Herzog",
             "propoints": 2
         },
         {
-            "id": "janosch-k-hn",
             "name": "Janosch Kühn",
             "propoints": 2
         },
         {
-            "id": "ivan-aranzana",
             "name": "Ivan Aranzana",
             "propoints": 2
         },
         {
-            "id": "david-hunting",
             "name": "David Hunting",
             "propoints": 2
         },
         {
-            "id": "matt-urban",
             "name": "Matt Urban",
             "propoints": 2
         },
         {
-            "id": "svante-rikberg",
             "name": "Svante Rikberg",
             "propoints": 2
         },
         {
-            "id": "ben-farkas",
             "name": "Ben Farkas",
             "propoints": 2
         },
         {
-            "id": "andreas-j-nsson",
             "name": "Andreas Jönsson",
             "propoints": 2
         },
         {
-            "id": "drew-mclean",
             "name": "Drew McLean",
             "propoints": 2
         },
         {
-            "id": "worth-wollpert",
             "name": "Worth Wollpert",
             "propoints": 2
         },
         {
-            "id": "francisco-gonzalez",
             "name": "Francisco Gonzalez",
             "propoints": 2
         },
         {
-            "id": "martin-cedercrantz",
             "name": "Martin Cedercrantz",
             "propoints": 2
         },
         {
-            "id": "sammy-batarseh",
             "name": "Sammy Batarseh",
             "propoints": 2
         },
         {
-            "id": "john-carter",
             "name": "John Carter",
             "propoints": 2
         },
         {
-            "id": "bryce-currence",
             "name": "Bryce Currence",
             "propoints": 2
         },
         {
-            "id": "richard-hagon",
             "name": "Richard Hagon",
             "propoints": 2
         },
         {
-            "id": "eric-ewald",
             "name": "Eric Ewald",
             "propoints": 2
         },
         {
-            "id": "masakazu-masuda",
             "name": "Masakazu Masuda",
             "propoints": 2
         },
         {
-            "id": "soon-lye-ng",
             "name": "Soon Lye Ng",
             "propoints": 2
         },
         {
-            "id": "emre-ertam",
             "name": "Emre Ertam",
             "propoints": 2
         },
         {
-            "id": "jeffrey-magid",
             "name": "Jeffrey Magid",
             "propoints": 2
         },
         {
-            "id": "ken-ichi-fujita",
             "name": "Ken'ichi Fujita",
             "propoints": 2
         },
         {
-            "id": "tim-brenner",
             "name": "Tim Brenner",
             "propoints": 2
         },
         {
-            "id": "alioscia-barsiola",
             "name": "Alioscia Barsiola",
             "propoints": 2
         },
         {
-            "id": "ryouma-shiozu",
             "name": "Ryouma Shiozu",
             "propoints": 2
         },
         {
-            "id": "franck-canu",
             "name": "Franck Canu",
             "propoints": 2
         },
         {
-            "id": "masaharu-fuma",
             "name": "Masaharu Fuma",
             "propoints": 2
         },
         {
-            "id": "jake-smith",
             "name": "Jake Smith",
             "propoints": 2
         },
         {
-            "id": "craig-a-jones",
             "name": "Craig A Jones",
             "propoints": 2
         },
         {
-            "id": "koichiro-maki",
             "name": "Koichiro Maki",
             "propoints": 2
         },
         {
-            "id": "neil-reeves",
             "name": "Neil Reeves",
             "propoints": 2
         },
         {
-            "id": "nick-eisel",
             "name": "Nick Eisel",
             "propoints": 2
         },
         {
-            "id": "steve-queroub",
             "name": "Steve Queroub",
             "propoints": 2
         },
         {
-            "id": "david-stevens",
             "name": "David Stevens",
             "propoints": 2
         },
         {
-            "id": "frank-mayo",
             "name": "Frank Mayo",
             "propoints": 2
         },
         {
-            "id": "shawn-keller",
             "name": "Shawn Keller",
             "propoints": 2
         },
         {
-            "id": "ryan-carpenter",
             "name": "Ryan Carpenter",
             "propoints": 2
         },
         {
-            "id": "dominic-symens",
             "name": "Dominic Symens",
             "propoints": 2
         },
         {
-            "id": "nate-clarke",
             "name": "Nate Clarke",
             "propoints": 2
         },
         {
-            "id": "james-stroud",
             "name": "James Stroud",
             "propoints": 2
         },
         {
-            "id": "lenny-collins",
             "name": "Lenny Collins",
             "propoints": 2
         },
         {
-            "id": "mark-schick",
             "name": "Mark Schick",
             "propoints": 2
         },
         {
-            "id": "rodrigo-jurado",
             "name": "Rodrigo Jurado",
             "propoints": 2
         },
         {
-            "id": "david-gray",
             "name": "David Gray",
             "propoints": 2
         },
         {
-            "id": "jorge-mullor",
             "name": "Jorge Mullor",
             "propoints": 2
         },
         {
-            "id": "jason-henry",
             "name": "Jason Henry",
             "propoints": 2
         },
         {
-            "id": "geoffrey-gray",
             "name": "Geoffrey Gray",
             "propoints": 2
         },
         {
-            "id": "shannon-krumick",
             "name": "Shannon Krumick",
             "propoints": 2
         },
         {
-            "id": "menno-dolstra",
             "name": "Menno Dolstra",
             "propoints": 2
         },
         {
-            "id": "derek-mallory",
             "name": "Derek Mallory",
             "propoints": 2
         },
         {
-            "id": "fernando-figueiredo",
             "name": "Fernando Figueiredo",
             "propoints": 2
         },
         {
-            "id": "david-hofmeyr",
             "name": "David Hofmeyr",
             "propoints": 2
         },
         {
-            "id": "rafal-rosochacki",
             "name": "Rafal Rosochacki",
             "propoints": 2
         },
         {
-            "id": "makoto-yamada",
             "name": "Makoto Yamada",
             "propoints": 2
         },
         {
-            "id": "jose-roberto-destefenni",
             "name": "Jose Roberto Destefenni",
             "propoints": 2
         },
         {
-            "id": "andrew-wynne",
             "name": "Andrew Wynne",
             "propoints": 2
         },
         {
-            "id": "darryl-tweedale",
             "name": "Darryl Tweedale",
             "propoints": 2
         },
         {
-            "id": "jason-means",
             "name": "Jason Means",
             "propoints": 2
         },
         {
-            "id": "robert-mckeon",
             "name": "Robert McKeon",
             "propoints": 2
         }
