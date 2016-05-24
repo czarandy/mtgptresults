@@ -328,6 +328,12 @@ var Rankings = React.createClass({
                 </Link>
                 {col === 'money' ? sortImage : null}
               </th>
+              <th className="sortableHeader">
+                <Link to="rankings" params={{col: 't8pct'}}>
+                  T8/Total
+                </Link>
+                {col === 't8pct' ? sortImage : null}
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -355,6 +361,7 @@ var Rankings = React.createClass({
                   <td>
                     {accounting.formatMoney(player.stats.money, '$', 0)}
                   </td>
+                  <td>{player.stats.t8pct + '%'}</td>
                 </tr>
               );
             })}

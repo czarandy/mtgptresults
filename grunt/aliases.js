@@ -98,6 +98,11 @@ module.exports = function(grunt, options) {
       });
     });
     players = _.mapObject(players, function(player) {
+      if (player.stats.t8 > 0 && player.stats.total >= 10) {
+        player.stats.t8pct = Math.floor(100 * player.stats.t8 / player.stats.total);
+     } else {
+        player.stats.t8pct = 0;
+     }
       return {
         id: player.id,
         name: player.name,
