@@ -64,7 +64,7 @@ var App = React.createClass({
             </div>
             <ul className="nav navbar-nav">
               <li className={route.name === 'rankings' ? 'active' : null}>
-                <Link to="rankings" params={{col: 'total'}}>
+                <Link to="rankings" params={{col: 't8'}}>
                   Player Rankings
                 </Link>
               </li>
