@@ -278,95 +278,99 @@ var Rankings = React.createClass({
     // Include anyone tied with the 100th rank
     var cutoff = sortedPlayers[99].stats[col];
     var players = _.filter(sortedPlayers, function(p) { return p.stats[col] >= cutoff; });
-
     var prev = {value: null};
-    var sortImage = <img src="/arrowicon.png" />;
+    var sortImage = <span className="caret"></span>;
+
     return (
       <div className="col-md-offset-2 col-md-8">
         <DocumentTitle title="Player Rankings" />
         <div className="page-header pageHeader">
           <h1>Player Rankings</h1>
         </div>
-        <table className="table table-hover sortable standingsTable">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Player</th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 'total'}}>
-                  Total PTs
-                </Link>
-                {col === 'total' ? sortImage : null}
-              </th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't1'}}>
-                  Wins
-                </Link>
-                {col === 't1' ? sortImage : null}
-              </th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't8'}}>
-                  Top 8s
-                </Link>
-                {col === 't8' ? sortImage : null}
-              </th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't16'}}>
-                  Top 16s
-                </Link>
-                {col === 't16' ? sortImage : null}
-              </th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 'points'}}>
-                  Pro Points
-                </Link>
-                {col === 'points' ? sortImage : null}
-              </th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 'money'}}>
-                  Money
-                </Link>
-                {col === 'money' ? sortImage : null}
-              </th>
-              <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't8pct'}}>
-                  T8/Total
-                </Link>
-                {col === 't8pct' ? sortImage : null}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {_.map(players, function(player, index) {
-              if (prev.value !== player.stats[col]) {
-                prev.value = player.stats[col];
-                prev.index = index;
-                ++index;
-              } else {
-                index = null;
-              }
-              return (
-                <tr key={player.id}>
-                  <td>{index}</td>
-                  <td>
-                    <Link to="player" params={{id: player.id}}>
-                      {player.name}
-                    </Link>
-                  </td>
-                  <td>{player.stats.total}</td>
-                  <td>{player.stats.t1}</td>
-                  <td>{player.stats.t8}</td>
-                  <td>{player.stats.t16}</td>
-                  <td>{player.stats.points}</td>
-                  <td>
-                    {accounting.formatMoney(player.stats.money, '$', 0)}
-                  </td>
-                  <td>{player.stats.t8pct + '%'}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <div className="table-responsive">
+          <table className="table table-hover sortable standingsTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Player</th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 'total'}}>
+                    {col === 'total' ? sortImage : null}
+                    <span className="visible-xs">Σ</span>
+                    <span className="hidden-xs">Total PTs</span>
+                  </Link>
+                </th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 't1'}}>
+                    {col === 't1' ? sortImage : null}
+                    W<span className="hidden-xs">ins</span>
+                  </Link>
+                </th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 't8'}}>
+                    {col === 't8' ? sortImage : null}
+                    T<span className="hidden-xs">op </span>8<span className="hidden-xs">s</span>
+                  </Link>
+                </th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 't16'}}>
+                    {col === 't16' ? sortImage : null}
+                    T<span className="hidden-xs">op </span>16<span className="hidden-xs">s</span>
+                  </Link>
+                </th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 'points'}}>
+                    {col === 'points' ? sortImage : null}
+                    P<span className="hidden-xs">ro </span>P<span className="hidden-xs">oints</span>
+                  </Link>
+                </th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 'money'}}>
+                    {col === 'money' ? sortImage : null}
+                    Money
+                  </Link>
+                </th>
+                <th className="sortableHeader text-nowrap text-right">
+                  <Link to="rankings" params={{col: 't8pct'}}>
+                    {col === 't8pct' ? sortImage : null}
+                    <span className="visible-xs">T8/Σ</span>
+                    <span className="hidden-xs">T8/Total</span>
+                  </Link>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {_.map(players, function(player, index) {
+                if (prev.value !== player.stats[col]) {
+                  prev.value = player.stats[col];
+                  prev.index = index;
+                  ++index;
+                } else {
+                  index = null;
+                }
+                return (
+                  <tr key={player.id}>
+                    <td>{index}</td>
+                    <td>
+                      <Link to="player" params={{id: player.id}}>
+                        {player.name}
+                      </Link>
+                    </td>
+                    <td className="text-right">{player.stats.total}</td>
+                    <td className="text-right">{player.stats.t1}</td>
+                    <td className="text-right">{player.stats.t8}</td>
+                    <td className="text-right">{player.stats.t16}</td>
+                    <td className="text-right">{player.stats.points}</td>
+                    <td className="text-right">
+                      {accounting.formatMoney(player.stats.money, '$', 0)}
+                    </td>
+                    <td className="text-right">{player.stats.t8pct + '%'}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }
