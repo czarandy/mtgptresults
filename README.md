@@ -60,9 +60,9 @@ Create a local build:
 
 ### Preview
 
-Run a simple HTTP server in the build folder, e.g:
+Start a local web server in the build folder:
 
-    $ cd build && python -m SimpleHTTPServer
+    $ grunt serve
 
-You can then test your changes in your browser, e.g. at localhost:8000. Once you
-have verified your change looks good, submit the pull request.
+You can then test your changes in your browser, at `localhost:8000`.  
+Once you have verified your change looks good, submit the pull request.
