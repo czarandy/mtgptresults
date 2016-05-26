@@ -139,7 +139,7 @@ var Player = React.createClass({
               {p.stats.points}
             </div>
             <div>
-              <Link to="rankings" params={{col: 'money'}}>
+              <Link to="rankings" params={{col: 'total'}}>
                 Total Pro Points
               </Link>
             </div>
