@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     }
     _tournaments = {};
     grunt.file.recurse('./data/', function(abspath, rootdir, subdir, filename) {
-      if (filename.endsWith('.json')) {
+      if (filename.endsWith('.json') && filename !== 'players.json') {
         var tid = filename.replace('.json', '');
         _tournaments[tid] = grunt.file.readJSON(abspath);
         _tournaments[tid].standings = _.map(
