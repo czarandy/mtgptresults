@@ -62,7 +62,11 @@ module.exports = function(grunt) {
     );
   }
 
-  function buildPlayers() {
+  var _players = null;
+  function loadPlayers() {
+    if (_players) {
+      return _players;
+    }
     var tournaments = loadTournaments();
     var players = {};
     _.each(tournaments, function(tournament) {
@@ -127,7 +131,25 @@ module.exports = function(grunt) {
         stats: player.stats
       };
     });
+    _players = players;
+    return _players;
+  }
+
+  function buildPlayers() {
+    var players = loadPlayers();
     grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
+  }
+
+  function buildMetadata() {
+    var players = loadPlayers();
+    var metadata = grunt.file.readJSON('./data/players.json');
+    _.each(players, function(player) {
+      if (!metadata[player.name]) {
+        grunt.log.writeln('Adding player: ' + player.name);
+        metadata[player.name] = {};
+      }
+    });
+    grunt.file.write('./data/players.json', jsonToStr(metadata));
   }
 
   return {
@@ -137,6 +159,7 @@ module.exports = function(grunt) {
     'tournaments': buildTournaments,
     'players': buildPlayers,
     'recent': buildRecent,
+    'metadata': buildMetadata,
     'build-data': ['tournaments', 'players', 'recent'],
     'default': ['build-data', 'copy', 'css', 'js', 'json'],
     'serve': ['default', 'connect'],
