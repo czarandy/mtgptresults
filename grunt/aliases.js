@@ -144,9 +144,15 @@ module.exports = function(grunt) {
     var players = loadPlayers();
     var metadata = grunt.file.readJSON('./data/players.json');
     _.each(players, function(player) {
-      if (!metadata[player.name]) {
-        grunt.log.writeln('Adding player: ' + player.name);
-        metadata[player.name] = {};
+      if (!metadata[player.id]) {
+        grunt.log.writeln('Adding player: ' + player.name + ' (' + player.id + ')');
+        metadata[player.id] = {};
+      }
+    });
+    _.each(metadata, function(player, id) {
+      if (!players[id]) {
+        grunt.log.writeln('Removing player: ' + id);
+        delete metadata[id];
       }
     });
     grunt.file.write('./data/players.json', jsonToStr(metadata));
