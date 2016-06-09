@@ -1,12 +1,27 @@
 {
-    "nicolai-herzog": {},
+    "nicolai-herzog": {
+        "hof": true,
+        "class": 2007
+    },
     "osamu-fujita": {},
-    "anton-jonsson": {},
-    "olivier-ruel": {},
-    "kamiel-cornelissen": {},
+    "anton-jonsson": {
+        "hof": true,
+        "class": 2011
+    },
+    "olivier-ruel": {
+        "hof": true,
+        "class": 2008
+    },
+    "kamiel-cornelissen": {
+        "hof": true,
+        "class": 2009
+    },
     "aeo-paquette": {},
     "farid-meraghni": {},
-    "michael-turian": {},
+    "michael-turian": {
+        "hof": true,
+        "class": 2008
+    },
     "david-brucker": {},
     "richard-hoaen": {},
     "andrii-alieksieiev": {},
@@ -14,21 +29,28 @@
     "luis-van-riet": {},
     "ken-ichi-fujita": {},
     "kai-budde": {
-        "hof": true
+        "hof": true,
+        "class": 2007
     },
     "gert-coeckelbergh": {},
     "christiaan-kok": {},
     "alex-brown": {},
     "kevin-quirk": {},
     "oyvind-harding": {},
-    "ben-rubin": {},
+    "ben-rubin": {
+        "hof": true,
+        "class": 2008
+    },
     "david-linder": {},
     "bernardo-da-costa-cabral": {},
     "tomohiro-kaji": {},
     "osyp-lebedowicz": {},
     "mario-pascoli": {},
     "jose-barbero": {},
-    "david-humpherys": {},
+    "david-humpherys": {
+        "hof": true,
+        "class": 2006
+    },
     "kim-lund": {},
     "gabe-walls": {},
     "brian-lynch": {},
@@ -44,14 +66,23 @@
     "takuya-osawa": {},
     "nicolas-labarre": {},
     "albertus-law": {},
-    "frank-karsten": {},
+    "frank-karsten": {
+        "hof": true,
+        "class": 2009
+    },
     "douglas-conway": {},
     "nikolaus-eigner": {},
     "aaron-muranaka": {},
-    "ben-stark": {},
+    "ben-stark": {
+        "hof": true,
+        "class": 2013
+    },
     "jonathan-cassidy": {},
     "phil-atkin": {},
-    "antoine-ruel": {},
+    "antoine-ruel": {
+        "hof": true,
+        "class": 2009
+    },
     "markus-jobstl": {},
     "patrick-mello": {},
     "christopher-fennell": {},
@@ -64,7 +95,10 @@
     "valentin-moskovich": {},
     "takashi-ayama": {},
     "damien-reaubourg": {},
-    "jelger-wiegersma": {},
+    "jelger-wiegersma": {
+        "hof": true,
+        "class": 2008
+    },
     "robert-allbright": {},
     "christoph-huber": {},
     "michael-thicke": {},
@@ -88,7 +122,10 @@
     "brent-parr": {},
     "sandy-thevenon": {},
     "tomohiro-yokosuka": {},
-    "gary-wise": {},
+    "gary-wise": {
+        "hof": true,
+        "class": 2006
+    },
     "giulio-barra": {},
     "joshua-wagener": {},
     "takaaki-maruyama": {},
@@ -144,12 +181,21 @@
     "luis-sousa": {},
     "stefano-gattolin": {},
     "tom-hay": {},
-    "masashi-oiso": {},
+    "masashi-oiso": {
+        "hof": true,
+        "class": 2012
+    },
     "michael-krumb": {},
-    "brian-kibler": {},
+    "brian-kibler": {
+        "hof": true,
+        "class": 2010
+    },
     "vladimir-vetrov": {},
     "brian-gates": {},
-    "gabriel-nassif": {},
+    "gabriel-nassif": {
+        "hof": true,
+        "class": 2010
+    },
     "akira-asahara": {},
     "christian-figura": {},
     "neil-reeves": {},
@@ -171,7 +217,10 @@
     "reinhard-hoelzel": {},
     "jan-schipkowski": {},
     "yuusuke-sasaki": {},
-    "robert-maher": {},
+    "robert-maher": {
+        "hof": true,
+        "class": 2006
+    },
     "sigurd-eskeland": {},
     "arjan-van-leeuwen": {},
     "aaron-estrin": {},
@@ -212,7 +261,10 @@
     "david-aguilar": {},
     "lovre-crnobori": {},
     "hans-joachim-hoeh": {},
-    "tommi-hovi": {},
+    "tommi-hovi": {
+        "hof": true,
+        "class": 2005
+    },
     "markus-panteleit": {},
     "jon-kosmidis": {},
     "kenneth-klingenberg": {},
@@ -247,7 +299,10 @@
     "gerard-fabiano": {},
     "elijah-pollock": {},
     "andrea-santin": {},
-    "william-jensen": {},
+    "william-jensen": {
+        "hof": true,
+        "class": 2013
+    },
     "george-theologitis": {},
     "sean-fitzgerald": {},
     "enrico-nai": {},
@@ -266,7 +321,10 @@
     "jacob-rabinowitz": {},
     "jeff-zandi": {},
     "eloi-pattaro": {},
-    "bram-snepvangers": {},
+    "bram-snepvangers": {
+        "hof": true,
+        "class": 2010
+    },
     "mike-labeau": {},
     "manuel-teodulo": {},
     "craig-walendziak": {},
@@ -294,7 +352,8 @@
     "guillaume-perbet": {},
     "dan-jenkins": {},
     "jon-finkel": {
-        "hof": true
+        "hof": true,
+        "class": 2005
     },
     "omar-alvarez-leoni": {},
     "jamie-cleary": {},
@@ -309,10 +368,16 @@
     "savvas-themistocleous": {},
     "stefano-fiori": {},
     "daniel-smits-bertelsen": {},
-    "darwin-kastle": {},
+    "darwin-kastle": {
+        "hof": true,
+        "class": 2005
+    },
     "florent-jeudon": {},
     "conrad-duncker": {},
-    "dirk-baberowski": {},
+    "dirk-baberowski": {
+        "hof": true,
+        "class": 2008
+    },
     "jaime-marrero-negrin": {},
     "mario-wirth": {},
     "john-matthew-upton": {},
@@ -335,7 +400,10 @@
     "gerardo-godinez-estrada": {},
     "andrea-paselli": {},
     "brian-stroh": {},
-    "raphael-levy": {},
+    "raphael-levy": {
+        "hof": true,
+        "class": 2006
+    },
     "daniele-canavesi": {},
     "olivier-monbailly": {},
     "linus-vernyns": {},
@@ -350,16 +418,23 @@
     "bastien-perez": {},
     "omar-sagol": {},
     "alan-mai": {},
-    "paul-rietzl": {},
+    "paul-rietzl": {
+        "hof": true,
+        "class": 2014
+    },
     "brad-nelson": {},
     "michael-jacob": {},
     "marijn-lybaert": {},
-    "guillaume-wafo-tapa": {},
+    "guillaume-wafo-tapa": {
+        "hof": true,
+        "class": 2014
+    },
     "thomas-ma": {},
     "kenny-oberg": {},
     "terry-soh": {},
     "luis-scott-vargas": {
-        "hof": true
+        "hof": true,
+        "class": 2013
     },
     "william-postlethwait": {},
     "dan-jordan": {},
@@ -392,7 +467,10 @@
     "adam-yurchick": {},
     "naoki-nakada": {},
     "simon-gortzen": {},
-    "shuhei-nakamura": {},
+    "shuhei-nakamura": {
+        "hof": true,
+        "class": 2011
+    },
     "yuchen-liu": {},
     "tobias-wolff": {},
     "sami-haggkvist": {},
@@ -407,7 +485,10 @@
     "gerald-leitzinger": {},
     "ari-lax": {},
     "zhiyang-zhang": {},
-    "shota-yasooka": {},
+    "shota-yasooka": {
+        "hof": true,
+        "class": 2015
+    },
     "katsuhiro-mori": {},
     "christopher-wolf": {},
     "paolo-lombardi": {},
@@ -496,7 +577,10 @@
     "robert-jurkovic": {},
     "joshua-justice": {},
     "mitchell-greenlee": {},
-    "kenji-tsumura": {},
+    "kenji-tsumura": {
+        "hof": true,
+        "class": 2012
+    },
     "derrick-steele": {},
     "adriano-moscato": {},
     "timo-kalf": {},
@@ -509,12 +593,18 @@
     "daniel-signorini": {},
     "bradley-barclay": {},
     "david-gleicher": {},
-    "paulo-vitor-damo-da-rosa": {},
+    "paulo-vitor-damo-da-rosa": {
+        "hof": true,
+        "class": 2012
+    },
     "nick-wise": {},
     "bryan-gottlieb": {},
     "jeppe-kjeldsen": {},
     "jody-keith": {},
-    "patrick-chapin": {},
+    "patrick-chapin": {
+        "hof": true,
+        "class": 2012
+    },
     "paolo-buchignani": {},
     "christophe-gregoir": {},
     "yutaro-yamagata": {},
@@ -532,7 +622,10 @@
     "davy-loeb": {},
     "yuuta-sasaki": {},
     "christian-flodstrom-sconce": {},
-    "eric-froehlich": {},
+    "eric-froehlich": {
+        "hof": true,
+        "class": 2015
+    },
     "sebastian-thaler": {},
     "mat-marr": {},
     "carsten-schafer": {},
@@ -888,7 +981,10 @@
     "cole-stewart": {},
     "chris-donahoe": {},
     "masami-ibamoto": {},
-    "zvi-mowshowitz": {},
+    "zvi-mowshowitz": {
+        "hof": true,
+        "class": 2007
+    },
     "ronald-van-zutphen": {},
     "micha-el-van-luijtelaar": {},
     "luigi-sbrozzi": {},
@@ -983,7 +1079,10 @@
     "nam-tran": {},
     "geoffrey-bell": {},
     "masayaki-higashino": {},
-    "tsuyoshi-fujita": {},
+    "tsuyoshi-fujita": {
+        "hof": true,
+        "class": 2007
+    },
     "pierre-canali": {},
     "julien-goron": {},
     "nathan-huffnagle": {},
@@ -1044,13 +1143,19 @@
     "aaron-terry": {},
     "jeff-olsen": {},
     "adam-katz": {},
-    "alan-comer": {},
+    "alan-comer": {
+        "hof": true,
+        "class": 2005
+    },
     "david-korejtko": {},
     "frank-gilson": {},
     "matt-hyra": {},
     "jason-lam": {},
     "truc-bui": {},
-    "olle-rade": {},
+    "olle-rade": {
+        "hof": true,
+        "class": 2005
+    },
     "scott-johns": {},
     "brendon-herzog": {},
     "michael-debard": {},
@@ -1140,7 +1245,10 @@
     "jeff-sternal": {},
     "eric-orrosjo": {},
     "arho-toikka": {},
-    "steven-o-mahoney-schwartz": {},
+    "steven-o-mahoney-schwartz": {
+        "hof": true,
+        "class": 2011
+    },
     "andrew-sutherland": {},
     "steven-cowley": {},
     "andrew-nishioka": {},
@@ -1205,7 +1313,10 @@
     "robert-watkins": {},
     "eric-price": {},
     "evangelos-papatsarouchas": {},
-    "robert-dougherty": {},
+    "robert-dougherty": {
+        "hof": true,
+        "class": 2006
+    },
     "john-paul-kelly": {},
     "jason-imperiale": {},
     "jonathan-melamed": {},
@@ -1227,7 +1338,10 @@
     "david-dobis": {},
     "luca-gaviglio": {},
     "daniel-kramer": {},
-    "makihito-mihara": {},
+    "makihito-mihara": {
+        "hof": true,
+        "class": 2014
+    },
     "jeremy-jackson": {},
     "tiago-fonseca": {},
     "bradley-wojceshonek": {},
@@ -1250,7 +1364,10 @@
     "ivan-lopez-garcia": {},
     "akio-chiba": {},
     "nikolas-nygaard": {},
-    "willy-edel": {},
+    "willy-edel": {
+        "hof": true,
+        "class": 2015
+    },
     "ryou-tasaki": {},
     "johan-van-der-beek": {},
     "jonathan-pearlman": {},
@@ -3206,7 +3323,10 @@
     "ervin-tormos": {},
     "john-r-wade": {},
     "joshua-h-harrison": {},
-    "randy-buehler": {},
+    "randy-buehler": {
+        "hof": true,
+        "class": 2007
+    },
     "david-mills": {},
     "adrian-sayers": {},
     "keith-keeling": {},
@@ -8263,7 +8383,6 @@
     "jeff-m--driscoll": {},
     "carlos-henrique-segal": {},
     "julio-fontanez": {},
-    "miguel-correira": {},
     "matthew-johnson": {},
     "dan-ochoa": {},
     "oriol-nonell": {},

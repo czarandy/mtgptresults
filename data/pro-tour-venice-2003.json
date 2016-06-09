@@ -167,7 +167,8 @@
         {
             "money": 1250,
             "name": "Zvi Mowshowitz",
-            "propoints": 6
+            "propoints": 6,
+            "report": "http://magic.tcgplayer.com/db/article.asp?ID=2869"
         },
         {
             "money": 1200,
@@ -282,7 +283,8 @@
         {
             "money": 590,
             "name": "Jeff Cunningham",
-            "propoints": 4
+            "propoints": 4,
+            "report": "http://magic.tcgplayer.com/db/article.asp?ID=2896"
         },
         {
             "money": 580,
@@ -423,7 +425,8 @@
         },
         {
             "name": "James Stors",
-            "propoints": 3
+            "propoints": 3,
+            "report": "http://magic.tcgplayer.com/db/article.asp?ID=2877&writer=JJ+Stors&articledate=3-31-2003"
         },
         {
             "name": "Christoph Lippert",
@@ -595,7 +598,8 @@
         },
         {
             "name": "Steven Jarvis",
-            "propoints": 2
+            "propoints": 2,
+            "report": "http://magic.tcgplayer.com/db/article.asp?ID=2875&writer=Steve+Jarvis&articledate=3-28-2003"
         },
         {
             "name": "Jon Finkel",
@@ -1312,6 +1316,10 @@
         {
             "name": "Gert Coeckelbergh",
             "propoints": 2
+        },
+        {
+            "name": "Ryan Fuller",
+            "rank": "DQ"
         }
     ],
     "team": false,
