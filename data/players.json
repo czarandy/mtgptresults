@@ -35,11 +35,15 @@
     "richard-hoaen": {
         "nationality": "CAN"
     },
-    "andrii-alieksieiev": {},
+    "andrii-alieksieiev": {
+        "nationality": "UKR"
+    },
     "eugene-harvey": {
         "nationality": "USA"
     },
-    "luis-van-riet": {},
+    "luis-van-riet": {
+        "nationality": "BEL"
+    },
     "ken-ichi-fujita": {
         "nationality": "JPN"
     },
@@ -47,16 +51,28 @@
         "hof": 2007,
         "nationality": "DEU"
     },
-    "gert-coeckelbergh": {},
-    "christiaan-kok": {},
-    "alex-brown": {},
-    "kevin-quirk": {},
-    "oyvind-harding": {},
+    "gert-coeckelbergh": {
+        "nationality": "BEL"
+    },
+    "christiaan-kok": {
+        "nationality": "NLD"
+    },
+    "alex-brown": {
+        "nationality": "AUS"
+    },
+    "kevin-quirk": {
+        "nationality": "USA"
+    },
+    "oyvind-harding": {
+        "nationality": "NOR"
+    },
     "ben-rubin": {
         "hof": 2008,
         "nationality": "USA"
     },
-    "david-linder": {},
+    "david-linder": {
+        "nationality": "SWE"
+    },
     "bernardo-da-costa-cabral": {
         "nationality": "BEL"
     },
@@ -66,7 +82,9 @@
     "osyp-lebedowicz": {
         "nationality": "USA"
     },
-    "mario-pascoli": {},
+    "mario-pascoli": {
+        "nationality": "ITA"
+    },
     "jose-barbero": {
         "nationality": "ARG"
     },
@@ -74,25 +92,39 @@
         "hof": 2006,
         "nationality": "USA"
     },
-    "kim-lund": {},
+    "kim-lund": {
+        "nationality": "NOR"
+    },
     "gabe-walls": {
         "nationality": "USA"
     },
-    "brian-lynch": {},
+    "brian-lynch": {
+        "nationality": "USA"
+    },
     "brock-parker": {
         "nationality": "USA"
     },
-    "adam-horvath": {},
-    "richard-edbury": {},
-    "sam-gomersall": {},
+    "adam-horvath": {
+        "nationality": "USA"
+    },
+    "richard-edbury": {
+        "nationality": "WAL"
+    },
+    "sam-gomersall": {
+        "nationality": "ENG"
+    },
     "andrew-cuneo": {
         "nationality": "USA"
     },
     "itaru-ishida": {
         "nationality": "JPN"
     },
-    "bill-stead": {},
-    "michael-linn": {},
+    "bill-stead": {
+        "nationality": "USA"
+    },
+    "michael-linn": {
+        "nationality": "USA"
+    },
     "marco-blume": {
         "nationality": "DEU"
     },
@@ -102,166 +134,326 @@
     "nicolas-labarre": {
         "nationality": "FRA"
     },
-    "albertus-law": {},
+    "albertus-law": {
+        "nationality": "SGP"
+    },
     "frank-karsten": {
         "hof": 2009,
         "nationality": "NLD"
     },
-    "douglas-conway": {},
+    "douglas-conway": {
+        "nationality": "USA"
+    },
     "nikolaus-eigner": {
         "nationality": "AUT"
     },
-    "aaron-muranaka": {},
+    "aaron-muranaka": {
+        "nationality": "USA"
+    },
     "ben-stark": {
         "hof": 2013,
         "nationality": "USA"
     },
-    "jonathan-cassidy": {},
-    "phil-atkin": {},
+    "jonathan-cassidy": {
+        "nationality": "USA"
+    },
+    "phil-atkin": {
+        "nationality": "USA"
+    },
     "antoine-ruel": {
         "hof": 2009,
         "nationality": "FRA"
     },
-    "markus-jobstl": {},
+    "markus-jobstl": {
+        "nationality": "AUT"
+    },
     "patrick-mello": {
         "nationality": "DEU"
     },
     "christopher-fennell": {
         "nationality": "USA"
     },
-    "kyle-felter": {},
+    "kyle-felter": {
+        "nationality": "USA"
+    },
     "wenzel-krautmann": {
         "nationality": "DEU"
     },
-    "murray-evans": {},
-    "terry-tsang": {},
+    "murray-evans": {
+        "nationality": "CAN"
+    },
+    "terry-tsang": {
+        "nationality": "CAN"
+    },
     "andre-muller": {
         "nationality": "DEU"
     },
-    "steven-gouin": {},
-    "valentin-moskovich": {},
-    "takashi-ayama": {},
-    "damien-reaubourg": {},
+    "steven-gouin": {
+        "nationality": "FRA"
+    },
+    "valentin-moskovich": {
+        "nationality": "USA"
+    },
+    "takashi-ayama": {
+        "nationality": "JPN"
+    },
+    "damien-reaubourg": {
+        "nationality": "FRA"
+    },
     "jelger-wiegersma": {
         "hof": 2008,
         "nationality": "NLD"
     },
-    "robert-allbright": {},
+    "robert-allbright": {
+        "nationality": "USA"
+    },
     "christoph-huber": {
         "nationality": "CHE"
     },
-    "michael-thicke": {},
+    "michael-thicke": {
+        "nationality": "CAN"
+    },
     "grgur-petric-maretic": {
         "nationality": "HRV"
     },
-    "satoshi-tachibana": {},
-    "taisuke-ishii": {},
+    "satoshi-tachibana": {
+        "nationality": "JPN"
+    },
+    "taisuke-ishii": {
+        "nationality": "JPN"
+    },
     "antoine-menard": {
         "nationality": "FRA"
     },
-    "yann-hamon": {},
-    "jeremy-darling": {},
-    "ben-fleming": {},
-    "matt-linde": {},
-    "shun-jiang": {},
-    "matthew-boccio": {},
-    "dario-minieri": {},
-    "justin-west": {},
+    "yann-hamon": {
+        "nationality": "FRA"
+    },
+    "jeremy-darling": {
+        "nationality": "USA"
+    },
+    "ben-fleming": {
+        "nationality": "AUS"
+    },
+    "matt-linde": {
+        "nationality": "USA"
+    },
+    "shun-jiang": {
+        "nationality": "AUS"
+    },
+    "matthew-boccio": {
+        "nationality": "USA"
+    },
+    "dario-minieri": {
+        "nationality": "ITA"
+    },
+    "justin-west": {
+        "nationality": "AUS"
+    },
     "gerry-thompson": {
         "nationality": "USA"
     },
-    "armin-birner": {},
-    "tomi-walamies": {},
-    "yoshitaka-nakano": {},
-    "mats-neumann": {},
-    "brent-parr": {},
-    "sandy-thevenon": {},
-    "tomohiro-yokosuka": {},
+    "armin-birner": {
+        "nationality": "AUT"
+    },
+    "tomi-walamies": {
+        "nationality": "FIN"
+    },
+    "yoshitaka-nakano": {
+        "nationality": "JPN"
+    },
+    "mats-neumann": {
+        "nationality": "SWE"
+    },
+    "brent-parr": {
+        "nationality": "USA"
+    },
+    "sandy-thevenon": {
+        "nationality": "FRA"
+    },
+    "tomohiro-yokosuka": {
+        "nationality": "JPN"
+    },
     "gary-wise": {
         "hof": 2006,
         "nationality": "CAN"
     },
-    "giulio-barra": {},
-    "joshua-wagener": {},
-    "takaaki-maruyama": {},
-    "jonathan-bergstrom": {},
+    "giulio-barra": {
+        "nationality": "ITA"
+    },
+    "joshua-wagener": {
+        "nationality": "USA"
+    },
+    "takaaki-maruyama": {
+        "nationality": "JPN"
+    },
+    "jonathan-bergstrom": {
+        "nationality": "SWE"
+    },
     "tomoharu-saito": {
         "nationality": "JPN"
     },
-    "christophe-haim": {},
+    "christophe-haim": {
+        "nationality": "FRA"
+    },
     "jeroen-remie": {
         "nationality": "NLD"
     },
-    "yuri-kolomeyko": {},
-    "dylan-miller": {},
-    "mark-zajdner": {},
-    "thomas-rosholm": {},
-    "jake-smith": {},
-    "luca-chiera": {},
+    "yuri-kolomeyko": {
+        "nationality": "UKR"
+    },
+    "dylan-miller": {
+        "nationality": "CAN"
+    },
+    "mark-zajdner": {
+        "nationality": "CAN"
+    },
+    "thomas-rosholm": {
+        "nationality": "SWE"
+    },
+    "jake-smith": {
+        "nationality": "ENG"
+    },
+    "luca-chiera": {
+        "nationality": "ITA"
+    },
     "dirk-hein": {
         "nationality": "DEU"
     },
     "antonino-de-rosa": {},
-    "jens-thoren": {},
-    "kevin-benefield": {},
-    "nathan-heiss": {},
-    "kelvin-yew-teck-hoon": {},
+    "jens-thoren": {
+        "nationality": "SWE"
+    },
+    "kevin-benefield": {
+        "nationality": "USA"
+    },
+    "nathan-heiss": {
+        "nationality": "USA"
+    },
+    "kelvin-yew-teck-hoon": {
+        "nationality": "SGP"
+    },
     "reinhard-blech": {
         "nationality": "DEU"
     },
-    "stephen-miller": {},
+    "stephen-miller": {
+        "nationality": "USA"
+    },
     "andreas-kruschel": {
         "nationality": "DEU"
     },
-    "mattt-enss": {},
-    "nicholas-wong": {},
-    "tuukka-wiker": {},
-    "matteo-gatti": {},
-    "marcin-cieslikowski": {},
-    "mikko-snygg": {},
-    "yuusuke-yoshikawa": {},
-    "jose-pabon": {},
-    "brian-wojcik": {},
-    "simon-carlsson": {},
-    "mikko-mikander": {},
-    "takeshi-takagi": {},
-    "sylvain-lehoux": {},
+    "mattt-enss": {
+        "nationality": "CAN"
+    },
+    "nicholas-wong": {
+        "nationality": "SGP"
+    },
+    "tuukka-wiker": {
+        "nationality": "FIN"
+    },
+    "matteo-gatti": {
+        "nationality": "ITA"
+    },
+    "marcin-cieslikowski": {
+        "nationality": "POL"
+    },
+    "mikko-snygg": {
+        "nationality": "FIN"
+    },
+    "yuusuke-yoshikawa": {
+        "nationality": "JPN"
+    },
+    "jose-pabon": {
+        "nationality": "USA"
+    },
+    "brian-wojcik": {
+        "nationality": "USA"
+    },
+    "simon-carlsson": {
+        "nationality": "SWE"
+    },
+    "mikko-mikander": {
+        "nationality": "FIN"
+    },
+    "takeshi-takagi": {
+        "nationality": "JPN"
+    },
+    "sylvain-lehoux": {
+        "nationality": "FRA"
+    },
     "carlos-romao": {
         "nationality": "BRA"
     },
-    "dario-parazzoli": {},
-    "mark-lovin": {},
-    "pablo-galache-fernandez": {},
+    "dario-parazzoli": {
+        "nationality": "ITA"
+    },
+    "mark-lovin": {
+        "nationality": "USA"
+    },
+    "pablo-galache-fernandez": {
+        "nationality": "ESP"
+    },
     "patrick-sullivan": {
         "nationality": "USA"
     },
-    "georgios-kapalas": {},
-    "benjamin-blackman": {},
-    "lenny-collins": {},
-    "jeff-cunningham": {},
-    "sven-fischer": {},
-    "craig-c-krempels": {},
-    "michael-valdez": {},
-    "kei-ikeda": {},
-    "shannon-krumick": {},
+    "georgios-kapalas": {
+        "nationality": "GRC"
+    },
+    "benjamin-blackman": {
+        "nationality": "USA"
+    },
+    "lenny-collins": {
+        "nationality": "AUS"
+    },
+    "jeff-cunningham": {
+        "nationality": "CAN"
+    },
+    "sven-fischer": {
+        "nationality": "DEU"
+    },
+    "craig-c-krempels": {
+        "nationality": "USA"
+    },
+    "michael-valdez": {
+        "nationality": "USA"
+    },
+    "kei-ikeda": {
+        "nationality": "JPN"
+    },
+    "shannon-krumick": {
+        "nationality": "USA"
+    },
     "david-williams": {
         "nationality": "USA"
     },
-    "adam-koska": {},
-    "luis-sousa": {},
-    "stefano-gattolin": {},
-    "tom-hay": {},
+    "adam-koska": {
+        "nationality": "CZE"
+    },
+    "luis-sousa": {
+        "nationality": "PRT"
+    },
+    "stefano-gattolin": {
+        "nationality": "ENG"
+    },
+    "tom-hay": {
+        "nationality": "ENG"
+    },
     "masashi-oiso": {
         "hof": 2012,
         "nationality": "JPN"
     },
-    "michael-krumb": {},
+    "michael-krumb": {
+        "nationality": "USA"
+    },
     "brian-kibler": {
         "hof": 2010,
         "nationality": "USA"
     },
-    "vladimir-vetrov": {},
-    "brian-gates": {},
+    "vladimir-vetrov": {
+        "nationality": "RUS"
+    },
+    "brian-gates": {
+        "nationality": "USA"
+    },
     "gabriel-nassif": {
         "hof": 2010,
         "nationality": "FRA"
@@ -269,87 +461,187 @@
     "akira-asahara": {
         "nationality": "JPN"
     },
-    "christian-figura": {},
-    "neil-reeves": {},
-    "markus-krebs": {},
-    "alan-meaney": {},
-    "aaron-rzepka": {},
-    "matthew-rubin": {},
-    "chris-cade": {},
-    "markus-kolb": {},
-    "mats-tornros": {},
+    "christian-figura": {
+        "nationality": "AUT"
+    },
+    "neil-reeves": {
+        "nationality": "USA"
+    },
+    "markus-krebs": {
+        "nationality": "CHE"
+    },
+    "alan-meaney": {
+        "nationality": "IRL"
+    },
+    "aaron-rzepka": {
+        "nationality": "USA"
+    },
+    "matthew-rubin": {
+        "nationality": "USA"
+    },
+    "chris-cade": {
+        "nationality": "USA"
+    },
+    "markus-kolb": {
+        "nationality": "DEU"
+    },
+    "mats-tornros": {
+        "nationality": "SWE"
+    },
     "janosch-kuhn": {
         "nationality": "DEU"
     },
-    "jordan-berkowitz": {},
+    "jordan-berkowitz": {
+        "nationality": "USA"
+    },
     "christoph-lippert": {
         "nationality": "DEU"
     },
-    "emilio-lopez": {},
+    "emilio-lopez": {
+        "nationality": "ESP"
+    },
     "mattias-jorstedt": {
         "nationality": "SWE"
     },
-    "richard-de-boer": {},
-    "pavlos-akritas": {},
-    "guillaume-daoust": {},
-    "reinhard-hoelzel": {},
-    "jan-schipkowski": {},
-    "yuusuke-sasaki": {},
+    "richard-de-boer": {
+        "nationality": "NLD"
+    },
+    "pavlos-akritas": {
+        "nationality": "BEL"
+    },
+    "guillaume-daoust": {
+        "nationality": "CAN"
+    },
+    "reinhard-hoelzel": {
+        "nationality": "AUT"
+    },
+    "jan-schipkowski": {
+        "nationality": "DEU"
+    },
+    "yuusuke-sasaki": {
+        "nationality": "JPN"
+    },
     "robert-maher": {
         "hof": 2006,
         "nationality": "USA"
     },
-    "sigurd-eskeland": {},
+    "sigurd-eskeland": {
+        "nationality": "NOR"
+    },
     "arjan-van-leeuwen": {
         "nationality": "NLD"
     },
-    "aaron-estrin": {},
-    "danny-mandel": {},
-    "steffen-hagen": {},
+    "aaron-estrin": {
+        "nationality": "USA"
+    },
+    "danny-mandel": {
+        "nationality": "USA"
+    },
+    "steffen-hagen": {
+        "nationality": "DEU"
+    },
     "alex-shvartsman": {
         "nationality": "USA"
     },
-    "bruno-carvalho": {},
-    "graham-caunce": {},
-    "radu-viseroiu": {},
-    "damien-lacroix": {},
-    "michael-dove": {},
-    "si-tse": {},
-    "mats-clays": {},
-    "daniel-madan": {},
+    "bruno-carvalho": {
+        "nationality": "CHE"
+    },
+    "graham-caunce": {
+        "nationality": "ENG"
+    },
+    "radu-viseroiu": {
+        "nationality": "ROU"
+    },
+    "damien-lacroix": {
+        "nationality": "FRA"
+    },
+    "michael-dove": {
+        "nationality": "USA"
+    },
+    "si-tse": {
+        "nationality": "USA"
+    },
+    "mats-clays": {
+        "nationality": "BEL"
+    },
+    "daniel-madan": {
+        "nationality": "CHE"
+    },
     "michael-pustilnik": {
         "nationality": "USA"
     },
-    "owen-pauling": {},
-    "carlos-sanchez": {},
-    "rickard-osterberg": {},
-    "emanuele-canavesi": {},
-    "john-marquez": {},
+    "owen-pauling": {
+        "nationality": "ENG"
+    },
+    "carlos-sanchez": {
+        "nationality": "ESP"
+    },
+    "rickard-osterberg": {
+        "nationality": "SWE"
+    },
+    "emanuele-canavesi": {
+        "nationality": "ITA"
+    },
+    "john-marquez": {
+        "nationality": "USA"
+    },
     "pierre-malherbaud": {
         "nationality": "FRA"
     },
-    "ben-engle": {},
-    "stefano-romano": {},
-    "adam-urban": {},
+    "ben-engle": {
+        "nationality": "CAN"
+    },
+    "stefano-romano": {
+        "nationality": "ITA"
+    },
+    "adam-urban": {
+        "nationality": "POL"
+    },
     "diego-ostrovich": {
         "nationality": "ARG"
     },
-    "justin-smith": {},
-    "lucas-duchow": {},
+    "justin-smith": {
+        "nationality": "USA"
+    },
+    "lucas-duchow": {
+        "nationality": "USA"
+    },
     "tsuyoshi-ikeda": {
         "nationality": "JPN"
     },
-    "jonas-cleemann": {},
-    "zdenek-lysak": {},
-    "jean-pierre-dziedzicki": {},
-    "loic-degrou": {},
-    "johan-kennes": {},
-    "taiga-kubota": {},
-    "michael-collins": {},
-    "marc-le-campion": {},
-    "stefan-schwaiger": {},
-    "david-aguilar": {},
-    "lovre-crnobori": {},
+    "jonas-cleemann": {
+        "nationality": "DNK"
+    },
+    "zdenek-lysak": {
+        "nationality": "CZE"
+    },
+    "jean-pierre-dziedzicki": {
+        "nationality": "DEU"
+    },
+    "loic-degrou": {
+        "nationality": "FRA"
+    },
+    "johan-kennes": {
+        "nationality": "BEL"
+    },
+    "taiga-kubota": {
+        "nationality": "JPN"
+    },
+    "michael-collins": {
+        "nationality": "NZL"
+    },
+    "marc-le-campion": {
+        "nationality": "FRA"
+    },
+    "stefan-schwaiger": {
+        "nationality": "DEU"
+    },
+    "david-aguilar": {
+        "nationality": "ESP"
+    },
+    "lovre-crnobori": {
+        "nationality": "NOR"
+    },
     "hans-joachim-hoeh": {
         "nationality": "DEU"
     },
@@ -360,124 +652,288 @@
     "markus-panteleit": {
         "nationality": "DEU"
     },
-    "jon-kosmidis": {},
-    "kenneth-klingenberg": {},
+    "jon-kosmidis": {
+        "nationality": "GRC"
+    },
+    "kenneth-klingenberg": {
+        "nationality": "DNK"
+    },
     "sascha-luscher": {
         "nationality": "CHE"
     },
-    "quentin-martin": {},
+    "quentin-martin": {
+        "nationality": "ENG"
+    },
     "daniel-zink": {
         "nationality": "DEU"
     },
-    "mike-kvetkosky": {},
-    "steven-sadin": {},
-    "gunther-schwagerle": {},
-    "sasha-zorc": {},
-    "federico-dato": {},
-    "ulrik-tarp": {},
-    "sadayoshi-miki": {},
-    "victor-van-den-broek": {},
-    "kazuki-kato": {},
-    "simone-carboni": {},
+    "mike-kvetkosky": {
+        "nationality": "USA"
+    },
+    "steven-sadin": {
+        "nationality": "USA"
+    },
+    "gunther-schwagerle": {
+        "nationality": "AUT"
+    },
+    "sasha-zorc": {
+        "nationality": "HRV"
+    },
+    "federico-dato": {
+        "nationality": "ITA"
+    },
+    "ulrik-tarp": {
+        "nationality": "DNK"
+    },
+    "sadayoshi-miki": {
+        "nationality": "JPN"
+    },
+    "victor-van-den-broek": {
+        "nationality": "NLD"
+    },
+    "kazuki-kato": {
+        "nationality": "JPN"
+    },
+    "simone-carboni": {
+        "nationality": "ITA"
+    },
     "jin-okamoto": {
         "nationality": "JPN"
     },
-    "tore-skalevik": {},
-    "tuomo-nieminen": {},
-    "christian-robertsen": {},
+    "tore-skalevik": {
+        "nationality": "NOR"
+    },
+    "tuomo-nieminen": {
+        "nationality": "FIN"
+    },
+    "christian-robertsen": {
+        "nationality": "USA"
+    },
     "franck-canu": {
         "nationality": "FRA"
     },
-    "jos-schreurs": {},
-    "frederic-courtois": {},
+    "jos-schreurs": {
+        "nationality": "NLD"
+    },
+    "frederic-courtois": {
+        "nationality": "FRA"
+    },
     "justin-gary": {
         "nationality": "USA"
     },
-    "benjamin-caumes": {},
-    "allen-sun": {},
-    "gregory-prevost": {},
-    "ivan-stanoev": {},
-    "magnus-melin": {},
-    "alexander-gurevich": {},
-    "bertrand-payet": {},
-    "gerard-fabiano": {},
-    "elijah-pollock": {},
-    "andrea-santin": {},
+    "benjamin-caumes": {
+        "nationality": "FRA"
+    },
+    "allen-sun": {
+        "nationality": "USA"
+    },
+    "gregory-prevost": {
+        "nationality": "FRA"
+    },
+    "ivan-stanoev": {
+        "nationality": "CZE"
+    },
+    "magnus-melin": {
+        "nationality": "SWE"
+    },
+    "alexander-gurevich": {
+        "nationality": "RUS"
+    },
+    "bertrand-payet": {
+        "nationality": "FRA"
+    },
+    "gerard-fabiano": {
+        "nationality": "USA"
+    },
+    "elijah-pollock": {
+        "nationality": "CAN"
+    },
+    "andrea-santin": {
+        "nationality": "ITA"
+    },
     "william-jensen": {
         "hof": 2013,
         "nationality": "USA"
     },
-    "george-theologitis": {},
-    "sean-fitzgerald": {},
-    "enrico-nai": {},
-    "benoit-verwaerde": {},
-    "fernando-guiza-garcia": {},
-    "tim-rivera": {},
+    "george-theologitis": {
+        "nationality": "GRC"
+    },
+    "sean-fitzgerald": {
+        "nationality": "IRL"
+    },
+    "enrico-nai": {
+        "nationality": "ITA"
+    },
+    "benoit-verwaerde": {
+        "nationality": "FRA"
+    },
+    "fernando-guiza-garcia": {
+        "nationality": "MEX"
+    },
+    "tim-rivera": {
+        "nationality": "USA"
+    },
     "amiel-tenenbaum": {
         "nationality": "FRA"
     },
-    "justin-bing": {},
-    "thomas-andersson": {},
-    "gionata-dal-farra": {},
-    "kreso-vukusic": {},
-    "matthias-spode": {},
-    "ludovic-gaubert": {},
-    "justin-aubertin": {},
-    "brynjolfur-erlingsson": {},
-    "jacob-rabinowitz": {},
-    "jeff-zandi": {},
-    "eloi-pattaro": {},
+    "justin-bing": {
+        "nationality": "USA"
+    },
+    "thomas-andersson": {
+        "nationality": "SWE"
+    },
+    "gionata-dal-farra": {
+        "nationality": "ITA"
+    },
+    "kreso-vukusic": {
+        "nationality": "HRV"
+    },
+    "matthias-spode": {
+        "nationality": "DEU"
+    },
+    "ludovic-gaubert": {
+        "nationality": "FRA"
+    },
+    "justin-aubertin": {
+        "nationality": "USA"
+    },
+    "brynjolfur-erlingsson": {
+        "nationality": "ISL"
+    },
+    "jacob-rabinowitz": {
+        "nationality": "USA"
+    },
+    "jeff-zandi": {
+        "nationality": "USA"
+    },
+    "eloi-pattaro": {
+        "nationality": "BRA"
+    },
     "bram-snepvangers": {
         "hof": 2010,
         "nationality": "NLD"
     },
-    "mike-labeau": {},
-    "manuel-teodulo": {},
-    "craig-walendziak": {},
+    "mike-labeau": {
+        "nationality": "USA"
+    },
+    "manuel-teodulo": {
+        "nationality": "ESP"
+    },
+    "craig-walendziak": {
+        "nationality": "USA"
+    },
     "hannes-scholz": {
         "nationality": "DEU"
     },
-    "jonathan-sonne": {},
-    "tobias-kroll": {},
-    "raffaele-lo-moro": {},
-    "thomas-gundersen": {},
-    "bas-knapen": {},
-    "philip-brett": {},
-    "phil-freneau": {},
-    "jose-garcia-rodriguez": {},
-    "genki-taru": {},
-    "michael-zaun": {},
-    "eivind-nitter": {},
-    "stuart-wright": {},
-    "daniel-martin": {},
-    "eoin-brosnan": {},
-    "nis-berthelsen": {},
-    "zsolt-tokoli": {},
-    "rui-mariani": {},
-    "paul-allison": {},
-    "mikael-polgary": {},
-    "graeme-mcintyre": {},
-    "guillaume-perbet": {},
-    "dan-jenkins": {},
+    "jonathan-sonne": {
+        "nationality": "USA"
+    },
+    "tobias-kroll": {
+        "nationality": "DEU"
+    },
+    "raffaele-lo-moro": {
+        "nationality": "ITA"
+    },
+    "thomas-gundersen": {
+        "nationality": "NOR"
+    },
+    "bas-knapen": {
+        "nationality": "NLD"
+    },
+    "philip-brett": {
+        "nationality": "WAL"
+    },
+    "phil-freneau": {
+        "nationality": "USA"
+    },
+    "jose-garcia-rodriguez": {
+        "nationality": "ESP"
+    },
+    "genki-taru": {
+        "nationality": "JPN"
+    },
+    "michael-zaun": {
+        "nationality": "USA"
+    },
+    "eivind-nitter": {
+        "nationality": "NOR"
+    },
+    "stuart-wright": {
+        "nationality": "ENG"
+    },
+    "daniel-martin": {
+        "nationality": "ESP"
+    },
+    "eoin-brosnan": {
+        "nationality": "IRL"
+    },
+    "nis-berthelsen": {
+        "nationality": "DNK"
+    },
+    "zsolt-tokoli": {
+        "nationality": "HUN"
+    },
+    "rui-mariani": {
+        "nationality": "PRT"
+    },
+    "paul-allison": {
+        "nationality": "USA"
+    },
+    "mikael-polgary": {
+        "nationality": "SWE"
+    },
+    "graeme-mcintyre": {
+        "nationality": "SCO"
+    },
+    "guillaume-perbet": {
+        "nationality": "FRA"
+    },
+    "dan-jenkins": {
+        "nationality": "ENG"
+    },
     "jon-finkel": {
         "hof": 2005,
         "nationality": "USA"
     },
-    "omar-alvarez-leoni": {},
-    "jamie-cleary": {},
+    "omar-alvarez-leoni": {
+        "nationality": "ESP"
+    },
+    "jamie-cleary": {
+        "nationality": "ENG"
+    },
     "fabio-reinhardt": {
         "nationality": "DEU"
     },
-    "ruben-caetano": {},
-    "kouichirou-maki": {},
-    "pier-paolo-fabbretti": {},
-    "bart-edwards": {},
-    "tim-bauer": {},
-    "quinten-cauwelier": {},
-    "carl-thille": {},
-    "savvas-themistocleous": {},
-    "stefano-fiori": {},
-    "daniel-smits-bertelsen": {},
+    "ruben-caetano": {
+        "nationality": "PRT"
+    },
+    "kouichirou-maki": {
+        "nationality": "JPN"
+    },
+    "pier-paolo-fabbretti": {
+        "nationality": "ITA"
+    },
+    "bart-edwards": {
+        "nationality": "USA"
+    },
+    "tim-bauer": {
+        "nationality": "USA"
+    },
+    "quinten-cauwelier": {
+        "nationality": "BEL"
+    },
+    "carl-thille": {
+        "nationality": "SWE"
+    },
+    "savvas-themistocleous": {
+        "nationality": "ZAF"
+    },
+    "stefano-fiori": {
+        "nationality": "ITA"
+    },
+    "daniel-smits-bertelsen": {
+        "nationality": "DNK"
+    },
     "darwin-kastle": {
         "hof": 2005,
         "nationality": "USA"
@@ -485,59 +941,121 @@
     "florent-jeudon": {
         "nationality": "FRA"
     },
-    "conrad-duncker": {},
+    "conrad-duncker": {
+        "nationality": "USA"
+    },
     "dirk-baberowski": {
         "hof": 2008,
         "nationality": "DEU"
     },
-    "jaime-marrero-negrin": {},
-    "mario-wirth": {},
-    "john-matthew-upton": {},
-    "mike-thompson": {},
-    "justin-schneider": {},
-    "joel-nunes": {},
-    "maurice-mohr": {},
-    "kevin-gonzalez": {},
+    "jaime-marrero-negrin": {
+        "nationality": "ESP"
+    },
+    "mario-wirth": {
+        "nationality": "DEU"
+    },
+    "john-matthew-upton": {
+        "nationality": "USA"
+    },
+    "mike-thompson": {
+        "nationality": "USA"
+    },
+    "justin-schneider": {
+        "nationality": "USA"
+    },
+    "joel-nunes": {
+        "nationality": "PRT"
+    },
+    "maurice-mohr": {
+        "nationality": "DEU"
+    },
+    "kevin-gonzalez": {
+        "nationality": "VEN"
+    },
     "kevin-desprez": {
         "nationality": "FRA"
     },
-    "rachel-gilbey": {},
-    "sean-wang": {},
-    "john-clougherty": {},
-    "jonathan-isaacs": {},
-    "bernaud-sebastien": {},
+    "rachel-gilbey": {
+        "nationality": "ENG"
+    },
+    "sean-wang": {
+        "nationality": "USA"
+    },
+    "john-clougherty": {
+        "nationality": "USA"
+    },
+    "jonathan-isaacs": {
+        "nationality": "SCO"
+    },
+    "bernaud-sebastien": {
+        "nationality": "FRA"
+    },
     "john-larkin": {
         "nationality": "IRL"
     },
-    "nicholas-lynn": {},
+    "nicholas-lynn": {
+        "nationality": "USA"
+    },
     "charles-gindy": {
         "nationality": "USA"
     },
-    "pierre-baussaron": {},
+    "pierre-baussaron": {
+        "nationality": "FRA"
+    },
     "benjamin-seck": {},
-    "gerardo-godinez-estrada": {},
-    "andrea-paselli": {},
-    "brian-stroh": {},
+    "gerardo-godinez-estrada": {
+        "nationality": "MEX"
+    },
+    "andrea-paselli": {
+        "nationality": "ITA"
+    },
+    "brian-stroh": {
+        "nationality": "USA"
+    },
     "raphael-levy": {
         "hof": 2006,
         "nationality": "FRA"
     },
-    "daniele-canavesi": {},
-    "olivier-monbailly": {},
-    "linus-vernyns": {},
-    "jesus-bernabeu-edo": {},
-    "james-duguid": {},
-    "tom-harle": {},
-    "peter-szigeti": {},
-    "noah-boeken": {},
-    "felix-tse": {},
+    "daniele-canavesi": {
+        "nationality": "ITA"
+    },
+    "olivier-monbailly": {
+        "nationality": "FRA"
+    },
+    "linus-vernyns": {
+        "nationality": "BEL"
+    },
+    "jesus-bernabeu-edo": {
+        "nationality": "ESP"
+    },
+    "james-duguid": {
+        "nationality": "USA"
+    },
+    "tom-harle": {
+        "nationality": "ENG"
+    },
+    "peter-szigeti": {
+        "nationality": "USA"
+    },
+    "noah-boeken": {
+        "nationality": "NLD"
+    },
+    "felix-tse": {
+        "nationality": "CAN"
+    },
     "ilija-ambo": {},
-    "patric-mifsud-tommasi": {},
+    "patric-mifsud-tommasi": {
+        "nationality": "MLT"
+    },
     "bastien-perez": {
         "nationality": "FRA"
     },
-    "omar-sagol": {},
-    "alan-mai": {},
+    "omar-sagol": {
+        "nationality": "ESP"
+    },
+    "alan-mai": {
+        "nationality": "ENG"
+    },
     "paul-rietzl": {
         "hof": 2014,
         "nationality": "USA"
@@ -555,7 +1073,9 @@
         "hof": 2014,
         "nationality": "FRA"
     },
-    "thomas-ma": {},
+    "thomas-ma": {
+        "nationality": "USA"
+    },
     "kenny-oberg": {
         "nationality": "SWE"
     },
@@ -566,13 +1086,21 @@
         "hof": 2013,
         "nationality": "USA"
     },
-    "william-postlethwait": {},
-    "dan-jordan": {},
-    "bertil-elfgren": {},
+    "william-postlethwait": {
+        "nationality": "USA"
+    },
+    "dan-jordan": {
+        "nationality": "USA"
+    },
+    "bertil-elfgren": {
+        "nationality": "SWE"
+    },
     "florian-pils": {
         "nationality": "DEU"
     },
-    "jan-van-nieuwenhove": {},
+    "jan-van-nieuwenhove": {
+        "nationality": "BEL"
+    },
     "matthew-sperling": {
         "nationality": "USA"
     },
@@ -585,34 +1113,58 @@
     "conley-woods": {
         "nationality": "USA"
     },
-    "shaheen-soorani": {},
-    "francesco-cipolleschi": {},
-    "nikolas-crisci": {},
+    "shaheen-soorani": {
+        "nationality": "USA"
+    },
+    "francesco-cipolleschi": {
+        "nationality": "ITA"
+    },
+    "nikolas-crisci": {
+        "nationality": "DEU"
+    },
     "gaudenis-vidugiris": {},
-    "davide-brambilla": {},
+    "davide-brambilla": {
+        "nationality": "ITA"
+    },
     "yuuya-watanabe": {
         "nationality": "JPN"
     },
-    "kazuto-kawakami": {},
+    "kazuto-kawakami": {
+        "nationality": "JPN"
+    },
     "brian-kowal": {
         "nationality": "USA"
     },
-    "jasar-elarar": {},
+    "jasar-elarar": {
+        "nationality": "CAN"
+    },
     "christian-calcano": {
         "nationality": "USA"
     },
-    "hunter-burton": {},
+    "hunter-burton": {
+        "nationality": "USA"
+    },
     "raul-porojan": {
         "nationality": "DEU"
     },
-    "germain-caillaba": {},
+    "germain-caillaba": {
+        "nationality": "FRA"
+    },
     "david-sharfman": {
         "nationality": "USA"
     },
-    "hugh-rayner": {},
-    "marcello-calvetto": {},
-    "brandon-scheel": {},
-    "per-nystrom": {},
+    "hugh-rayner": {
+        "nationality": "AUS"
+    },
+    "marcello-calvetto": {
+        "nationality": "ITA"
+    },
+    "brandon-scheel": {
+        "nationality": "USA"
+    },
+    "per-nystrom": {
+        "nationality": "SWE"
+    },
     "lee-shi-tian": {
         "nationality": "HKG"
     },
@@ -629,13 +1181,21 @@
         "hof": 2011,
         "nationality": "JPN"
     },
-    "yuchen-liu": {},
+    "yuchen-liu": {
+        "nationality": "CHN"
+    },
     "tobias-wolff": {
         "nationality": "DEU"
     },
-    "sami-haggkvist": {},
-    "reto-sormani": {},
-    "petr-brozek": {},
+    "sami-haggkvist": {
+        "nationality": "FIN"
+    },
+    "reto-sormani": {
+        "nationality": "CHE"
+    },
+    "petr-brozek": {
+        "nationality": "CZE"
+    },
     "jan-ruess": {
         "nationality": "DEU"
     },
@@ -645,11 +1205,15 @@
     "mark-dictus": {
         "nationality": "BEL"
     },
-    "ludvig-londos": {},
+    "ludvig-londos": {
+        "nationality": "SWE"
+    },
     "kyle-boggemes": {
         "nationality": "USA"
     },
-    "will-craddock": {},
+    "will-craddock": {
+        "nationality": "USA"
+    },
     "gerald-leitzinger": {
         "nationality": "AUT"
     },
@@ -666,8 +1230,12 @@
     "katsuhiro-mori": {
         "nationality": "JPN"
     },
-    "christopher-wolf": {},
-    "paolo-lombardi": {},
+    "christopher-wolf": {
+        "nationality": "AUT"
+    },
+    "paolo-lombardi": {
+        "nationality": "DEU"
+    },
     "julien-nuijten": {
         "nationality": "NLD"
     },
@@ -683,11 +1251,21 @@
     "jun-ya-iyanaga": {
         "nationality": "JPN"
     },
-    "takuya-okada": {},
-    "peter-ingram": {},
-    "blaine-hatab": {},
-    "grahm-salva": {},
-    "jani-lindroos": {},
+    "takuya-okada": {
+        "nationality": "JPN"
+    },
+    "peter-ingram": {
+        "nationality": "USA"
+    },
+    "blaine-hatab": {
+        "nationality": "USA"
+    },
+    "grahm-salva": {
+        "nationality": "USA"
+    },
+    "jani-lindroos": {
+        "nationality": "FIN"
+    },
     "chikara-nakajima": {
         "nationality": "JPN"
     },
@@ -697,16 +1275,30 @@
     "lukas-blohon": {
         "nationality": "CZE"
     },
-    "kyle-lewis": {},
-    "paul-dean": {},
-    "emanuel-schleinzer": {},
-    "andres-suarez": {},
-    "yuutarou-hirashima": {},
-    "bas-melis": {},
+    "kyle-lewis": {
+        "nationality": "USA"
+    },
+    "paul-dean": {
+        "nationality": "CAN"
+    },
+    "emanuel-schleinzer": {
+        "nationality": "AUT"
+    },
+    "andres-suarez": {
+        "nationality": "USA"
+    },
+    "yuutarou-hirashima": {
+        "nationality": "JPN"
+    },
+    "bas-melis": {
+        "nationality": "NLD"
+    },
     "samuel-black": {
         "nationality": "USA"
     },
-    "lukas-vozdecky": {},
+    "lukas-vozdecky": {
+        "nationality": "CZE"
+    },
     "kevin-grove": {
         "nationality": "NLD"
     },
@@ -716,32 +1308,54 @@
     "thiago-saporito": {
         "nationality": "BRA"
     },
-    "peamwut-saowarattithada": {},
-    "johan-sadeghpour": {},
+    "peamwut-saowarattithada": {
+        "nationality": "THA"
+    },
+    "johan-sadeghpour": {
+        "nationality": "SWE"
+    },
     "tzu-ching-kuo": {
         "nationality": "TWN"
     },
-    "ryan-o-connor": {},
+    "ryan-o-connor": {
+        "nationality": "USA"
+    },
     "jorg-unfried": {
         "nationality": "DEU"
     },
-    "josh-wallace": {},
-    "micheal-maurici": {},
-    "adam-barnett": {},
-    "rafael-coqueiro": {},
+    "josh-wallace": {
+        "nationality": "USA"
+    },
+    "micheal-maurici": {
+        "nationality": "AUS"
+    },
+    "adam-barnett": {
+        "nationality": "ENG"
+    },
+    "rafael-coqueiro": {
+        "nationality": "BRA"
+    },
     "ian-duke": {
         "nationality": "USA"
     },
-    "jeremy-neeman": {},
+    "jeremy-neeman": {
+        "nationality": "DEU"
+    },
     "julien-de-graat": {
         "nationality": "DEU"
     },
     "thomas-holzinger": {
         "nationality": "AUT"
     },
-    "kjetil-jacobsen": {},
-    "brett-blackman": {},
-    "ruben-snijdewind": {},
+    "kjetil-jacobsen": {
+        "nationality": "FRA"
+    },
+    "brett-blackman": {
+        "nationality": "USA"
+    },
+    "ruben-snijdewind": {
+        "nationality": "NLD"
+    },
     "martin-juza": {
         "nationality": "CZE"
     },
@@ -751,99 +1365,201 @@
     "bernhard-lehner": {
         "nationality": "AUT"
     },
-    "david-nolan": {},
-    "clement-lesaege": {},
-    "anton-lunau": {},
-    "petr-nahodil": {},
-    "alix-hatfield": {},
-    "anthony-justice": {},
-    "arved-bartuska": {},
-    "yann-belmer": {},
-    "ken-omori": {},
-    "kazuaki-kimura": {},
-    "lorenzo-barnini": {},
-    "antonio-fedon": {},
-    "ulises-buruaga-carranza": {},
+    "david-nolan": {
+        "nationality": "USA"
+    },
+    "clement-lesaege": {
+        "nationality": "FRA"
+    },
+    "anton-lunau": {
+        "nationality": "DNK"
+    },
+    "petr-nahodil": {
+        "nationality": "CZE"
+    },
+    "alix-hatfield": {
+        "nationality": "USA"
+    },
+    "anthony-justice": {
+        "nationality": "USA"
+    },
+    "arved-bartuska": {
+        "nationality": "AUT"
+    },
+    "yann-belmer": {
+        "nationality": "FRA"
+    },
+    "ken-ichirou-omori": {
+        "nationality": "JPN"
+    },
+    "kazuaki-kimura": {
+        "nationality": "JPN"
+    },
+    "lorenzo-barnini": {
+        "nationality": "ITA"
+    },
+    "antonio-fedon": {
+        "nationality": "VEN"
+    },
+    "ulises-buruaga-carranza": {
+        "nationality": "ESP"
+    },
     "till-riffert": {
         "nationality": "DEU"
     },
-    "hark-keun-lee": {},
-    "yang-yang-zhu": {},
+    "hark-keun-lee": {
+        "nationality": "KOR"
+    },
+    "yang-yang-zhu": {
+        "nationality": "USA"
+    },
     "caleb-durward": {
         "nationality": "USA"
     },
-    "constantine-vernikos": {},
-    "chris-thomas": {},
-    "vladimir-komanicky": {},
-    "chris-gosselin": {},
-    "chris-mascioli": {},
+    "constantine-vernikos": {
+        "nationality": "GRC"
+    },
+    "chris-thomas": {
+        "nationality": "USA"
+    },
+    "vladimir-komanicky": {
+        "nationality": "CZE"
+    },
+    "chris-gosselin": {
+        "nationality": "USA"
+    },
+    "chris-mascioli": {
+        "nationality": "USA"
+    },
     "joel-calafell": {
         "nationality": "ESP"
     },
-    "jonas-rutz": {},
+    "jonas-rutz": {
+        "nationality": "DEU"
+    },
     "lino-burgold": {
         "nationality": "DEU"
     },
-    "jurgen-cleuren": {},
-    "ryusuke-onodera": {},
-    "hao-shan-huang": {},
-    "samuel-arevalo-godoy": {},
-    "jason-ford": {},
+    "jurgen-cleuren": {
+        "nationality": "BEL"
+    },
+    "ryusuke-onodera": {
+        "nationality": "JPN"
+    },
+    "hao-shan-huang": {
+        "nationality": "TWN"
+    },
+    "samuel-arevalo-godoy": {
+        "nationality": "ESP"
+    },
+    "jason-ford": {
+        "nationality": "USA"
+    },
     "tom-van-de-logt": {
         "nationality": "NLD"
     },
     "ivan-floch": {
         "nationality": "SVK"
     },
-    "stefan-steiner": {},
-    "stefan-vesely": {},
-    "marco-de-pasquale": {},
-    "brian-zunter": {},
-    "florian-brenac": {},
-    "stefano-rampini": {},
-    "david-magallon": {},
-    "robert-jurkovic": {},
-    "joshua-justice": {},
-    "mitchell-greenlee": {},
+    "stefan-steiner": {
+        "nationality": "AUT"
+    },
+    "stefan-vesely": {
+        "nationality": "ZAF"
+    },
+    "marco-de-pasquale": {
+        "nationality": "ITA"
+    },
+    "brian-zunter": {
+        "nationality": "USA"
+    },
+    "florian-brenac": {
+        "nationality": "FRA"
+    },
+    "stefano-rampini": {
+        "nationality": "ITA"
+    },
+    "david-magallon": {
+        "nationality": "ESP"
+    },
+    "robert-jurkovic": {
+        "nationality": "SVK"
+    },
+    "joshua-justice": {
+        "nationality": "USA"
+    },
+    "mitchell-greenlee": {
+        "nationality": "USA"
+    },
     "kenji-tsumura": {
         "hof": 2012,
         "nationality": "JPN"
     },
-    "derrick-steele": {},
-    "adriano-moscato": {},
-    "timo-kalf": {},
-    "luke-goodwin": {},
-    "federico-marcucci": {},
+    "derrick-steele": {
+        "nationality": "USA"
+    },
+    "adriano-moscato": {
+        "nationality": "ITA"
+    },
+    "timo-kalf": {
+        "nationality": "NLD"
+    },
+    "luke-goodwin": {
+        "nationality": "USA"
+    },
+    "federico-marcucci": {
+        "nationality": "ITA"
+    },
     "richard-bland": {
         "nationality": "ENG"
     },
-    "chye-hwee-heng": {},
+    "chye-hwee-heng": {
+        "nationality": "SGP"
+    },
     "samuele-estratti": {
         "nationality": "ITA"
     },
     "lucas-florent": {
         "nationality": "FRA"
     },
-    "daniel-signorini": {},
-    "bradley-barclay": {},
-    "david-gleicher": {},
+    "daniel-signorini": {
+        "nationality": "USA"
+    },
+    "bradley-barclay": {
+        "nationality": "ENG"
+    },
+    "david-gleicher": {
+        "nationality": "USA"
+    },
     "paulo-vitor-damo-da-rosa": {
         "hof": 2012,
         "nationality": "BRA"
     },
-    "nick-wise": {},
-    "bryan-gottlieb": {},
-    "jeppe-kjeldsen": {},
-    "jody-keith": {},
+    "nick-wise": {
+        "nationality": "USA"
+    },
+    "bryan-gottlieb": {
+        "nationality": "USA"
+    },
+    "jeppe-kjeldsen": {
+        "nationality": "DNK"
+    },
+    "jody-keith": {
+        "nationality": "USA"
+    },
     "patrick-chapin": {
         "hof": 2012,
         "nationality": "USA"
     },
-    "paolo-buchignani": {},
+    "paolo-buchignani": {
+        "nationality": "ITA"
+    },
     "christophe-gregoir": {
         "nationality": "BEL"
     },
-    "yutaro-yamagata": {},
+    "yutaro-yamagata": {
+        "nationality": "JPN"
+    },
     "koutarou-ootsuka": {
         "nationality": "JPN"
     },
@@ -859,17 +1575,33 @@
     "yuta-takahashi": {
         "nationality": "JPN"
     },
-    "leon-star": {},
+    "leon-star": {
+        "nationality": "NLD"
+    },
     "david-reitbauer": {
         "nationality": "AUT"
     },
-    "fergus-looney": {},
-    "christian-hauck": {},
-    "andrea-nediani": {},
-    "dominik-konieczny": {},
-    "davy-loeb": {},
-    "yuuta-sasaki": {},
-    "christian-flodstrom-sconce": {},
+    "fergus-looney": {
+        "nationality": "IRL"
+    },
+    "christian-hauck": {
+        "nationality": "DEU"
+    },
+    "andrea-nediani": {
+        "nationality": "ITA"
+    },
+    "dominik-konieczny": {
+        "nationality": "POL"
+    },
+    "davy-loeb": {
+        "nationality": "POL"
+    },
+    "yuuta-sasaki": {
+        "nationality": "JPN"
+    },
+    "christian-flodstrom-sconce": {
+        "nationality": "USA"
+    },
     "eric-froehlich": {
         "hof": 2015,
         "nationality": "USA"
@@ -877,7 +1609,9 @@
     "sebastian-thaler": {
         "nationality": "DEU"
     },
-    "mat-marr": {},
+    "mat-marr": {
+        "nationality": "USA"
+    },
     "carsten-schafer": {
         "nationality": "DEU"
     },
@@ -887,39 +1621,69 @@
     "alexander-kreuz": {
         "nationality": "DEU"
     },
-    "javier-luna": {},
-    "arif-kamaruddin": {},
-    "armando-mexicano": {},
-    "hiromasa-imagawa": {},
-    "luca-ravagli": {},
-    "john-rolf": {},
-    "chris-mofflin": {},
-    "phillip-napoli": {},
+    "javier-luna": {
+        "nationality": "ARG"
+    },
+    "arif-kamaruddin": {
+        "nationality": "MYS"
+    },
+    "armando-mexicano": {
+        "nationality": "MEX"
+    },
+    "hiromasa-imagawa": {
+        "nationality": "JPN"
+    },
+    "luca-ravagli": {
+        "nationality": "ITA"
+    },
+    "john-rolf": {
+        "nationality": "USA"
+    },
+    "chris-mofflin": {
+        "nationality": "AUS"
+    },
+    "phillip-napoli": {
+        "nationality": "USA"
+    },
     "manuel-bucher": {
         "nationality": "CHE"
     },
     "hajime-nakamura": {
         "nationality": "JPN"
     },
-    "mongkol-techarattanaprasert": {},
-    "matthew-light": {},
-    "evan-coffey": {},
+    "mongkol-techarattanaprasert": {
+        "nationality": "THA"
+    },
+    "matthew-light": {
+        "nationality": "ENG"
+    },
+    "evan-coffey": {
+        "nationality": "USA"
+    },
     "aj-sacher": {
         "nationality": "USA"
     },
     "peter-vieren": {
         "nationality": "BEL"
     },
-    "adrian-saredo": {},
+    "adrian-saredo": {
+        "nationality": "ARG"
+    },
     "matthew-nass": {
         "nationality": "USA"
     },
-    "boris-bajgo": {},
+    "boris-bajgo": {
+        "nationality": "SRB"
+    },
     "jeroen-kanis": {
         "nationality": "NLD"
     },
-    "pier-paolo-rascato": {},
-    "michael-hetrick": {},
+    "pier-paolo-rascato": {
+        "nationality": "ITA"
+    },
+    "michael-hetrick": {
+        "nationality": "USA"
+    },
     "owen-turtenwald": {
         "nationality": "USA"
     },
@@ -929,250 +1693,552 @@
     "matej-zatlkaj": {
         "nationality": "SVK"
     },
-    "ben-hayes": {},
-    "justin-meyer": {},
+    "ben-hayes": {
+        "nationality": "USA"
+    },
+    "justin-meyer": {
+        "nationality": "USA"
+    },
     "niels-viaene": {
         "nationality": "BEL"
     },
-    "sebastian-mygh": {},
-    "shingo-fukuta": {},
-    "weng-heng-soh": {},
+    "sebastian-mygh": {
+        "nationality": "DNK"
+    },
+    "shingo-fukuta": {
+        "nationality": "JPN"
+    },
+    "weng-heng-soh": {
+        "nationality": "SGP"
+    },
     "matthias-ludewig": {
         "nationality": "DEU"
     },
-    "dylan-smith": {},
-    "marc-deroyan": {},
+    "dylan-smith": {
+        "nationality": "USA"
+    },
+    "marc-deroyan": {
+        "nationality": "FRA"
+    },
     "nikolas-labahn": {
         "nationality": "DEU"
     },
-    "konstantino-karafotis": {},
+    "konstantino-karafotis": {
+        "nationality": "GRC"
+    },
     "ken-yukuhiro": {
         "nationality": "JPN"
     },
-    "chi-hoi-yim": {},
-    "carlos-pinto": {},
-    "robert-anderson": {},
-    "stephen-neal": {},
-    "james-beltz": {},
+    "chi-hoi-yim": {
+        "nationality": "USA"
+    },
+    "carlos-pinto": {
+        "nationality": "ESP"
+    },
+    "robert-anderson": {
+        "nationality": "CAN"
+    },
+    "stephen-neal": {
+        "nationality": "USA"
+    },
+    "james-beltz": {
+        "nationality": "USA"
+    },
     "kazuya-mitamura": {
         "nationality": "JPN"
     },
-    "matti-kuisma": {},
-    "daniel-perez": {},
-    "gael-bailly-maitre": {},
-    "simon-rabiller": {},
-    "mick-edwards": {},
-    "andreas-nordahl": {},
-    "ryan-reynolds": {},
-    "brandon-ayers": {},
-    "cedric-merlet": {},
-    "jose-r--rodriguez-doy": {},
+    "matti-kuisma": {
+        "nationality": "FIN"
+    },
+    "daniel-perez": {
+        "nationality": "ESP"
+    },
+    "gael-bailly-maitre": {
+        "nationality": "FRA"
+    },
+    "simon-rabiller": {
+        "nationality": "FRA"
+    },
+    "mick-edwards": {
+        "nationality": "ENG"
+    },
+    "andreas-nordahl": {
+        "nationality": "NOR"
+    },
+    "ryan-reynolds": {
+        "nationality": "USA"
+    },
+    "brandon-ayers": {
+        "nationality": "USA"
+    },
+    "cedric-merlet": {
+        "nationality": "FRA"
+    },
+    "jose-r--rodriguez-doy": {
+        "nationality": "PER"
+    },
     "alexander-west": {
         "nationality": "USA"
     },
-    "eugenio-nesi": {},
-    "tom-raney": {},
-    "scott-metcalf": {},
-    "chris-bovenschen": {},
-    "pedro-de-diego": {},
-    "nicholas-spagnolo": {},
-    "akimasa-yamamoto": {},
+    "eugenio-nesi": {
+        "nationality": "ITA"
+    },
+    "tom-raney": {
+        "nationality": "USA"
+    },
+    "scott-metcalf": {
+        "nationality": "USA"
+    },
+    "chris-bovenschen": {
+        "nationality": "NLD"
+    },
+    "pedro-de-diego": {
+        "nationality": "ARG"
+    },
+    "nicholas-spagnolo": {
+        "nationality": "USA"
+    },
+    "akimasa-yamamoto": {
+        "nationality": "JPN"
+    },
     "thomas-enevoldsen": {
         "nationality": "DNK"
     },
-    "jun-takahashi": {},
-    "david-gutesa": {},
+    "jun-ya-takahashi": {
+        "nationality": "JPN"
+    },
+    "david-gutesa": {
+        "nationality": "SRB"
+    },
     "ryuichi-arita": {
         "nationality": "JPN"
     },
-    "martial-moreau": {},
-    "tomasz-szadziul": {},
+    "martial-moreau": {
+        "nationality": "FRA"
+    },
+    "tomasz-szadziul": {
+        "nationality": "POL"
+    },
     "david-ochoa": {
         "nationality": "USA"
     },
     "andreas-ganz": {
         "nationality": "CHE"
     },
-    "benjamin-lundquist": {},
-    "ace-reunis": {},
-    "ricky-sidher": {},
+    "benjamin-lundquist": {
+        "nationality": "USA"
+    },
+    "ace-reunis": {
+        "nationality": "AUS"
+    },
+    "ricky-sidher": {
+        "nationality": "USA"
+    },
     "robin-steinborn": {
         "nationality": "DEU"
     },
-    "jun-yabuta": {},
-    "martin-clement": {},
-    "dean-mclaren": {},
-    "eric-twarog": {},
+    "jun-ichi-yabuta": {
+        "nationality": "JPN"
+    },
+    "martin-clement": {
+        "nationality": "ENG"
+    },
+    "dean-mclaren": {
+        "nationality": "CAN"
+    },
+    "eric-twarog": {
+        "nationality": "USA"
+    },
     "daniel-grafensteiner": {
         "nationality": "DEU"
     },
-    "bruno-borges": {},
-    "taufik-indrakesuma": {},
-    "joakim-almelund": {},
-    "mikolaj-wyspianski": {},
-    "gianluca-bevere": {},
-    "roope-oksanen": {},
-    "alessio-angeli": {},
-    "donnie-peck": {},
-    "nicolas-boistard": {},
-    "neil-rigby": {},
+    "bruno-borges": {
+        "nationality": "BRA"
+    },
+    "taufik-indrakesuma": {
+        "nationality": "SGP"
+    },
+    "joakim-almelund": {
+        "nationality": "SWE"
+    },
+    "mikolaj-wyspianski": {
+        "nationality": "POL"
+    },
+    "gianluca-bevere": {
+        "nationality": "ITA"
+    },
+    "roope-oksanen": {
+        "nationality": "FIN"
+    },
+    "alessio-angeli": {
+        "nationality": "ITA"
+    },
+    "donnie-peck": {
+        "nationality": "USA"
+    },
+    "nicolas-boistard": {
+        "nationality": "FRA"
+    },
+    "neil-rigby": {
+        "nationality": "ENG"
+    },
     "tiago-chan": {
         "nationality": "PRT"
     },
-    "branco-neirynck": {},
-    "michal-havlik": {},
-    "chris-hay": {},
+    "branco-neirynck": {
+        "nationality": "BEL"
+    },
+    "michal-havlik": {
+        "nationality": "SVK"
+    },
+    "chris-hay": {
+        "nationality": "NZL"
+    },
     "craig-wescoe": {
         "nationality": "USA"
     },
-    "zaiem-beg": {},
-    "jean-letellier": {},
-    "aaron-wyant": {},
+    "zaiem-beg": {
+        "nationality": "USA"
+    },
+    "jean-letellier": {
+        "nationality": "FRA"
+    },
+    "aaron-wyant": {
+        "nationality": "USA"
+    },
     "florian-koch": {
         "nationality": "DEU"
     },
-    "orie-guo": {},
-    "vladimir-leitgeb": {},
-    "desley-mooij": {},
-    "ogie-jaro": {},
-    "tal-lee": {},
-    "nadav-etinzon": {},
-    "fabian-verdy": {},
+    "orie-guo": {
+        "nationality": "USA"
+    },
+    "vladimir-leitgeb": {
+        "nationality": "CZE"
+    },
+    "desley-mooij": {
+        "nationality": "NLD"
+    },
+    "ogie-jaro": {
+        "nationality": "PHL"
+    },
+    "tal-lee": {
+        "nationality": "USA"
+    },
+    "nadav-etinzon": {
+        "nationality": "ISR"
+    },
+    "fabian-verdy": {
+        "nationality": "FRA"
+    },
     "julian-plagge": {
         "nationality": "DEU"
     },
-    "mark-glenister": {},
-    "gyorgy-borbely": {},
-    "igor-skrypov": {},
-    "eric-lewandowski": {},
-    "derrick-corney": {},
-    "andrew-noworaj": {},
-    "tsz-yeung-lam": {},
-    "christophe-rolin": {},
-    "thomas-ashton": {},
-    "robbert-menten": {},
-    "richard-plummer": {},
-    "manuel-godineau": {},
-    "glenn-jones": {},
-    "jamie-archdekin": {},
-    "travis-turning": {},
-    "koby-leung": {},
-    "dan-guldborg": {},
+    "mark-glenister": {
+        "nationality": "ENG"
+    },
+    "gyorgy-borbely": {
+        "nationality": "HUN"
+    },
+    "igor-skrypov": {
+        "nationality": "UKR"
+    },
+    "eric-lewandowski": {
+        "nationality": "USA"
+    },
+    "derrick-corney": {
+        "nationality": "USA"
+    },
+    "andrew-noworaj": {
+        "nationality": "CAN"
+    },
+    "tsz-yeung-lam": {
+        "nationality": "HKG"
+    },
+    "christophe-rolin": {
+        "nationality": "FRA"
+    },
+    "thomas-ashton": {
+        "nationality": "USA"
+    },
+    "robbert-menten": {
+        "nationality": "BEL"
+    },
+    "richard-plummer": {
+        "nationality": "ENG"
+    },
+    "manuel-godineau": {
+        "nationality": "FRA"
+    },
+    "glenn-jones": {
+        "nationality": "USA"
+    },
+    "jamie-archdekin": {
+        "nationality": "CAN"
+    },
+    "travis-turning": {
+        "nationality": "USA"
+    },
+    "koby-leung": {
+        "nationality": "CAN"
+    },
+    "dan-guldborg": {
+        "nationality": "DNK"
+    },
     "andrea-giarola": {
         "nationality": "ITA"
     },
-    "benoit-lemaitre": {},
-    "tomek-pedrakowski": {},
-    "stephane-gobe": {},
-    "paulo-martinello-da-costa": {},
-    "michal-hebky": {},
-    "niels-van-reijmersdal": {},
-    "shane-dalliston": {},
-    "charlie-grover": {},
-    "antonio-sirvent": {},
-    "justin-crumley": {},
-    "lauren-lee": {},
-    "asier-guevara": {},
-    "slawomir-jabs": {},
-    "kalle-sundberg": {},
-    "andrew-tyler": {},
-    "hugo-sa": {},
+    "benoit-lemaitre": {
+        "nationality": "FRA"
+    },
+    "tomek-pedrakowski": {
+        "nationality": "POL"
+    },
+    "stephane-gobe": {
+        "nationality": "FRA"
+    },
+    "paulo-martinello-da-costa": {
+        "nationality": "BRA"
+    },
+    "michal-hebky": {
+        "nationality": "CZE"
+    },
+    "niels-van-reijmersdal": {
+        "nationality": "NLD"
+    },
+    "shane-dalliston": {
+        "nationality": "ENG"
+    },
+    "charlie-grover": {
+        "nationality": "ENG"
+    },
+    "antonio-sirvent": {
+        "nationality": "ESP"
+    },
+    "justin-crumley": {
+        "nationality": "USA"
+    },
+    "lauren-lee": {
+        "nationality": "USA"
+    },
+    "asier-guevara": {
+        "nationality": "ESP"
+    },
+    "slawomir-jabs": {
+        "nationality": "POL"
+    },
+    "kalle-sundberg": {
+        "nationality": "FIN"
+    },
+    "andrew-tyler": {
+        "nationality": "USA"
+    },
+    "hugo-sa": {
+        "nationality": "PRT"
+    },
     "tobias-grafensteiner": {
         "nationality": "DEU"
     },
-    "daniel-gardner": {},
-    "vincent-thibeault": {},
-    "bob-havlovic": {},
-    "robert-graves": {},
+    "daniel-gardner": {
+        "nationality": "ENG"
+    },
+    "vincent-thibeault": {
+        "nationality": "CAN"
+    },
+    "bob-havlovic": {
+        "nationality": "USA"
+    },
+    "robert-graves": {
+        "nationality": "USA"
+    },
     "benjamin-rozhon": {
         "nationality": "AUT"
     },
-    "greg-mccleery": {},
+    "greg-mccleery": {
+        "nationality": "USA"
+    },
     "naoki-shimizu": {
         "nationality": "JPN"
     },
     "morgane-kelterbaum": {
         "nationality": "FRA"
     },
-    "hari-muralitheran": {},
-    "john-pham": {},
+    "hari-muralitheran": {
+        "nationality": "MYS"
+    },
+    "john-pham": {
+        "nationality": "USA"
+    },
     "kai-fiedler": {
         "nationality": "DEU"
     },
-    "kostas-skounakis": {},
-    "frederico-costa": {},
-    "ranjith-constantine": {},
-    "adam-rubinovitz": {},
-    "david-carvajal-blanco": {},
-    "brian-siu": {},
-    "andrew-vick": {},
-    "james-wise": {},
-    "ben-friedman": {},
+    "kostas-skounakis": {
+        "nationality": "GRC"
+    },
+    "frederico-costa": {
+        "nationality": "PRT"
+    },
+    "ranjith-constantine": {
+        "nationality": "NZL"
+    },
+    "adam-rubinovitz": {
+        "nationality": "USA"
+    },
+    "david-carvajal-blanco": {
+        "nationality": "ESP"
+    },
+    "brian-siu": {
+        "nationality": "USA"
+    },
+    "andrew-vick": {
+        "nationality": "USA"
+    },
+    "james-wise": {
+        "nationality": "USA"
+    },
+    "ben-friedman": {
+        "nationality": "USA"
+    },
     "nico-bohny": {
         "nationality": "CHE"
     },
-    "mark-nemeth": {},
-    "pablo-valenzuela": {},
-    "stephen-berrios": {},
-    "zohar-bhagat": {},
-    "eduardo-borges": {},
-    "ali-aintrazi": {},
-    "daniel-frias": {},
-    "yuuki-hirose": {},
+    "mark-nemeth": {
+        "nationality": "USA"
+    },
+    "pablo-valenzuela": {
+        "nationality": "BOL"
+    },
+    "stephen-berrios": {
+        "nationality": "USA"
+    },
+    "zohar-bhagat": {
+        "nationality": "USA"
+    },
+    "eduardo-borges": {
+        "nationality": "BRA"
+    },
+    "ali-aintrazi": {
+        "nationality": "USA"
+    },
+    "daniel-frias": {
+        "nationality": "BRA"
+    },
+    "yuuki-hirose": {
+        "nationality": "JPN"
+    },
     "jonas-wallendorf": {
         "nationality": "DEU"
     },
-    "rodrigo-soto-hernandez": {},
-    "florent-lepeytre": {},
-    "robert-lombardi": {},
+    "rodrigo-soto-hernandez": {
+        "nationality": "MEX"
+    },
+    "florent-lepeytre": {
+        "nationality": "FRA"
+    },
+    "robert-lombardi": {
+        "nationality": "CAN"
+    },
     "cedric-phillips": {
         "nationality": "USA"
     },
-    "michael-brandtner": {},
-    "nassim-ketita": {},
-    "niels-noorlander": {},
-    "oytun-erden": {},
-    "le-lin": {},
-    "tomoyuki-honnami": {},
-    "ken-tober": {},
-    "dylan-macdonald": {},
+    "michael-brandtner": {
+        "nationality": "AUT"
+    },
+    "nassim-ketita": {
+        "nationality": "CAN"
+    },
+    "niels-noorlander": {
+        "nationality": "NLD"
+    },
+    "oytun-erden": {
+        "nationality": "TUR"
+    },
+    "le-lin": {
+        "nationality": "USA"
+    },
+    "tomoyuki-honnami": {
+        "nationality": "JPN"
+    },
+    "ken-tober": {
+        "nationality": "USA"
+    },
+    "dylan-macdonald": {
+        "nationality": "CAN"
+    },
     "antti-malin": {
         "nationality": "FIN"
     },
-    "takatoshi-nakamura": {},
-    "jeph-foster": {},
+    "takatoshi-nakamura": {
+        "nationality": "JPN"
+    },
+    "jeph-foster": {
+        "nationality": "USA"
+    },
     "shaun-mclaren": {
         "nationality": "CAN"
     },
-    "guilherme-merjam": {},
-    "daan-smets": {},
+    "guilherme-merjam": {
+        "nationality": "BRA"
+    },
+    "daan-smets": {
+        "nationality": "NLD"
+    },
     "mike-hofmann": {
         "nationality": "DEU"
     },
-    "liang-chen": {},
+    "liang-chen": {
+        "nationality": "TWN"
+    },
     "jan-schmidt": {
         "nationality": "DEU"
     },
-    "jose-garcia-moreno-torres": {},
-    "paolo-bergamaschi": {},
-    "william-huling": {},
-    "michael-leslie": {},
+    "jose-garcia-moreno-torres": {
+        "nationality": "ESP"
+    },
+    "paolo-bergamaschi": {
+        "nationality": "ITA"
+    },
+    "william-huling": {
+        "nationality": "RUS"
+    },
+    "michael-leslie": {
+        "nationality": "AUS"
+    },
     "reid-duke": {
         "nationality": "USA"
     },
-    "pedro-dores": {},
-    "cheng-guo": {},
-    "christopher-stefaniw": {},
-    "stijn-van-goethem": {},
-    "benjamin-costrell": {},
-    "guy-southcott": {},
-    "claudio-hernandez": {},
-    "scott-bielick": {},
+    "pedro-dores": {
+        "nationality": "PRT"
+    },
+    "cheng-guo": {
+        "nationality": "CHN"
+    },
+    "christopher-stefaniw": {
+        "nationality": "USA"
+    },
+    "stijn-van-goethem": {
+        "nationality": "BEL"
+    },
+    "benjamin-costrell": {
+        "nationality": "USA"
+    },
+    "guy-southcott": {
+        "nationality": "ENG"
+    },
+    "claudio-hernandez": {
+        "nationality": "CHL"
+    },
+    "scott-bielick": {
+        "nationality": "USA"
+    },
     "mateusz-kopec": {
         "nationality": "POL"
     },
-    "joao-dannemann": {},
-    "victor-monzon-perez": {},
+    "joao-dannemann": {
+        "nationality": "BRA"
+    },
+    "victor-monzon-perez": {
+        "nationality": "ESP"
+    },
     "dennis-johannsen": {
         "nationality": "DEU"
     },
@@ -1182,58 +2248,136 @@
     "masaya-kitayama": {
         "nationality": "JPN"
     },
-    "allison-abe": {},
+    "allison-abe": {
+        "nationality": "BRA"
+    },
     "lukas-jaklovsky": {
         "nationality": "CHE"
     },
-    "david-marshall": {},
-    "conor-moran": {},
-    "fabian-sjoblom": {},
-    "jorge-pinazo": {},
-    "chen-win-wong": {},
-    "seraj-haroun": {},
-    "jason-ascalon": {},
-    "alex-mccormick": {},
-    "paulo-carvalho": {},
-    "filip-valis": {},
-    "phillip-jell": {},
-    "ian-shore": {},
-    "yukio-kozakai": {},
-    "olivier-lejeune": {},
-    "chris-black": {},
+    "david-marshall": {
+        "nationality": "NZL"
+    },
+    "conor-moran": {
+        "nationality": "USA"
+    },
+    "fabian-sjoblom": {
+        "nationality": "SWE"
+    },
+    "jorge-pinazo": {
+        "nationality": "ESP"
+    },
+    "chen-win-wong": {
+        "nationality": "NLD"
+    },
+    "seraj-haroun": {
+        "nationality": "ZAF"
+    },
+    "jason-ascalon": {
+        "nationality": "PHL"
+    },
+    "alex-mccormick": {
+        "nationality": "AUS"
+    },
+    "paulo-carvalho": {
+        "nationality": "PRT"
+    },
+    "filip-valis": {
+        "nationality": "SVK"
+    },
+    "phillip-jell": {
+        "nationality": "DEU"
+    },
+    "ian-shore": {
+        "nationality": "USA"
+    },
+    "yukio-kozakai": {
+        "nationality": "JPN"
+    },
+    "olivier-lejeune": {
+        "nationality": "FRA"
+    },
+    "chris-black": {
+        "nationality": "NIR"
+    },
     "simon-leigh": {},
     "marco-cammilluzzi": {
         "nationality": "ITA"
     },
-    "michael-stanfar": {},
-    "nicolas-gonzalez-pena": {},
-    "simone-locatelli": {},
-    "antonio-rispoli": {},
-    "shady-badran": {},
-    "matthew-wood": {},
-    "adam-galka": {},
-    "jan-kotrla": {},
-    "andre-pannekoek": {},
-    "jakub-toth": {},
-    "logan-mize": {},
-    "christian-bakkehaug": {},
+    "michael-stanfar": {
+        "nationality": "USA"
+    },
+    "nicolas-gonzalez-pena": {
+        "nationality": "CHL"
+    },
+    "simone-locatelli": {
+        "nationality": "ITA"
+    },
+    "antonio-rispoli": {
+        "nationality": "ITA"
+    },
+    "shady-badran": {
+        "nationality": "USA"
+    },
+    "matthew-wood": {
+        "nationality": "USA"
+    },
+    "adam-galka": {
+        "nationality": "POL"
+    },
+    "jan-kotrla": {
+        "nationality": "CZE"
+    },
+    "andre-pannekoek": {
+        "nationality": "NLD"
+    },
+    "jakub-toth": {
+        "nationality": "CZE"
+    },
+    "logan-mize": {
+        "nationality": "USA"
+    },
+    "christian-bakkehaug": {
+        "nationality": "NOR"
+    },
     "tom-ross": {
         "nationality": "USA"
     },
-    "alan-andrzejewski": {},
-    "tyler-clatanoff": {},
-    "sam-christiansen": {},
-    "ondrej-maly": {},
-    "nicolas-duguet": {},
-    "david-rood": {},
+    "alan-andrzejewski": {
+        "nationality": "POL"
+    },
+    "tyler-clatanoff": {
+        "nationality": "USA"
+    },
+    "sam-christiansen": {
+        "nationality": "AUS"
+    },
+    "ondrej-maly": {
+        "nationality": "CZE"
+    },
+    "nicolas-duguet": {
+        "nationality": "FRA"
+    },
+    "david-rood": {
+        "nationality": "CAN"
+    },
     "gabriel-tsang": {
         "nationality": "CAN"
     },
-    "don-smith": {},
-    "adam-chambers": {},
-    "andrew-pacifico": {},
-    "camille-fenet": {},
-    "nicolas-bornarel": {},
+    "don-smith": {
+        "nationality": "USA"
+    },
+    "adam-chambers": {
+        "nationality": "USA"
+    },
+    "andrew-pacifico": {
+        "nationality": "USA"
+    },
+    "camille-fenet": {
+        "nationality": "FRA"
+    },
+    "nicolas-bornarel": {
+        "nationality": "FRA"
+    },
     "alessandro-betti": {},
     "wessel-oomens": {
         "nationality": "NLD"
@@ -3007,8 +4151,12 @@
     "oskar-skold": {},
     "oscar-almgren": {},
     "samuel-stoddard": {},
-    "raymond-veenis": {},
-    "julien-stihle": {},
+    "raymond-veenis": {
+        "nationality": "NLD"
+    },
+    "julien-stihle": {
+        "nationality": "FRA"
+    },
     "nikola-fercek": {},
     "sergey-egorov": {},
     "makoto-nagashima": {},
@@ -3018,7 +4166,9 @@
     "adam-levitt": {},
     "sascha-winter": {},
     "fried-meulders": {},
-    "emanuele-giusti": {},
+    "emanuele-giusti": {
+        "nationality": "ITA"
+    },
     "marsh-usary": {},
     "rick-chong": {},
     "jerry-sowards": {},
@@ -3053,11 +4203,12 @@
     "matteo-morra": {},
     "john-seaton": {},
     "gavin-verhey": {},
-    "jacob-van-lunen": {},
+    "jacob-van-lunen": {
+        "nationality": "USA"
+    },
     "ken-ishimaru": {},
     "kenneth-castor": {},
     "valerio-martino": {},
-    "junya-takahashi": {},
     "paul-campagnola": {},
     "yee-nan-liaol": {},
     "marco-frantuma": {},
@@ -3065,7 +4216,9 @@
     "antonio-martos": {},
     "kenny-mayer": {},
     "daisuke-hirayama": {},
-    "sylvain-lauriol": {},
+    "sylvain-lauriol": {
+        "nationality": "USA"
+    },
     "niko-bacic": {},
     "elton-fior": {},
     "andrew-vargas": {},
@@ -3089,12 +4242,18 @@
     "lee-steht": {},
     "sven-dijt": {},
     "yannick-bouloc": {},
-    "brian-demars": {},
-    "swen-simon": {},
+    "brian-demars": {
+        "nationality": "USA"
+    },
+    "swen-simon": {
+        "nationality": "DEU"
+    },
     "nicholas-perry": {},
     "daichi-yamamoto": {},
     "kenta-kunishima": {},
-    "simon-ritzka": {},
+    "simon-ritzka": {
+        "nationality": "DEU"
+    },
     "jan-de-coster": {},
     "atsushi-kinoshita": {},
     "alexander-syomkin": {},
@@ -3110,7 +4269,9 @@
     "hakim-boudaoud": {},
     "max-lehtinen": {},
     "ivan-guidi": {},
-    "rogier-kleij": {},
+    "rogier-kleij": {
+        "nationality": "NLD"
+    },
     "matthew-langford": {},
     "jeremy-klein": {},
     "seth-williams": {},
@@ -3125,8 +4286,12 @@
     "nicolas-terrasse": {},
     "radek-kaczmarczyk": {},
     "derek-mong": {},
-    "michel-dach": {},
-    "arnost-zidek": {},
+    "michel-dach": {
+        "nationality": "DEU"
+    },
+    "arnost-zidek": {
+        "nationality": "CZE"
+    },
     "eli-priest": {},
     "pierpaolo-gerardi": {},
     "erik-grondahl": {},
@@ -3137,7 +4302,9 @@
     "alex-yatsenko": {},
     "davide-leoni": {},
     "jeff-fung": {},
-    "christopher-passow": {},
+    "christopher-passow": {
+        "nationality": "DEU"
+    },
     "tom-pashuysen": {},
     "sam-kwang": {},
     "keoni-davey": {},
@@ -3151,7 +4318,9 @@
     "maurizio-vergendo": {},
     "ryan-young": {},
     "carl-fernandez-baillo": {},
-    "klaus-joens": {},
+    "klaus-joens": {
+        "nationality": "DEU"
+    },
     "riccardo-picciafuochi": {},
     "pere-gracia": {},
     "dale-dewood": {},
@@ -3166,7 +4335,9 @@
     "yoni-skolnik": {},
     "andy-banas": {},
     "nicholas-crumpton": {},
-    "uri-peleg": {},
+    "uri-peleg": {
+        "nationality": "ISR"
+    },
     "massimo-machella": {},
     "simone-giovannetti": {},
     "csaba-racz": {},
@@ -3184,14 +4355,22 @@
     "przemyslaw-bok": {},
     "mario-klocker": {},
     "tero-niemi": {},
-    "holger-lange": {},
+    "holger-lange": {
+        "nationality": "DEU"
+    },
     "alexander-sokolov": {},
     "tyler-kozal": {},
     "matthias-dean-carpentier": {},
     "vincent-gan": {},
-    "patrick-dickmann": {},
-    "anssi-alkio": {},
-    "jared-boettcher": {},
+    "patrick-dickmann": {
+        "nationality": "DEU"
+    },
+    "anssi-alkio": {
+        "nationality": "FIN"
+    },
+    "jared-boettcher": {
+        "nationality": "USA"
+    },
     "jingwei-zheng": {},
     "dominik-prosek": {},
     "kevin-anctil": {},
@@ -3211,7 +4390,9 @@
     "martin-davant": {},
     "seamus-kelahan": {},
     "justin-cheung": {},
-    "samuel-marti": {},
+    "samuel-marti": {
+        "nationality": "CHE"
+    },
     "alfo-barcelona-cabeza": {},
     "justin-bransfield": {},
     "alexandre-aurejac": {},
@@ -3231,7 +4412,9 @@
     "lu-chn": {},
     "martin-pelerin": {},
     "kai-mokrusch": {},
-    "david-kaufmann": {},
+    "david-kaufmann": {
+        "nationality": "DEU"
+    },
     "louis-anderson": {},
     "mathias-wosner": {},
     "anatoly-chukhvichev": {},
@@ -3253,7 +4436,9 @@
     "luca-casadei": {},
     "jan-brozek": {},
     "michael-servis": {},
-    "iris-schwarz": {},
+    "iris-schwarz": {
+        "nationality": "DEU"
+    },
     "cristian-di-silvestro": {},
     "robert-victory": {},
     "alexey-prokaev": {},
@@ -3299,7 +4484,9 @@
     "evan-nelson": {},
     "martin-goldman-kirst": {},
     "pierre-mondon": {},
-    "carsten-linden": {},
+    "carsten-linden": {
+        "nationality": "DEU"
+    },
     "alvaro-sanchez-lopez": {},
     "gianluca-bonacchi": {},
     "alexander-matveev": {},
@@ -3317,7 +4504,9 @@
     "joe-demestrio": {},
     "eddie-chalecki-cuenca": {},
     "rob-castellon": {},
-    "pedro-carvalho--prt-": {},
+    "pedro-carvalho--prt-": {
+        "nationality": "PRT"
+    },
     "nick-baker": {},
     "tyler-brandstetter": {},
     "amit-cohen": {},
@@ -3359,7 +4548,9 @@
     "achim-reiter": {},
     "jose-an-orozco-correa": {},
     "alan-villamayor": {},
-    "shota-takao": {},
+    "shota-takao": {
+        "nationality": "JPN"
+    },
     "rickard-karlsson": {},
     "william-haas": {},
     "amilcar-g-cardona": {},
@@ -3400,13 +4591,17 @@
     "matias-soler": {},
     "carl-martinez-morales": {},
     "liyan-yang": {},
-    "alejandro-dupuy": {},
+    "alejandro-dupuy": {
+        "nationality": "ESP"
+    },
     "chris-basco": {},
     "nicolas-cuenca": {},
     "steven-curl": {},
     "kouichi-kudou": {},
     "richard-osowski": {},
-    "olivier-levy": {},
+    "olivier-levy": {
+        "nationality": "FRA"
+    },
     "bo-li": {},
     "jon-sharp": {},
     "spencer-garnier": {},
@@ -3429,8 +4624,12 @@
     "kazuki-ueno": {},
     "patrick-johnson": {},
     "morgan-douglass": {},
-    "patrick-jansen": {},
-    "daniel-steinsdorfer": {},
+    "patrick-jansen": {
+        "nationality": "DEU"
+    },
+    "daniel-steinsdorfer": {
+        "nationality": "DEU"
+    },
     "demir-sejdiu": {},
     "joaquin-gasa": {},
     "oscar-perez-paez": {},
@@ -3465,8 +4664,12 @@
     "shu-hashimoto": {},
     "valerio-giovannoli": {},
     "chris-deroche": {},
-    "karl-florian-platt": {},
-    "tadayoshi-komiya": {},
+    "karl-florian-platt": {
+        "nationality": "DEU"
+    },
+    "tadayoshi-komiya": {
+        "nationality": "JPN"
+    },
     "shinsuke-hayashi": {},
     "matthias-schulze-kadelbach": {},
     "marcel-m-scheibler": {},
@@ -3511,13 +4714,17 @@
     "peter-michael": {},
     "fernando-escribano": {},
     "pablo-mendez": {},
-    "oliver-bird": {},
+    "oliver-bird": {
+        "nationality": "IRL"
+    },
     "jonathan-becker": {},
     "tom-kelleher": {},
     "eric-james": {},
     "norman-woods": {},
     "johan-assen": {},
-    "shinji-watanabe": {},
+    "shinji-watanabe": {
+        "nationality": "JPN"
+    },
     "shin-takasaki": {},
     "hideki-kobayashi": {},
     "serge-d-levert": {},
@@ -3565,11 +4772,17 @@
     "mauro-bongiovanni": {},
     "louis-boileau": {},
     "jason-adams": {},
-    "mark-ziegner": {},
+    "mark-ziegner": {
+        "nationality": "DEU"
+    },
     "erik-swanson": {},
     "alexandre-riviere": {},
-    "stijn-cornelissen": {},
-    "jesse-cornelissen": {},
+    "stijn-cornelissen": {
+        "nationality": "NLD"
+    },
+    "jesse-cornelissen": {
+        "nationality": "NLD"
+    },
     "jens-krause": {},
     "gary-talim": {},
     "benjamin-roth": {},
@@ -3579,8 +4792,12 @@
     "wayne-baker": {},
     "ric-watts": {},
     "jonathan-johnson": {},
-    "falk-bernhardt": {},
-    "soren-kerner": {},
+    "falk-bernhardt": {
+        "nationality": "DEU"
+    },
+    "soren-kerner": {
+        "nationality": "DEU"
+    },
     "frederik-farrington": {},
     "denny-chou": {},
     "matt-gustafson": {},
@@ -3588,8 +4805,12 @@
     "brad-denmark": {},
     "kanon-page": {},
     "sven-grottke": {},
-    "claudia-loroff": {},
-    "peer-kroger": {},
+    "claudia-loroff": {
+        "nationality": "DEU"
+    },
+    "peer-kroger": {
+        "nationality": "DEU"
+    },
     "josh-lytle": {},
     "daniel-hanson": {},
     "bryan-petersen": {},
@@ -3626,8 +4847,12 @@
     "aarne-vaisanen": {},
     "svante-rikberg": {},
     "yan-margolin": {},
-    "rene-kraft": {},
-    "rolf-ottovordemgentschenfelde": {},
+    "rene-kraft": {
+        "nationality": "DEU"
+    },
+    "rolf-ottovordemgentschenfelde": {
+        "nationality": "DEU"
+    },
     "tarou-juumonji": {},
     "yuuji-kikuchi": {},
     "jason-aral": {},
@@ -3667,7 +4892,9 @@
     "robert-swarowski": {},
     "john-honea": {},
     "john-d-wolbert": {},
-    "brian-david-marshall": {},
+    "brian-david-marshall": {
+        "nationality": "USA"
+    },
     "tim-mckenna": {},
     "michael-williams": {},
     "david-yoe": {},
@@ -3690,13 +4917,21 @@
     "chad-s-caudell": {},
     "matt-cooper": {},
     "daniel-j-maciag": {},
-    "celso-zampere-junior": {},
-    "simon-hockwin": {},
-    "harald-stein": {},
+    "celso-zampere-junior": {
+        "nationality": "BRA"
+    },
+    "simon-hockwin": {
+        "nationality": "DEU"
+    },
+    "harald-stein": {
+        "nationality": "DEU"
+    },
     "steven-jarvis": {},
     "jack-stanton": {},
     "takahiro-suzuki": {},
-    "dennis-grudowski": {},
+    "dennis-grudowski": {
+        "nationality": "DEU"
+    },
     "matt-hansen": {},
     "philip-smith": {},
     "brett-anderson": {},
@@ -3719,13 +4954,19 @@
     "robson-silveira": {},
     "antonio-nieto-gutierrez": {},
     "william-fleming": {},
-    "maximilian-bracht": {},
-    "stefan-urban": {},
+    "maximilian-bracht": {
+        "nationality": "DEU"
+    },
+    "stefan-urban": {
+        "nationality": "DEU"
+    },
     "daniel-paardekooper": {},
     "ray-tautic": {},
     "john-moore": {},
     "stephen-king": {},
-    "ryou-ogura": {},
+    "ryou-ogura": {
+        "nationality": "JPN"
+    },
     "luca-verdiani": {},
     "mido-kagawa": {},
     "niccolo-testini": {},
@@ -3780,7 +5021,9 @@
     "chester-lew": {},
     "jimmy-spears": {},
     "joshua-a-barrett": {},
-    "wesimo-al-bacha": {},
+    "wesimo-al-bacha": {
+        "nationality": "DEU"
+    },
     "micah-s-medders": {},
     "henry-lu": {},
     "marshall-ashford": {},
@@ -3824,7 +5067,9 @@
     "chris-collins": {},
     "ben-a-green": {},
     "kevin-thanakit": {},
-    "michael-diezel": {},
+    "michael-diezel": {
+        "nationality": "DEU"
+    },
     "andreas-sagner": {},
     "stefan-heumann": {},
     "luke-smith": {},
@@ -3856,11 +5101,17 @@
     "rob-dettman": {},
     "philip-morse-fortier": {},
     "ben-goodman": {},
-    "simon-wechsler": {},
+    "simon-wechsler": {
+        "nationality": "DEU"
+    },
     "hiroaki-hoshino": {},
     "erik-thoren": {},
-    "rosario-maij": {},
-    "aaron-brackmann": {},
+    "rosario-maij": {
+        "nationality": "DEU"
+    },
+    "aaron-brackmann": {
+        "nationality": "DEU"
+    },
     "trevor-jones": {},
     "chad-kastel": {},
     "nicholas-fiorillo": {},
@@ -5515,7 +6766,6 @@
     "case-johnson": {},
     "park-jong-sun": {},
     "carlos-becerra": {},
-    "junichi-yabuta": {},
     "robert-hutchison": {},
     "manuel-luis": {},
     "eric-rath": {},
