@@ -349,7 +349,7 @@ var Rankings = React.createClass({
               return (
                 <tr key={player.id}>
                   <td>{index}</td>
-                  <td>
+                  <td className={player.hof ? 'player-hof' : null}>
                     <Link to="player" params={{id: player.id}}>
                       {player.name}
                     </Link>
