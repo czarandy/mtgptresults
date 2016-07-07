@@ -137,6 +137,15 @@ module.exports = function(grunt) {
 
   function buildPlayers() {
     var players = loadPlayers();
+    var metadata = grunt.file.readJSON('./data/players.json');
+    for (var p in players) {
+      var id = players[p].id;
+      if (metadata[id] && Object.keys(metadata[id]).length > 0) {
+        for (var k in metadata[id]) {
+          players[p][k] = metadata[id][k];
+        }
+      }
+    }
     grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
   }
 

@@ -107,7 +107,8 @@ var Player = React.createClass({
       <div className="col-md-offset-3 col-md-6">
         <DocumentTitle title={p.name} />
         <div className="page-header pageHeader">
-          <h1>{p.name}</h1>
+          <h1>{p.nationality ? p.name + ' (' + p.nationality + ')' : p.name}</h1>
+          {p.hof ? <h4>Hall of Fame</h4> : null}
         </div>
         <div className="statsWrapper">
           <div className="alert alert-info" >
@@ -348,7 +349,7 @@ var Rankings = React.createClass({
               return (
                 <tr key={player.id}>
                   <td>{index}</td>
-                  <td>
+                  <td className={player.hof ? 'player-hof' : null}>
                     <Link to="player" params={{id: player.id}}>
                       {player.name}
                     </Link>
