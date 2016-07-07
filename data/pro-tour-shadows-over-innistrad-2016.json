@@ -67,7 +67,8 @@
         {
             "money": 5000,
             "name": "Lukas Blohon",
-            "propoints": 15
+            "propoints": 15,
+            "team": "Cabin Crew"
         },
         {
             "money": 5000,
@@ -165,7 +166,8 @@
         {
             "money": 1500,
             "name": "Petr Sochurek",
-            "propoints": 10
+            "propoints": 10,
+            "team": "Cabin Crew"
         },
         {
             "money": 1500,
@@ -609,7 +611,8 @@
         },
         {
             "name": "Marc Tobiasch",
-            "propoints": 4
+            "propoints": 4,
+            "team": "Cabin Crew"
         },
         {
             "name": "Thomas Ashton",
@@ -881,7 +884,8 @@
         },
         {
             "name": "Martin Juza",
-            "propoints": 3
+            "propoints": 3,
+            "team": "Cabin Crew"
         },
         {
             "name": "Travis Smith",
