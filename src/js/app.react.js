@@ -241,10 +241,14 @@ var Tournament = React.createClass({
               } else if (index < top_limit) {
                 c = 'warning';
               }
+              const flag = window.Players[p.id].flag;
               return (
                 <tr className={c} key={p.id}>
                   <td>{p.rank || (index + 1)}</td>
                   <td>
+                    {flag ? (
+                      <span className={'flag-icon flag-icon-' + flag}></span>
+                    ) : null}
                     <Link to="player" params={{id: p.id}}>{p.name}</Link>
                     {' '}
                     {p.report ? (

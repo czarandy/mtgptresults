@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     }
     _tournaments = {};
     grunt.file.recurse('./data/', function(abspath, rootdir, subdir, filename) {
-      if (filename.endsWith('.json') && filename !== 'players.json') {
+      if (filename.endsWith('.json') && filename !== 'players.json' && filename !== 'countries.json') {
         var tid = filename.replace('.json', '');
         _tournaments[tid] = grunt.file.readJSON(abspath);
         _tournaments[tid].standings = _.map(
@@ -135,14 +135,32 @@ module.exports = function(grunt) {
     return _players;
   }
 
+  function loadCountries() {
+    // Generate a mapping of three letter code to two letter code
+    var countries = grunt.file.readJSON('./data/countries.json');
+    var ret = {};
+    for (var country of countries) {
+      ret[country['alpha-3']] = country['alpha-2'];
+    }
+    return ret;
+  }
+
   function buildPlayers() {
     var players = loadPlayers();
     var metadata = grunt.file.readJSON('./data/players.json');
+    var countries = loadCountries();
     for (var p in players) {
       var id = players[p].id;
       if (metadata[id] && Object.keys(metadata[id]).length > 0) {
         for (var k in metadata[id]) {
           players[p][k] = metadata[id][k];
+        }
+        if (players[p].nationality) {
+          if (!countries[players[p].nationality]) {
+           grunt.log.writeln('Invalid country code: ' + players[p].nationality);
+          } else {
+            players[p].flag = countries[players[p].nationality].toLowerCase();
+          }
         }
       }
     }

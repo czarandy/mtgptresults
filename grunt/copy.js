@@ -20,8 +20,24 @@ module.exports = {
         dest: 'build/arrowicon.png'
       },
       {
+        expand: true,
+        cwd: 'src/',
+        src: 'css/*.css',
+        dest: 'build/'
+      },
+      {
         src: 'src/CNAME',
         dest: 'build/CNAME'
+      }
+    ]
+  },
+  flags: {
+    files: [
+      {
+        expand: true,
+        cwd: 'src/',
+        src: 'flags/**/*.svg',
+        dest: 'build/'
       }
     ]
   },
