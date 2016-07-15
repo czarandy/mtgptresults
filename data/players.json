@@ -13389,9 +13389,6 @@
     "kenji-hamamoto": {
         "nationality": "JPN"
     },
-    "scott-honigmann": {
-        "nationality": "USA"
-    },
     "jose-hinostroza": {
         "nationality": "PER"
     },
@@ -14891,9 +14888,7 @@
     "mauro-betschart": {
         "nationality": "CHE"
     },
-    "daniel-spano": {
-        "nationality": "ITA"
-    },
+    "daniel-spano": {},
     "francisco-vazquez": {
         "nationality": "ESP"
     },
@@ -16908,7 +16903,6 @@
     "hjalti-andrason": {},
     "johan-cedercrantz": {},
     "bryan-goethals": {},
-    "jan-pieter-groenhaf": {},
     "marcus-lemke": {},
     "kare-jantunen": {},
     "joe-ohrt": {},
@@ -17065,7 +17059,6 @@
     "mircea-adrian-posoiu": {},
     "ted-slone": {},
     "alex-gellerman": {},
-    "daniel-spano": {},
     "chris-vanmeter": {},
     "nathaniel-chafe": {},
     "andrew-chen": {},
@@ -19147,7 +19140,9 @@
     "matt-dunn": {},
     "ioannis-pateros": {},
     "george-filipakis": {},
-    "luis-salvatto": {},
+    "luis-salvatto": {
+        "nationality": "ARG"
+    },
     "rob-pisano": {},
     "brett-sinclair": {},
     "hitoshi-tomomura": {},
@@ -20007,7 +20002,6 @@
     "russel-mirara": {},
     "gergely-gardos": {},
     "tanel-lumiste": {},
-    "djinn-okamoto": {},
     "daniel-brasil-do-carmo": {},
     "antonin-weber": {},
     "jan-pieter-groenhof": {},
@@ -20693,5 +20687,6 @@
     "raf-mesotten": {},
     "joseph-anderson": {},
     "bogardan-costea": {},
-    "yuu-murakami": {}
+    "yuu-murakami": {},
+    "francisco-vasquez": {}
 }
