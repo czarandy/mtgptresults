@@ -3,7 +3,9 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
 import {browserHistory} from 'react-router';
+
 import Players from './Players.js';
+import Tournaments from './Tournaments.js';
 
 export default class SearchInput extends React.Component {
   render() {
@@ -19,16 +21,8 @@ export default class SearchInput extends React.Component {
   }
 
   componentDidMount() {
-    const ts = [];
-    for (let k in window.Tournaments) {
-      const t = window.Tournaments[k];
-      ts.push({
-        id: t.id,
-        name: t.name + ' (' + t.date.substr(-4) + ')'
-      });
-    }
     $(findDOMNode(this)).typeahead({
-      source: ts.concat(Players.asArray()),
+      source: Tournaments.asArray().concat(Players.asArray()),
       afterSelect: item => {
         if (item.tournaments) {
           browserHistory.push('/player/' + item.id);

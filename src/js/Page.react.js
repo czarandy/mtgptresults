@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {Link, IndexLink} from 'react-router';
+
 import SearchInput from './SearchInput.react.js';
 
 const Page = props => (
