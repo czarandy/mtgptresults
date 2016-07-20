@@ -47,7 +47,10 @@ module.exports = function(grunt) {
     var tournaments = loadTournaments();
     var list = [];
     _.each(tournaments, function(tournament) {
-      var topN = tournament.team ? 12 : 8;
+      let topN = 8;
+      if (tournament.team && !tournament.team2hg) {
+        topN = 12;
+      }
       var recent = deepcopy(tournament);
       recent.top = recent.standings.slice(0, topN);
       delete recent.standings;
