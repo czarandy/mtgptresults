@@ -3,21 +3,23 @@
 const Players = require('./Players.js');
 const PlayerLink = require('./PlayerLink.react.js');
 
+import React from 'react';
+import {render} from 'react-dom';
+import {
+  Router,
+  Route,
+  IndexRoute,
+  Link,
+  IndexLink,
+  browserHistory
+} from 'react-router';
+
 var DocumentTitle = require('react-document-title');
-var React = require('react');
-var Router = require('react-router');
 var _ = require('underscore');
 var accounting = require('accounting');
 var Helper = require('./../../lib/helper.js');
 
-var Link = Router.Link;
-var Route = Router.Route;
-var RouteHandler = Router.RouteHandler;
-var DefaultRoute = Router.DefaultRoute;
-var NotFoundRoute = Router.NotFoundRoute;
-
 var SearchInput = React.createClass({
-  mixins: [Router.Navigation],
   render: function() {
     return (
       <input
@@ -42,9 +44,9 @@ var SearchInput = React.createClass({
       source: ts.concat(_.values(window.Players)),
       afterSelect: function(item) {
         if (item.tournaments) {
-          this.transitionTo('player', {id: item.id});
+          browserHistory.push('/player/' + item.id);
         } else {
-          this.transitionTo('tournament', {id: item.id});
+          browserHistory.push('/tournament/' + item.id);
         }
         this.refs.input.getDOMNode().value = '';
       }.bind(this)
@@ -53,21 +55,20 @@ var SearchInput = React.createClass({
 });
 
 var App = React.createClass({
-  mixins: [Router.State],
   render: function() {
-    var route = _.last(this.getRoutes());
+    console.log(this.props);
     return (
       <div>
         <div className="navbar navbar-default">
           <div className="container-fluid">
             <div className="navbar-header">
-              <Link className="navbar-brand" to="default">
+              <IndexLink className="navbar-brand" to="/">
                 MTG Pro Tour Results
-              </Link>
+              </IndexLink>
             </div>
             <ul className="nav navbar-nav">
-              <li className={route.name === 'rankings' ? 'active' : null}>
-                <Link to="rankings" params={{col: 't8'}}>
+              <li>
+                <Link to="/rankings/t8" activeClassName="activeLink">
                   Player Rankings
                 </Link>
               </li>
@@ -77,7 +78,7 @@ var App = React.createClass({
             </div>
           </div>
         </div>
-        <RouteHandler />
+        {this.props.children}
       </div>
     );
   }
@@ -99,9 +100,8 @@ var NotFound = React.createClass({
 });
 
 var Player = React.createClass({
-  mixins: [Router.State],
   render: function() {
-    var id = this.getParams().id;
+    var id = this.props.params.id;
     var p = window.Players[id];
     if (!p) {
       return (<NotFound />);
@@ -119,13 +119,13 @@ var Player = React.createClass({
               {p.stats.t1} / {p.stats.t8} / {p.stats.t16} / {p.stats.total}
             </div>
             <div>
-              <Link to="rankings" params={{col: 't1'}}>Wins</Link>
+              <Link to="/rankings/t1">Wins</Link>
               {' / '}
-              <Link to="rankings" params={{col: 't8'}}>T8</Link>
+              <Link to="/rankings/t8">T8</Link>
               {' / '}
-              <Link to="rankings" params={{col: 't16'}}>T16</Link>
+              <Link to="/rankings/t16">T16</Link>
               {' / '}
-              <Link to="rankings" params={{col: 'total'}}>Total</Link>
+              <Link to="/rankings/total">Total</Link>
             </div>
           </div>
           <div className="alert alert-info" >
@@ -133,7 +133,7 @@ var Player = React.createClass({
               {accounting.formatMoney(p.stats.money, '$', 0)}
             </div>
             <div>
-              <Link to="rankings" params={{col: 'money'}}>
+              <Link to="/rankings/money">
                 Total Money
               </Link>
             </div>
@@ -143,7 +143,7 @@ var Player = React.createClass({
               {p.stats.points}
             </div>
             <div>
-              <Link to="rankings" params={{col: 'money'}}>
+              <Link to="rankings/points">
                 Total Pro Points
               </Link>
             </div>
@@ -175,7 +175,7 @@ var Player = React.createClass({
                 <tr key={index} className={c}>
                   <td>{tdata.date}</td>
                   <td>
-                    <Link to="tournament" params={{id: t.tid}}>
+                    <Link to={'/tournament/' + t.tid}>
                       {tdata.name}
                     </Link>
                   </td>
@@ -195,9 +195,8 @@ var Player = React.createClass({
 });
 
 var Tournament = React.createClass({
-  mixins: [Router.State],
   render: function() {
-    var id = this.getParams().id;
+    var id = this.props.params.id;
     var t = window.Tournaments[id];
     if (!t) {
       return (<NotFound />);
@@ -269,9 +268,8 @@ var Tournament = React.createClass({
 });
 
 var Rankings = React.createClass({
-  mixins: [Router.State],
   render: function() {
-    var col = this.getParams().col;
+    var col = this.props.params.col;
     var sortedPlayers =
       _.chain(window.Players)
         .values()
@@ -297,43 +295,43 @@ var Rankings = React.createClass({
               <th></th>
               <th>Player</th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 'total'}}>
+                <Link to="/rankings/total">
                   Total PTs
                 </Link>
                 {col === 'total' ? sortImage : null}
               </th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't1'}}>
+                <Link to="/rankings/t1">
                   Wins
                 </Link>
                 {col === 't1' ? sortImage : null}
               </th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't8'}}>
+                <Link to="/rankings/t8">
                   Top 8s
                 </Link>
                 {col === 't8' ? sortImage : null}
               </th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't16'}}>
+                <Link to="/rankings/t16">
                   Top 16s
                 </Link>
                 {col === 't16' ? sortImage : null}
               </th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 'points'}}>
+                <Link to="/rankings/points">
                   Pro Points
                 </Link>
                 {col === 'points' ? sortImage : null}
               </th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 'money'}}>
+                <Link to="/rankings/money">
                   Money
                 </Link>
                 {col === 'money' ? sortImage : null}
               </th>
               <th className="sortableHeader">
-                <Link to="rankings" params={{col: 't8pct'}}>
+                <Link to="/rankings/t8pct">
                   T8/Total
                 </Link>
                 {col === 't8pct' ? sortImage : null}
@@ -353,9 +351,7 @@ var Rankings = React.createClass({
                 <tr key={player.id}>
                   <td>{index}</td>
                   <td className={player.hof ? 'player-hof' : null}>
-                    <Link to="player" params={{id: player.id}}>
-                      {player.name}
-                    </Link>
+                    <PlayerLink player={Players.byID(player.id)} hideFlag />
                   </td>
                   <td>{player.stats.total}</td>
                   <td>{player.stats.t1}</td>
@@ -392,7 +388,7 @@ var RecentTournaments = React.createClass({
             <div key={id}>
               <div className="panel panel-default recentTournamentWrapper">
                 <div className="panel-heading">
-                  <Link to="tournament" params={{id: id}}>
+                  <Link to={'/tournament/' + id}>
                     {tournament.name}
                   </Link>
                 </div>
@@ -443,23 +439,21 @@ var RecentTournaments = React.createClass({
       return null;
     }
     return (
-      <Link to="tournament" params={{id: id}}>
+      <Link to={'/tournament/' + id}>
         <img src={'/logo/' + t.logo} />
       </Link>
     );
   }
 });
 
-var routes = (
-  <Route handler={App} path="/">
-    <Route name="player" path="/player/:id" handler={Player} />
-    <Route name="tournament" path="/tournament/:id" handler={Tournament} />
-    <DefaultRoute name="default" handler={RecentTournaments} />
-    <Route name="rankings" path="/rankings/:col" handler={Rankings} />
-    <NotFoundRoute name="notfound" handler={NotFound} />
-  </Route>
-);
-
-Router.run(routes, Router.HistoryLocation, function(Handler) {
-  React.render(<Handler />, document.getElementById('approot'));
-});
+render((
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute component={RecentTournaments} />
+      <Route path="/player/:id" component={Player} />
+      <Route path="/tournament/:id" component={Tournament} />
+      <Route path="/rankings/:col" component ={Rankings} />
+      <Route path="*" component={NotFound} />
+    </Route>
+  </Router>
+), document.getElementById('approot'));

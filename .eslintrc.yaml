@@ -22,9 +22,12 @@
     browser: true
     commonjs: true
     jquery: true
+    es6: true
   parserOptions:
+    sourceType: "module"
     ecmaVersion: 6
     ecmaFeatures:
       jsx: true
+      arrowFunctions: true
   plugins:
     - "react"
