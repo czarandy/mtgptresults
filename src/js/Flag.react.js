@@ -6,4 +6,4 @@ const Flag = ({flag}) => (
   <span className={'flag-icon flag-icon-' + flag}></span>
 );
 
-module.exports = Flag;
+export default Flag;

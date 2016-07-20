@@ -1,8 +1,9 @@
 'use strict';
 
-const Flag = require('./Flag.react.js');
-const Link = require('react-router').Link;
-const React = require('react');
+import React from 'react';
+import {Link} from 'react-router';
+
+import Flag from './Flag.react.js';
 
 const PlayerLink = ({player, hideFlag}) => (
   <span>
@@ -12,5 +13,4 @@ const PlayerLink = ({player, hideFlag}) => (
     </Link>
   </span>
 );
-
-module.exports = PlayerLink;
+export default PlayerLink;

@@ -1,8 +1,5 @@
 'use strict';
 
-const Players = require('./Players.js');
-const PlayerLink = require('./PlayerLink.react.js');
-
 import React from 'react';
 import {render} from 'react-dom';
 import {
@@ -10,79 +7,17 @@ import {
   Route,
   IndexRoute,
   Link,
-  IndexLink,
   browserHistory
 } from 'react-router';
+
+import Page from './Page.react.js';
+import Players from './Players.js';
+import PlayerLink from './PlayerLink.react.js';
 
 var DocumentTitle = require('react-document-title');
 var _ = require('underscore');
 var accounting = require('accounting');
 var Helper = require('./../../lib/helper.js');
-
-var SearchInput = React.createClass({
-  render: function() {
-    return (
-      <input
-        type="text"
-        className="searchInput form-control"
-        placeholder="Search"
-        autoComplete="off"
-        ref="input"
-      />
-    );
-  },
-  componentDidMount: function() {
-    var ts = [];
-    for (var k in window.Tournaments) {
-      var t = window.Tournaments[k];
-      ts.push({
-        id: t.id,
-        name: t.name + ' (' + t.date.substr(-4) + ')'
-      });
-    }
-    $(this.getDOMNode()).typeahead({
-      source: ts.concat(_.values(window.Players)),
-      afterSelect: function(item) {
-        if (item.tournaments) {
-          browserHistory.push('/player/' + item.id);
-        } else {
-          browserHistory.push('/tournament/' + item.id);
-        }
-        this.refs.input.getDOMNode().value = '';
-      }.bind(this)
-    });
-  }
-});
-
-var App = React.createClass({
-  render: function() {
-    console.log(this.props);
-    return (
-      <div>
-        <div className="navbar navbar-default">
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <IndexLink className="navbar-brand" to="/">
-                MTG Pro Tour Results
-              </IndexLink>
-            </div>
-            <ul className="nav navbar-nav">
-              <li>
-                <Link to="/rankings/t8" activeClassName="activeLink">
-                  Player Rankings
-                </Link>
-              </li>
-            </ul>
-            <div className="navbar-form navbar-right">
-              <SearchInput />
-            </div>
-          </div>
-        </div>
-        {this.props.children}
-      </div>
-    );
-  }
-});
 
 var NotFound = React.createClass({
   render: function() {
@@ -448,7 +383,7 @@ var RecentTournaments = React.createClass({
 
 render((
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
+    <Route path="/" component={Page}>
       <IndexRoute component={RecentTournaments} />
       <Route path="/player/:id" component={Player} />
       <Route path="/tournament/:id" component={Tournament} />

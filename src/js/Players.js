@@ -1,9 +1,17 @@
 'use strict';
 
-const Player = require('./Player.js');
+// Injected global data
+const Players = window.Players;
 
-module.exports = {
-  byID: id => {
-    return new Player(window.Players[id]);
-  }
-};
+import Player from './Player.js';
+
+const PlayersArray = [];
+for (let key in Players) {
+  PlayersArray.push(Players[key]);
+}
+
+const asArray = () => PlayersArray;
+
+const byID = id => new Player(Players[id]);
+
+export default {asArray, byID};
