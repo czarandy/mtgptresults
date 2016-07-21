@@ -9,30 +9,17 @@ import {
   Link,
   browserHistory
 } from 'react-router';
+import DocumentTitle from 'react-document-title';
 
+import NotFound from './NotFound.react.js';
 import Page from './Page.react.js';
 import Players from './Players.js';
 import PlayerLink from './PlayerLink.react.js';
 
-var DocumentTitle = require('react-document-title');
 var _ = require('underscore');
 var accounting = require('accounting');
 var Helper = require('./../../lib/helper.js');
 
-var NotFound = React.createClass({
-  render: function() {
-    return (
-      <DocumentTitle title="MTG Pro Tour Results | Not Found">
-      <div className="col-md-offset-3 col-md-6 container">
-        <div className="jumbotron notFound">
-          <h1>Not Found</h1>
-          <p>Unfortunately, no content was found at this URL.</p>
-        </div>
-      </div>
-      </DocumentTitle>
-    );
-  }
-});
 
 var Player = React.createClass({
   render: function() {
