@@ -5,10 +5,11 @@ import {Link} from 'react-router';
 import DocumentTitle from 'react-document-title';
 
 import NotFound from './NotFound.react.js';
+import PlayerLink from './PlayerLink.react.js';
 import Players from './Players.js';
-import {formatMoney} from './utils.js';
-import Tournaments from './Tournaments.js';
 import TournamentLink from './TournamentLink.react.js';
+import Tournaments from './Tournaments.js';
+import {formatMoney} from './utils.js';
 
 const Player = props => {
   const id = props.params.id;
@@ -20,7 +21,7 @@ const Player = props => {
     <div className="col-md-offset-3 col-md-6">
       <DocumentTitle title={player.getDisplayName()} />
       <div className="page-header pageHeader">
-        <h1>{player.getDisplayName()}</h1>
+        <h1><PlayerLink player={player} /></h1>
         {player.hof ? <h4>Hall of Fame</h4> : null}
       </div>
       <div className="statsWrapper">
