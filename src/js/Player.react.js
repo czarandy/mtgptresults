@@ -22,7 +22,6 @@ const Player = props => {
       <DocumentTitle title={player.name} />
       <div className="page-header pageHeader">
         <h1><PlayerLink player={player} /></h1>
-        {player.hof ? <h4>Hall of Fame</h4> : null}
       </div>
       <div className="statsWrapper">
         <div className="alert alert-info" >

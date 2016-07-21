@@ -177,8 +177,8 @@ var Rankings = React.createClass({
               return (
                 <tr key={player.id}>
                   <td>{index}</td>
-                  <td className={player.hof ? 'player-hof' : null}>
-                    <PlayerLink player={Players.byID(player.id)} hideFlag />
+                  <td>
+                    <PlayerLink player={Players.byID(player.id)} />
                   </td>
                   <td>{player.stats.total}</td>
                   <td>{player.stats.t1}</td>
