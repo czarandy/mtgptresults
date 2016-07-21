@@ -143,7 +143,7 @@ module.exports = function(grunt) {
     var countries = grunt.file.readJSON('./data/countries.json');
     var ret = {};
     for (var country of countries) {
-      ret[country['alpha-3']] = country['alpha-2'];
+      ret[country['alpha-3']] = country;
     }
     return ret;
   }
@@ -162,7 +162,9 @@ module.exports = function(grunt) {
           if (!countries[players[p].nationality]) {
            grunt.log.writeln('Invalid country code: ' + players[p].nationality);
           } else {
-            players[p].flag = countries[players[p].nationality].toLowerCase();
+            players[p].flag = countries[players[p].nationality]['alpha-2'].toLowerCase();
+            // Show the full name instead of the short code.
+            players[p].nationality = countries[players[p].nationality].name;
           }
         }
       }

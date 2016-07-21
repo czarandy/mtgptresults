@@ -19,7 +19,7 @@ const Player = props => {
   }
   return (
     <div className="col-md-offset-3 col-md-6">
-      <DocumentTitle title={player.getDisplayName()} />
+      <DocumentTitle title={player.name} />
       <div className="page-header pageHeader">
         <h1><PlayerLink player={player} /></h1>
         {player.hof ? <h4>Hall of Fame</h4> : null}

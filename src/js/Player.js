@@ -13,13 +13,6 @@ export default class Player {
     this.tournaments = data.tournaments;
   }
 
-  getDisplayName() {
-    if (this.nationality) {
-      return `${this.name} (${this.nationality})`;
-    }
-    return this.name;
-  }
-
   getMoney() {
     return formatMoney(this.stats.money);
   }
