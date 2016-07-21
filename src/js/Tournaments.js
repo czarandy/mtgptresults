@@ -1,5 +1,7 @@
 'use strict';
 
+import Tournament from './Tournament.js';
+
 // Injected global data
 const Tournaments = window.Tournaments;
 
@@ -12,5 +14,12 @@ for (let key in Tournaments) {
   });
 }
 
+const byID = id => {
+  if (Tournaments[id]) {
+    return new Tournament(Tournaments[id]);
+  }
+  return null;
+};
+
 const asArray = () => TournamentsArray;
-export default {asArray};
+export default {asArray, byID};

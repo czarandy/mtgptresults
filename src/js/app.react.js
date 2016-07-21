@@ -15,106 +15,11 @@ import NotFound from './NotFound.react.js';
 import Page from './Page.react.js';
 import Players from './Players.js';
 import PlayerLink from './PlayerLink.react.js';
+import Player from './Player.react.js';
 
 var _ = require('underscore');
 var accounting = require('accounting');
 var Helper = require('./../../lib/helper.js');
-
-
-var Player = React.createClass({
-  render: function() {
-    var id = this.props.params.id;
-    var p = window.Players[id];
-    if (!p) {
-      return (<NotFound />);
-    }
-    return (
-      <div className="col-md-offset-3 col-md-6">
-        <DocumentTitle title={p.name} />
-        <div className="page-header pageHeader">
-          <h1>{p.nationality ? p.name + ' (' + p.nationality + ')' : p.name}</h1>
-          {p.hof ? <h4>Hall of Fame</h4> : null}
-        </div>
-        <div className="statsWrapper">
-          <div className="alert alert-info" >
-            <div className="statsValue">
-              {p.stats.t1} / {p.stats.t8} / {p.stats.t16} / {p.stats.total}
-            </div>
-            <div>
-              <Link to="/rankings/t1">Wins</Link>
-              {' / '}
-              <Link to="/rankings/t8">T8</Link>
-              {' / '}
-              <Link to="/rankings/t16">T16</Link>
-              {' / '}
-              <Link to="/rankings/total">Total</Link>
-            </div>
-          </div>
-          <div className="alert alert-info" >
-            <div className="statsValue">
-              {accounting.formatMoney(p.stats.money, '$', 0)}
-            </div>
-            <div>
-              <Link to="/rankings/money">
-                Total Money
-              </Link>
-            </div>
-          </div>
-          <div className="alert alert-info" >
-            <div className="statsValue">
-              {p.stats.points}
-            </div>
-            <div>
-              <Link to="rankings/points">
-                Total Pro Points
-              </Link>
-            </div>
-          </div>
-        </div>
-        <table className="table table-hover table-striped">
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Tournament</th>
-              <th>Finish</th>
-              <th>Pro Points</th>
-              <th>Prize Money</th>
-            </tr>
-          </thead>
-          <tbody>
-            {_.map(p.tournaments, function(t, index) {
-              var tdata = window.Tournaments[t.tid];
-              if (!tdata) { return null; }
-              var c = null;
-              if (t.finish === 1) {
-                c = 'success';
-              } else if (tdata.team && t.finish <= 4) {
-                c = 'warning';
-              } else if (!tdata.team && t.finish <= 8) {
-                c = 'warning';
-              }
-              return (
-                <tr key={index} className={c}>
-                  <td>{tdata.date}</td>
-                  <td>
-                    <Link to={'/tournament/' + t.tid}>
-                      {tdata.name}
-                    </Link>
-                  </td>
-                  <td>{t.rank || t.finish}</td>
-                  <td>{t.propoints}</td>
-                  <td>
-                    {t.money ? accounting.formatMoney(t.money, '$', 0) : null}
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-});
 
 var Tournament = React.createClass({
   render: function() {

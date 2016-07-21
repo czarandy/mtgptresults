@@ -12,6 +12,11 @@ for (let key in Players) {
 
 const asArray = () => PlayersArray;
 
-const byID = id => new Player(Players[id]);
+const byID = id => {
+  if (!Players[id]) {
+    return null;
+  }
+  return new Player(Players[id]);
+};
 
 export default {asArray, byID};
