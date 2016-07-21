@@ -4,6 +4,7 @@ import React from 'react';
 import {Link} from 'react-router';
 
 import Flag from './Flag.react.js';
+import HallOfFameIcon from './HallOfFameIcon.react.js';
 
 const PlayerLink = ({player, hideFlag}) => (
   <span>
@@ -11,6 +12,7 @@ const PlayerLink = ({player, hideFlag}) => (
     <Link to={'/player/' + player.id}>
       {player.name}
     </Link>
+    {player.hof ? <HallOfFameIcon /> : null}
   </span>
 );
 export default PlayerLink;
