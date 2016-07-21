@@ -2,8 +2,8 @@
 
 const React = require('react');
 
-const Flag = ({flag}) => (
-  <span className={'flag-icon flag-icon-' + flag}></span>
+const Flag = ({flag, nationality}) => (
+  <span className={'flag-icon flag-icon-' + flag} title={nationality}></span>
 );
 
 export default Flag;
