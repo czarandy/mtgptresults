@@ -16,83 +16,11 @@ import Page from './Page.react.js';
 import Players from './Players.js';
 import PlayerLink from './PlayerLink.react.js';
 import Player from './Player.react.js';
+import Tournament from './Tournament.react.js';
 
 var _ = require('underscore');
 var accounting = require('accounting');
 var Helper = require('./../../lib/helper.js');
-
-var Tournament = React.createClass({
-  render: function() {
-    var id = this.props.params.id;
-    var t = window.Tournaments[id];
-    if (!t) {
-      return (<NotFound />);
-    }
-    return (
-      <div className="col-md-offset-3 col-md-6">
-        <DocumentTitle title={t.name} />
-        <div className="page-header pageHeader">
-          <h1>
-            {t.coverage ? (
-              <a href={t.coverage}>{t.name}</a>
-            ) : t.name}
-          </h1>
-          <p className="lead tournamentLead">
-            {t.formats.join(' / ')}
-          </p>
-          <p className="lead tournamentLead">
-            {t.date}
-          </p>
-          <p className="lead tournamentLead">
-            {t.location}
-          </p>
-        </div>
-        <table className="table standingsTable table-hover">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Player</th>
-              <th>Pro Points</th>
-              <th>Prize Money</th>
-            </tr>
-          </thead>
-          <tbody>
-            {_.map(t.standings, function(p, index) {
-              var c = null;
-              index = Helper.getPlayerIndex(
-                index,
-                t.team,
-                t.team2hg
-              );
-              var top_limit = t.team ? 4 : 8;
-              if (index === 0) {
-                c = 'success';
-              } else if (index < top_limit) {
-                c = 'warning';
-              }
-              return (
-                <tr className={c} key={p.id}>
-                  <td>{p.rank || (index + 1)}</td>
-                  <td>
-                    <PlayerLink player={Players.byID(p.id)} />
-                    {' '}
-                    {p.report ? (
-                      <a href={p.report}>(report)</a>
-                    ) : null}
-                  </td>
-                  <td>{p.propoints}</td>
-                  <td>
-                    {p.money ? accounting.formatMoney(p.money, '$', 0) : null}
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-});
 
 var Rankings = React.createClass({
   render: function() {
