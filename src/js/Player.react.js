@@ -23,37 +23,37 @@ const Player = props => {
       <div className="page-header pageHeader">
         <h1><PlayerLink player={player} /></h1>
       </div>
-      <div className="statsWrapper">
-        <div className="alert alert-info" >
-          <div className="statsValue">
+      <div className="Stat">
+        <div className="Stat-alert alert alert-info">
+          <div className="Stat-value">
             {player.stats.t1} / {player.stats.t8} / {player.stats.t16} / {player.stats.total}
           </div>
           <div>
-            <Link to="/rankings/t1">Wins</Link>
+            <Link className="Stat-link" to="/rankings/t1">Wins</Link>
             {' / '}
-            <Link to="/rankings/t8">T8</Link>
+            <Link className="Stat-link" to="/rankings/t8">T8</Link>
             {' / '}
-            <Link to="/rankings/t16">T16</Link>
+            <Link className="Stat-link" to="/rankings/t16">T16</Link>
             {' / '}
-            <Link to="/rankings/total">Total</Link>
+            <Link className="Stat-link" to="/rankings/total">Total</Link>
           </div>
         </div>
-        <div className="alert alert-info" >
-          <div className="statsValue">
+        <div className="Stat-alert alert alert-info" >
+          <div className="Stat-value">
             {player.getMoney()}
           </div>
           <div>
-            <Link to="/rankings/money">
+            <Link className="Stat-link" to="/rankings/money">
               Total Money
             </Link>
           </div>
         </div>
-        <div className="alert alert-info" >
-          <div className="statsValue">
+        <div className="Stat-alert alert alert-info" >
+          <div className="Stat-value">
             {player.stats.points}
           </div>
           <div>
-            <Link to="rankings/points">
+            <Link className="Stat-link" to="rankings/points">
               Total Pro Points
             </Link>
           </div>
