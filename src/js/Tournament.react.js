@@ -47,7 +47,7 @@ const Tournament = props => {
           {t.standings.map((p, index) => {
             return (
               <tr className={t.getPlayerClassName(index)} key={p.id}>
-                <td>{p.rank || (index + 1)}</td>
+                <td>{p.rank || t.getPlayerIndex(index) + 1}</td>
                 <td>
                   <PlayerLink player={Players.byID(p.id)} />
                   {' '}
