@@ -14,31 +14,36 @@
             "name": "Lukas Blohon",
             "propoints": 30,
             "matchpoints": 37,
-            "money": 40000
+            "money": 40000,
+            "team": "Cabin Crew"
         },
         {
             "name": "Owen Turtenwald",
             "propoints": 26,
             "matchpoints": 36,
-            "money": 20000
+            "money": 20000,
+            "team": "The Pantheon"
         },
         {
             "name": "Samuel Pardee",
             "propoints": 22,
             "matchpoints": 38,
-            "money": 12500
+            "money": 12500,
+            "team": "Face to Face Games"
         },
         {
             "name": "Luis Scott-Vargas",
             "propoints": 22,
             "matchpoints": 38,
-            "money": 12500
+            "money": 12500,
+            "team": "ChannelFireball"
         },
         {
             "name": "Yuta Takahashi",
             "propoints": 18,
             "matchpoints": 37,
-            "money": 10000
+            "money": 10000,
+            "team": "Hareruya Pros"
         },
         {
             "name": "Ken Yukuhiro",
@@ -50,25 +55,29 @@
             "name": "Reid Duke",
             "propoints": 18,
             "matchpoints": 36,
-            "money": 10000
+            "money": 10000,
+            "team": "The Pantheon"
         },
         {
             "name": "Andrew Brown",
             "propoints": 18,
             "matchpoints": 36,
-            "money": 10000
+            "money": 10000,
+            "team": "East West Bowl"
         },
         {
             "name": "Katsuhiro Mori",
             "propoints": 15,
             "matchpoints": 36,
-            "money": 5000
+            "money": 5000,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Simon Nielsen",
             "propoints": 11,
             "matchpoints": 34,
-            "money": 5000
+            "money": 5000,
+            "team": "EUreka"
         },
         {
             "name": "Daniel Cathro",
@@ -80,25 +89,29 @@
             "name": "Immanuel Gerschenson",
             "propoints": 11,
             "matchpoints": 34,
-            "money": 5000
+            "money": 5000,
+            "team": "EUreka"
         },
         {
             "name": "Ondrej Strasky",
             "propoints": 11,
             "matchpoints": 34,
-            "money": 5000
+            "money": 5000,
+            "team": "Face to Face Games"
         },
         {
             "name": "Martin Müller",
             "propoints": 11,
             "matchpoints": 34,
-            "money": 5000
+            "money": 5000,
+            "team": "EUreka"
         },
         {
             "name": "Joel Larsson",
             "propoints": 11,
             "matchpoints": 34,
-            "money": 5000
+            "money": 5000,
+            "team": "EUreka"
         },
         {
             "name": "Valentin Mackl",
@@ -110,19 +123,22 @@
             "name": "Jacob Wilson",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "Face to Face Games"
         },
         {
             "name": "Paul Cheon",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "ChannelFireball"
         },
         {
             "name": "Brad Nelson",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "EUreka"
         },
         {
             "name": "Rodrigo Lopez",
@@ -134,19 +150,22 @@
             "name": "Oliver Polak-Rottmann",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "EUreka"
         },
         {
             "name": "Louis Deltour",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "EUreka"
         },
         {
             "name": "Antonino De Rosa",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "The Pantheon"
         },
         {
             "name": "TORU Inoue",
@@ -158,85 +177,99 @@
             "name": "Mike Sigrist",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 2500
+            "money": 2500,
+            "team": "Face to Face Games"
         },
         {
             "name": "Pedro Carvalho",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 1500
+            "money": 1500,
+            "team": "Dex Army"
         },
         {
             "name": "William Jensen",
             "propoints": 10,
             "matchpoints": 33,
-            "money": 1500
+            "money": 1500,
+            "team": "The Pantheon"
         },
         {
             "name": "Steve Rubin",
             "propoints": 7,
             "matchpoints": 31,
-            "money": 1500
+            "money": 1500,
+            "team": "Face to Face Games"
         },
         {
             "name": "Raphael Levy",
             "propoints": 7,
             "matchpoints": 31,
-            "money": 1500
+            "money": 1500,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Thomas Hendriks",
             "propoints": 7,
             "matchpoints": 31,
-            "money": 1500
+            "money": 1500,
+            "team": "EUreka"
         },
         {
             "name": "Jan Ksandr",
             "propoints": 7,
             "matchpoints": 31,
-            "money": 1500
+            "money": 1500,
+            "team": "Cabin Crew"
         },
         {
             "name": "Oliver Tiu",
             "propoints": 7,
             "matchpoints": 31,
-            "money": 1500
+            "money": 1500,
+            "team": "Face to Face Games"
         },
         {
             "name": "David Ochoa",
             "propoints": 7,
             "matchpoints": 31,
-            "money": 1500
+            "money": 1500,
+            "team": "ChannelFireball"
         },
         {
             "name": "Dominik Prosek",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Cabin Crew"
         },
         {
             "name": "Yuuya Watanabe",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Cygames"
         },
         {
             "name": "Logan Nettles",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "The Pantheon"
         },
         {
             "name": "Ben Rubin",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "The Pantheon"
         },
         {
             "name": "Samuel Black",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Ultra Pro"
         },
         {
             "name": "Shaun McLaren",
@@ -248,55 +281,64 @@
             "name": "Jason Chung",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Allen Wu",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Pat's Games"
         },
         {
             "name": "Juan Guillenea Pujalte",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Dex Army"
         },
         {
             "name": "Ben Weitz",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "East West Bowl"
         },
         {
             "name": "Tomoharu Saito",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Yuuki Ichikawa",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Cygames"
         },
         {
             "name": "Martin Juza",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Cabin Crew"
         },
         {
             "name": "Aryeh Wiznitzer",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Pat's Games"
         },
         {
             "name": "Javier Dominguez",
             "propoints": 6,
             "matchpoints": 30,
-            "money": 1500
+            "money": 1500,
+            "team": "Dex Army"
         },
         {
             "name": "Riku Kumagai",
@@ -308,7 +350,8 @@
             "name": "Oscar Christensen",
             "propoints": 5,
             "matchpoints": 29,
-            "money": 1500
+            "money": 1500,
+            "team": "Cabin Crew"
         },
         {
             "name": "Greg Orange",
@@ -332,7 +375,8 @@
             "name": "Frank Karsten",
             "propoints": 5,
             "matchpoints": 29,
-            "money": 1000
+            "money": 1000,
+            "team": "EUreka"
         },
         {
             "name": "Justin Rios",
@@ -344,19 +388,22 @@
             "name": "Alexander Hayne",
             "propoints": 5,
             "matchpoints": 29,
-            "money": 1000
+            "money": 1000,
+            "team": "Face to Face Games"
         },
         {
             "name": "Brian Braun-Duin",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Face to Face Games"
         },
         {
             "name": "Teruya Kakumae",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Cygames"
         },
         {
             "name": "Patrick Dickmann",
@@ -380,31 +427,36 @@
             "name": "Shuhei Nakamura",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Face to Face Games"
         },
         {
             "name": "Antonio Del Moral Leon",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Dex Army"
         },
         {
             "name": "Christopher Fennell",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Lee Shi Tian",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Andrew Baeckstrom",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Ultra Pro"
         },
         {
             "name": "Eduardo Sajgalik",
@@ -422,13 +474,15 @@
             "name": "Marco Cammilluzzi",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Shaheen Soorani",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Paul Dean",
@@ -440,7 +494,8 @@
             "name": "Grzegorz Kowalski",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Cabin Crew"
         },
         {
             "name": "Yuki Matsumoto",
@@ -452,18 +507,21 @@
             "name": "Timothy Wu",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "East West Bowl"
         },
         {
             "name": "Nathaniel Smith",
             "propoints": 5,
             "matchpoints": 28,
-            "money": 1000
+            "money": 1000,
+            "team": "Pat's Games"
         },
         {
             "name": "Eli Kassis",
             "propoints": 5,
-            "matchpoints": 28
+            "matchpoints": 28,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Bill Chronopoulos",
@@ -478,17 +536,20 @@
         {
             "name": "Ivan Floch",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "Face to Face Games"
         },
         {
             "name": "Andrew Cuneo",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "The Pantheon"
         },
         {
             "name": "Matthew Sperling",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "The Pantheon"
         },
         {
             "name": "David Schnayer",
@@ -498,22 +559,26 @@
         {
             "name": "Jarvis Yu",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "East West Bowl"
         },
         {
             "name": "Matthew Severa",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "Ultra Pro"
         },
         {
             "name": "Jeremy Dezani",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Paulo Vitor Dama da Rosa",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "Face to Face Games"
         },
         {
             "name": "Zach Voss",
@@ -523,22 +588,26 @@
         {
             "name": "Jon Finkel",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "The Pantheon"
         },
         {
             "name": "Paul Jackson",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Brock Parker",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "The Pantheon"
         },
         {
             "name": "Craig Wescoe",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Scott Alter",
@@ -548,17 +617,20 @@
         {
             "name": "Maciej Janik",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "Cabin Crew"
         },
         {
             "name": "Scott Lipp",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "East West Bowl"
         },
         {
             "name": "Jiachen Tao",
             "propoints": 4,
-            "matchpoints": 27
+            "matchpoints": 27,
+            "team": "East West Bowl"
         },
         {
             "name": "Harrison Burnham",
@@ -578,7 +650,8 @@
         {
             "name": "Paul Rietzl",
             "propoints": 3,
-            "matchpoints": 25
+            "matchpoints": 25,
+            "team": "The Pantheon"
         },
         {
             "name": "Adam Jansen",
@@ -593,7 +666,8 @@
         {
             "name": "Pierre Dagen",
             "propoints": 3,
-            "matchpoints": 25
+            "matchpoints": 25,
+            "team": "EUreka"
         },
         {
             "name": "Mario Lillard",
@@ -603,7 +677,8 @@
         {
             "name": "Dan Musser",
             "propoints": 3,
-            "matchpoints": 25
+            "matchpoints": 25,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Josh Buitenhuis",
@@ -613,7 +688,8 @@
         {
             "name": "Jon Stern",
             "propoints": 3,
-            "matchpoints": 25
+            "matchpoints": 25,
+            "team": "Face to Face Games"
         },
         {
             "name": "Adrian Sullivan",
@@ -628,7 +704,8 @@
         {
             "name": "Bartlomiej Lewandowski",
             "propoints": 3,
-            "matchpoints": 25
+            "matchpoints": 25,
+            "team": "Cabin Crew"
         },
         {
             "name": "Nick Ball",
@@ -643,12 +720,14 @@
         {
             "name": "Toni Ramis Pascual",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "Dex Army"
         },
         {
             "name": "Jose Cabezas Munoz",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "Dex Army"
         },
         {
             "name": "Brett Sinclair",
@@ -658,7 +737,8 @@
         {
             "name": "Patrick Cox",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "Ultra Pro"
         },
         {
             "name": "Nick Roberts",
@@ -688,7 +768,8 @@
         {
             "name": "Magnus Lantto",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "EUreka"
         },
         {
             "name": "Pak Yin Lai",
@@ -698,12 +779,14 @@
         {
             "name": "Ben Stark",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "Ultra Pro"
         },
         {
             "name": "Yoshihiko Ikawa",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "Hareruya Pros"
         },
         {
             "name": "Marco De Togni",
@@ -713,7 +796,8 @@
         {
             "name": "Thien Nguyen",
             "propoints": 3,
-            "matchpoints": 24
+            "matchpoints": 24,
+            "team": "Pat's Games"
         },
         {
             "name": "Shawn Mcneace",
@@ -743,17 +827,20 @@
         {
             "name": "Niels Noorlander",
             "propoints": 3,
-            "matchpoints": 23
+            "matchpoints": 23,
+            "team": "Cabin Crew"
         },
         {
             "name": "Pascal Maynard",
             "propoints": 3,
-            "matchpoints": 22
+            "matchpoints": 22,
+            "team": "East West Bowl"
         },
         {
             "name": "Petr Sochurek",
             "propoints": 3,
-            "matchpoints": 22
+            "matchpoints": 22,
+            "team": "Cabin Crew"
         },
         {
             "name": "Michael Derczo",
@@ -763,7 +850,8 @@
         {
             "name": "Aleksa Telarov",
             "propoints": 3,
-            "matchpoints": 22
+            "matchpoints": 22,
+            "team": "EUreka"
         },
         {
             "name": "Denniz Rachid",
@@ -793,7 +881,8 @@
         {
             "name": "Marcio Carvalho",
             "propoints": 3,
-            "matchpoints": 21
+            "matchpoints": 21,
+            "team": "Dex Army"
         },
         {
             "name": "Michael Sheng",
@@ -828,17 +917,20 @@
         {
             "name": "Seth Manfield",
             "propoints": 3,
-            "matchpoints": 21
+            "matchpoints": 21,
+            "team": "East West Bowl"
         },
         {
             "name": "Ricky Chin",
             "propoints": 3,
-            "matchpoints": 21
+            "matchpoints": 21,
+            "team": "East West Bowl"
         },
         {
             "name": "Kenji Tsumura",
             "propoints": 3,
-            "matchpoints": 21
+            "matchpoints": 21,
+            "team": "Hareruya Pros"
         },
         {
             "name": "Celsus Kintanar",
@@ -858,7 +950,8 @@
         {
             "name": "Matej Zatlkaj",
             "propoints": 3,
-            "matchpoints": 21
+            "matchpoints": 21,
+            "team": "EUreka"
         },
         {
             "name": "Austin Mansell",
@@ -868,7 +961,8 @@
         {
             "name": "Justin Cohen",
             "propoints": 3,
-            "matchpoints": 21
+            "matchpoints": 21,
+            "team": "Ultra Pro"
         },
         {
             "name": "Jiachong Lv",
@@ -878,7 +972,8 @@
         {
             "name": "Robin Dolar",
             "propoints": 3,
-            "matchpoints": 20
+            "matchpoints": 20,
+            "team": "Cabin Crew"
         },
         {
             "name": "Gaudenis Vidugiris",
@@ -893,7 +988,8 @@
         {
             "name": "Marcos Paulo De Jesus Freitas",
             "propoints": 3,
-            "matchpoints": 19
+            "matchpoints": 19,
+            "team": "Dex Army"
         },
         {
             "name": "Fai Littman",
@@ -903,7 +999,8 @@
         {
             "name": "Julien Henry",
             "propoints": 3,
-            "matchpoints": 19
+            "matchpoints": 19,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Chen Yiwen",
@@ -913,7 +1010,8 @@
         {
             "name": "Douglas Romani",
             "propoints": 3,
-            "matchpoints": 18
+            "matchpoints": 18,
+            "team": "Dex Army"
         },
         {
             "name": "Mike Jianu",
@@ -923,7 +1021,8 @@
         {
             "name": "Forrest Mead",
             "propoints": 3,
-            "matchpoints": 18
+            "matchpoints": 18,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Masashi Oiso",
@@ -933,12 +1032,14 @@
         {
             "name": "Jelger Wiegersma",
             "propoints": 3,
-            "matchpoints": 18
+            "matchpoints": 18,
+            "team": "The Pantheon"
         },
         {
             "name": "Shota Yasooka",
             "propoints": 3,
-            "matchpoints": 18
+            "matchpoints": 18,
+            "team": "Hareruya Pros"
         },
         {
             "name": "George Dimitriadis",
@@ -953,17 +1054,20 @@
         {
             "name": "Thiago Saporito",
             "propoints": 3,
-            "matchpoints": 18
+            "matchpoints": 18,
+            "team": "Dex Army"
         },
         {
             "name": "Christian Calcano",
             "propoints": 3,
-            "matchpoints": 16
+            "matchpoints": 16,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Willy Edel",
             "propoints": 3,
-            "matchpoints": 16
+            "matchpoints": 16,
+            "team": "Dex Army"
         },
         {
             "name": "Evan Esposito",
@@ -973,12 +1077,14 @@
         {
             "name": "Kentaro Yamamoto",
             "propoints": 3,
-            "matchpoints": 15
+            "matchpoints": 15,
+            "team": "Cygames"
         },
         {
             "name": "Mark Jacobson",
             "propoints": 3,
-            "matchpoints": 15
+            "matchpoints": 15,
+            "team": "East West Bowl"
         },
         {
             "name": "Andrew Elenbogen",
@@ -1008,7 +1114,8 @@
         {
             "name": "Wing Chun Yam",
             "propoints": 3,
-            "matchpoints": 12
+            "matchpoints": 12,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Brett Tetley",
@@ -1018,7 +1125,8 @@
         {
             "name": "Eric Severson",
             "propoints": 3,
-            "matchpoints": 10
+            "matchpoints": 10,
+            "team": "East West Bowl"
         },
         {
             "name": "Ian Birrell",
@@ -1033,7 +1141,8 @@
         {
             "name": "Ray Tautic",
             "propoints": 3,
-            "matchpoints": 10
+            "matchpoints": 10,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Dan Lanthier",
@@ -1053,17 +1162,20 @@
         {
             "name": "Trey Van Cleave",
             "propoints": 3,
-            "matchpoints": 10
+            "matchpoints": 10,
+            "team": "Pat's Games"
         },
         {
             "name": "Michael Simon",
             "propoints": 3,
-            "matchpoints": 10
+            "matchpoints": 10,
+            "team": "Pat's Games"
         },
         {
             "name": "Hao-Shan Huang",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Jacob Thiessen",
@@ -1088,12 +1200,14 @@
         {
             "name": "Christopher Lossett",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Josh Utter-Leyton",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "ChannelFireball"
         },
         {
             "name": "Eng Chu Heng",
@@ -1123,7 +1237,8 @@
         {
             "name": "Martin Dang",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "EUreka"
         },
         {
             "name": "Edwin Eng",
@@ -1133,7 +1248,8 @@
         {
             "name": "Mark Rankin",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Alex Bianchi",
@@ -1158,7 +1274,8 @@
         {
             "name": "Corey Burkhart",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "Ultra Pro"
         },
         {
             "name": "Francisco Vega Parra",
@@ -1183,7 +1300,8 @@
         {
             "name": "Artur Villela",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "Dex Army"
         },
         {
             "name": "Kazuyuki Takimura",
@@ -1223,7 +1341,8 @@
         {
             "name": "Charles League",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "MTGCardMarket"
         },
         {
             "name": "Eric English",
@@ -1238,7 +1357,8 @@
         {
             "name": "Jake Hart",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Mike Berry",
@@ -1268,7 +1388,8 @@
         {
             "name": "Shahar Shenhar",
             "propoints": 3,
-            "matchpoints": 9
+            "matchpoints": 9,
+            "team": "The Pantheon"
         },
         {
             "name": "Raymond Cheung",
@@ -1288,12 +1409,14 @@
         {
             "name": "Ari Lax",
             "propoints": 3,
-            "matchpoints": 7
+            "matchpoints": 7,
+            "team": "East West Bowl"
         },
         {
             "name": "Michael Bonde",
             "propoints": 3,
-            "matchpoints": 7
+            "matchpoints": 7,
+            "team": "Cabin Crew"
         },
         {
             "name": "Sven Plamann",
@@ -1303,7 +1426,8 @@
         {
             "name": "Thierry Ramboa",
             "propoints": 3,
-            "matchpoints": 7
+            "matchpoints": 7,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Piotr Glogowski",
@@ -1313,7 +1437,8 @@
         {
             "name": "Mateus Martins",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "Dex Army"
         },
         {
             "name": "Daniel Antoniou",
@@ -1328,7 +1453,8 @@
         {
             "name": "Matthew Nass",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "ChannelFireball"
         },
         {
             "name": "Giuliano Benincasa",
@@ -1343,12 +1469,14 @@
         {
             "name": "Niels Molle",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "Cabin Crew"
         },
         {
             "name": "Benjamin Seck",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "Ultra Pro"
         },
         {
             "name": "Elisander Vukaj",
@@ -1393,7 +1521,8 @@
         {
             "name": "William Craddock",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "Pat's Games"
         },
         {
             "name": "Alesander Samaniego",
@@ -1408,12 +1537,14 @@
         {
             "name": "Carlos Ballester",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "Dex Army"
         },
         {
             "name": "Christoffer Larsen",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "EUreka"
         },
         {
             "name": "Mike Hron",
@@ -1423,12 +1554,14 @@
         {
             "name": "Michael Majors",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "EUreka"
         },
         {
             "name": "Dan Ward",
             "propoints": 3,
-            "matchpoints": 6
+            "matchpoints": 6,
+            "team": "Dex Army"
         },
         {
             "name": "Joao Gabriel Fischer Fonseca",
@@ -1553,7 +1686,8 @@
         {
             "name": "Andrea Mengucci",
             "propoints": 3,
-            "matchpoints": 3
+            "matchpoints": 3,
+            "team": "MTG Mint Card"
         },
         {
             "name": "Jonathan Danz",
@@ -1578,7 +1712,8 @@
         {
             "name": "Santiago De Paoli",
             "propoints": 3,
-            "matchpoints": 0
+            "matchpoints": 0,
+            "team": "Dex Army"
         },
         {
             "name": "Ray Huang",
