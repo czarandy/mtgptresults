@@ -93,6 +93,7 @@ export default class Test extends Component {
                     rowCount={rowCount}
                     scrollTop={scrollTop}
                     width={300} // FIXME
+                    className="Grid--synchronized"
                   />
                 </div>
                 <div className="{styles.GridColumn}">
@@ -114,6 +115,7 @@ export default class Test extends Component {
                             rowCount={1}
                             scrollLeft={scrollLeft}
                             width={width - scrollbarSize()}
+                            className="Grid--synchronized"
                           />
                         </div>
                         <div
