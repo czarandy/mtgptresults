@@ -24,21 +24,35 @@
   }
 }
 
-.statsWrapper {
-  padding: 10px;
+/*
+ * Stat
+ */
+
+.Stat {
   text-align: center;
+}
 
-  .alert {
+.Stat-alert {
+  margin-bottom: 0;
+}
+
+.Stat-value {
+  font-weight: bold;
+}
+
+.Stat-link {
+  color: #fff !important;
+}
+
+@media (min-width: 768px) {
+  .Stat {
+    padding: 10px;
+  }
+
+  .Stat-alert {
     display: inline-block;
-    margin: 0 5px;
-  }
-
-  .statsValue {
-    font-weight: bold;
-  }
-
-  a {
-    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
@@ -54,6 +68,10 @@
   width: 16px;
   height: 16px;
 }
+
+/*
+ * List
+ */
 
 .List {
   margin-left: 0;
