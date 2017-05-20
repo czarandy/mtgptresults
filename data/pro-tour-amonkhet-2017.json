@@ -1,0 +1,1975 @@
+{
+    "coverage": "http://magic.wizards.com/en/events/coverage/ptakh",
+    "date": "May 12-14, 2017",
+    "formats": [
+        "Draft",
+        "Standard"
+    ],
+    "id": "pro-tour-amonkhet-2017",
+    "location": "Nashville, Tennessee, United States",
+    "logo": "ptakh.png",
+    "name": "Pro Tour Amonkhet",
+    "standings": [
+        {
+            "name": "Gerry (Mutiny) Thompson",
+            "propoints": 30,
+            "matchpoints": 37,
+            "money": 50000
+        },
+        {
+            "name": "Yuuya (Musashi) Watanabe",
+            "propoints": 26,
+            "matchpoints": 36,
+            "money": 20000
+        },
+        {
+            "name": "Ken (Musashi) Yukuhiro",
+            "propoints": 24,
+            "matchpoints": 39,
+            "money": 15000
+        },
+        {
+            "name": "Martin (Genesis) Muller",
+            "propoints": 22,
+            "matchpoints": 37,
+            "money": 12500
+        },
+        {
+            "name": "Christopher (Lingering Souls) Fennell",
+            "propoints": 20,
+            "matchpoints": 42,
+            "money": 10000
+        },
+        {
+            "name": "Marc (EUreka) Tobiasch",
+            "propoints": 18,
+            "matchpoints": 38,
+            "money": 9000
+        },
+        {
+            "name": "Christian (MTG Bent Card) Calcano",
+            "propoints": 17,
+            "matchpoints": 38,
+            "money": 7500
+        },
+        {
+            "name": "Eric (Channel Fireball Ice) Froehlich",
+            "propoints": 16,
+            "matchpoints": 36,
+            "money": 6000
+        },
+        {
+            "name": "Gerard Fabiano",
+            "propoints": 15,
+            "matchpoints": 36,
+            "money": 5000
+        },
+        {
+            "name": "Timothy (Massdrop East) Wu",
+            "propoints": 15,
+            "matchpoints": 36,
+            "money": 5000
+        },
+        {
+            "name": "Ryan (Tapas) Cubit",
+            "propoints": 15,
+            "matchpoints": 36,
+            "money": 5000
+        },
+        {
+            "name": "Tyrell Wheeler",
+            "propoints": 15,
+            "matchpoints": 36,
+            "money": 5000
+        },
+        {
+            "name": "William (Puzzle Quest) Jensen",
+            "propoints": 11,
+            "matchpoints": 34,
+            "money": 5000
+        },
+        {
+            "name": "Daniel Grafensteiner",
+            "propoints": 11,
+            "matchpoints": 34,
+            "money": 5000
+        },
+        {
+            "name": "Patrick (EUreka) Dickmann",
+            "propoints": 11,
+            "matchpoints": 34,
+            "money": 5000
+        },
+        {
+            "name": "Michael (Genesis) Majors",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 5000
+        },
+        {
+            "name": "Seth (Genesis) Manfield",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Owen (Puzzle Quest) Turtenwald",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Shota (Musashi) Yasooka",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Reid (Puzzle Quest) Duke",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Shi Tian (MTG Mint Card) Lee",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Brad (Genesis) Nelson",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Jason (MTG Mint Card) Chung",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Alexandre Habert",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 3000
+        },
+        {
+            "name": "Joshua (Mutiny) Cho",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Peter Vieren",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Zen Takahashi",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Kelvin (MTG Mint Card) Chew",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Martin Quiroga",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Immanuel (EUreka) Gerschenson",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Nicolas Legandre",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Tomek Pedrakowski",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 2000
+        },
+        {
+            "name": "Nathaniel (Fire Squad) Smith",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 1500
+        },
+        {
+            "name": "Brennan DeCandio",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 1500
+        },
+        {
+            "name": "Javier (MTG Bent Card) Dominguez",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 1500
+        },
+        {
+            "name": "Sebastian (Ligamagic) Pozzo",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 1500
+        },
+        {
+            "name": "Alex Stok",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 1500
+        },
+        {
+            "name": "Shaun McLaren",
+            "propoints": 10,
+            "matchpoints": 33,
+            "money": 1500
+        },
+        {
+            "name": "Josh McClain",
+            "propoints": 7,
+            "matchpoints": 31,
+            "money": 1500
+        },
+        {
+            "name": "Martin (Genesis) Dang",
+            "propoints": 7,
+            "matchpoints": 31,
+            "money": 1500
+        },
+        {
+            "name": "David Brucker",
+            "propoints": 7,
+            "matchpoints": 31,
+            "money": 1500
+        },
+        {
+            "name": "Kazuaki Fujimura",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "Raymond (Hotsauce Games) Perez",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "Pierre (Opportunity) Dagen",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "Gabriel (Opportunity) Nassif",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "Tsuyoshi (Last Samurai) Fujita",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "David Williams",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "Benjamin (Massdrop West) Weitz",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1500
+        },
+        {
+            "name": "Thiago (DEX Army) Saporito",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Nick Cummings",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Yusuf Kemal Vefa",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Samuel (Mutiny) Black",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Allen Wu",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Steve (EUreka) Hatto",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Andrea (MTG Bent Card) Mengucci",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Richard Tan",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Yuchen Liu",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Jiachen (Massdrop West) Tao",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Matt Sikkink Johnson",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Martin (Channel Fireball Fire) Juza",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Soohwang (Mox Box Bowl) Yeem",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Benjamin Nikolich",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Sean Hume",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Matthew Long",
+            "propoints": 6,
+            "matchpoints": 30,
+            "money": 1000
+        },
+        {
+            "name": "Will Erker",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Yuta (Hareruya) Takahashi",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Hao-Shan (MTG Mint Card) Huang",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Doug Tice",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Tyler (Hotsauce Games) Hill",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Toru Inoue",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Makis (Conflagreece) Matsoukas",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Steven (Face to Face Games) Rubin",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Yuuki (Musashi) Ichikawa",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Christoffer Larsen",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Riku Kumagai",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Mark (Massdrop West) Jacobson",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Shinya Saito",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Alexander Hottmann",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Raphael (Top Level) Levy",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Ryder Aguilera",
+            "propoints": 6,
+            "matchpoints": 30
+        },
+        {
+            "name": "Tomoharu (Hareruya) Saito",
+            "propoints": 5,
+            "matchpoints": 28
+        },
+        {
+            "name": "Kyle Boggemes",
+            "propoints": 5,
+            "matchpoints": 28
+        },
+        {
+            "name": "Dean McLaren",
+            "propoints": 5,
+            "matchpoints": 28
+        },
+        {
+            "name": "Thomas Hendriks",
+            "propoints": 5,
+            "matchpoints": 28
+        },
+        {
+            "name": "Pedro Lechado",
+            "propoints": 5,
+            "matchpoints": 28
+        },
+        {
+            "name": "Fabian Friedrich",
+            "propoints": 5,
+            "matchpoints": 28
+        },
+        {
+            "name": "Viktors Kazanskis",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Charles Wong",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Magnus (Opportunity) Lantto",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Panagiotis (Conflagreece) Papadopoulos",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Robert Lombardi",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Hideyuki Nishihara",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Kentaro (Musashi) Yamamoto",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "John Wasson",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Evart Moughon",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Fernando De Jesus Dominguez Roldan",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Mike (Channel Fireball Ice) Sigrist",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Pedro (Ligamagic) Carvalho",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Lukas (Genesis) Blohon",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Kazuyuki (Last Samurai) Takimura",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Bin Jia",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Thomas Ashton",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Shaheen (Lingering Souls) Soorani",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Cain Rianhard",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Teruya (Musashi) Kakumae",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Jon (Massdrop East) Stern",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Nathaniel Barton",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Evgeny Schetka",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Travis (Lingering Souls) Woo",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Jonathan Sukenik",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Mike Brierley",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Luis Gobern",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Jonathan (Fire Squad) Morawski",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Matti (Almost Finnished) Kuisma",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Ferenc Nagy",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Greg (Hotsauce Games) Orange",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Hideaki Maeba",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Tomas Kuchta",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Mike (Top Level) Hron",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Shahar (D3 Go!) Shenhar",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Patrick (Top Level) Chapin",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Andrew Wolbers",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Julian To",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "William Lou",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Paulo Vitor (Channel Fireball Ice) Damo Da Rosa",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Oliver (Hareruya) Polak-Rottmann",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Mattia Rizzi",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Noah (Cardhoarder) Walker",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Paul (Massdrop West) Dean",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Victor Queiroz",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Zvi Mowshowitz",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Oliver (Face to Face Games) Tiu",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Samuel (Almost Finnished) Tharmaratnam",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Jarvis (Massdrop East) Yu",
+            "propoints": 4,
+            "matchpoints": 27
+        },
+        {
+            "name": "Florian Koch",
+            "propoints": 3,
+            "matchpoints": 25
+        },
+        {
+            "name": "Charles Hinkle",
+            "propoints": 3,
+            "matchpoints": 25
+        },
+        {
+            "name": "Mateusz Milewicz",
+            "propoints": 3,
+            "matchpoints": 25
+        },
+        {
+            "name": "Trent Avera",
+            "propoints": 3,
+            "matchpoints": 25
+        },
+        {
+            "name": "Andrew Sullano",
+            "propoints": 3,
+            "matchpoints": 25
+        },
+        {
+            "name": "Jacob (Face to Face Games) Wilson",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Berk Akbulut",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Pavel Doskoch",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Kenta Harane",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Benjamin Aithaj-Kaddour",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Josh (Channel Fireball Fire) Utter-Leyton",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Marco (Opportunity) Cammilluzzi",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Charles Eliatamby",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Kei Takahashi",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Scott (Massdrop West) Lipp",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Kazuhiro Kamata",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Vidianto Wijaya",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Alexey Isupov",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Alexander (Face to Face Games) Hayne",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Benjamin Kee",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Brian DeMars",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Matthew Boccio",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Alex Sittner",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Austin Bach",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Brock (D3 Go!) Parker",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "David (Tapas) Mines",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Jacob Nagro",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Alain Bardini",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Brian (Top Level) Braun-Duin",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Fumiya Matsumoto",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Theophile Granger",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Joey (Dave & Adam’s) Manner",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Daniel Fournier",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Robert Beatty",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Jackson Knorr",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Andreas (Lingering Souls) Ganz",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Luke Feeney",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Ben (D3 Go!) Rubin",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Roberto Berni",
+            "propoints": 3,
+            "matchpoints": 24
+        },
+        {
+            "name": "Seita Oono",
+            "propoints": 3,
+            "matchpoints": 22
+        },
+        {
+            "name": "Oliver Oks",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Derek Pite",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Samuel (Face to Face Games) Pardee",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Tatsuhiko Ohki",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Huaiyuan Mu",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Federico Del Basso",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Ioannis Dimitrakis",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Jelger (D3 Go!) Wiegersma",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Simon Linabury",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Antonio Pinto",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Beau Boudreau",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Petr (Hareruya) Sochurek",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Dominik Prosek",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Fabian Dickmann",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Ari (Massdrop West) Lax",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Callum Bousfield",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Matteo (Opportunity) Moure",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Kenji (Last Samurai) Tsumura",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "James Larsen-Scott",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Matthew (Mutiny) Severa",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Zachary Plott",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Serafin Wellinger",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Anand Khare",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Noel Robin",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Peter Deane",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Matthew (Channel Fireball Fire) Nass",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Eric (Massdrop East) Severson",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "Tyler Nightingale",
+            "propoints": 3,
+            "matchpoints": 21
+        },
+        {
+            "name": "William Hall",
+            "propoints": 3,
+            "matchpoints": 19
+        },
+        {
+            "name": "Maximilian Hagelberg",
+            "propoints": 3,
+            "matchpoints": 19
+        },
+        {
+            "name": "Chris Grimshaw",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Joel (Channel Fireball Ice) Larsson",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Craig (Top Level) Wescoe",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Jin Liu",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Jeremy (Hareruya) Dezani",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Jason (NorCal) Smyth",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Jack Kiefer",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Timothy Cheng",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Niels Molle",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Eduardo (Ligamagic) Dos Santos Vieira",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Gabriel Wood",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Luis (DEX Army) Salvatto",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Paul Mitchell",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Terrence Campo",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Eduardo (MTG Mint Card) Sajgalik",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Nikolaos (Conflagreece) Kaponis",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Brett Sinclair",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Jeffrey Chen",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Martin (Magic Corsairs Crew) Hrycej",
+            "propoints": 3,
+            "matchpoints": 18
+        },
+        {
+            "name": "Ross Merriam",
+            "propoints": 3,
+            "matchpoints": 16
+        },
+        {
+            "name": "Frank Lepore",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Ondrej (Channel Fireball Ice) Strasky",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Donald (Lingering Souls) Smith",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Rafael Sarriegui Hidalgo",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Loris Maffei",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Christopher Iaali",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Masashi (Last Samurai) Oiso",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Brandon (Fire Squad) Ayers",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Rodrigo Lopez",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Brandon (Mox Box Bowl) Fischer",
+            "propoints": 3,
+            "matchpoints": 15
+        },
+        {
+            "name": "Dimitris (Conflagreece) Triantafillou",
+            "propoints": 3,
+            "matchpoints": 13
+        },
+        {
+            "name": "Stephen Mann",
+            "propoints": 3,
+            "matchpoints": 13
+        },
+        {
+            "name": "Simon Nielsen",
+            "propoints": 3,
+            "matchpoints": 12
+        },
+        {
+            "name": "Paul (Puzzle Quest) Rietzl",
+            "propoints": 3,
+            "matchpoints": 12
+        },
+        {
+            "name": "Roope Metsa",
+            "propoints": 3,
+            "matchpoints": 12
+        },
+        {
+            "name": "Adam VanFleet",
+            "propoints": 3,
+            "matchpoints": 10
+        },
+        {
+            "name": "Cody (Hotsauce Games) Lingelbach",
+            "propoints": 3,
+            "matchpoints": 10
+        },
+        {
+            "name": "Wyatt Darby",
+            "propoints": 3,
+            "matchpoints": 10
+        },
+        {
+            "name": "William Postlethwait",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Max Schultze",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Aaron Ezroj",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Joe Lossett",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Nathaniel Knox",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Davide Miani",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Alexander Sudibjo",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Phil Samms",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Thien (Fire Squad) Nguyen",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Jon (Puzzle Quest) Finkel",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Cristian Sanchez",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Max Magnuson",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Raeef Istfan",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Ray Huang",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Aleksa (EUreka) Telarov",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Toshiya Kanegawa",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Gabriele Montresor",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Zbysek Panchartek",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Nathan Adrian",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Eli Loveman",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Zac Elsik",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Carlos (DEX Army) Romao",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Paul (Channel Fireball Fire) Cheon",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Hirohisa Suenaga",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Willy (DEX Army) Edel",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Han Xiao",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Manuel Lenz",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Tetsu Kawaguchi",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Simone Giovannetti",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Niels Noorlander",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Corey (MTG Bent Card) Baumeister",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Justin (Mutiny) Cohen",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Pascal (Massdrop East) Maynard",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Jason Simard",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Takuma Morofuji",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Juan Fernando Giraldo",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Remi Fortier",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Shuhei (Hareruya) Nakamura",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "David (Mutiny) Ochoa",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Thierry Ramboa",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Brent Vos",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Corey (Channel Fireball Fire) Burkhart",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Bronson Gervasi",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Max Mcvety",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Alan Lee",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Kasper Nielsen",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Jun Ishihara",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Alfredo Torres",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Carmine D'Aniello",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Hitoshi Tomomura",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Shoupeng Wang",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "William Blondon",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Yusuke Takaoka",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Bryan Morriss",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Konrad Wieczorek",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Dan (Top Level) Lanthier",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Michael Snyder",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Lucas (DEXThird) Esper Berthoud",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Alvaro Sanchez Lopez",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Vincent Lemoine",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Aziz Riphat",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Joshua Fitzgerald",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "David Zurita",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Javier Roa Fernandez",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Makihito (Last Samurai) Mihara",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Andreas Isaksson",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Luis Campos",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Pok Man Chan",
+            "propoints": 3,
+            "matchpoints": 9
+        },
+        {
+            "name": "Chapman Sim",
+            "propoints": 3,
+            "matchpoints": 7
+        },
+        {
+            "name": "Dan Musser",
+            "propoints": 3,
+            "matchpoints": 7
+        },
+        {
+            "name": "Michael (MTG Bent Card) Bonde",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ryan Hare",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Robert (Cardhoarder) Graves",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Patrick (Channel Fireball Fire) Cox",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Fabrizio Campanino",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Alex (Mox Box Bowl) Majlaton",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Harold (NorCal) Chow",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ricky (Massdrop East) Chin",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Mikko Airaksinen",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Antonio (DEX Army) Del Moral Leon",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Jan Ksandr",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ryoichi Mita",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Evan Petre",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ben (Fire Squad) Hull",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ryan Holmstrom",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Blake Olsen",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Chang Kyum Kim",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Tillman Bragg",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Brandon Burton",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Nick Harms",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Paul Farnsworth",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Maurice Bennett",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ari Hausman-Cohen",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Shintaro Ishimura",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Kye Timmler",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Alan Martin",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Nicolo Abatianni",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Charles Martin",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Bradd Arseneau",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Ryan Kitchen",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Roger McFann",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Minh Thuan Truong",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Corrado Godani",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Andrew Baeckstrom",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Grzegorz (Opportunity) Kowalski",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Lucas Muxi Li",
+            "propoints": 3,
+            "matchpoints": 6
+        },
+        {
+            "name": "Marc Urmetzer",
+            "propoints": 3,
+            "matchpoints": 4
+        },
+        {
+            "name": "Tom (D3 Go!) Martell",
+            "propoints": 3,
+            "matchpoints": 4
+        },
+        {
+            "name": "Ben (Mox Box Bowl) Friedman",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Kynan Pell",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Marcio (DEX Army) Carvalho",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Andrew (Puzzle Quest) Cuneo",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Pau Gaya",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Eliott (Magic Corsairs Crew) Boussaud",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Rob Catton",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Jon Graham",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Riccardo Picciafuochi",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Samuel (Magic Corsairs Crew) Vuillot",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Bon Miyasaka",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Quint Stevenson",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Valentin (EUreka) Mackl",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Jesus Cervantes",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Rob (Mox Box Bowl) Pisano",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Hugo Terra",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Adam Ragsdale",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Keenan Davidson",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Ryoichi (Last Samurai) Tamada",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Gianluca Ramaccia",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Ivan (Face to Face Games) Floch",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Joao Caludio Souza",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Matthew (D3 Go!) Costa",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Cody Napier",
+            "propoints": 3,
+            "matchpoints": 3
+        },
+        {
+            "name": "Luke Goodwin",
+            "propoints": 3,
+            "matchpoints": 0
+        },
+        {
+            "name": "Daniel Becerra",
+            "propoints": 3,
+            "matchpoints": 0
+        },
+        {
+            "name": "Ben (Channel Fireball Ice) Stark",
+            "propoints": 3,
+            "matchpoints": 0
+        },
+        {
+            "name": "Spencer Barge",
+            "propoints": 3,
+            "matchpoints": 0
+        },
+        {
+            "name": "Frank Karsten",
+            "propoints": 3,
+            "matchpoints": 0
+        }
+    ],
+    "team": false,
+    "team2hg": false
+}
