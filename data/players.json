@@ -4509,9 +4509,6 @@
     "satoshi-yamaguchi": {
         "nationality": "JPN"
     },
-    "ryuuichirou-ishida": {
-        "nationality": "JPN"
-    },
     "sureyya-dipsar": {
         "nationality": "TUR"
     },
@@ -17175,7 +17172,9 @@
         "nationality": "ENG"
     },
     "frank-mayo": {},
-    "dominic-symens": {},
+    "dominic-symens": {
+        "nationality": "BEL"
+    },
     "rodrigo-jurado": {},
     "david-gray": {
         "nationality": "NIR"
@@ -17465,7 +17464,9 @@
     "elliott-campbell": {},
     "david-clement": {},
     "clint-couse": {},
-    "zak-dolan": {},
+    "zak-dolan": {
+        "nationality": "USA"
+    },
     "jeff-dollarhide": {},
     "matthew-elias": {},
     "brian-fernandez": {},
@@ -29077,7 +29078,7 @@
     "philippe-gareau": {
         "nationality": "CAN"
     },
-    "claes-de-graff": {
+    "claes-de-graaff": {
         "nationality": "NLD"
     },
     "dimitris-triantafillou": {
@@ -29238,9 +29239,6 @@
     },
     "camilo-nino": {
         "nationality": "COL"
-    },
-    "alexey-riabokon": {
-        "nationality": "UAE"
     },
     "hidenobu-yoshikawa": {
         "nationality": "JPN"
@@ -29439,5 +29437,11 @@
     },
     "tyrell-wheeler": {
       "nationality": "CAN"
+    },
+    "ryuuichiro-ishida": {
+        "nationality": "JPN"
+    },
+    "oleksii-riabokon": {
+        "nationality": "UAE"
     }
 }
