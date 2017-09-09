@@ -17,6 +17,7 @@ import Players from './Players.js';
 import PlayerLink from './PlayerLink.react.js';
 import Player from './Player.react.js';
 import Tournament from './Tournament.react.js';
+import Test from './Test.react.js';
 
 var _ = require('underscore');
 var accounting = require('accounting');
@@ -208,6 +209,7 @@ render((
       <Route path="/player/:id" component={Player} />
       <Route path="/tournament/:id" component={Tournament} />
       <Route path="/rankings/:col" component ={Rankings} />
+      <Route path="/test" component ={Test} />
       <Route path="*" component={NotFound} />
     </Route>
   </Router>
