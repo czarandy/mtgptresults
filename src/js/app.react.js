@@ -7,9 +7,12 @@ import {
   Route,
   IndexRoute,
   Link,
-  browserHistory
+  browserHistory,
+  applyRouterMiddleware,
 } from 'react-router';
 import DocumentTitle from 'react-document-title';
+import { useScroll } from 'react-router-scroll';
+
 
 import NotFound from './NotFound.react.js';
 import Page from './Page.react.js';
@@ -202,7 +205,7 @@ var RecentTournaments = React.createClass({
 });
 
 render((
-  <Router history={browserHistory}>
+  <Router history={browserHistory} render={applyRouterMiddleware(useScroll())}>
     <Route path="/" component={Page}>
       <IndexRoute component={RecentTournaments} />
       <Route path="/player/:id" component={Player} />
