@@ -4,7 +4,7 @@ import Helper from './../../lib/helper.js';
 
 export default class Tournament {
   constructor(data) {
-    this.teamsize = data.teamsize;
+    this.teamsize = data.teamsize || 1;
     this.date = data.date;
     this.name = data.name;
     this.id = data.id;
