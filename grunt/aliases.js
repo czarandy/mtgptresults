@@ -48,8 +48,8 @@ module.exports = function(grunt) {
     var list = [];
     _.each(tournaments, function(tournament) {
       let topN = 8;
-      if (tournament.team && !tournament.team2hg) {
-        topN = 12;
+      if (tournament.teamsize > 1) {
+        topN = tournament.teamsize * 4;
       }
       var recent = deepcopy(tournament);
       recent.top = recent.standings.slice(0, topN);
@@ -110,10 +110,10 @@ module.exports = function(grunt) {
         if (finish === 1) {
           ++players[standing.id].stats.t1;
         }
-        if ((tournament.team && finish <= 4) || (!tournament.team && finish <= 8)) {
+        if ((tournament.teamsize > 1 && finish <= 4) || (tournament.teamsize == 1 && finish <= 8)) {
           ++players[standing.id].stats.t8;
         }
-        if ((tournament.team && finish <= 8) || (!tournament.team && finish <= 16)) {
+        if ((tournament.teamsize > 1 && finish <= 8) || (tournament.teamsize == 1 && finish <= 16)) {
           ++players[standing.id].stats.t16;
         }
       });
