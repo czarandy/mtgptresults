@@ -122,7 +122,7 @@ module.exports = function(grunt) {
       if (player.stats.t8 > 0 && player.stats.total >= 10) {
         player.stats.t8pct = Math.floor(100 * player.stats.t8 / player.stats.total) + '%';
      } else {
-        player.stats.t8pct = 'N/A';
+        player.stats.t8pct = 'too few PTs';
      }
       return {
         id: player.id,
