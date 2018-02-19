@@ -119,7 +119,7 @@ var Rankings = React.createClass({
                   <td>
                     {accounting.formatMoney(player.stats.money, '$', 0)}
                   </td>
-                  <td>{player.stats.t8pct + '%'}</td>
+                  <td>{player.stats.t8pct}</td>
                 </tr>
               );
             })}
