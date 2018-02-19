@@ -92,8 +92,7 @@ module.exports = function(grunt) {
         }
         var finish = Helper.getPlayerIndex(
           index,
-          tournament.team,
-          tournament.team2hg
+          tournament.teamsize
         ) + 1;
         var t = {
           finish: finish,
