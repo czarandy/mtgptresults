@@ -200,6 +200,6 @@ module.exports = function(grunt) {
     'build-data': ['tournaments', 'players', 'recent'],
     'default': ['build-data', 'copy', 'css', 'js', 'json'],
     'serve': ['default', 'connect'],
-    'prod': ['default', 'uglify', 'gh-pages']
+    'prod': ['default', 'uglify']
   };
 };
