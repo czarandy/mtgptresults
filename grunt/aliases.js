@@ -48,8 +48,8 @@ module.exports = function(grunt) {
     var list = [];
     _.each(tournaments, function(tournament) {
       let topN = 8;
-      if (tournament.team && !tournament.team2hg) {
-        topN = 12;
+      if (tournament.teamsize > 1) {
+        topN = tournament.teamsize * 4;
       }
       var recent = deepcopy(tournament);
       recent.top = recent.standings.slice(0, topN);
@@ -92,8 +92,7 @@ module.exports = function(grunt) {
         }
         var finish = Helper.getPlayerIndex(
           index,
-          tournament.team,
-          tournament.team2hg
+          tournament.teamsize
         ) + 1;
         var t = {
           finish: finish,
@@ -111,19 +110,19 @@ module.exports = function(grunt) {
         if (finish === 1) {
           ++players[standing.id].stats.t1;
         }
-        if ((tournament.team && finish <= 4) || (!tournament.team && finish <= 8)) {
+        if ((tournament.teamsize > 1 && finish <= 4) || (tournament.teamsize == 1 && finish <= 8)) {
           ++players[standing.id].stats.t8;
         }
-        if ((tournament.team && finish <= 8) || (!tournament.team && finish <= 16)) {
+        if ((tournament.teamsize > 1 && finish <= 8) || (tournament.teamsize == 1 && finish <= 16)) {
           ++players[standing.id].stats.t16;
         }
       });
     });
     players = _.mapObject(players, function(player) {
       if (player.stats.t8 > 0 && player.stats.total >= 10) {
-        player.stats.t8pct = Math.floor(100 * player.stats.t8 / player.stats.total);
+        player.stats.t8pct = Math.floor(100 * player.stats.t8 / player.stats.total) + '%';
      } else {
-        player.stats.t8pct = 0;
+        player.stats.t8pct = 'too few PTs';
      }
       return {
         id: player.id,
@@ -201,6 +200,6 @@ module.exports = function(grunt) {
     'build-data': ['tournaments', 'players', 'recent'],
     'default': ['build-data', 'copy', 'css', 'js', 'json'],
     'serve': ['default', 'connect'],
-    'prod': ['default', 'uglify', 'gh-pages']
+    'prod': ['default', 'uglify']
   };
 };

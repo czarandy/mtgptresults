@@ -119,7 +119,7 @@ var Rankings = React.createClass({
                   <td>
                     {accounting.formatMoney(player.stats.money, '$', 0)}
                   </td>
-                  <td>{player.stats.t8pct + '%'}</td>
+                  <td>{player.stats.t8pct}</td>
                 </tr>
               );
             })}
@@ -170,8 +170,7 @@ var RecentTournaments = React.createClass({
                           _.map(tournament.top, function(player, idx) {
                             idx = Helper.getPlayerIndex(
                               idx,
-                              tournament.team,
-                              tournament.team2hg
+                              tournament.teamsize
                             );
                             return (
                               <li className={idx === 0 ? 'List-item List-item--big' : 'List-item '} key={player.id}>
