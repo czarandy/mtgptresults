@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
 module.exports = {
   all: {
     options: {
-      outputStyle: 'compressed'
+      outputStyle: "compressed"
     },
     files: {
-      'build/css/app.css': 'src/css/app.scss'
+      "build/css/app.css": "src/css/app.scss"
     }
   }
 };
