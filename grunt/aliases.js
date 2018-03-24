@@ -159,7 +159,7 @@ module.exports = function(grunt) {
         }
         if (players[p].nationality) {
           if (!countries[players[p].nationality]) {
-           grunt.log.writeln('Invalid country code: ' + players[p].nationality);
+           grunt.log.writeln('Invalid country code: ' + players[p].nationality + ' for player ' + id);
           } else {
             players[p].flag = countries[players[p].nationality]['alpha-2'].toLowerCase();
             // Show the full name instead of the short code.
