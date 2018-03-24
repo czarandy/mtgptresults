@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
 module.exports = {
   all: {
-    "pre-commit": "jshint jsonlint"
+    'pre-commit': 'jshint jsonlint'
   }
 };

@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
-var _ = require("underscore");
-var deepcopy = require("deepcopy");
-var Helper = require("./../lib/helper.js");
-var unidecode = require("unidecode");
+var _ = require('underscore');
+var deepcopy = require('deepcopy');
+var Helper = require('./../lib/helper.js');
+var unidecode = require('unidecode');
 
 module.exports = function(grunt) {
   function nameToID(name) {
     return unidecode(name)
       .toLowerCase()
-      .replace(/[^a-z-]/g, "-");
+      .replace(/[^a-z-]/g, '-');
   }
 
   var _tournaments = null;
@@ -18,13 +18,13 @@ module.exports = function(grunt) {
       return _tournaments;
     }
     _tournaments = {};
-    grunt.file.recurse("./data/", function(abspath, rootdir, subdir, filename) {
+    grunt.file.recurse('./data/', function(abspath, rootdir, subdir, filename) {
       if (
-        filename.endsWith(".json") &&
-        filename !== "players.json" &&
-        filename !== "countries.json"
+        filename.endsWith('.json') &&
+        filename !== 'players.json' &&
+        filename !== 'countries.json'
       ) {
-        var tid = filename.replace(".json", "");
+        var tid = filename.replace('.json', '');
         _tournaments[tid] = grunt.file.readJSON(abspath);
         _tournaments[tid].standings = _.map(
           _tournaments[tid].standings,
@@ -44,8 +44,8 @@ module.exports = function(grunt) {
 
   function buildTournaments() {
     grunt.file.write(
-      "./build/data/tournaments.js",
-      "window.Tournaments = " + jsonToStr(loadTournaments())
+      './build/data/tournaments.js',
+      'window.Tournaments = ' + jsonToStr(loadTournaments())
     );
   }
 
@@ -63,8 +63,8 @@ module.exports = function(grunt) {
       list.push(recent);
     });
     grunt.file.write(
-      "./build/data/recent.js",
-      "window.Recent = " +
+      './build/data/recent.js',
+      'window.Recent = ' +
         jsonToStr(
           _.sortBy(list, function(item) {
             return -Helper.getDate(item.date);
@@ -132,9 +132,9 @@ module.exports = function(grunt) {
     players = _.mapObject(players, function(player) {
       if (player.stats.t8 > 0 && player.stats.total >= 10) {
         player.stats.t8pct =
-          Math.floor(100 * player.stats.t8 / player.stats.total) + "%";
+          Math.floor(100 * player.stats.t8 / player.stats.total) + '%';
       } else {
-        player.stats.t8pct = "too few PTs";
+        player.stats.t8pct = 'too few PTs';
       }
       return {
         id: player.id,
@@ -151,17 +151,17 @@ module.exports = function(grunt) {
 
   function loadCountries() {
     // Generate a mapping of three letter code to two letter code
-    var countries = grunt.file.readJSON("./data/countries.json");
+    var countries = grunt.file.readJSON('./data/countries.json');
     var ret = {};
     for (var country of countries) {
-      ret[country["alpha-3"]] = country;
+      ret[country['alpha-3']] = country;
     }
     return ret;
   }
 
   function buildPlayers() {
     var players = loadPlayers();
-    var metadata = grunt.file.readJSON("./data/players.json");
+    var metadata = grunt.file.readJSON('./data/players.json');
     var countries = loadCountries();
     for (var p in players) {
       var id = players[p].id;
@@ -172,14 +172,14 @@ module.exports = function(grunt) {
         if (players[p].nationality) {
           if (!countries[players[p].nationality]) {
             grunt.log.writeln(
-              "Invalid country code: " +
+              'Invalid country code: ' +
                 players[p].nationality +
-                " for player " +
+                ' for player ' +
                 id
             );
           } else {
             players[p].flag = countries[players[p].nationality][
-              "alpha-2"
+              'alpha-2'
             ].toLowerCase();
             // Show the full name instead of the short code.
             players[p].nationality = countries[players[p].nationality].name;
@@ -188,42 +188,42 @@ module.exports = function(grunt) {
       }
     }
     grunt.file.write(
-      "./build/data/players.js",
-      "window.Players = " + jsonToStr(players)
+      './build/data/players.js',
+      'window.Players = ' + jsonToStr(players)
     );
   }
 
   function buildMetadata() {
     var players = loadPlayers();
-    var metadata = grunt.file.readJSON("./data/players.json");
+    var metadata = grunt.file.readJSON('./data/players.json');
     _.each(players, function(player) {
       if (!metadata[player.id]) {
         grunt.log.writeln(
-          "Adding player: " + player.name + " (" + player.id + ")"
+          'Adding player: ' + player.name + ' (' + player.id + ')'
         );
         metadata[player.id] = {};
       }
     });
     _.each(metadata, function(player, id) {
       if (!players[id]) {
-        grunt.log.writeln("Removing player: " + id);
+        grunt.log.writeln('Removing player: ' + id);
         delete metadata[id];
       }
     });
-    grunt.file.write("./data/players.json", jsonToStr(metadata));
+    grunt.file.write('./data/players.json', jsonToStr(metadata));
   }
 
   return {
-    js: ["eslint", "ava", "browserify"],
-    css: ["sass"],
-    json: ["jsonlint"],
+    js: ['eslint', 'ava', 'browserify'],
+    css: ['sass'],
+    json: ['jsonlint'],
     tournaments: buildTournaments,
     players: buildPlayers,
     recent: buildRecent,
     metadata: buildMetadata,
-    "build-data": ["tournaments", "players", "recent"],
-    default: ["build-data", "copy", "css", "js", "json"],
-    serve: ["default", "connect"],
-    prod: ["default", "uglify"]
+    'build-data': ['tournaments', 'players', 'recent'],
+    default: ['build-data', 'copy', 'css', 'js', 'json'],
+    serve: ['default', 'connect'],
+    prod: ['default', 'uglify']
   };
 };

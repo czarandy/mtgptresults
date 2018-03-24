@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-import Tournament from "./Tournament.js";
+import Tournament from './Tournament.js';
 
 // Injected global data
 const Tournaments = window.Tournaments;
@@ -10,7 +10,7 @@ for (let key in Tournaments) {
   const t = Tournaments[key];
   TournamentsArray.push({
     id: t.id,
-    name: t.name + " (" + t.date.substr(-4) + ")"
+    name: t.name + ' (' + t.date.substr(-4) + ')'
   });
 }
 
@@ -22,4 +22,4 @@ const byID = id => {
 };
 
 const asArray = () => TournamentsArray;
-export default { asArray, byID };
+export default {asArray, byID};

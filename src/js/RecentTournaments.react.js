@@ -1,21 +1,21 @@
-"use strict";
+'use strict';
 
-import React from "react";
-import { Link } from "react-router";
-import DocumentTitle from "react-document-title";
-import Players from "./Players.js";
-import PlayerLink from "./PlayerLink.react.js";
+import React from 'react';
+import {Link} from 'react-router';
+import DocumentTitle from 'react-document-title';
+import Players from './Players.js';
+import PlayerLink from './PlayerLink.react.js';
 
-const _ = require("underscore");
-const Helper = require("./../../lib/helper.js");
+const _ = require('underscore');
+const Helper = require('./../../lib/helper.js');
 
-const Logo = ({ id, t }) => {
+const Logo = ({id, t}) => {
   if (!t.logo) {
     return null;
   }
   return (
-    <Link to={"/tournament/" + id}>
-      <img src={"/logo/" + t.logo} />
+    <Link to={'/tournament/' + id}>
+      <img src={'/logo/' + t.logo} />
     </Link>
   );
 };
@@ -23,7 +23,7 @@ const Logo = ({ id, t }) => {
 const RecentTournaments = () => (
   <div className="col-md-offset-3 col-md-6">
     <div className="alert alert-info" role="alert">
-      {"This site is now open source on "}
+      {'This site is now open source on '}
       <a className="alert-link" href="https://github.com/czarandy/mtgptresults">
         GitHub
       </a>.
@@ -35,7 +35,7 @@ const RecentTournaments = () => (
         <div key={id}>
           <div className="panel panel-default recentTournamentWrapper">
             <div className="panel-heading">
-              <Link to={"/tournament/" + id}>{tournament.name}</Link>
+              <Link to={'/tournament/' + id}>{tournament.name}</Link>
             </div>
             <div className="panel-body recentTournament">
               <div className="row">
@@ -43,7 +43,7 @@ const RecentTournaments = () => (
                   <div className="image">
                     <Logo id={id} t={tournament} />
                     <p>
-                      {tournament.formats.join(" / ")}
+                      {tournament.formats.join(' / ')}
                       <br />
                       {tournament.date}
                       <br />
@@ -59,14 +59,14 @@ const RecentTournaments = () => (
                         <li
                           className={
                             idx === 0
-                              ? "List-item List-item--big"
-                              : "List-item "
+                              ? 'List-item List-item--big'
+                              : 'List-item '
                           }
                           key={player.id}
                         >
                           <span className="List-index">
                             {idx + 1}
-                            {". "}
+                            {'. '}
                           </span>
                           <PlayerLink player={Players.byID(player.id)} />
                         </li>

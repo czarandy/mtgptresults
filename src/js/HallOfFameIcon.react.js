@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-import React from "react";
+import React from 'react';
 
 const HallOfFameIcon = () => (
   <span title="Hall of Fame">

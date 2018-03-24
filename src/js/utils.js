@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-import accounting from "accounting";
+import accounting from 'accounting';
 
 export const formatMoney = amount =>
-  amount && accounting.formatMoney(amount, "$", 0);
+  amount && accounting.formatMoney(amount, '$', 0);

@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
-import React from "react";
-import { Link, IndexLink } from "react-router";
+import React from 'react';
+import {Link, IndexLink} from 'react-router';
 
-import SearchInput from "./SearchInput.react.js";
+import SearchInput from './SearchInput.react.js';
 
 const Page = props => (
   <div>

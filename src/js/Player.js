@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-import { formatMoney } from "./utils.js";
+import {formatMoney} from './utils.js';
 
 export default class Player {
   constructor(data) {

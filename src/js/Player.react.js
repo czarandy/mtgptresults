@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
-import React from "react";
-import { Link } from "react-router";
-import DocumentTitle from "react-document-title";
+import React from 'react';
+import {Link} from 'react-router';
+import DocumentTitle from 'react-document-title';
 
-import NotFound from "./NotFound.react.js";
-import PlayerLink from "./PlayerLink.react.js";
-import Players from "./Players.js";
-import TournamentLink from "./TournamentLink.react.js";
-import Tournaments from "./Tournaments.js";
-import { formatMoney } from "./utils.js";
+import NotFound from './NotFound.react.js';
+import PlayerLink from './PlayerLink.react.js';
+import Players from './Players.js';
+import TournamentLink from './TournamentLink.react.js';
+import Tournaments from './Tournaments.js';
+import {formatMoney} from './utils.js';
 
 const Player = props => {
   const id = props.params.id;
@@ -28,22 +28,22 @@ const Player = props => {
       <div className="Stat">
         <div className="Stat-alert alert alert-info">
           <div className="Stat-value">
-            {player.stats.t1} / {player.stats.t8} / {player.stats.t16} /{" "}
+            {player.stats.t1} / {player.stats.t8} / {player.stats.t16} /{' '}
             {player.stats.total}
           </div>
           <div>
             <Link className="Stat-link" to="/rankings/t1">
               Wins
             </Link>
-            {" / "}
+            {' / '}
             <Link className="Stat-link" to="/rankings/t8">
               T8
             </Link>
-            {" / "}
+            {' / '}
             <Link className="Stat-link" to="/rankings/t16">
               T16
             </Link>
-            {" / "}
+            {' / '}
             <Link className="Stat-link" to="/rankings/total">
               Total
             </Link>

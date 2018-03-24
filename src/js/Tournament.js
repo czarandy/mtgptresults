@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-import Helper from "./../../lib/helper.js";
+import Helper from './../../lib/helper.js';
 
 export default class Tournament {
   constructor(data) {
@@ -16,13 +16,13 @@ export default class Tournament {
 
   getResultClassName(finish) {
     if (finish === 1) {
-      return "success";
+      return 'success';
     }
     if (this.teamsize > 1 && finish <= 4) {
-      return "warning";
+      return 'warning';
     }
     if (this.teamsize == 1 && finish <= 8) {
-      return "warning";
+      return 'warning';
     }
     return null;
   }
