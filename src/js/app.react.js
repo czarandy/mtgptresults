@@ -16,7 +16,7 @@ import Page from "./Page.react.js";
 import Player from "./Player.react.js";
 import Tournament from "./Tournament.react.js";
 import Rankings from "./Rankings.react.js";
-import RecentTournaments from './RecentTournaments.react.js';
+import RecentTournaments from "./RecentTournaments.react.js";
 
 render(
   <Router history={browserHistory} render={applyRouterMiddleware(useScroll())}>

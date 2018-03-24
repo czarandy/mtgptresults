@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-import React from 'react';
-import DocumentTitle from 'react-document-title';
+import React from "react";
+import DocumentTitle from "react-document-title";
 
 const NotFound = () => (
   <DocumentTitle title="MTG Pro Tour Results | Not Found">

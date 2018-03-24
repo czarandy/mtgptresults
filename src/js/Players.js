@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 // Injected global data
 const Players = window.Players;
 
-import Player from './Player.js';
+import Player from "./Player.js";
 
 const PlayersArray = [];
 for (let key in Players) {
@@ -19,4 +19,4 @@ const byID = id => {
   return new Player(Players[id]);
 };
 
-export default {asArray, byID};
+export default { asArray, byID };
