@@ -81,6 +81,10 @@ module.exports = function(grunt) {
     var tournaments = loadTournaments();
     var players = {};
     _.each(tournaments, function(tournament) {
+      // Only PTs are included in stats
+      if (tournament.type !== 'Pro Tour') {
+        return;
+      }
       var standings = tournament.standings;
       _.each(standings, function(standing, index) {
         if (!(standing.id in players)) {
