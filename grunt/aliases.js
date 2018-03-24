@@ -57,6 +57,7 @@ module.exports = function(grunt) {
       if (tournament.teamsize > 1) {
         topN = tournament.teamsize * 4;
       }
+      topN = tournament.topn || topN;
       var recent = deepcopy(tournament);
       recent.top = recent.standings.slice(0, topN);
       delete recent.standings;

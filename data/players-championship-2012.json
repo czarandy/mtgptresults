@@ -1,14 +1,15 @@
 {
   "type": "World Championships",
-    "coverage": "http://magic.wizards.com/en/events/coverage/ptatl96",
+    "coverage": "https://magic.wizards.com/en/content/2012-players-championship",
     "date": "August 29-31, 2012",
     "formats": [
-        "Sealed"
+        "Draft",
+        "Modern"
     ],
-    "id": "players-championship",
+    "id": "players-championship-2012",
     "location": "Seattle, Washington, United States",
     "logo": "ptlogo.png",
-    "name": "Magic Players Championship",
+    "name": "Players Championship",
     "standings": [
         {
             "money": 40000,
@@ -75,6 +76,6 @@
             "name": "Reid Duke"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "topn": 4,
+    "teamsize": 1
 }

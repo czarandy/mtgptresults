@@ -1,9 +1,10 @@
 {
   "type": "World Championships",
-    "coverage": "http://magic.wizards.com/en/events/coverage/ptatl96",
+    "coverage": "https://magic.wizards.com/en/events/coverage/2017wc",
     "date": "October 6-8, 2017",
     "formats": [
-        "Sealed"
+        "Draft",
+        "Standard"
     ],
     "id": "world-championships-2017",
     "location": "Boston, Massachusetts, United States",
@@ -122,7 +123,7 @@
         },
         {
             "money": 2500,
-            "name": "Lucas Esper Berhoud",
+            "name": "Lucas Esper Berthoud",
             "propoints": 1
         },
         {
@@ -131,6 +132,6 @@
             "propoints": 0
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1,
+    "topn": 4
 }

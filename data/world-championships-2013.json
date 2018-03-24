@@ -1,6 +1,6 @@
 {
   "type": "World Championships",
-    "coverage": "http://magic.wizards.com/en/events/coverage/ptatl96",
+    "coverage": "https://magic.wizards.com/en/content/2013-world-championship",
     "date": "July 31-August 1 & 4, 2013",
     "formats": [
         "Sealed"
@@ -91,6 +91,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1,
+    "topn": 4
 }

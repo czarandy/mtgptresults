@@ -1,9 +1,10 @@
 {
   "type": "World Championships",
-    "coverage": "http://magic.wizards.com/en/events/coverage/ptatl96",
+  "coverage": "https://magic.wizards.com/en/events/coverage/2014WC",
     "date": "December 2-3 & 7, 2014",
     "formats": [
-        "Sealed"
+        "Draft",
+        "Modern"
     ],
     "id": "world-championships-2014",
     "location": "Nice, France",
@@ -131,6 +132,6 @@
             "propoints": 4
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 4,
+    "topn": 1
 }
