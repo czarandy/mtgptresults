@@ -10,6 +10,7 @@
     "logo": "ptlogo.png",
     "name": "Pro Tour New York",
     "standings": [
+        // the exact placement of players in places 65+ (everybody with prizes) is unknown
         {
             "money": 25000,
             "name": "Jon Finkel",
@@ -1096,7 +1097,7 @@
             "propoints": 2
         },
         {
-            "name": "Nick Kettemann",
+            "name": "Nick Ketteman",
             "propoints": 2
         },
         {
