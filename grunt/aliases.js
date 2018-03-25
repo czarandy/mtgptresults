@@ -82,10 +82,6 @@ module.exports = function(grunt) {
     var tournaments = loadTournaments();
     var players = {};
     _.each(tournaments, function(tournament) {
-      // Only PTs are included in stats
-      if (tournament.type !== 'Pro Tour') {
-        return;
-      }
       var standings = tournament.standings;
       _.each(standings, function(standing, index) {
         if (!(standing.id in players)) {
@@ -114,9 +110,14 @@ module.exports = function(grunt) {
           t.rank = standing.rank;
         }
         players[standing.id].tournaments.push(t);
-        ++players[standing.id].stats.total;
         players[standing.id].stats.money += standing.money || 0;
         players[standing.id].stats.points += standing.propoints || 0;
+
+        // Only PTs are included in the stats below (count, T1, T8, T16)
+        if (tournament.type !== 'Pro Tour') {
+          return;
+        }
+        ++players[standing.id].stats.total;
         if (finish === 1) {
           ++players[standing.id].stats.t1;
         }
