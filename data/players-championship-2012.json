@@ -1,0 +1,81 @@
+{
+  "type": "World Championships",
+    "coverage": "https://magic.wizards.com/en/content/2012-players-championship",
+    "date": "August 29-31, 2012",
+    "formats": [
+        "Draft",
+        "Modern"
+    ],
+    "id": "players-championship-2012",
+    "location": "Seattle, Washington, United States",
+    "logo": "ptlogo.png",
+    "name": "Players Championship",
+    "standings": [
+        {
+            "money": 40000,
+            "name": "Yuuya Watanabe"
+        },
+        {
+            "money": 20000,
+            "name": "Shota Yasooka"
+        },
+        {
+            "money": 10000,
+            "name": "Paulo Vitor Damo da Rosa"
+        },
+        {
+            "money": 10000,
+            "name": "Jon Finkel"
+        },
+        {
+            "money": 5000,
+            "name": "Shuhei Nakamura"
+        },
+        {
+            "money": 5000,
+            "name": "Brian Kibler"
+        },
+        {
+            "money": 5000,
+            "name": "Samuele Estratti"
+        },
+        {
+            "money": 5000,
+            "name": "Alexander Hayne"
+        },
+        {
+            "money": 1000,
+            "name": "Martin Juza"
+        },
+        {
+            "money": 1000,
+            "name": "Owen Turtenwald"
+        },
+        {
+            "money": 1000,
+            "name": "Jun'ya Iyanaga"
+        },
+        {
+            "money": 1000,
+            "name": "Luis Scott-Vargas"
+        },
+        {
+            "money": 1000,
+            "name": "Josh Utter-Leyton"
+        },
+        {
+            "money": 1000,
+            "name": "David Ochoa"
+        },
+        {
+            "money": 1000,
+            "name": "Tzu Ching Kuo"
+        },
+        {
+            "money": 1000,
+            "name": "Reid Duke"
+        }
+    ],
+    "topn": 4,
+    "teamsize": 1
+}

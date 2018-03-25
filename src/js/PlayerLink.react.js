@@ -8,10 +8,10 @@ import HallOfFameIcon from './HallOfFameIcon.react.js';
 
 const PlayerLink = ({player, hideFlag}) => (
   <span>
-    {player.flag && !hideFlag ? <Flag flag={player.flag} nationality={player.nationality} /> : null}
-    <Link to={'/player/' + player.id}>
-      {player.name}
-    </Link>
+    {player.flag && !hideFlag ? (
+      <Flag flag={player.flag} nationality={player.nationality} />
+    ) : null}
+    <Link to={'/player/' + player.id}>{player.name}</Link>
     {player.hof ? <HallOfFameIcon /> : null}
   </span>
 );

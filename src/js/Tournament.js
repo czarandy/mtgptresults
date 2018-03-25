@@ -5,6 +5,7 @@ import Helper from './../../lib/helper.js';
 export default class Tournament {
   constructor(data) {
     this.teamsize = data.teamsize || 1;
+    this.topn = data.topn;
     this.date = data.date;
     this.name = data.name;
     this.id = data.id;
@@ -18,6 +19,13 @@ export default class Tournament {
     if (finish === 1) {
       return 'success';
     }
+    if (this.topn) {
+      if (finish <= this.topn) {
+        return 'warning';
+      }
+      return null;
+    }
+    // default is teamsize based
     if (this.teamsize > 1 && finish <= 4) {
       return 'warning';
     }

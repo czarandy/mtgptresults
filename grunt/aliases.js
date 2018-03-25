@@ -7,7 +7,9 @@ var unidecode = require('unidecode');
 
 module.exports = function(grunt) {
   function nameToID(name) {
-    return unidecode(name).toLowerCase().replace(/[^a-z-]/g, '-');
+    return unidecode(name)
+      .toLowerCase()
+      .replace(/[^a-z-]/g, '-');
   }
 
   var _tournaments = null;
@@ -17,7 +19,11 @@ module.exports = function(grunt) {
     }
     _tournaments = {};
     grunt.file.recurse('./data/', function(abspath, rootdir, subdir, filename) {
-      if (filename.endsWith('.json') && filename !== 'players.json' && filename !== 'countries.json') {
+      if (
+        filename.endsWith('.json') &&
+        filename !== 'players.json' &&
+        filename !== 'countries.json'
+      ) {
         var tid = filename.replace('.json', '');
         _tournaments[tid] = grunt.file.readJSON(abspath);
         _tournaments[tid].standings = _.map(
@@ -51,6 +57,7 @@ module.exports = function(grunt) {
       if (tournament.teamsize > 1) {
         topN = tournament.teamsize * 4;
       }
+      topN = tournament.topn || topN;
       var recent = deepcopy(tournament);
       recent.top = recent.standings.slice(0, topN);
       delete recent.standings;
@@ -59,9 +66,11 @@ module.exports = function(grunt) {
     grunt.file.write(
       './build/data/recent.js',
       'window.Recent = ' +
-      jsonToStr(
-        _.sortBy(list, function(item) { return -Helper.getDate(item.date); })
-      )
+        jsonToStr(
+          _.sortBy(list, function(item) {
+            return -Helper.getDate(item.date);
+          })
+        )
     );
   }
 
@@ -73,6 +82,10 @@ module.exports = function(grunt) {
     var tournaments = loadTournaments();
     var players = {};
     _.each(tournaments, function(tournament) {
+      // Only PTs are included in stats
+      if (tournament.type !== 'Pro Tour') {
+        return;
+      }
       var standings = tournament.standings;
       _.each(standings, function(standing, index) {
         if (!(standing.id in players)) {
@@ -90,10 +103,7 @@ module.exports = function(grunt) {
             }
           };
         }
-        var finish = Helper.getPlayerIndex(
-          index,
-          tournament.teamsize
-        ) + 1;
+        var finish = Helper.getPlayerIndex(index, tournament.teamsize) + 1;
         var t = {
           finish: finish,
           propoints: standing.propoints,
@@ -105,25 +115,32 @@ module.exports = function(grunt) {
         }
         players[standing.id].tournaments.push(t);
         ++players[standing.id].stats.total;
-        players[standing.id].stats.money += (standing.money || 0);
-        players[standing.id].stats.points += (standing.propoints || 0);
+        players[standing.id].stats.money += standing.money || 0;
+        players[standing.id].stats.points += standing.propoints || 0;
         if (finish === 1) {
           ++players[standing.id].stats.t1;
         }
-        if ((tournament.teamsize > 1 && finish <= 4) || (tournament.teamsize == 1 && finish <= 8)) {
+        if (
+          (tournament.teamsize > 1 && finish <= 4) ||
+          (tournament.teamsize == 1 && finish <= 8)
+        ) {
           ++players[standing.id].stats.t8;
         }
-        if ((tournament.teamsize > 1 && finish <= 8) || (tournament.teamsize == 1 && finish <= 16)) {
+        if (
+          (tournament.teamsize > 1 && finish <= 8) ||
+          (tournament.teamsize == 1 && finish <= 16)
+        ) {
           ++players[standing.id].stats.t16;
         }
       });
     });
     players = _.mapObject(players, function(player) {
       if (player.stats.t8 > 0 && player.stats.total >= 10) {
-        player.stats.t8pct = Math.floor(100 * player.stats.t8 / player.stats.total) + '%';
-     } else {
+        player.stats.t8pct =
+          Math.floor(100 * player.stats.t8 / player.stats.total) + '%';
+      } else {
         player.stats.t8pct = 'too few PTs';
-     }
+      }
       return {
         id: player.id,
         name: player.name,
@@ -159,16 +176,26 @@ module.exports = function(grunt) {
         }
         if (players[p].nationality) {
           if (!countries[players[p].nationality]) {
-           grunt.log.writeln('Invalid country code: ' + players[p].nationality);
+            grunt.log.writeln(
+              'Invalid country code: ' +
+                players[p].nationality +
+                ' for player ' +
+                id
+            );
           } else {
-            players[p].flag = countries[players[p].nationality]['alpha-2'].toLowerCase();
+            players[p].flag = countries[players[p].nationality][
+              'alpha-2'
+            ].toLowerCase();
             // Show the full name instead of the short code.
             players[p].nationality = countries[players[p].nationality].name;
           }
         }
       }
     }
-    grunt.file.write('./build/data/players.js', 'window.Players = ' + jsonToStr(players));
+    grunt.file.write(
+      './build/data/players.js',
+      'window.Players = ' + jsonToStr(players)
+    );
   }
 
   function buildMetadata() {
@@ -176,7 +203,9 @@ module.exports = function(grunt) {
     var metadata = grunt.file.readJSON('./data/players.json');
     _.each(players, function(player) {
       if (!metadata[player.id]) {
-        grunt.log.writeln('Adding player: ' + player.name + ' (' + player.id + ')');
+        grunt.log.writeln(
+          'Adding player: ' + player.name + ' (' + player.id + ')'
+        );
         metadata[player.id] = {};
       }
     });
@@ -190,16 +219,16 @@ module.exports = function(grunt) {
   }
 
   return {
-    'js': ['eslint', 'ava', 'browserify'],
-    'css': ['sass'],
-    'json': ['jsonlint'],
-    'tournaments': buildTournaments,
-    'players': buildPlayers,
-    'recent': buildRecent,
-    'metadata': buildMetadata,
+    js: ['eslint', 'ava', 'browserify'],
+    css: ['sass'],
+    json: ['jsonlint'],
+    tournaments: buildTournaments,
+    players: buildPlayers,
+    recent: buildRecent,
+    metadata: buildMetadata,
     'build-data': ['tournaments', 'players', 'recent'],
-    'default': ['build-data', 'copy', 'css', 'js', 'json'],
-    'serve': ['default', 'connect'],
-    'prod': ['default', 'uglify']
+    default: ['build-data', 'copy', 'css', 'js', 'json'],
+    serve: ['default', 'connect'],
+    prod: ['default', 'uglify']
   };
 };
