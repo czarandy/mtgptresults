@@ -11,7 +11,7 @@ import TournamentLink from './TournamentLink.react.js';
 import Tournaments from './Tournaments.js';
 import {formatMoney} from './utils.js';
 
-const TournamentsTable = ({items = {}, condition = 'Pro Tour'}) => {
+const TournamentsTable = ({items = {}, condition = (type) => type === 'Pro Tour'}) => {
   return (
     <table className="table table-hover table-striped">
       <thead>
@@ -21,7 +21,6 @@ const TournamentsTable = ({items = {}, condition = 'Pro Tour'}) => {
           <th>Finish</th>
           <th>Pro Points</th>
           <th>Prize Money</th>
-          <th>Type</th>
         </tr>
       </thead>
       <tbody>
@@ -29,8 +28,7 @@ const TournamentsTable = ({items = {}, condition = 'Pro Tour'}) => {
           const tournament = Tournaments.byID(t.tid);
           if (!tournament) {
             return null;
-          }
-          if (t.type !== condition) {
+          } else if (!condition(t.type)) {
             return null;
           }
 
@@ -39,27 +37,13 @@ const TournamentsTable = ({items = {}, condition = 'Pro Tour'}) => {
               key={t.tid}
               className={tournament.getResultClassName(t.finish)}
             >
-              <td>{tournament.date}}</td>
+              <td>{tournament.date}</td>
               <td>
                 <TournamentLink tournament={tournament} />
               </td>
               <td>{t.finish}</td>
               <td>{t.propoints}</td>
               <td>{formatMoney(t.money)}</td>
-              <td>
-                <pre>
-                  {Object.keys(t)}
-                </pre>
-                <pre>
-                 {t.type}
-                </pre>
-                <pre>
-                  {Object.keys(tournament)}
-                </pre>
-                <pre>
-                  {t.type === 'Pro Tour' ? 'true' : 'false'}
-                </pre>
-              </td>
             </tr>
           );
         })}
@@ -123,10 +107,10 @@ const Player = props => {
           </div>
         </div>
       </div>
-      Pro Tours
+      <h2>Pro Tours</h2>
       <TournamentsTable items={player.tournaments} />
-      Other Tournaments
-      <TournamentsTable items={player.tournaments} condition={''} />
+      <h2>Other Tournaments</h2>
+      <TournamentsTable items={player.tournaments} condition={(type) => type !== 'Pro Tour'} />
     </div>
   );
 };
