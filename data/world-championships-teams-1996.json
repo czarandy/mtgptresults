@@ -1,4 +1,5 @@
 {
+    "_comment": "// it is actually not exactly clear if Alexander Blumke was on the team instead of one of the following four players: Amiel Feldman, Frederic Lenoir, Michael Suwald, Andreas Weiss,",
     "coverage": "http://web.archive.org/web/19961219131904/http://www.wizards.com/ProTour/Worlds_Update.html",
     "date": "August 14-18, 1996",
     "formats": [
@@ -33,7 +34,6 @@
         {
             "name": "Lucas Kocourek"
         },
-        // it is actually not exactly clear if Alexander Blumke was on the team instead of one of the following four players
         {
             "name": "Amiel Feldman"
         },
@@ -348,5 +348,5 @@
         }
     ],
     "teamsize": 4
-    
+
 }
