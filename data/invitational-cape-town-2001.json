@@ -1,66 +1,67 @@
 {
-    "coverage": "http://magic.wizards.com/en/events/coverage/invitational01",
-    "date": "October 4-7, 2001",
-    "formats": [
-        "Standard",
-        "5-color",
-        "Auction of the people",
-        "Duplicate Sealed",
-        "Rotisserie Draft"
-    ],
-    "id": "invitational-cape-town-2001",
-    "location": "Cape Town, South Africa",
-    "logo": "ptlogo.png",
-    "name": "Magic Invitational",
-    "standings": [
-        {
-            "name": "Kai Budde"
-        },
-        {
-            "name": "Daniel Clegg"
-        },
-        {
-            "name": "Scott Richards"
-        },
-        {
-            "name": "Kamiel Cornelissen"
-        },
-        {
-            "name": "Michael Pustilnik"
-        },
-        {
-            "name": "Chris Pikula"
-        },
-        {
-            "name": "Gary Wise"
-        },
-        {
-            "name": "Chris Benafel"
-        },
-        {
-            "name": "Tsuyoshi Fujita"
-        },
-        {
-            "name": "Jon Finkel"
-        },
-        {
-            "name": "Scott Johns"
-        },
-        {
-            "name": "Brian Kibler"
-        },
-        {
-            "name": "David Price"
-        },
-        {
-            "name": "Tom van de Logt"
-        },
-        {
-            "name": "Antoine Ruel"
-        },
-        {
-            "name": "Olivier Ruel"
-        }
-    ],
-    "teamsize": 1
+  "type": "Invitational",
+  "coverage": "http://magic.wizards.com/en/events/coverage/invitational01",
+  "date": "October 4-7, 2001",
+  "formats": [
+    "Standard",
+    "5-color",
+    "Auction of the people",
+    "Duplicate Sealed",
+    "Rotisserie Draft"
+  ],
+  "id": "invitational-cape-town-2001",
+  "location": "Cape Town, South Africa",
+  "logo": "ptlogo.png",
+  "name": "Magic Invitational",
+  "standings": [
+    {
+      "name": "Kai Budde"
+    },
+    {
+      "name": "Daniel Clegg"
+    },
+    {
+      "name": "Scott Richards"
+    },
+    {
+      "name": "Kamiel Cornelissen"
+    },
+    {
+      "name": "Michael Pustilnik"
+    },
+    {
+      "name": "Chris Pikula"
+    },
+    {
+      "name": "Gary Wise"
+    },
+    {
+      "name": "Chris Benafel"
+    },
+    {
+      "name": "Tsuyoshi Fujita"
+    },
+    {
+      "name": "Jon Finkel"
+    },
+    {
+      "name": "Scott Johns"
+    },
+    {
+      "name": "Brian Kibler"
+    },
+    {
+      "name": "David Price"
+    },
+    {
+      "name": "Tom van de Logt"
+    },
+    {
+      "name": "Antoine Ruel"
+    },
+    {
+      "name": "Olivier Ruel"
+    }
+  ],
+  "teamsize": 1
 }

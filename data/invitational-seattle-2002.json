@@ -1,65 +1,66 @@
 {
-    "coverage": "http://magic.wizards.com/en/events/coverage/mi02",
-    "date": "October 18-20, 2002",
-    "formats": [
-        "Standard",
-        "Online Extended",
-        "Team Sealed",
-        "Rochester Draft"
-    ],
-    "id": "invitational-seattle-2002",
-    "location": "Seattle, Washington, United States",
-    "logo": "ptlogo.png",
-    "name": "Magic Invitational",
-    "standings": [
-        {
-            "name": "Jens Thoren"
-        },
-        {
-            "name": "Tomi Walamies"
-        },
-        {
-            "name": "Jon Finkel"
-        },
-        {
-            "name": "Gary Wise"
-        },
-        {
-            "name": "Brian Kibler"
-        },
-        {
-            "name": "Carlos Romao"
-        },
-        {
-            "name": "David Humpherys"
-        },
-        {
-            "name": "Eivind Nitter"
-        },
-        {
-            "name": "Gabriel Nassif"
-        },
-        {
-            "name": "Brian Davis"
-        },
-        {
-            "name": "Olivier Ruel"
-        },
-        {
-            "name": "Alex Shvartsman"
-        },
-        {
-            "name": "Itaru Ishida"
-        },
-        {
-            "name": "David Price"
-        },
-        {
-            "name": "Diego Ostrovich"
-        },
-        {
-            "name": "Chris Pikula"
-        }
-    ],
-    "teamsize": 1
+  "type": "Invitational",
+  "coverage": "http://magic.wizards.com/en/events/coverage/mi02",
+  "date": "October 18-20, 2002",
+  "formats": [
+    "Standard",
+    "Online Extended",
+    "Team Sealed",
+    "Rochester Draft"
+  ],
+  "id": "invitational-seattle-2002",
+  "location": "Seattle, Washington, United States",
+  "logo": "ptlogo.png",
+  "name": "Magic Invitational",
+  "standings": [
+    {
+      "name": "Jens Thoren"
+    },
+    {
+      "name": "Tomi Walamies"
+    },
+    {
+      "name": "Jon Finkel"
+    },
+    {
+      "name": "Gary Wise"
+    },
+    {
+      "name": "Brian Kibler"
+    },
+    {
+      "name": "Carlos Romao"
+    },
+    {
+      "name": "David Humpherys"
+    },
+    {
+      "name": "Eivind Nitter"
+    },
+    {
+      "name": "Gabriel Nassif"
+    },
+    {
+      "name": "Brian Davis"
+    },
+    {
+      "name": "Olivier Ruel"
+    },
+    {
+      "name": "Alex Shvartsman"
+    },
+    {
+      "name": "Itaru Ishida"
+    },
+    {
+      "name": "David Price"
+    },
+    {
+      "name": "Diego Ostrovich"
+    },
+    {
+      "name": "Chris Pikula"
+    }
+  ],
+  "teamsize": 1
 }

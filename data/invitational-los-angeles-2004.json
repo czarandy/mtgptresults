@@ -1,22 +1,23 @@
 {
-    "_comment": "other results unkown",
-    "coverage": "http://magic.wizards.com/en/events/coverage/minv04",
-    "date": "May 11-13 & 15, 2004",
-    "formats": [
-        "Block Construced",
-        "Online Extended",
-        "Auction of the people",
-        "Rochester Draft",
-        "Pack Draft"
-    ],
-    "id": "invitational-los-angeles-2004",
-    "location": "Los Angeles, California, United States",
-    "logo": "ptlogo.png",
-    "name": "Magic Invitational",
-    "standings": [
-        {
-            "name": "Robert Maher"
-        }
-    ],
-    "teamsize": 1
+  "type": "Invitational",
+  "_comment": "other results unkown",
+  "coverage": "http://magic.wizards.com/en/events/coverage/minv04",
+  "date": "May 11-13 & 15, 2004",
+  "formats": [
+    "Block Construced",
+    "Online Extended",
+    "Auction of the people",
+    "Rochester Draft",
+    "Pack Draft"
+  ],
+  "id": "invitational-los-angeles-2004",
+  "location": "Los Angeles, California, United States",
+  "logo": "ptlogo.png",
+  "name": "Magic Invitational",
+  "standings": [
+    {
+      "name": "Robert Maher"
+    }
+  ],
+  "teamsize": 1
 }

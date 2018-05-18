@@ -1,65 +1,66 @@
 {
-    "date": "January 29-February 1, 1998",
-    "formats": [
-        "Standard",
-        "Extended New York Style",
-        "Mystery Constructed",
-        "Duplicate Sealed",
-        "Solomon Draft"
-    ],
-    "id": "invitational-rio-de-janeiro-1998",
-    "location": "Rio de Janeiro, Brazil",
-    "logo": "ptlogo.png",
-    "name": "Duelist Invitational",
-    "standings": [
-        {
-            "name": "Darwin Kastle"
-        },
-        {
-            "name": "Jakub Slemr"
-        },
-        {
-            "name": "Svend Geertsen"
-        },
-        {
-            "name": "Brian Hacker"
-        },
-        {
-            "name": "Michael Long"
-        },
-        {
-            "name": "Mark Justice"
-        },
-        {
-            "name": "Tommi Hovi"
-        },
-        {
-            "name": "Toshiki Tsukamoto"
-        },
-        {
-            "name": "John Chinnock"
-        },
-        {
-            "name": "Paul McCabe"
-        },
-        {
-            "name": "Brian Weissman"
-        },
-        {
-            "name": "Olle Rade"
-        },
-        {
-            "name": "Terry Borer"
-        },
-        {
-            "name": "Chris Pikula"
-        },
-        {
-            "name": "Nathan Russell"
-        },
-        {
-            "name": "Jason Zila"
-        }
-    ],
-    "teamsize": 1
+  "type": "Invitational",
+  "date": "January 29-February 1, 1998",
+  "formats": [
+    "Standard",
+    "Extended New York Style",
+    "Mystery Constructed",
+    "Duplicate Sealed",
+    "Solomon Draft"
+  ],
+  "id": "invitational-rio-de-janeiro-1998",
+  "location": "Rio de Janeiro, Brazil",
+  "logo": "ptlogo.png",
+  "name": "Duelist Invitational",
+  "standings": [
+    {
+      "name": "Darwin Kastle"
+    },
+    {
+      "name": "Jakub Slemr"
+    },
+    {
+      "name": "Svend Geertsen"
+    },
+    {
+      "name": "Brian Hacker"
+    },
+    {
+      "name": "Michael Long"
+    },
+    {
+      "name": "Mark Justice"
+    },
+    {
+      "name": "Tommi Hovi"
+    },
+    {
+      "name": "Toshiki Tsukamoto"
+    },
+    {
+      "name": "John Chinnock"
+    },
+    {
+      "name": "Paul McCabe"
+    },
+    {
+      "name": "Brian Weissman"
+    },
+    {
+      "name": "Olle Rade"
+    },
+    {
+      "name": "Terry Borer"
+    },
+    {
+      "name": "Chris Pikula"
+    },
+    {
+      "name": "Nathan Russell"
+    },
+    {
+      "name": "Jason Zila"
+    }
+  ],
+  "teamsize": 1
 }

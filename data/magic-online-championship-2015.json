@@ -1,11 +1,12 @@
 {
+    "type": "Mocs",
     "coverage": "http://magic.wizards.com/en/events/coverage/mtgochamp15",
     "date": "May 13-15, 2016",
     "formats": [
-        "Legacy", 
+        "Legacy",
         "Standard",
         "Modern",
-        "Draft"  
+        "Draft"
     ],
     "id": "magic-online-championship-2015",
     "location": "Seattle, Washington, United States",

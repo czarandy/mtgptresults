@@ -1,66 +1,67 @@
 {
-    "coverage": "http://magic.wizards.com/en/events/coverage/mi06",
-    "date": "May 10-12, 2006",
-    "formats": [
-        "Duplicate Sealed",
-        "Auction of the Geniuses",
-        "Draft",
-        "Block Party",
-        "Decadent Sealed"
-    ],
-    "id": "invitational-los-angeles-2006",
-    "location": "Los Angeles, California, United States",
-    "logo": "ptlogo.png",
-    "name": "Magic Invitational",
-    "standings": [
-        {
-            "name": "Antoine Ruel"
-        },
-        {
-            "name": "Jeff Cunningham"
-        },
-        {
-            "name": "Kenji Tsumura"
-        },
-        {
-            "name": "Gabriel Nassif"
-        },
-        {
-            "name": "Antonino De Rosa"
-        },
-        {
-            "name": "Pierre Canali"
-        },
-        {
-            "name": "David Williams"
-        },
-        {
-            "name": "Jose Barbero"
-        },
-        {
-            "name": "Tsuyoshi Fujita"
-        },
-        {
-            "name": "Julien Nuijten"
-        },
-        {
-            "name": "Oliver Ruel"
-        },
-        {
-            "name": "Osyp Lebedowicz"
-        },
-        {
-            "name": "Geoffrey Siron"
-        },
-        {
-            "name": "Michael Flores"
-        },
-        {
-            "name": "Terry Soh"
-        },
-        {
-            "name": "Frank Karsten"
-        }
-    ],
-    "teamsize": 1
+  "type": "Invitational",
+  "coverage": "http://magic.wizards.com/en/events/coverage/mi06",
+  "date": "May 10-12, 2006",
+  "formats": [
+    "Duplicate Sealed",
+    "Auction of the Geniuses",
+    "Draft",
+    "Block Party",
+    "Decadent Sealed"
+  ],
+  "id": "invitational-los-angeles-2006",
+  "location": "Los Angeles, California, United States",
+  "logo": "ptlogo.png",
+  "name": "Magic Invitational",
+  "standings": [
+    {
+      "name": "Antoine Ruel"
+    },
+    {
+      "name": "Jeff Cunningham"
+    },
+    {
+      "name": "Kenji Tsumura"
+    },
+    {
+      "name": "Gabriel Nassif"
+    },
+    {
+      "name": "Antonino De Rosa"
+    },
+    {
+      "name": "Pierre Canali"
+    },
+    {
+      "name": "David Williams"
+    },
+    {
+      "name": "Jose Barbero"
+    },
+    {
+      "name": "Tsuyoshi Fujita"
+    },
+    {
+      "name": "Julien Nuijten"
+    },
+    {
+      "name": "Oliver Ruel"
+    },
+    {
+      "name": "Osyp Lebedowicz"
+    },
+    {
+      "name": "Geoffrey Siron"
+    },
+    {
+      "name": "Michael Flores"
+    },
+    {
+      "name": "Terry Soh"
+    },
+    {
+      "name": "Frank Karsten"
+    }
+  ],
+  "teamsize": 1
 }
