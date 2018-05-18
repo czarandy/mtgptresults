@@ -11,6 +11,63 @@ import TournamentLink from './TournamentLink.react.js';
 import Tournaments from './Tournaments.js';
 import {formatMoney} from './utils.js';
 
+const TournamentsTable = ({items = {}, condition = 'Pro Tour'}) => {
+  return (
+    <table className="table table-hover table-striped">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Tournament</th>
+          <th>Finish</th>
+          <th>Pro Points</th>
+          <th>Prize Money</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        {items.map(t => {
+          const tournament = Tournaments.byID(t.tid);
+          if (!tournament) {
+            return null;
+          }
+          if (t.type !== condition) {
+            return null;
+          }
+
+          return (
+            <tr
+              key={t.tid}
+              className={tournament.getResultClassName(t.finish)}
+            >
+              <td>{tournament.date}}</td>
+              <td>
+                <TournamentLink tournament={tournament} />
+              </td>
+              <td>{t.finish}</td>
+              <td>{t.propoints}</td>
+              <td>{formatMoney(t.money)}</td>
+              <td>
+                <pre>
+                  {Object.keys(t)}
+                </pre>
+                <pre>
+                 {t.type}
+                </pre>
+                <pre>
+                  {Object.keys(tournament)}
+                </pre>
+                <pre>
+                  {t.type === 'Pro Tour' ? 'true' : 'false'}
+                </pre>
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  )
+};
+
 const Player = props => {
   const id = props.params.id;
   const player = Players.byID(id);
@@ -66,39 +123,10 @@ const Player = props => {
           </div>
         </div>
       </div>
-      <table className="table table-hover table-striped">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Tournament</th>
-            <th>Finish</th>
-            <th>Pro Points</th>
-            <th>Prize Money</th>
-          </tr>
-        </thead>
-        <tbody>
-          {player.tournaments.map(t => {
-            const tournament = Tournaments.byID(t.tid);
-            if (!tournament) {
-              return null;
-            }
-            return (
-              <tr
-                key={t.tid}
-                className={tournament.getResultClassName(t.finish)}
-              >
-                <td>{tournament.date}</td>
-                <td>
-                  <TournamentLink tournament={tournament} />
-                </td>
-                <td>{t.finish}</td>
-                <td>{t.propoints}</td>
-                <td>{formatMoney(t.money)}</td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+      Pro Tours
+      <TournamentsTable items={player.tournaments} />
+      Other Tournaments
+      <TournamentsTable items={player.tournaments} condition={''} />
     </div>
   );
 };
