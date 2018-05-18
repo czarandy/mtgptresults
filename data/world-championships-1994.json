@@ -1,0 +1,27 @@
+{
+    "coverage": "http://magic.wizards.com/en/events/coverage/1994wc",
+    "date": "August 19-21, 1994",
+    "formats": [
+        "Vintage"
+    ],
+    "id": "world-championships-1994",
+    "location": "Milwaukee, Wisconsin, United States",
+    "logo": "ptlogo.png",
+    "name": "World Championships",
+    "standings": [
+        {
+            "name": "Zak Dolan"
+        },
+        {
+            "name": "Bertran Lestree"
+        },
+        {
+            "name": "Dominic Symens"
+        },
+        {
+            "name": "Cyrille de Foucaud"
+        }
+        // other competitors unknown
+    ],
+    "teamsize": 1
+}

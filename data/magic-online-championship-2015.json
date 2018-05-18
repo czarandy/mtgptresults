@@ -1,0 +1,81 @@
+{
+    "coverage": "http://magic.wizards.com/en/events/coverage/mtgochamp15",
+    "date": "May 13-15, 2016",
+    "formats": [
+        "Legacy", 
+        "Standard",
+        "Modern",
+        "Draft"  
+    ],
+    "id": "magic-online-championship-2015",
+    "location": "Seattle, Washington, United States",
+    "logo": "ptlogo.png",
+    "name": "Magic Online Championship",
+    "standings": [
+        {
+            "money": 25000,
+            "name": "Niels Noorlander"
+        },
+        {
+            "money": 17000,
+            "name": "Alexander Ivanov"
+        },
+        {
+            "money": 9000,
+            "name": "Jonathan Anghelescu"
+        },
+        {
+            "money": 9000,
+            "name": "Gerry Thompson"
+        },
+        {
+            "money": 6000,
+            "name": "Mitchell Manders"
+        },
+        {
+            "money": 6000,
+            "name": "Peter Yeh"
+        },
+        {
+            "money": 6000,
+            "name": "Joe Spanier"
+        },
+        {
+            "money": 6000,
+            "name": "Samuel Black"
+        },
+        {
+            "money": 4000,
+            "name": "Magnus Lantto"
+        },
+        {
+            "money": 4000,
+            "name": "Oliver Tiu"
+        },
+        {
+            "money": 4000,
+            "name": "Bernardo Santos"
+        },
+        {
+            "money": 4000,
+            "name": "Daniel Gräfensteiner"
+        },
+        {
+            "money": 4000,
+            "name": "Mike Sigrist"
+        },
+        {
+            "money": 4000,
+            "name": "Lucas Duchow"
+        },
+        {
+            "money": 4000,
+            "name": "Sebastian Pozzo"
+        },
+        {
+            "money": 4000,
+            "name": "Lukas Dusek"
+        }
+    ],
+    "teamsize": 1
+}

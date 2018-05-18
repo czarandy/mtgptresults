@@ -1,0 +1,421 @@
+{
+    "coverage": "http://www.wizards.com/sideboard/article.asp?x=WORLDS98/welcome",
+    "date": "August 4-8, 1999",
+    "formats": [
+        "Team Sealed",
+        "Standard"
+    ],
+    "id": "world-championships-teams-1999",
+    "location": "Yokohama, Japan",
+    "logo": "ptlogo.png",
+    "name": "World Championship - Team Competition",
+    "standings": [
+        // pro points were probably given out, the amount is unknown
+        {
+            "money": 5500,
+            "name": "Kyle Rose"
+        },
+        {
+            "money": 5500,
+            "name": "Charles Kornblith"
+        },
+        {
+            "money": 5500,
+            "name": "John Hunka"
+        },
+        {
+            "money": 5500,
+            "name": "Zvi Mowshowitz"
+        },
+        {
+            "money": 3000,
+            "name": "Patrick Mello"
+        },
+        {
+            "money": 3000,
+            "name": "Marco Blume"
+        },
+        {
+            "money": 3000,
+            "name": "David Brucker"
+        },
+        {
+            "money": 3000,
+            "name": "Rosario Maij"
+        },
+        //#3 and #4 either won 9,000 and 7,000 or 8,000 each
+        {
+            "name": "Nicolai Herzog"
+        },
+        {
+            "name": "Sturla Bingen"
+        },
+        {
+            "name": "Bjørn Jocumsen"
+        },
+        {
+            "name": "Marius Johnsen"
+        },
+        {
+            "name": "Jimmy Oman"
+        },
+        {
+            "name": "Kristian Hellman"
+        },
+        {
+            "name": "Ken Asp"
+        },
+        {
+            "name": "Rikard Soderberg"
+        },
+        {
+            "name": "Dane Coltman"
+        },
+        {
+            "name": "Michael Doecke"
+        },
+        {
+            "name": "Jake Hart"
+        },
+        {
+            "name": "Adam Kemp"
+        },
+        {
+            "name": "Aaron Ngan Shing Hong"
+        },
+        {
+            "name": "William Bedoucha"
+        },
+        {
+            "name": "Chi Fai Ng"
+        },
+        {
+            "name": "Hon Ming Au Yeung"
+        },
+        {
+            "name": "Carlos Barrado"
+        },
+        {
+            "name": "Bas Postema"
+        },
+        {
+            "name": "Alexander Witt"
+        },
+        {
+            "name": "Wouter Witkam"
+        },
+        {
+            "name": "Matt Henstra"
+        },
+        {
+            "name": "Ken'ichi Fujita"
+        },
+        {
+            "name": "Masashiro Kuroda"
+        },
+        {
+            "name": "Yuichi Taguchi"
+        },
+        {
+            "name": "Masayuki Higashino"
+        },
+        {
+            "name": "Gerardo Godinez-Estrada"
+        },
+        {
+            "name": "Gustavo Chapela"
+        },
+        {
+            "name": "Saul Arreola"
+        },
+        {
+            "name": "Julio Ayala"
+        },
+        {
+            "name": "Yann Hamon"
+        },
+        {
+            "name": "Antoine Menard"
+        },
+        {
+            "name": "Pierre Malherbaud"
+        },
+        {
+            "name": "Gregoire Soubrie"
+        },
+        {
+            "name": "Xavi Curto"
+        },
+        {
+            "name": "Ivan Garcia-Gonzalez"
+        },
+        {
+            "name": "Omar Sagol"
+        },
+        {
+            "name": "Alejandro Dominguez"
+        },
+        {
+            "name": "Jean-Louis D'Hondt"
+        },
+        {
+            "name": "Vincent Gieling"
+        },
+        {
+            "name": "Dominique Coene"
+        },
+        {
+            "name": "Alexander Schrijvers"
+        },
+        {
+            "name": "Jaoa Isidro"
+        },
+        {
+            "name": "Frederico Bastos"
+        },
+        {
+            "name": "Eduardo Martins"
+        },
+        {
+            "name": "Hugo Machado"
+        },
+        {
+            "name": "Jean-Louis D'Hondt"
+        },
+        {
+            "name": "Raffaele Lo Moro"
+        },
+        {
+            "name": "Andrea Redi"
+        },
+        {
+            "name": "Riccardo Pizzirani"
+        },
+        {
+            "name": "Luca Chiera"
+        },
+        {
+            "name": "Ming Huang Royce Chai"
+        },
+        {
+            "name": "Sam Lau"
+        },
+        {
+            "name": "Benjamin Zhu"
+        },
+        {
+            "name": "Soon Lye Ng"
+        },
+        {
+            "name": "Piotr Chabalowski"
+        },
+        {
+            "name": "Sebastian Druzbicki"
+        },
+        {
+            "name": "Jaroslaw Paszkiewicz"
+        },
+        {
+            "name": "Marcin Lichniak"
+        },
+        {
+            "name": "Christiano Pereira"
+        },
+        {
+            "name": "Guilherme Svaldi"
+        },
+        {
+            "name": "Roberto Silva"
+        },
+        {
+            "name": "Eduardo Teixeira"
+        },
+        {
+            "name": "Heung-Jin Jung"
+        },
+        {
+            "name": "Joo-Hyun Koo"
+        },
+        {
+            "name": "Jung-Bock Park"
+        },
+        {
+            "name": "Ji-Sang Kang"
+        },
+        {
+            "name": "Dino Yu"
+        },
+        {
+            "name": "Felix Gonzales"
+        },
+        {
+            "name": "Richard Adelfin"
+        },
+        {
+            "name": "Gerald Camangon"
+        },
+        {
+            "name": "Svend Geertsen"
+        },
+        {
+            "name": "Hans-Ole Kronstrand"
+        },
+        {
+            "name": "Allan Mortensen"
+        },
+        {
+            "name": "Palle Poulsen"
+        },
+        {
+            "name": "Mark Simpson"
+        },
+        {
+            "name": "Damian Brown-Santirso"
+        },
+        {
+            "name": "Brett Rogers"
+        },
+        {
+            "name": "David Bullock"
+        },
+        {
+            "name": "Jurgen Hahn"
+        },
+        {
+            "name": "Marc Rajotte"
+        },
+        {
+            "name": "Gary Krakower"
+        },
+        {
+            "name": "Bruce Marsan"
+        },
+        {
+            "name": "Seng Giap Kevin Khoo"
+        },
+        {
+            "name": "Kok Hou Yap"
+        },
+        {
+            "name": "Khai Wen Leong"
+        },
+        {
+            "name": "Chuen Hwa Tan"
+        },
+        {
+            "name": "Mark Wraith"
+        },
+        {
+            "name": "Craig Jones"
+        },
+        {
+            "name": "John Ormerod"
+        },
+        {
+            "name": "Daniel Paskins"
+        },
+        {
+            "name": "Mika Ollila"
+        },
+        {
+            "name": "Pasi Virtanen"
+        },
+        {
+            "name": "Jussi Salovaara"
+        },
+        {
+            "name": "Welly Hadiwidjaja",
+            "rank": 26
+        },
+        {
+            "name": "Kawi Santosa",
+            "rank": 26
+        },
+        {
+            "name": "Jonsen Sulaeman",
+            "rank": 26
+        },
+        {
+            "name": "Yopi Effendi",
+            "rank": 26
+        },
+        {
+            "name": "Christian du Plessis",
+            "rank": 27
+        },
+        {
+            "name": "Jonathan Tsao",
+            "rank": 27
+        },
+        {
+            "name": "Gavin Meek",
+            "rank": 27
+        },
+        {
+            "name": "Michael Nurse",
+            "rank": 27
+        },
+        {
+            "name": "Aras Senyuz",
+            "rank": 28
+        },
+        {
+            "name": "Yusuf Kemal Vefa",
+            "rank": 28
+        },
+        {
+            "name": "Eray Veral",
+            "rank": 28
+        },
+        {
+            "name": "Ciaran Lawler",
+            "rank": 29
+        },
+        {
+            "name": "David Kearney",
+            "rank": 29
+        },
+        {
+            "name": "Eoin Brosnan",
+            "rank": 29
+        },
+        {
+            "name": "Gerard Norton",
+            "rank": 29
+        },
+        {
+            "name": "Christoph Derdak",
+            "rank": 30
+        },
+        {
+            "name": "Philipp Cetl",
+            "rank": 30
+        },
+        {
+            "name": "Jurgen Smutek",
+            "rank": 30
+        },
+        {
+            "name": "Riccardo Cavallaro",
+            "rank": 30
+        },
+        {
+            "name": "Andres Pablo Hojman Cruz",
+            "rank": 31
+        },
+        {
+            "name": "Rodrigo Sánchez",
+            "rank": 31
+        },
+        {
+            "name": "Juan Escobar Reyes",
+            "rank": 31
+        },
+        {
+            "name": "Francisco Gaete",
+            "rank": 31
+        }
+    ],
+    "teamsize": 4
+    
+}
