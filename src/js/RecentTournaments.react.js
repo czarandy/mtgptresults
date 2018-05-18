@@ -20,7 +20,7 @@ const Logo = ({id, t}) => {
   );
 };
 
-const RecentTournaments = () => (
+const RecentTournaments = ({ filter = (item) => item.type === 'Pro Tour' }) => (
   <div className="col-md-offset-3 col-md-6">
     <div className="alert alert-info" role="alert">
       {'This site is now open source on '}
@@ -29,7 +29,7 @@ const RecentTournaments = () => (
       </a>.
     </div>
     <DocumentTitle title="MTG Pro Tour Results" />
-    {_.map(window.Recent, function(tournament) {
+    {_.map(window.Recent.filter(filter), function(tournament) {
       const id = tournament.id;
       return (
         <div key={id}>
@@ -82,5 +82,14 @@ const RecentTournaments = () => (
     })}
   </div>
 );
+
+export const OtherTournaments = (props) => {
+  return (
+    <RecentTournaments
+      filter={(item) => item.type !== 'Pro Tour'}
+      {...props}
+    />
+  );
+};
 
 export default RecentTournaments;

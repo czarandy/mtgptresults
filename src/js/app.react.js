@@ -17,6 +17,7 @@ import Player from './Player.react.js';
 import Tournament from './Tournament.react.js';
 import Rankings from './Rankings.react.js';
 import RecentTournaments from './RecentTournaments.react.js';
+import { OtherTournaments } from './RecentTournaments.react.js';
 
 render(
   <Router history={browserHistory} render={applyRouterMiddleware(useScroll())}>
@@ -25,6 +26,7 @@ render(
       <Route path="/player/:id" component={Player} />
       <Route path="/tournament/:id" component={Tournament} />
       <Route path="/rankings/:col" component={Rankings} />
+      <Route path="/other-tournaments" component={OtherTournaments} />
       <Route path="*" component={NotFound} />
     </Route>
   </Router>,
