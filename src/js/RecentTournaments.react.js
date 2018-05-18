@@ -5,6 +5,7 @@ import {Link} from 'react-router';
 import DocumentTitle from 'react-document-title';
 import Players from './Players.js';
 import PlayerLink from './PlayerLink.react.js';
+import {filterOnlyProTours, filterOtherTournaments} from './utils.js';
 
 const _ = require('underscore');
 const Helper = require('./../../lib/helper.js');
@@ -20,7 +21,7 @@ const Logo = ({id, t}) => {
   );
 };
 
-const RecentTournaments = ({ filter = (item) => item.type === 'Pro Tour' }) => (
+const RecentTournaments = ({ filter = filterOnlyProTours }) => (
   <div className="col-md-offset-3 col-md-6">
     <div className="alert alert-info" role="alert">
       {'This site is now open source on '}
@@ -86,7 +87,7 @@ const RecentTournaments = ({ filter = (item) => item.type === 'Pro Tour' }) => (
 export const OtherTournaments = (props) => {
   return (
     <RecentTournaments
-      filter={(item) => item.type !== 'Pro Tour'}
+      filter={filterOtherTournaments}
       {...props}
     />
   );
