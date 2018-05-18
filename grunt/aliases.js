@@ -104,7 +104,8 @@ module.exports = function(grunt) {
           finish: finish,
           propoints: standing.propoints,
           tid: tournament.id,
-          money: standing.money
+          money: standing.money,
+          type: tournament.type || ''
         };
         if (standing.rank) {
           t.rank = standing.rank;
