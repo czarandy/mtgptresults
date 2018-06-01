@@ -13,6 +13,7 @@ export default class Tournament {
     this.formats = data.formats;
     this.location = data.location;
     this.standings = data.standings;
+    this.type = data.type || '';
   }
 
   getResultClassName(finish) {

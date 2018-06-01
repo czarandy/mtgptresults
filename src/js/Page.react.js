@@ -20,6 +20,11 @@ const Page = props => (
               Player Rankings
             </Link>
           </li>
+          <li>
+            <Link to="/other-tournaments" activeClassName="activeLink">
+              Other Tournaments
+            </Link>
+          </li>
         </ul>
         <div className="navbar-form navbar-right">
           <SearchInput />

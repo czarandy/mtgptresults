@@ -5,6 +5,7 @@ import {Link} from 'react-router';
 import DocumentTitle from 'react-document-title';
 import Players from './Players.js';
 import PlayerLink from './PlayerLink.react.js';
+import {filterOnlyProTours, filterOtherTournaments} from './utils.js';
 
 const _ = require('underscore');
 const Helper = require('./../../lib/helper.js');
@@ -20,7 +21,7 @@ const Logo = ({id, t}) => {
   );
 };
 
-const RecentTournaments = () => (
+const RecentTournaments = ({ filter = filterOnlyProTours }) => (
   <div className="col-md-offset-3 col-md-6">
     <div className="alert alert-info" role="alert">
       {'This site is now open source on '}
@@ -29,7 +30,7 @@ const RecentTournaments = () => (
       </a>.
     </div>
     <DocumentTitle title="MTG Pro Tour Results" />
-    {_.map(window.Recent, function(tournament) {
+    {_.map(window.Recent.filter(filter), function(tournament) {
       const id = tournament.id;
       return (
         <div key={id}>
@@ -82,5 +83,14 @@ const RecentTournaments = () => (
     })}
   </div>
 );
+
+export const OtherTournaments = (props) => {
+  return (
+    <RecentTournaments
+      filter={filterOtherTournaments}
+      {...props}
+    />
+  );
+};
 
 export default RecentTournaments;
