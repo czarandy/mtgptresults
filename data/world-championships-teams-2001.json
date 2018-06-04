@@ -53,6 +53,7 @@
         {
             "money": 3000,
             "name": "Mike Wall",
+            "nationality": "FIN",
             "propoints": 4
         },
         {
@@ -67,7 +68,7 @@
         },
         {
             "money": 2000,
-            "name": "Tomas Rosholm",
+            "name": "Thomas Rosholm",
             "propoints": 4
         },
         {
@@ -77,7 +78,7 @@
         },
         {
             "money": 1000,
-            "name": "Laurent Pagorek",
+            "name": "Laurent Pagoreck",
             "propoints": 3
         },
         {
@@ -127,7 +128,7 @@
         },
         {
             "money": 1000,
-            "name": "Samn Lount",
+            "name": "Sam Lount",
             "propoints": 3
         },
         {
@@ -296,7 +297,7 @@
         },
         {
             "money": 1000,
-            "name": "Promoz Lavs"
+            "name": "Primoz Lavs"
         },
         {
             "money": 1000,
@@ -304,7 +305,7 @@
         },
         {
             "money": 1000,
-            "name": "Kahi Wen Leong"
+            "name": "Khai Wen Leong"
         },
         {
             "money": 1000,
@@ -368,7 +369,7 @@
         },
         {
             "money": 1000,
-            "name": "Andreas Budi Pranoto"
+            "name": "Andreas Pranoto"
         },
         {
             "money": 1000,
@@ -380,7 +381,7 @@
         },
         {
             "money": 1000,
-            "name": "Craig Jones"
+            "name": "Craig A Jones"
         },
         {
             "money": 1000,
@@ -400,7 +401,7 @@
         },
         {
             "money": 1000,
-            "name": "Cormac Smyth"
+            "name": "Cormac Smith"
         },
         {
             "money": 1000,
@@ -416,7 +417,8 @@
         },
         {
             "money": 1000,
-            "name": "Damian Brown-Santirso"
+            "name": "Damian Brown-Santirso",
+            "nationality": "URY"
         },
         {
             "money": 1000,
@@ -452,7 +454,8 @@
         },
         {
             "money": 1000,
-            "name": "Leonardo Uzcategui"
+            "name": "Leonardo Uzcategui",
+            "nationality": "VEN"
         },
         {
             "money": 1000,
@@ -468,11 +471,11 @@
         },
         {
             "money": 1000,
-            "name": "George Kapalas"
+            "name": "Georgios Kapalas"
         },
         {
             "money": 1000,
-            "name": "Paniotis Zacharias"
+            "name": "Panaiotis Zacharias"
         },
         {
             "money": 1000,
@@ -508,7 +511,7 @@
         },
         {
             "money": 1000,
-            "name": "Ayal Hassadim"
+            "name": "Ayal Hassidim"
         },
         {
             "money": 1000,
@@ -556,7 +559,8 @@
         },
         {
             "money": 1000,
-            "name": "Jordan Gallant"
+            "name": "Jordan Gallant",
+            "nationality": "UAE"
         },
         {
             "money": 1000,
@@ -620,7 +624,7 @@
         },
         {
             "money": 1000,
-            "name": "Matias Bollatti"
+            "name": "Matias Bollati"
         }
     ],
     "teamsize": 3
