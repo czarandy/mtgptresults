@@ -7,7 +7,7 @@
     ],
     "id": "world-championships-teams-2000",
     "location": "Brussels, Belgium",
-    "logo": "ptlogo.png",
+    "logo": "worldslogo.png",
     "name": "World Championship - Team Competition",
     "standings": [
         {
@@ -58,6 +58,7 @@
         {
             "money": 2000,
             "name": "Mike Wall",
+            "nationality": "FIN",
             "propoints": 3
         },
         {
@@ -225,10 +226,13 @@
             "name": "Vasco Grossmann"
         },
         {
-            "name": "Marcio Rogrigues"
+            "name": "Marcio Rodrigues"
         },
         {
             "name": "Tiago Chan"
+        },
+        {
+            "name": "Roc Herms"
         },
         {
             "name": "Carlos Barrado"
@@ -252,7 +256,7 @@
             "name": "Philip Cetl"
         },
         {
-            "name": "Tomas Rosholm"
+            "name": "Thomas Rosholm"
         },
         {
             "name": "Andreas Jönsson"
@@ -303,7 +307,7 @@
             "name": "Samson Wong"
         },
         {
-            "name": "Robin Pong"
+            "name": "Robin Hee Tee Pong"
         },
         {
             "name": "Junyang Ang"
@@ -363,7 +367,8 @@
             "name": "Ryan Soh"
         },
         {
-            "name": "Albertus Law"
+            "name": "Albertus Law",
+            "nationality": "MYS"
         },
         {
             "name": "Jun-Wei Hew"
@@ -477,7 +482,8 @@
             "name": "Salomon Chacon"
         },
         {
-            "name": "Hector Fuentes"
+            "name": "Hector Fuentes",
+            "nationality": "MEX"
         },
         {
             "name": "Fabiano de Castro e Castro"
@@ -498,7 +504,8 @@
             "name": "Christian du Plessis"
         },
         {
-            "name": "David Irvine"
+            "name": "David Irvine",
+            "nationality": "ZAF"
         },
         {
             "name": "Emeric Malan"
@@ -516,7 +523,7 @@
             "name": "Niels Sanders Jensen"
         },
         {
-            "name": "Sigurdur Orn Gunnarson"
+            "name": "Sigurdur Orn Gunnarsson"
         },
         {
             "name": "Ragnar Mar Kjartansson"
@@ -528,7 +535,7 @@
             "name": "Yngvi Omar Sighvatsson"
         },
         {
-            "name": "Stpehen Brown"
+            "name": "Stephen Brown"
         },
         {
             "name": "Ioan Llwyd"
@@ -558,7 +565,8 @@
             "name": "David Kearney"
         },
         {
-            "name": "Bill Johnson"
+            "name": "Bill Johnson",
+            "nationality": "IRL"
         },
         {
             "name": "Robert Mckeon"
@@ -570,10 +578,11 @@
             "name": "Baruchi Kimchi"
         },
         {
-            "name": "Ayal Hassadim"
+            "name": "Ayal Hassidim"
         },
         {
             "name": "Juan Reutter",
+            "nationality": "CHL",
             "rank": 43
         },
         {
