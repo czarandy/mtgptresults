@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20130218001444/http://www.wizards.com/Magic/Magazine/Article.aspx?x=mtg/daily/eventcoverage/ptgtc13/welcome",
     "date": "February 16-17, 2013",
     "formats": [
@@ -257,7 +258,7 @@
         },
         {
             "money": 1500,
-            "name": "Jeremi Ross-Latour",
+            "name": "Jeremie Ross-Latour",
             "propoints": 6
         },
         {
@@ -598,7 +599,7 @@
             "propoints": 3
         },
         {
-            "name": "Ryuuichirou Ishida",
+            "name": "Ryuuichiro Ishida",
             "propoints": 3
         },
         {
@@ -638,7 +639,7 @@
             "propoints": 3
         },
         {
-            "name": "ryuzi murae",
+            "name": "Ryuzi Murae",
             "propoints": 3
         },
         {
@@ -1402,6 +1403,6 @@
             "propoints": 3
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

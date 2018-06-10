@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20070219040659/http://www.wizards.com/default.asp?x=mtgevent/ptgen07/welcome",
     "date": "February 9-11, 2007",
     "formats": [
@@ -296,7 +297,7 @@
         },
         {
             "money": 570,
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 4
         },
         {
@@ -1365,7 +1366,7 @@
             "propoints": 2
         },
         {
-            "name": "Jasper E Bongaards",
+            "name": "Jasper E. Bongaards",
             "propoints": 2
         },
         {
@@ -1629,6 +1630,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

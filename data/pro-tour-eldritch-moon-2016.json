@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptemn",
     "date": "August 5-7, 2016",
     "formats": [
@@ -1768,7 +1769,7 @@
             "swissrounds": 8
         },
         {
-            "name": "Ferran Vila Ferrer",
+            "name": "Ferran Vila",
             "propoints": 3,
             "matchpoints": 6,
             "swissrounds": 6
@@ -2063,6 +2064,6 @@
             "swissrounds": 4
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

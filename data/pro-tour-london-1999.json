@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "https://web.archive.org/web/20000618095835/http://www.wizards.com/international/sideboard/ptlondon99/ptlondon.coverage.asp",
     "date": "October 15-17, 1999",
     "formats": [
@@ -418,7 +419,7 @@
             "propoints": 3
         },
         {
-            "name": "Chris Manners",
+            "name": "Christopher Manners",
             "propoints": 3
         },
         {
@@ -458,7 +459,7 @@
             "propoints": 3
         },
         {
-            "name": "Kazuykuki Momose",
+            "name": "Kazuyuki Momose",
             "propoints": 3
         },
         {
@@ -982,7 +983,7 @@
             "propoints": 2
         },
         {
-            "name": "Marka Etelapera",
+            "name": "Marko Etelapera",
             "propoints": 2
         },
         {
@@ -1310,6 +1311,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

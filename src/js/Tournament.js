@@ -1,9 +1,11 @@
 'use strict';
 
+import Helper from './../../lib/helper.js';
+
 export default class Tournament {
   constructor(data) {
-    this.team = data.team;
-    this.team2hg = data.team2hg;
+    this.teamsize = data.teamsize || 1;
+    this.topn = data.topn;
     this.date = data.date;
     this.name = data.name;
     this.id = data.id;
@@ -11,29 +13,31 @@ export default class Tournament {
     this.formats = data.formats;
     this.location = data.location;
     this.standings = data.standings;
+    this.type = data.type || '';
   }
 
   getResultClassName(finish) {
     if (finish === 1) {
       return 'success';
     }
-    if (this.team && finish <= 4) {
+    if (this.topn) {
+      if (finish <= this.topn) {
+        return 'warning';
+      }
+      return null;
+    }
+    // default is teamsize based
+    if (this.teamsize > 1 && finish <= 4) {
       return 'warning';
     }
-    if (!this.team && finish <= 8) {
+    if (this.teamsize == 1 && finish <= 8) {
       return 'warning';
     }
     return null;
   }
 
   getPlayerIndex(index) {
-    if (this.team2hg) {
-      return Math.floor(index / 2);
-    }
-    if (this.team) {
-      return Math.floor(index / 3);
-    }
-    return index;
+    return Helper.getPlayerIndex(index, this.teamsize);
   }
 
   getPlayerClassName(index) {

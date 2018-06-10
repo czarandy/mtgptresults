@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/events/coverage/ptm15",
     "date": "August 1-3, 2014",
     "formats": [
@@ -1494,7 +1495,7 @@
             "propoints": 3
         },
         {
-            "name": "Carl Fernandez Baillo",
+            "name": "Carlos Fernandez Baillo",
             "propoints": 3
         },
         {
@@ -1518,6 +1519,6 @@
             "propoints": 3
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

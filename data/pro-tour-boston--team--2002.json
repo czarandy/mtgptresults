@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/default.asp?x=sideboard/events/ptbos02",
     "date": "September 27-29, 2002",
     "formats": [
@@ -503,7 +504,7 @@
             "propoints": 2
         },
         {
-            "name": "Zach Parker",
+            "name": "Zachary Parker",
             "propoints": 2
         },
         {
@@ -1179,7 +1180,7 @@
             "propoints": 2
         },
         {
-            "name": "Rodrigo Lopez",
+            "name": "Rodrigo Silva-Lopez",
             "propoints": 2
         },
         {
@@ -1523,6 +1524,6 @@
             "propoints": 2
         }
     ],
-    "team": true,
-    "team2hg": false
+    "teamsize": 3
+    
 }

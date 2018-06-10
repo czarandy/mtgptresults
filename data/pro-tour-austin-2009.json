@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20091019035255/http://www.wizards.com/magic/magazine/article.aspx?x=mtg/daily/eventcoverage/ptaus09/welcome",
     "date": "October 16-18, 2009",
     "formats": [
@@ -332,7 +333,7 @@
         },
         {
             "money": 500,
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 4
         },
         {
@@ -1744,6 +1745,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

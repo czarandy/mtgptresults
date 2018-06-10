@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20040308003352/http://www.wizards.com/default.asp?x=mtgevent/ptkob04/welcome",
     "date": "February 27-29, 2004",
     "formats": [
@@ -1032,6 +1033,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

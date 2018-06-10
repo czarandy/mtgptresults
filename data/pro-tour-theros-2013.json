@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/eventcoverage/ptthe13",
     "date": "October 11-13, 2013",
     "formats": [
@@ -1790,6 +1791,6 @@
             "rank": "DQ"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

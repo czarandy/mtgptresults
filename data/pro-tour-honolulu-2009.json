@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20090611145959/http://www.wizards.com/Magic/Magazine/Article.aspx?x=mtg/daily/eventcoverage/pthon09/welcome",
     "date": "June 5-7, 2009",
     "formats": [
@@ -572,7 +573,7 @@
             "propoints": 3
         },
         {
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 3
         },
         {
@@ -1376,7 +1377,7 @@
             "propoints": 2
         },
         {
-            "name": "Junwei Mai",
+            "name": "Jun Wei Mai",
             "propoints": 2
         },
         {
@@ -1660,6 +1661,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

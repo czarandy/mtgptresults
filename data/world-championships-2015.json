@@ -1,0 +1,137 @@
+{
+    "type": "World Championships",
+    "coverage": "https://magic.wizards.com/en/events/coverage/2015wc",
+    "date": "August 28-30, 2015",
+    "formats": [
+        "Draft",
+        "Standard"
+    ],
+    "id": "world-championships-2015",
+    "location": "Seattle, Washington, United States",
+    "logo": "worldslogo.png",
+    "name": "World Championships",
+    "standings": [
+        {
+            "money": 50000,
+            "name": "Seth Manfield",
+            "propoints": 17
+        },
+        {
+            "money": 20000,
+            "name": "Owen Turtenwald",
+            "propoints": 11
+        },
+        {
+            "money": 10000,
+            "name": "Paul Rietzl",
+            "propoints": 9
+        },
+        {
+            "money": 10000,
+            "name": "Samuel Black",
+            "propoints": 9
+        },
+        {
+            "money": 5000,
+            "name": "Magnus Lantto",
+            "propoints": 9
+        },
+        {
+            "money": 5000,
+            "name": "Martin Muller",
+            "propoints": 8
+        },
+        {
+            "money": 5000,
+            "name": "Shaun McLaren",
+            "propoints": 8
+        },
+        {
+            "money": 5000,
+            "name": "Thiago Saporito",
+            "propoints": 8
+        },
+        {
+            "money": 3000,
+            "name": "Ondrej Strasky",
+            "propoints": 8
+        },
+        {
+            "money": 3000,
+            "name": "Yuuya Watanabe",
+            "propoints": 7
+        },
+        {
+            "money": 3000,
+            "name": "Paulo Vitor Damo da Rosa",
+            "propoints": 7
+        },
+        {
+            "money": 3000,
+            "name": "Jacob Wilson",
+            "propoints": 7
+        },
+        {
+            "money": 3000,
+            "name": "Joel Larsson",
+            "propoints": 7
+        },
+        {
+            "money": 3000,
+            "name": "Alexander Hayne",
+            "propoints": 7
+        },
+        {
+            "money": 3000,
+            "name": "Martin Dang",
+            "propoints": 6
+        },
+        {
+            "money": 3000,
+            "name": "Steve Rubin",
+            "propoints": 6
+        },
+        {
+            "money": 2000,
+            "name": "Kentaro Yamamoto",
+            "propoints": 6
+        },
+        {
+            "money": 2000,
+            "name": "Mike Sigrist",
+            "propoints": 6
+        },
+        {
+            "money": 2000,
+            "name": "Eric Froehlich",
+            "propoints": 6
+        },
+        {
+            "money": 2000,
+            "name": "Lee Shi Tian",
+            "propoints": 6
+        },
+        {
+            "money": 2000,
+            "name": "Brad Nelson",
+            "propoints": 5
+        },
+        {
+            "money": 2000,
+            "name": "Antonio Del Moral Leon",
+            "propoints": 5
+        },
+        {
+            "money": 2000,
+            "name": "Shahar Shenhar",
+            "propoints": 4
+        },
+        {
+            "money": 2000,
+            "name": "Ari Lax",
+            "propoints": 2
+        }
+    ],
+    "teamsize": 1,
+    "topn": 4
+}

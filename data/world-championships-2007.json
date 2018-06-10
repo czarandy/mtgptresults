@@ -1,5 +1,6 @@
 {
-    "coverage": "http://web.archive.org/web/20071212151823/http://www.wizards.com/default.asp?x=mtgevent/worlds07/welcome",
+    "type": "Pro Tour",
+    "coverage": "https://magic.wizards.com/en/events/coverage/2007wc",
     "date": "December 6-9, 2007",
     "formats": [
         "Standard",
@@ -404,7 +405,7 @@
             "propoints": 4
         },
         {
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 4
         },
         {
@@ -1208,7 +1209,7 @@
             "propoints": 2
         },
         {
-            "name": "Arikorn Lapnimitchai",
+            "name": "Chakorn Lapnimitchai",
             "propoints": 2
         },
         {
@@ -1620,6 +1621,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

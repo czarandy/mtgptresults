@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/19961219131904/http://www.wizards.com/ProTour/Worlds_Update.html",
     "date": "August 14-18, 1996",
     "formats": [
@@ -153,7 +154,7 @@
         },
         {
             "money": 1850,
-            "name": "Szabolcs Toszegi",
+            "name": "Toszegi Szabolcs",
             "propoints": 2
         },
         {
@@ -455,7 +456,7 @@
             "name": "Tihor Miklos"
         },
         {
-            "name": "Le Minh Hieu"
+            "name": "Minh Hieu Le"
         },
         {
             "name": "Harri Vuorela"
@@ -488,7 +489,7 @@
             "name": "Thomas Nistelberger"
         },
         {
-            "name": "Arturo Rueva"
+            "name": "Arturo Rueda"
         },
         {
             "name": "Lukas Kocourek"
@@ -515,6 +516,6 @@
             "name": "Shahar Zrihen"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

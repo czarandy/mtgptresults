@@ -16,6 +16,10 @@ module.exports = {
         dest: 'build/logo/ptlogo.png'
       },
       {
+        src: 'src/worldslogo.png',
+        dest: 'build/logo/worldslogo.png'
+      },
+      {
         src: 'src/arrowicon.png',
         dest: 'build/arrowicon.png'
       },

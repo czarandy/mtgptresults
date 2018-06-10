@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20061221045655/http://www.wizards.com/default.asp?x=mtgevent/worlds06/welcome",
     "date": "November 29-December 3, 2006",
     "formats": [
@@ -579,7 +580,7 @@
             "propoints": 3
         },
         {
-            "name": "Jun W Mai",
+            "name": "Jun Wei Mai",
             "propoints": 3
         },
         {
@@ -643,7 +644,7 @@
             "propoints": 2
         },
         {
-            "name": "Marthinus J Koekemoer",
+            "name": "Marthinus J. Koekemoer",
             "propoints": 2
         },
         {
@@ -1307,7 +1308,7 @@
             "propoints": 2
         },
         {
-            "name": "Jasper E Bongaards",
+            "name": "Jasper E. Bongaards",
             "propoints": 2
         },
         {
@@ -1515,6 +1516,6 @@
             "rank": "DQ"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

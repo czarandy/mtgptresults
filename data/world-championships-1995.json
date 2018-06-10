@@ -1,0 +1,41 @@
+{
+    "type": "World Championships",
+    "_comment": "other competitors unknown",
+    "coverage": "http://magic.wizards.com/en/events/coverage/1995wc",
+    "date": "August 4-6, 1995",
+    "formats": [
+        "Sealed Deck",
+        "Standard"
+    ],
+    "id": "world-championships-1995",
+    "location": "Seattle, Washington, United States",
+    "logo": "worldslogo.png",
+    "name": "World Championships",
+    "standings": [
+        {
+            "name": "Alexander Blumke"
+        },
+        {
+            "name": "Marc Hernandez"
+        },
+        {
+            "name": "Mark Justice"
+        },
+        {
+            "name": "Henry Stern"
+        },
+        {
+            "name": "Ivan Curina"
+        },
+        {
+            "name": "Andrea Redi"
+        },
+        {
+            "name": "Henri Schildt"
+        },
+        {
+            "name": "Mu-Luen Wang"
+        }
+    ],
+    "teamsize": 1
+}

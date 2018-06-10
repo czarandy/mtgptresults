@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptkld",
     "date": "October 14-16, 2016",
     "formats": [
@@ -1625,7 +1626,7 @@
             "matchpoints": 9
         },
         {
-            "name": "Alexey Riabokon",
+            "name": "Oleksii Riabokon",
             "propoints": 3,
             "matchpoints": 9
         },
@@ -2405,6 +2406,6 @@
             "matchpoints": 0
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

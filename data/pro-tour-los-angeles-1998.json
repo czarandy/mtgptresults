@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/19990427221821/http://www.wizards.com/ProTour/LA_98_Cybercast.html",
     "date": "March 6-8, 1998",
     "formats": [
@@ -709,7 +710,7 @@
             "propoints": 2
         },
         {
-            "name": "Kariel",
+            "name": "Tim Kariel",
             "propoints": 2
         },
         {
@@ -1460,6 +1461,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

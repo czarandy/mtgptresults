@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/sideboard/article.asp?x=PTDC9900/welcome",
     "date": "September 3-5, 1999",
     "formats": [
@@ -439,7 +440,7 @@
             "propoints": 3
         },
         {
-            "name": "Chris Manners",
+            "name": "Christopher Manners",
             "propoints": 3
         },
         {
@@ -627,7 +628,7 @@
             "propoints": 2
         },
         {
-            "name": "Andy Wolf",
+            "name": "Andrew Wolf",
             "propoints": 2
         },
         {
@@ -1007,6 +1008,6 @@
             "name": "Justin West"
         }
     ],
-    "team": true,
-    "team2hg": false
+    "teamsize": 3
+    
 }

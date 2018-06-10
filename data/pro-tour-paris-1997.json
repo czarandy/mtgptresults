@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptpar97",
     "date": "April 11-13, 1997",
     "formats": [
@@ -116,7 +117,7 @@
         },
         {
             "money": 1850,
-            "name": "Rodrigo Silva",
+            "name": "Rodrigo Silva-Lopez",
             "propoints": 2
         },
         {
@@ -369,7 +370,7 @@
             "name": "Michael Sochon"
         },
         {
-            "name": "Micha'l Elkaim"
+            "name": "Michaël Elkaïm"
         },
         {
             "name": "John Yoo"
@@ -498,7 +499,7 @@
             "name": "Jean-Baptiste Maupas-Oudinot"
         },
         {
-            "name": "Chris Donovan"
+            "name": "Christopher Donovan"
         },
         {
             "name": "Christer Ljones"
@@ -603,7 +604,7 @@
             "name": "Alvaro Marques"
         },
         {
-            "name": "PerDanngarde"
+            "name": "Per Danngarde"
         },
         {
             "name": "Matt Goodall"
@@ -651,7 +652,7 @@
             "name": "Laurent Pagoreck"
         },
         {
-            "name": "Szabolcs Toszegi"
+            "name": "Toszegi Szabolcs"
         },
         {
             "name": "Paul Robinson"
@@ -808,6 +809,6 @@
             "name": "Federico Dato"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

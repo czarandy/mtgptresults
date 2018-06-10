@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/szleifer-seizes-sunday",
     "date": "May 6-8, 2005",
     "formats": [
@@ -1528,6 +1529,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

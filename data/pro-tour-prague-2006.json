@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/osawa%E2%80%99s-wurms-flog-prague",
     "date": "May 5-7, 2006",
     "formats": [
@@ -1741,6 +1742,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

@@ -1,6 +1,7 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/19961219074155/http://www.wizards.com/ProTour/Dallas_Update.html",
-    "date": "November 22-24, 1996",
+    "date": "November 23-24, 1996",
     "formats": [
         "Standard"
     ],
@@ -531,7 +532,7 @@
             "name": "Jeramy Poulin"
         },
         {
-            "name": "James Ridgway"
+            "name": "James Ridgeway"
         },
         {
             "name": "Sven Runing"
@@ -709,7 +710,7 @@
             "name": "MacKenzie Patterson Jr"
         },
         {
-            "name": "Max Hornbeck"
+            "name": "Max Szlagor"
         },
         {
             "name": "Linus Vernyns"
@@ -724,7 +725,7 @@
             "name": "Christopher Czuba"
         },
         {
-            "name": "Nick Ketteman"
+            "name": "Nick Kettemann"
         },
         {
             "name": "Adam Green"
@@ -739,7 +740,7 @@
             "name": "Gabe Higa"
         },
         {
-            "name": "Ilia Rotelli"
+            "name": "Ilja Rotelli"
         },
         {
             "name": "Phil McLaury"
@@ -781,7 +782,7 @@
             "name": "Wayne Thompson"
         },
         {
-            "name": "Eric Wenoker"
+            "name": "Eric Wenokor"
         },
         {
             "name": "Peter Thorsbro"
@@ -865,6 +866,6 @@
             "name": "Doug Evans"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

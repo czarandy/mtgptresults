@@ -3,11 +3,11 @@
 module.exports = {
   all: {
     files: {
-      'build/js/app.js' : ['src/js/*.js']
+      'build/js/app.js': ['src/js/*.js']
     }
   },
   options: {
-    transform: [ ['babelify', {presets: ['es2015', 'react']}] ],
+    transform: [['babelify', {presets: ['es2015', 'react']}]],
     extensions: ['js']
   }
 };

@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/default.asp?x=sideboard/events/ptchi03",
     "date": "January 17-19, 2003",
     "formats": [
@@ -1477,6 +1478,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

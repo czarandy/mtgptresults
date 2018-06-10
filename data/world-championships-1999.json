@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/sideboard/articleprint.asp?x=WORLDS99/welcome",
     "date": "August 4-8, 1999",
     "formats": [
@@ -7,7 +8,7 @@
         "Extended"
     ],
     "id": "world-championships-1999",
-    "location": "Tokyo, Japan",
+    "location": "Yokohama, Japan",
     "logo": "ptlogo.png",
     "name": "World Championships",
     "standings": [
@@ -266,7 +267,7 @@
         },
         {
             "money": 585,
-            "name": "Ivan Garcia",
+            "name": "Ivan Garcia-Gonzalez",
             "propoints": 4
         },
         {
@@ -913,6 +914,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

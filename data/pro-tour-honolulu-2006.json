@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20060314145200/http://www.wizards.com/default.asp?x=mtgevent/pthon06/welcome",
     "date": "March 3-5, 2006",
     "formats": [
@@ -1717,6 +1718,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

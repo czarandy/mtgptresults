@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/default.asp?x=sideboard/events/ptosa02",
     "date": "March 15-17, 2002",
     "formats": [
@@ -1182,6 +1183,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

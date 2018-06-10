@@ -1,5 +1,6 @@
 {
-    "coverage": "http://magic.wizards.com/en/events/coverage/ptny97",
+    "type": "Pro Tour",
+    "coverage": "http://web.archive.org/web/19970606152747/http://www.wizards.com:80/Leagues_and_Tournaments/ProTour/PTNY_Cybercast.html",
     "date": "May 30-June 1, 1997",
     "formats": [
         "Draft"
@@ -307,7 +308,7 @@
         },
         {
             "money": 400,
-            "name": "Max Hornbeck",
+            "name": "Max Szlagor",
             "propoints": 1
         },
         {
@@ -331,22 +332,19 @@
             "propoints": 1
         },
         {
-            "name": "Kevin Fisher"
-        },
-        {
             "name": "Michael Long"
         },
         {
             "name": "Yoshikazu Ishii"
         },
         {
-            "name": "Edward Ito"
+            "name": "Christian Otkjer"
         },
         {
-            "name": "Peer Kröger"
+            "name": "Kevin Fisher"
         },
         {
-            "name": "Kyle Rose"
+            "name": "Dale Taylor"
         },
         {
             "name": "Bryce Currence"
@@ -355,25 +353,25 @@
             "name": "Nicolas Olivieri"
         },
         {
-            "name": "Dale Taylor"
+            "name": "Jason Webster"
         },
         {
-            "name": "Christian Otkjer"
-        },
-        {
-            "name": "Pierre Fayard"
+            "name": "Edward Ito"
         },
         {
             "name": "Federico Dato"
         },
         {
+            "name": "Pierre Fayard"
+        },
+        {
+            "name": "Peer Kröger"
+        },
+        {
+            "name": "Kyle Rose"
+        },
+        {
             "name": "Toshiki Tsukamoto"
-        },
-        {
-            "name": "Jason Webster"
-        },
-        {
-            "name": "Mike Cooper"
         },
         {
             "name": "Andrew Brasseux"
@@ -382,19 +380,25 @@
             "name": "Steven Cowley"
         },
         {
-            "name": "Igor Frayman"
+            "name": "Mike Cooper"
         },
         {
-            "name": "Daniel O'Mahoney-Schwartz"
+            "name": "Igor Frayman"
         },
         {
             "name": "Steven O'Mahoney-Schwartz"
         },
         {
-            "name": "Lukas Ladra"
+            "name": "Daniel O'Mahoney-Schwartz"
         },
         {
             "name": "Yoshiyuki Tsuruta"
+        },
+        {
+            "name": "Lukas Ladra"
+        },
+        {
+            "name": "Martin Valkyser"
         },
         {
             "name": "David Liersch"
@@ -403,25 +407,19 @@
             "name": "Darwin Kastle"
         },
         {
-            "name": "Martin Valkyser"
-        },
-        {
             "name": "Enric Rodamilans"
         },
         {
             "name": "Sean Fleischman"
         },
         {
-            "name": "Jeff Hagaman"
-        },
-        {
             "name": "Satoshi Nakamura"
         },
         {
-            "name": "Herbert Engleitner"
+            "name": "Jeff Hagaman"
         },
         {
-            "name": "Christer Ljones"
+            "name": "Herbert Engleitner"
         },
         {
             "name": "Ben Possemiers"
@@ -430,64 +428,52 @@
             "name": "Chris Pikula"
         },
         {
-            "name": "Sigurd Eskeland"
-        },
-        {
-            "name": "Mike Nykoluk"
-        },
-        {
-            "name": "Petr Laca"
-        },
-        {
-            "name": "Craig Sheppard"
-        },
-        {
-            "name": "Christian Eilert"
-        },
-        {
-            "name": "Thomas Esser"
-        },
-        {
-            "name": "David Mills"
+            "name": "Christer Ljones"
         },
         {
             "name": "Clifton Dalgard"
         },
         {
-            "name": "Marcus Angelin"
+            "name": "Thomas Esser"
         },
         {
-            "name": "Shawn Davies"
-        },
-        {
-            "name": "Olle Råde"
-        },
-        {
-            "name": "Pavel Fostik"
+            "name": "Sigurd Eskeland"
         },
         {
             "name": "Glenn Shanley"
         },
         {
-            "name": "Takashi Niwa"
+            "name": "Craig Sheppard"
         },
         {
-            "name": "Matteo Negrini"
+            "name": "Pavel Fojtik"
         },
         {
-            "name": "Michael Flores"
-        },
-        {
-            "name": "Rui Inocencio"
-        },
-        {
-            "name": "Andrew Wolf"
+            "name": "Marcus Angelin"
         },
         {
             "name": "Gary Krakower"
         },
         {
-            "name": "Chris Gemma"
+            "name": "Shawn Davies"
+        },
+        {
+            "name": "Petr Laca"
+        },
+        {
+            "name": "Oliver Schneider"
+        },
+        {
+            "name": "Takashi Niwa"
+        },
+        {
+            "name": "Mike Nykoluk"
+        },
+        {
+            "name": "Andrew Wolf"
+        },
+        {
+            "name": "Matteo Negrini"
         },
         {
             "name": "Randy Ellis"
@@ -496,25 +482,16 @@
             "name": "Giovanni Ognibene"
         },
         {
-            "name": "Oliver Schneider"
-        },
-        {
             "name": "Damiano Gori"
         },
         {
-            "name": "Scott Wilson"
+            "name": "David Mills"
         },
         {
-            "name": "Zane Barker"
+            "name": "Chris Gemma"
         },
         {
-            "name": "Huei-Saint Shwe"
-        },
-        {
-            "name": "Mark Venhaus"
-        },
-        {
-            "name": "Scott Seville"
+            "name": "Michael Flores"
         },
         {
             "name": "Jürg Häberli"
@@ -523,16 +500,7 @@
             "name": "Tim Glöckner"
         },
         {
-            "name": "Jay J. Bommer"
-        },
-        {
-            "name": "Goro Matsuo"
-        },
-        {
-            "name": "Jacob Stirler Jr."
-        },
-        {
-            "name": "Phuong Chau"
+            "name": "Christian Eilert"
         },
         {
             "name": "Brian Fenwick II"
@@ -541,37 +509,61 @@
             "name": "James Jenkins"
         },
         {
-            "name": "Chris Matarese"
+            "name": "Huei-Saint Shwe"
         },
         {
-            "name": "Marcus Eakes"
+            "name": "Jay J. Bommer"
         },
         {
-            "name": "Jamey Billig"
+            "name": "Olle Råde"
         },
         {
-            "name": "Arthur Whittle"
+            "name": "Zane Barker"
         },
         {
-            "name": "Gabriele Pisicchio"
+            "name": "Rui Inocencio"
         },
         {
-            "name": "Hans Ejimaal"
-        },
-        {
-            "name": "Henning Rimkus"
+            "name": "Hans Eijmaal"
         },
         {
             "name": "Brook North"
         },
         {
-            "name": "Jorge Lopez"
-        },
-        {
             "name": "Ben Bleiweiss"
         },
         {
+            "name": "Goro Matsuo"
+        },
+        {
             "name": "Larry Chatfield"
+        },
+        {
+            "name": "Arthur Whittle"
+        },
+        {
+            "name": "Jacob Stirler Jr."
+        },
+        {
+            "name": "Phuong Chau"
+        },
+        {
+            "name": "Mark Venhaus"
+        },
+        {
+            "name": "Jamey Billig"
+        },
+        {
+            "name": "Gary Wise"
+        },
+        {
+            "name": "Scott Seville"
+        },
+        {
+            "name": "Chris Matarese"
+        },
+        {
+            "name": "Gabriele Pisicchio"
         },
         {
             "name": "Jim Radeshak"
@@ -580,19 +572,10 @@
             "name": "Scott West"
         },
         {
+            "name": "Scott Wilson"
+        },
+        {
             "name": "David Humpherys"
-        },
-        {
-            "name": "Jon Andrason"
-        },
-        {
-            "name": "Aaron Kline"
-        },
-        {
-            "name": "Dominic Crapuchettes"
-        },
-        {
-            "name": "Gary Wise"
         },
         {
             "name": "Claudio Sikorsky"
@@ -601,37 +584,58 @@
             "name": "Nathan Cullen"
         },
         {
+            "name": "Marcus Eakes"
+        },
+        {
             "name": "Jason Gordon"
+        },
+        {
+            "name": "Dominic Crapuchettes"
+        },
+        {
+            "name": "Jon Andrason"
         },
         {
             "name": "Peter Leiher"
         },
         {
+            "name": "Aaron Muranaka"
+        },
+        {
             "name": "Andrea Redi"
         },
         {
-            "name": "Fernando Escribano"
+            "name": "Aaron Kline"
         },
         {
-            "name": "David Dittmer"
+            "name": "Jorge Lopez"
+        },
+        {
+            "name": "Henning Rimkus"
         },
         {
             "name": "MacKenzie Patterson III"
         },
         {
+            "name": "David Dittmer"
+        },
+        {
+            "name": "Fernando Escribano"
+        },
+        {
+            "name": "David Bachmann"
+        },
+        {
             "name": "Gerardo Godinez-Estrada"
+        },
+        {
+            "name": "Ken'ichi Fujita"
         },
         {
             "name": "Neil Reeves"
         },
         {
             "name": "Thomas Guevin"
-        },
-        {
-            "name": "David Bachmann"
-        },
-        {
-            "name": "Ken'ichi Fujita"
         },
         {
             "name": "Ryan Fuller"
@@ -652,58 +656,49 @@
             "name": "Jonas Hovmark"
         },
         {
-            "name": "Sturla Bingen"
-        },
-        {
             "name": "Kurt Foket"
-        },
-        {
-            "name": "Peter Guevin"
-        },
-        {
-            "name": "Michael Katz"
         },
         {
             "name": "Tobias Kiesling"
         },
         {
-            "name": "Tom Tondeleir"
-        },
-        {
-            "name": "Ernst Jan Van Diggelen"
+            "name": "Sturla Bingen"
         },
         {
             "name": "Michael Lewis"
         },
         {
-            "name": "Aaron Cole"
-        },
-        {
-            "name": "Dennis Bentley"
-        },
-        {
-            "name": "Kristopher Lohman"
-        },
-        {
-            "name": "Bryan Hubble"
-        },
-        {
-            "name": "Jonas Ekenvall"
-        },
-        {
-            "name": "George Baxter"
+            "name": "Michael Katz"
         },
         {
             "name": "Jose Ignacio Ortiz-Lopez"
         },
         {
-            "name": "Matt Stenger"
+            "name": "George Baxter"
         },
         {
-            "name": "Tommi Hovi"
+            "name": "Aaron Cole"
+        },
+        {
+            "name": "Kristopher Lohman"
+        },
+        {
+            "name": "Dennis Bentley"
+        },
+        {
+            "name": "Ernst Jan Van Diggelen"
         },
         {
             "name": "Tommy Conant"
+        },
+        {
+            "name": "Bryan Hubble"
+        },
+        {
+            "name": "Peter Guevin"
+        },
+        {
+            "name": "Matt Stenger"
         },
         {
             "name": "Jon Saso"
@@ -721,40 +716,43 @@
             "name": "William Fleming"
         },
         {
-            "name": "Bob Wagner"
-        },
-        {
             "name": "Scott Gerhardt"
-        },
-        {
-            "name": "Simone Zuccagni"
-        },
-        {
-            "name": "Harmen Lelivelt"
-        },
-        {
-            "name": "Kenneth Mossberg"
-        },
-        {
-            "name": "Steven Beacham"
-        },
-        {
-            "name": "Joaquin Gasa"
-        },
-        {
-            "name": "Jason Zila"
         },
         {
             "name": "Jason Lam"
         },
         {
+            "name": "Harmen Lelivelt"
+        },
+        {
+            "name": "Jonas Ekenvall"
+        },
+        {
+            "name": "Steven Beacham"
+        },
+        {
+            "name": "Bob Wagner"
+        },
+        {
+            "name": "Joaquin Gasa"
+        },
+        {
+            "name": "Simone Zuccagni"
+        },
+        {
             "name": "Worth Wollpert"
+        },
+        {
+            "name": "Tom Tondeleir"
         },
         {
             "name": "Brian Hacker"
         },
         {
-            "name": "Michael Debard"
+            "name": "Kenneth Mossberg"
+        },
+        {
+            "name": "Tommi Hovi"
         },
         {
             "name": "Tim Danziger"
@@ -763,7 +761,13 @@
             "name": "Andrew Corney"
         },
         {
+            "name": "Jason Zila"
+        },
+        {
             "name": "Gere Camper"
+        },
+        {
+            "name": "Michael Debard"
         },
         {
             "name": "Elihu Feustel"
@@ -808,16 +812,13 @@
             "name": "Joe Weber"
         },
         {
-            "name": "Cary Newburger"
-        },
-        {
             "name": "Russell Belt"
         },
         {
             "name": "Binh Pham"
         },
         {
-            "name": "Sean Joe"
+            "name": "Cary Newburger"
         },
         {
             "name": "George Adams"
@@ -826,16 +827,13 @@
             "name": "Eric Taylor"
         },
         {
+            "name": "Sean Joe"
+        },
+        {
             "name": "Mark Rezendes"
         },
         {
-            "name": "Benjamin Seck"
-        },
-        {
             "name": "Michael Thomas"
-        },
-        {
-            "name": "Lee Hansen"
         },
         {
             "name": "Michael Hoffman"
@@ -844,13 +842,16 @@
             "name": "Robert Thornburg"
         },
         {
-            "name": "Cristian Magaloni"
-        },
-        {
             "name": "John Immordino"
         },
         {
             "name": "Cliff Buhl"
+        },
+        {
+            "name": "Lee Hansen"
+        },
+        {
+            "name": "Cristian Magaloni"
         },
         {
             "name": "M.J. Sheehan"
@@ -860,6 +861,9 @@
         },
         {
             "name": "Robert Malin Jr."
+        },
+        {
+            "name": "Benjamin Seck"
         },
         {
             "name": "Philippe Perbos"
@@ -883,22 +887,22 @@
             "name": "Joe Bowers"
         },
         {
+            "name": "James Wisniewiski"
+        },
+        {
             "name": "Emmanuel Beltrando"
         },
         {
             "name": "Christopher Czuba"
         },
         {
-            "name": "James Wisniewiski"
-        },
-        {
             "name": "David Koteras"
         },
         {
-            "name": "Chris Tuten"
+            "name": "Brian Ducker"
         },
         {
-            "name": "Brian Ducker"
+            "name": "Chris Tuten"
         },
         {
             "name": "Jesper Thrane"
@@ -913,6 +917,6 @@
             "name": "Paxton Mason"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

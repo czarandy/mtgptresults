@@ -1,5 +1,6 @@
 {
-    "coverage": "http://magic.wizards.com/en/events/coverage/ptkld",
+    "type": "Pro Tour",
+    "coverage": "http://magic.wizards.com/en/events/coverage/ptaer",
     "date": "February 3-5, 2017",
     "formats": [
         "Draft",
@@ -167,7 +168,7 @@
             "money": 2000
         },
         {
-            "name": "Shi Tian Lee",
+            "name": "Lee Shi Tian",
             "propoints": 10,
             "matchpoints": 33,
             "money": 2000
@@ -2190,11 +2191,11 @@
             "matchpoints": 0
         },
         {
-            "name": "Steven Rubin",
+            "name": "Steve Rubin",
             "propoints": 3,
             "matchpoints": 0
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

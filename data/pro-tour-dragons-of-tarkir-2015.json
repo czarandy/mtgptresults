@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptdtk",
     "date": "April 10-12, 2015",
     "formats": [
@@ -1716,8 +1717,12 @@
         {
             "name": "Jeremy Dezani",
             "rank": "DQ"
+        },
+        {
+            "name": "Stephen Speck",
+            "rank": "DQ"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

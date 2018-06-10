@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/sideboard/article.asp?x=WORLDS98/welcome",
     "date": "August 12-16, 1998",
     "formats": [
@@ -521,7 +522,7 @@
             "propoints": 3
         },
         {
-            "name": "Chris Manners",
+            "name": "Christopher Manners",
             "propoints": 3
         },
         {
@@ -586,7 +587,7 @@
             "propoints": 3
         },
         {
-            "name": "Raffy Lirag",
+            "name": "Rafael Lirag",
             "propoints": 3
         },
         {
@@ -631,7 +632,7 @@
             "propoints": 2
         },
         {
-            "name": "S Ryan Kirk",
+            "name": "S. Ryan Kirk",
             "propoints": 2
         },
         {
@@ -728,7 +729,7 @@
             "propoints": 2
         },
         {
-            "name": "Marco A Machado",
+            "name": "Marco Machado",
             "propoints": 2
         },
         {
@@ -825,7 +826,7 @@
             "propoints": 2
         },
         {
-            "name": "Enric R Burgues",
+            "name": "Enric Rodamilans",
             "propoints": 2
         },
         {
@@ -909,6 +910,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

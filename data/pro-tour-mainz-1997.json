@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptmai97",
     "date": "December 5-7, 1997",
     "formats": [
@@ -350,7 +351,7 @@
             "propoints": 3
         },
         {
-            "name": "James Ridgway",
+            "name": "James Ridgeway",
             "propoints": 3
         },
         {
@@ -1010,7 +1011,7 @@
             "propoints": 2
         },
         {
-            "name": "Tszegi Szabolcs",
+            "name": "Toszegi Szabolcs",
             "propoints": 2
         },
         {
@@ -1248,6 +1249,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

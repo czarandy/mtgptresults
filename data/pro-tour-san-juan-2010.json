@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20100531191210/http://www.wizards.com/magic/magazine/article.aspx?x=mtg/daily/eventcoverage/ptsj10/welcome",
     "date": "May 28-30, 2010",
     "formats": [
@@ -1660,6 +1661,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

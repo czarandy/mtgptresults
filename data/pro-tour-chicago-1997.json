@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/19980208000814/http://www.wizards.com/ProTour/Chicago_97.html",
     "date": "October 10-12, 1997",
     "formats": [
@@ -499,7 +500,7 @@
             "propoints": 3
         },
         {
-            "name": "Juha Ilmari Helppi",
+            "name": "Juha Helppi",
             "propoints": 3
         },
         {
@@ -754,7 +755,7 @@
             "propoints": 2
         },
         {
-            "name": "Hans Ejimaal",
+            "name": "Hans Eijmaal",
             "propoints": 2
         },
         {
@@ -786,7 +787,7 @@
             "propoints": 2
         },
         {
-            "name": "Michael Elkaim",
+            "name": "Michaël Elkaïm",
             "propoints": 2
         },
         {
@@ -1071,7 +1072,7 @@
             "propoints": 2
         },
         {
-            "name": "Rodrigo Silva",
+            "name": "Rodrigo Silva-Lopez",
             "propoints": 2
         },
         {
@@ -1379,6 +1380,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/nova-burns-brightest-atlanta",
     "date": "March 11-13, 2005",
     "formats": [
@@ -452,7 +453,7 @@
             "propoints": 3
         },
         {
-            "name": "Zach Parker",
+            "name": "Zachary Parker",
             "propoints": 3
         },
         {
@@ -1496,6 +1497,6 @@
             "propoints": 2
         }
     ],
-    "team": true,
-    "team2hg": false
+    "teamsize": 3
+    
 }

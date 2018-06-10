@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/wc97",
     "date": "August 13-17, 1997",
     "formats": [
@@ -496,7 +497,7 @@
             "name": "Teddy Sy"
         },
         {
-            "name": "Kent Wei Wei Tay"
+            "name": "Kent Tay"
         },
         {
             "name": "Christian Peschta"
@@ -526,7 +527,7 @@
             "name": "Allan Grooby"
         },
         {
-            "name": "Hans Ejimaal"
+            "name": "Hans Eijmaal"
         },
         {
             "name": "Craig Sheppard"
@@ -605,6 +606,6 @@
             "report": "http://web.archive.org/web/19980504203907/http://thedojo.com/tourney/w.970820dqu.txt"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

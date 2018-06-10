@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/sideboard/article.asp?x=PTNY9900/welcome",
     "date": "April 14-16, 2000",
     "formats": [
@@ -1082,7 +1083,7 @@
             "propoints": 2
         },
         {
-            "name": "Pablo Manataras",
+            "name": "Pablo Mantaras",
             "propoints": 2
         },
         {
@@ -1310,6 +1311,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

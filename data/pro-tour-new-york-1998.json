@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "https://web.archive.org/web/19990220012553/http://www.wizards.com/Sideboard/NY_98.html",
     "date": "April 17-19, 1998",
     "formats": [
@@ -8,6 +9,7 @@
     "location": "New York, New York, United States",
     "logo": "ptlogo.png",
     "name": "Pro Tour New York",
+    "comment": "the exact placement of players in places 65+ (everybody with prizes) is unknown",
     "standings": [
         {
             "money": 25000,
@@ -839,7 +841,7 @@
             "propoints": 2
         },
         {
-            "name": "Marc Dictus",
+            "name": "Mark Dictus",
             "propoints": 2
         },
         {
@@ -903,7 +905,7 @@
             "propoints": 2
         },
         {
-            "name": "Momose Kazuyuki",
+            "name": "Kazuyuki Momose",
             "propoints": 2
         },
         {
@@ -1003,7 +1005,7 @@
             "propoints": 2
         },
         {
-            "name": "Gary Cambell",
+            "name": "Gary Campbell",
             "propoints": 2
         },
         {
@@ -1095,7 +1097,7 @@
             "propoints": 2
         },
         {
-            "name": "Nikolai Kettemann",
+            "name": "Nick Ketteman",
             "propoints": 2
         },
         {
@@ -1295,6 +1297,5 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
 }

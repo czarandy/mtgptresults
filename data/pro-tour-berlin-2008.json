@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20081103023244/http://www.wizards.com/magic/magazine/article.aspx?x=mtg/daily/eventcoverage/ptber08/welcome",
     "date": "October 31-November 2, 2008",
     "formats": [
@@ -131,7 +132,7 @@
         },
         {
             "money": 1900,
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 6
         },
         {
@@ -1627,7 +1628,7 @@
             "propoints": 2
         },
         {
-            "name": "Carl Fernandez Baillo",
+            "name": "Carlos Fernandez Baillo",
             "propoints": 2
         },
         {
@@ -1879,6 +1880,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

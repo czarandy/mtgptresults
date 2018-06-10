@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20081002011051/http://www.wizards.com/Magic/Magazine/Events.aspx?x=mtgevent/ptval07/welcome",
     "date": "October 12-14, 2007",
     "formats": [
@@ -86,7 +87,7 @@
         },
         {
             "money": 3750,
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 8
         },
         {
@@ -1781,6 +1782,6 @@
             "rank": "DQ"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

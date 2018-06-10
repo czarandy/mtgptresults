@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/default.asp?x=sideboard/events/pthou02",
     "date": "November 8-10, 2002",
     "formats": [
@@ -1484,6 +1485,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

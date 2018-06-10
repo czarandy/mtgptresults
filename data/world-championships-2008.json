@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://web.archive.org/web/20081216010602/http://www.wizards.com/magic/magazine/article.aspx?x=mtg/daily/eventcoverage/worlds08/welcome",
     "date": "December 11-14, 2008",
     "formats": [
@@ -83,7 +84,7 @@
         },
         {
             "money": 4000,
-            "name": "Nicolay Potovin",
+            "name": "Nikolay Potovin",
             "propoints": 8
         },
         {
@@ -1095,7 +1096,7 @@
             "propoints": 2
         },
         {
-            "name": "Carl Fernandez Baillo",
+            "name": "Carlos Fernandez Baillo",
             "propoints": 2
         },
         {
@@ -1395,6 +1396,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }

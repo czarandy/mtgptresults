@@ -1,6 +1,7 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptny96",
-    "date": "February 16-8, 1996",
+    "date": "February 17-18, 1996",
     "formats": [
         "Standard"
     ],
@@ -230,7 +231,7 @@
             "propoints": 1
         },
         {
-            "name": "Clementine Bagieu",
+            "name": "Clémentine Bagieu",
             "propoints": 1
         },
         {
@@ -406,11 +407,11 @@
             "rank": "P"
         },
         {
-            "name": "Jay Dittebenner",
+            "name": "Jay Dittbenner",
             "rank": "P"
         },
         {
-            "name": "Doughas Dixon",
+            "name": "Douglas Dixon",
             "rank": "P"
         },
         {
@@ -762,7 +763,7 @@
             "rank": "P"
         },
         {
-            "name": "James Ridgway",
+            "name": "James Ridgeway",
             "rank": "P"
         },
         {
@@ -878,11 +879,11 @@
             "rank": "P"
         },
         {
-            "name": "T. Toshima-ku",
+            "name": "Toshiki Tsukamoto",
             "rank": "P"
         },
         {
-            "name": "Y. Nakano-ku",
+            "name": "Yoshiyuki Tsuruta",
             "rank": "P"
         },
         {
@@ -942,7 +943,7 @@
             "rank": "P"
         },
         {
-            "name": "Eric Wenoker",
+            "name": "Eric Wenokor",
             "rank": "P"
         },
         {
@@ -974,6 +975,6 @@
             "rank": "P"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

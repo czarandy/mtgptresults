@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://magic.wizards.com/en/events/coverage/ptatl96",
     "date": "September 13-15, 1996",
     "formats": [
@@ -197,7 +198,7 @@
         },
         {
             "money": 400,
-            "name": "Micha'l Elkaim",
+            "name": "Michaël Elkaïm",
             "propoints": 1
         },
         {
@@ -508,7 +509,7 @@
             "name": "Jeff Sternal"
         },
         {
-            "name": "Eric Orrosjo"
+            "name": "Eric Orrosjö"
         },
         {
             "name": "Arho Toikka"
@@ -568,7 +569,7 @@
             "name": "Jon Finkel"
         },
         {
-            "name": "Eric Wenoker"
+            "name": "Eric Wenokor"
         },
         {
             "name": "Stephen Durtschi"
@@ -676,7 +677,7 @@
             "name": "Curtis Schwaderer"
         },
         {
-            "name": "Ilia Rotelli"
+            "name": "Ilja Rotelli"
         },
         {
             "name": "Yuh-Kong Liao"
@@ -715,6 +716,6 @@
             "name": "Eric Price"
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+    
 }

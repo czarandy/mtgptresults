@@ -1,4 +1,5 @@
 {
+    "type": "Pro Tour",
     "coverage": "http://www.wizards.com/sideboard/worlds2000/",
     "date": "August 2-6, 2000",
     "formats": [
@@ -456,7 +457,7 @@
             "propoints": 3
         },
         {
-            "name": "Robin Pong",
+            "name": "Robin Hee Tee Pong",
             "propoints": 3
         },
         {
@@ -640,7 +641,7 @@
             "propoints": 2
         },
         {
-            "name": "Martinez Francisco Llopis",
+            "name": "Francisco Llopis Martinez",
             "propoints": 2
         },
         {
@@ -1164,6 +1165,6 @@
             "propoints": 2
         }
     ],
-    "team": false,
-    "team2hg": false
+    "teamsize": 1
+
 }
