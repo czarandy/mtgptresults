@@ -8,7 +8,7 @@
     ],
     "id": "magic-online-championship-2016",
     "location": "Seattle, Washington, United States",
-    "logo": "ptlogo.png",
+    "logo": "mtgo.png",
     "name": "Magic Online Championship",
     "standings": [
         {
@@ -76,5 +76,6 @@
             "name": "Niels Noorlander"
         }
     ],
-    "teamsize": 1
+    "teamsize": 1,
+    "topn": 4
 }

@@ -11,7 +11,7 @@
   ],
   "id": "invitational-sydney-2000",
   "location": "Sydney, Australia",
-  "logo": "ptlogo.png",
+  "logo": "mtg-yellow.png",
   "name": "Magic Invitational",
   "standings": [
     {
@@ -63,5 +63,6 @@
       "name": "Zvi Mowshowitz"
     }
   ],
-  "teamsize": 1
+  "teamsize": 1,
+    "topn": 2
 }
