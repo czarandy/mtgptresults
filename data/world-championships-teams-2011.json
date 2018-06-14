@@ -21,7 +21,7 @@
         },
         {
             "money": 4000,
-            "name": "Ryuuichirou Ishida",
+            "name": "Ryuuichiro Ishida",
             "propoints": 6
         },
         {
@@ -67,7 +67,8 @@
         {
             "money": 1750,
             "name": "Bo Ruad Chun",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "TWN"
         },
         {
             "money": 1500,
@@ -172,7 +173,8 @@
         {
             "money": 1000,
             "name": "Jakub Toth",
-            "propoints": 2
+            "propoints": 2,
+            "nationality": "SVK"
         },
         {
             "money": 1000,
@@ -301,7 +303,7 @@
         },
         {
             "money": 1000,
-            "name": "Yaroslav Shylakhov",
+            "name": "Yaroslav Shlyakhov",
             "propoints": 1
         },
         {
@@ -364,15 +366,18 @@
         },
         {
             "money": 1000,
-            "name": "Daniel Royde"
+            "name": "Daniel Royde",
+            "nationality": "GBR"
         },
         {
             "money": 1000,
-            "name": "Tim Pinder"
+            "name": "Tim Pinder",
+            "nationality": "GBR"
         },
         {
             "money": 1000,
-            "name": "Eduard Sajgalik"
+            "name": "Eduardo Sajgalik",
+            "nationality": "GBR"
         },
         {
             "money": 1000,
@@ -476,11 +481,12 @@
         },
         {
             "money": 1000,
-            "name": "Christopher Keane"
+            "name": "Christopher Kane"
         },
         {
             "money": 1000,
-            "name": "Alan Warnock"
+            "name": "Alan Warnock",
+            "nationality": "IRL"
         },
         {
             "money": 1000,

@@ -32,7 +32,8 @@
         {
             "money": 5000,
             "name": "Antonino de Rosa",
-            "propoints": 5
+            "propoints": 5,
+            "nationality": "USA"
         },
         {
             "money": 5000,
@@ -67,7 +68,8 @@
         {
             "money": 2500,
             "name": "Micha Reiter",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "AUT"
         },
         {
             "money": 2000,
@@ -117,7 +119,8 @@
         {
             "money": 1250,
             "name": "Albertus Law",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "MYS"
         },
         {
             "money": 1250,
@@ -147,7 +150,8 @@
         {
             "money": 1000,
             "name": "Andrew Klein",
-            "propoints": 2
+            "propoints": 2,
+            "nationality": "ZAF"
         },
         {
             "money": 1000,
@@ -387,7 +391,7 @@
         },
         {
             "money": 1000,
-            "name": "Yaroslav Shylakhov"
+            "name": "Yaroslav Shlyakhov"
         },
         {
             "money": 1000,
@@ -395,7 +399,7 @@
         },
         {
             "money": 1000,
-            "name": "Frederik Boberg"
+            "name": "Fredrik Boberg"
         },
         {
             "money": 1000,
@@ -419,11 +423,12 @@
         },
         {
             "money": 1000,
-            "name": "Nicholas Taylor"
+            "name": "Nicholas Taylor",
+            "nationality": "SCO"
         },
         {
             "money": 1000,
-            "name": "Benjamin Sanders"
+            "name": "Ben Sanders"
         },
         {
             "money": 1000,
@@ -483,7 +488,7 @@
         },
         {
             "money": 1000,
-            "name": "Pedro Henrique Uerhara"
+            "name": "Pedro Henrique Uehara"
         },
         {
             "money": 1000,
@@ -551,7 +556,7 @@
         },
         {
             "money": 1000,
-            "name": "Cristian Sahonero"
+            "name": "Cristian Sahonero Canavesi"
         },
         {
             "money": 1000,
@@ -599,7 +604,8 @@
         },
         {
             "money": 1000,
-            "name": "Daniel Ruiz Martin"
+            "name": "Daniel Ruiz Martin",
+            "nationality": "WAL"
         },
         {
             "money": 1000,

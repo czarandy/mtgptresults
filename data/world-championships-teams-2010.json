@@ -66,7 +66,7 @@
         },
         {
             "money": 1750,
-            "name": "Lucas Blohon",
+            "name": "Lukas Blohon",
             "propoints": 4
         },
         {
@@ -96,7 +96,7 @@
         },
         {
             "money": 1350,
-            "name": "Julien Perez",
+            "name": "Julien Parez",
             "propoints": 3
         },
         {
@@ -117,17 +117,20 @@
         {
             "money": 1125,
             "name": "Daniel Gardner",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "GBR"
         },
         {
             "money": 1125,
             "name": "Richard Bland",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "GBR"
         },
         {
             "money": 1125,
             "name": "Joseph Jackson",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "GBR"
         },
         {
             "money": 1000,
@@ -348,7 +351,7 @@
         },
         {
             "money": 1000,
-            "name": "Vitaya Titaratanaporn"
+            "name": "Vitay Titaratanaporn"
         },
         {
             "money": 1000,
@@ -536,7 +539,7 @@
         },
         {
             "money": 1000,
-            "name": "Sener Koczigit"
+            "name": "Sener Koczyigit"
         },
         {
             "money": 1000,
@@ -544,7 +547,8 @@
         },
         {
             "money": 1000,
-            "name": "Jorge Muniz"
+            "name": "Jorge Muniz",
+            "nationality": "PRY"
         },
         {
             "money": 1000,
@@ -552,11 +556,13 @@
         },
         {
             "money": 1000,
-            "name": "Braulio Rivera"
+            "name": "Braulio Rivera",
+            "nationality": "PRY"
         },
         {
             "money": 1000,
-            "name": "Chong Teng Kong"
+            "name": "Chong Teng Kong",
+            "nationality": "MYS"
         },
         {
             "money": 1000,
@@ -644,11 +650,13 @@
         },
         {
             "money": 1000,
-            "name": "Chris Black"
+            "name": "Chris Black",
+            "nationality": "IRL"
         },
         {
             "money": 1000,
-            "name": "Simon Carmichael"
+            "name": "Simon Carmichael",
+            "nationality": "IRL"
         },
         {
             "money": 1000,
