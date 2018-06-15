@@ -6,7 +6,7 @@
     ],
     "id": "world-magic-cup-2013",
     "location": "Amsterdam, Netherlands",
-    "logo": "ptlogo.png",
+    "logo": "wmc.png",
     "name": "World Magic Cup",
     "standings": [
         {
@@ -182,7 +182,9 @@
         {
             "money": 1500,
             "name": "Stefano Rampini",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "IRL"
+    
         },
         {
             "money": 1500,
@@ -674,7 +676,7 @@
             "propoints": 2
         },
         {
-            "name": "Daniel Fernandez-prada",
+            "name": "Daniel Fernadez-prada",
             "propoints": 2
         },
         {
@@ -734,7 +736,7 @@
             "propoints": 2
         },
         {
-            "name": "Emmanuele Giusti",
+            "name": "Emanuele Giusti",
             "propoints": 2
         },
         {
@@ -795,10 +797,6 @@
         },
         {
             "name": "Yuuya Watanabe",
-            "propoints": 2
-        },
-        {
-            "name": "Oddur Eysteinn Fridriksson",
             "propoints": 2
         },
         {
@@ -1046,7 +1044,7 @@
             "rank": 55
         },
         {
-            "name": "Gaudeniv Vidugiris",
+            "name": "Gaudenis Vidugiris",
             "propoints": 2,
             "rank": 56
         },
@@ -1201,7 +1199,7 @@
             "rank": 63
         },
         {
-            "name": "Christian Ivanov",
+            "name": "Hristiyan Ivanov",
             "propoints": 2,
             "rank": 63
         },
@@ -1216,7 +1214,7 @@
             "rank": 64
         },
         {
-            "name": "Andrew Robdrup",
+            "name": "Andy Robdrup",
             "propoints": 2,
             "rank": 64
         },

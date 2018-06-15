@@ -6,7 +6,7 @@
     ],
     "id": "world-magic-cup-2012",
     "location": "Indianapolis, Indiana, United States",
-    "logo": "ptlogo.png",
+    "logo": "wmc.png",
     "name": "World Magic Cup",
     "standings": [
         {
@@ -61,7 +61,7 @@
         },
         {
             "money": 2500,
-            "name": "Tomasz Pedrakowski",
+            "name": "Tomek Pedrakowski",
             "propoints": 6
         },
         {
@@ -126,7 +126,7 @@
         },
         {
             "money": 1500,
-            "name": "Bradly Barclay",
+            "name": "Bradley Barclay",
             "propoints": 5
         },
         {
@@ -217,7 +217,9 @@
         {
             "money": 1000,
             "name": "Oliver Oks",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "EST"
+    
         },
         {
             "money": 1000,
@@ -287,7 +289,8 @@
         {
             "money": 1000,
             "name": "Mauro Betschart",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "URY"
         },
         {
             "money": 1000,
@@ -346,7 +349,7 @@
         },
         {
             "money": 1000,
-            "name": "Tore Skaalevik",
+            "name": "Tore Skålevik",
             "propoints": 3
         },
         {
@@ -722,12 +725,12 @@
             "rank": 38
         },
         {
-            "name": "Emilio Hastedt",
+            "name": "Carlos Emilio Hastedt",
             "propoints": 2,
             "rank": 38
         },
         {
-            "name": "Rigoberto Castellan",
+            "name": "Rigoberto Castellán Robles",
             "propoints": 2,
             "rank": 38
         },
@@ -1002,7 +1005,7 @@
             "rank": 52
         },
         {
-            "name": "Algridas Neniskis",
+            "name": "Algirdas Neniskis",
             "propoints": 2,
             "rank": 52
         },
@@ -1082,7 +1085,7 @@
             "rank": 56
         },
         {
-            "name": "Sungbum Lee",
+            "name": "Sung-Bum Lee",
             "propoints": 2,
             "rank": 56
         },
@@ -1167,7 +1170,7 @@
             "rank": 60
         },
         {
-            "name": "Yuuta Takahashi",
+            "name": "Yuta Takahashi",
             "propoints": 2,
             "rank": 60
         },
@@ -1289,7 +1292,9 @@
         {
             "name": "Mat Marr",
             "propoints": 2,
-            "rank": 67
+            "rank": 67,
+            "nationality": "THA"
+    
         },
         {
             "name": "Nonthakorn Kositaporn",
