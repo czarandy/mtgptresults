@@ -146,11 +146,6 @@
         },
         {
             "money": 1000,
-            "name": "Andrew Klein",
-            "propoints": 2
-        },
-        {
-            "money": 1000,
             "name": "Zhou Long",
             "propoints": 2
         },
@@ -162,7 +157,8 @@
         {
             "money": 1000,
             "name": "Jia Wu",
-            "propoints": 2
+            "propoints": 2,
+            "nationality": "CHN"
         },
         {
             "money": 1000,
@@ -246,12 +242,13 @@
         },
         {
             "money": 1000,
-            "name": "Chuillaume Cardin",
+            "name": "Guillaume Cardin",
             "propoints": 1
         },
         {
             "money": 1000,
-            "name": "Mike Vasovski"
+            "name": "Mike Vasovski",
+            "propoints": 1
         },
         {
             "money": 1000,
@@ -259,7 +256,7 @@
         },
         {
             "money": 1000,
-            "name": "Cheuck Yin Li"
+            "name": "Cheuk Yin Li"
         },
         {
             "money": 1000,
@@ -455,7 +452,8 @@
         },
         {
             "money": 1000,
-            "name": "Gareth Middleton"
+            "name": "Gareth Middleton",
+            "nationality": "IRL"
         },
         {
             "money": 1000,
@@ -539,7 +537,7 @@
         },
         {
             "money": 1000,
-            "name": "Steven Murray"
+            "name": "Stephen Murray"
         },
         {
             "money": 1000,

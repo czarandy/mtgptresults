@@ -7,7 +7,7 @@
     ],
     "id": "world-championships-teams-2004",
     "location": "San Francisco, California, United States",
-    "logo": "ptlogo.png",
+    "logo": "worldslogo.png",
     "name": "World Championship - Team Competition",
     "standings": [
         {
@@ -213,6 +213,11 @@
         },
         {
             "money": 1000,
+            "name": "Adriano Rohner",
+            "propoints": 1
+        },
+        {
+            "money": 1000,
             "name": "Omar Sagol",
             "propoints": 1
         },
@@ -253,7 +258,7 @@
         },
         {
             "money": 1000,
-            "name": "Flilip Cec"
+            "name": "Filip Cec"
         },
         {
             "money": 1000,
@@ -297,7 +302,7 @@
         },
         {
             "money": 1000,
-            "name": "Craig Krempels"
+            "name": "Craig C Krempels"
         },
         {
             "money": 1000,
@@ -437,7 +442,7 @@
         },
         {
             "money": 1000,
-            "name": "Vago Anagnostopoulos"
+            "name": "Vagos Anagnostopoulos"
         },
         {
             "money": 1000,
@@ -473,7 +478,8 @@
         },
         {
             "money": 1000,
-            "name": "Maris Greiers"
+            "name": "Maris Greiers",
+            "nationality": "EST"
         },
         {
             "money": 1000,
@@ -529,7 +535,7 @@
         },
         {
             "money": 1000,
-            "name": "Daniele Daversa"
+            "name": "Daniele D'Aversa"
         },
         {
             "money": 1000,
@@ -663,5 +669,5 @@
         }
     ],
     "teamsize": 3
-    
+
 }

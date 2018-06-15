@@ -1,7 +1,7 @@
 {
     "type": "World Championships",
     "_comment": "pro points were probably given out, the amount is unknown – #3 and #4 either won 9,000 and 7,000 or 8,000 each",
-    "coverage": "http://www.wizards.com/sideboard/article.asp?x=WORLDS98/welcome",
+    "coverage": "http://www.wizards.com/sideboard/articleprint.asp?x=WORLDS99/welcome",
     "date": "August 4-8, 1999",
     "formats": [
         "Team Sealed",
@@ -91,9 +91,6 @@
         },
         {
             "name": "Hon Ming Au Yeung"
-        },
-        {
-            "name": "Carlos Barrado"
         },
         {
             "name": "Bas Postema"
@@ -198,7 +195,8 @@
             "name": "Ming Huang Royce Chai"
         },
         {
-            "name": "Sam Lau"
+            "name": "Sam Lau",
+            "nationality": "SGP"
         },
         {
             "name": "Benjamin Zhu"
@@ -303,16 +301,20 @@
             "name": "Chuen Hwa Tan"
         },
         {
-            "name": "Mark Wraith"
+            "name": "Mark Wraith",
+            "nationality": "GBR"
         },
         {
-            "name": "Craig A Jones"
+            "name": "Craig A Jones",
+            "nationality": "GBR"
         },
         {
-            "name": "John Ormerod"
+            "name": "John Ormerod",
+            "nationality": "GBR"
         },
         {
-            "name": "Daniel Paskins"
+            "name": "Daniel Paskins",
+            "nationality": "GBR"
         },
         {
             "name": "Mika Ollila"

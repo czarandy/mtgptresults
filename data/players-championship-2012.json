@@ -13,67 +13,83 @@
     "standings": [
         {
             "money": 40000,
-            "name": "Yuuya Watanabe"
+            "name": "Yuuya Watanabe",
+            "propoints": 11
         },
         {
             "money": 20000,
-            "name": "Shota Yasooka"
+            "name": "Shota Yasooka",
+            "propoints": 13
         },
         {
             "money": 10000,
-            "name": "Paulo Vitor Damo da Rosa"
+            "name": "Paulo Vitor Damo da Rosa",
+            "propoints": 7
         },
         {
             "money": 10000,
-            "name": "Jon Finkel"
+            "name": "Jon Finkel",
+            "propoints": 7
         },
         {
             "money": 5000,
-            "name": "Shuhei Nakamura"
+            "name": "Shuhei Nakamura",
+            "propoints": 7
         },
         {
             "money": 5000,
-            "name": "Brian Kibler"
+            "name": "Brian Kibler",
+            "propoints": 6
         },
         {
             "money": 5000,
-            "name": "Samuele Estratti"
+            "name": "Samuele Estratti",
+            "propoints": 6
         },
         {
             "money": 5000,
-            "name": "Alexander Hayne"
+            "name": "Alexander Hayne",
+            "propoints": 6
         },
         {
             "money": 1000,
-            "name": "Martin Juza"
+            "name": "Martin Juza",
+            "propoints": 6
         },
         {
             "money": 1000,
-            "name": "Owen Turtenwald"
+            "name": "Owen Turtenwald",
+            "propoints": 6
         },
         {
             "money": 1000,
-            "name": "Jun'ya Iyanaga"
+            "name": "Jun'ya Iyanaga",
+            "propoints": 6
         },
         {
             "money": 1000,
-            "name": "Luis Scott-Vargas"
+            "name": "Luis Scott-Vargas",
+            "propoints": 5
         },
         {
             "money": 1000,
-            "name": "Josh Utter-Leyton"
+            "name": "Josh Utter-Leyton",
+            "propoints": 5
         },
         {
             "money": 1000,
-            "name": "David Ochoa"
+            "name": "David Ochoa",
+            "propoints": 5
         },
         {
             "money": 1000,
-            "name": "Tzu Ching Kuo"
+            "name": "Tzu Ching Kuo",
+            "propoints": 4
         },
         {
             "money": 1000,
-            "name": "Reid Duke"
+            "name": "Reid Duke",
+            "propoints": 2
         }
     ],
     "topn": 4,
