@@ -13,8 +13,8 @@ const Rankings = props => {
   const col = props.params.col;
   const sortedPlayers = _.chain(window.Players)
     .values()
-    .sortBy(player => player.stats[col])
-    .reverse()
+    .filter(player => player.stats[col] !== 'too few PTs')
+    .sortBy(player => -Number(String(player.stats[col]).replace(/[^\d]/, '')))
     .value();
 
   // Include anyone tied with the 100th rank
