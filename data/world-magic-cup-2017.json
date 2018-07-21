@@ -77,7 +77,8 @@
         {
             "money": 4000,
             "name": "Sam Rolph",
-            "propoints": 5
+            "propoints": 5,
+            "nationality": "WAL"
         },
         {
             "money": 4000,
@@ -277,7 +278,7 @@
         },
         {
             "money": 1000,
-            "name": "Nam Sung Wook",
+            "name": "Sung Wook Nam",
             "propoints": 3
         },
         {
@@ -293,7 +294,8 @@
         {
             "money": 1000,
             "name": "Niels Molle",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "ENG"
         },
         {
             "money": 1000,
@@ -460,7 +462,7 @@
         },
         {
             "money": 1000,
-            "name": "Wee Pang Ming",
+            "name": "Pang Ming Wee",
             "propoints": 3,
             "rank": 31
         },
@@ -849,7 +851,7 @@
             "rank": 56
         },
         {
-            "name": "Yam Wing Chun",
+            "name": "Wing Chun Yam",
             "propoints": 2,
             "rank": 57
         },
@@ -1104,7 +1106,7 @@
             "rank": 73
         }
     ],
-    "teamsize": 4,
+    "teamsize": 3,
     "topn": 8
     
 }
