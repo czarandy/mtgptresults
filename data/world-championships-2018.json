@@ -1,0 +1,131 @@
+{
+    "type": "World Championships",
+    "coverage": "https://magic.wizards.com/en/events/coverage/2018wc",
+    "date": "September 21-23, 2018",
+    "formats": [
+        "Draft",
+        "Standard"
+    ],
+    "id": "world-championships-2018",
+    "location": "Las Vegas, Nevada, United States",
+    "logo": "worldslogo.png",
+    "name": "World Championships",
+    "standings": [
+        {
+            "money": 100000,
+            "name": "Javier Dominguez",
+            "propoints": 12
+        },
+        {
+            "money": 50000,
+            "name": "Grzegorz Kowalski",
+            "propoints": 10
+        },
+        {
+            "money": 25000,
+            "name": "Ben Stark",
+            "propoints": 7
+        },
+        {
+            "money": 25000,
+            "name": "Shahar Shenhar",
+            "propoints": 6
+        },
+        {
+            "money": 10000,
+            "name": "Allen Wu",
+            "propoints": 5
+        },
+        {
+            "money": 10000,
+            "name": "Wyatt Darby",
+            "propoints": 5
+        },
+        {
+            "money": 10000,
+            "name": "Matthew Nass",
+            "propoints": 5
+        },
+        {
+            "money": 10000,
+            "name": "Ben Hull",
+            "propoints": 5
+        },
+        {
+            "money": 5000,
+            "name": "Reid Duke",
+            "propoints": 5
+        },
+        {
+            "money": 5000,
+            "name": "Mike Sigrist",
+            "propoints": 4
+        },
+        {
+            "money": 5000,
+            "name": "John Rolf",
+            "propoints": 4
+        },
+        {
+            "money": 5000,
+            "name": "Marcio Carvalho",
+            "propoints": 4
+        },
+        {
+            "money": 5000,
+            "name": "Brad Nelson",
+            "propoints": 4
+        },
+        {
+            "money": 5000,
+            "name": "Elias Watsfeldt",
+            "propoints": 4
+        },
+        {
+            "money": 5000,
+            "name": "Brian Braun-Duin",
+            "propoints": 3
+        },
+        {
+            "money": 5000,
+            "name": "Luis Salvatto",
+            "propoints": 3
+        },
+        {
+            "money": 2500,
+            "name": "Andrea Mengucci",
+            "propoints": 3
+        },
+        {
+            "money": 2500,
+            "name": "Matthew Severa",
+            "propoints": 3
+        },
+        {
+            "money": 2500,
+            "name": "Greg Orange",
+            "propoints": 3
+        },
+        {
+            "money": 2500,
+            "name": "Seth Manfield",
+            "propoints": 3
+        },
+        {
+            "money": 2500,
+            "name": "Owen Turtenwald",
+            "propoints": 2
+        },
+        {
+            "money": 2500,
+            "name": "Martin Juza",
+            "propoints": 1
+        },
+        {
+            "name": "Ken Yukuhiro",
+            "rank": "DQ"
+        }
+    ],
+    "teamsize": 1,
+    "topn": 4
+}
