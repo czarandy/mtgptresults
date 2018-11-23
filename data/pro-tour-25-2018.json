@@ -1,0 +1,2654 @@
+{
+    "type": "Pro Tour 25th Anniversary",
+    "coverage": "https://magic.wizards.com/en/events/coverage/pt25a",
+    "date": "August 2-5, 2018",
+    "formats": [
+      "Standard",
+      "Modern",
+      "Legacy"
+    ],
+    "id": "pro-tour-25-2018",
+    "location": "Minneapolis, United States",
+    "logo": "ptlogo.png",
+    "teamsize": 3,
+    "name": "Pro Tour 25th Anniversary",
+    "standings": [
+    {
+        "name": "Wu",
+        "propoints": 20,
+        "matchpoints": 34,
+        "money": 150000
+    },
+    {
+        "name": "Hull",
+        "propoints": 20,
+        "matchpoints": 34,
+        "money": 150000
+    },
+    {
+        "name": "Orange",
+        "propoints": 20,
+        "matchpoints": 34,
+        "money": 150000
+    },
+    {
+        "name": "Utter-Leyton",
+        "propoints": 18,
+        "matchpoints": 33,
+        "money": 72000
+    },
+    {
+        "name": "Stark",
+        "propoints": 18,
+        "matchpoints": 33,
+        "money": 72000
+    },
+    {
+        "name": "Juza",
+        "propoints": 18,
+        "matchpoints": 33,
+        "money": 72000
+    },
+    {
+        "name": "Carvalho",
+        "propoints": 16,
+        "matchpoints": 33,
+        "money": 45000
+    },
+    {
+        "name": "Saporito",
+        "propoints": 16,
+        "matchpoints": 33,
+        "money": 45000
+    },
+    {
+        "name": "Romao",
+        "propoints": 16,
+        "matchpoints": 33,
+        "money": 45000
+    },
+    {
+        "name": "Gregoir",
+        "propoints": 16,
+        "matchpoints": 33,
+        "money": 45000
+    },
+    {
+        "name": "Neirynck",
+        "propoints": 16,
+        "matchpoints": 33,
+        "money": 45000
+    },
+    {
+        "name": "Van Der Paelt",
+        "propoints": 16,
+        "matchpoints": 33,
+        "money": 45000
+    },
+    {
+        "name": "Froehlich",
+        "propoints": 13,
+        "matchpoints": 31,
+        "money": 27000
+    },
+    {
+        "name": "Nassif",
+        "propoints": 13,
+        "matchpoints": 31,
+        "money": 27000
+    },
+    {
+        "name": "Williams",
+        "propoints": 13,
+        "matchpoints": 31,
+        "money": 27000
+    },
+    {
+        "name": "Esper Berthoud",
+        "propoints": 13,
+        "matchpoints": 31,
+        "money": 27000
+    },
+    {
+        "name": "Salvatto",
+        "propoints": 13,
+        "matchpoints": 31,
+        "money": 27000
+    },
+    {
+        "name": "Pozzo",
+        "propoints": 13,
+        "matchpoints": 31,
+        "money": 27000
+    },
+    {
+        "name": "Sukenik",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 27000
+    },
+    {
+        "name": "Nagro",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 27000
+    },
+    {
+        "name": "Cochran",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 27000
+    },
+    {
+        "name": "Baeckstrom",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 27000
+    },
+    {
+        "name": "Cohen",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 27000
+    },
+    {
+        "name": "Kiefer",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 27000
+    },
+    {
+        "name": "Wilson",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Rizzi",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Shenhar",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Pereira",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Disconzi",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Baldin",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Chung",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Chew",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Lee",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Schwendinger",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Innauer",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Reitbauer",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Ruel",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Wafo-Tapa",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Matignon",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Garcia",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Olea Garcia",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Fernandez Torres",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Kihara",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Murae",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Sato",
+        "propoints": 12,
+        "matchpoints": 30,
+        "money": 15000
+    },
+    {
+        "name": "Martell",
+        "propoints": 9,
+        "matchpoints": 28,
+        "money": 15000
+    },
+    {
+        "name": "Ayers",
+        "propoints": 9,
+        "matchpoints": 28,
+        "money": 15000
+    },
+    {
+        "name": "Rolf",
+        "propoints": 9,
+        "matchpoints": 28,
+        "money": 15000
+    },
+    {
+        "name": "Jones",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Mines",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Nielsen",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Barkon",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Pastore",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Noga",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Horvat",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Portolan",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Brundic",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Anghelescu",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Wijaya",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Nettles",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Fortier",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Stihle",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Depraz",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Walker",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Kassis",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Soorani",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Enevoldsen",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Petersen",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Watsfeldt",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Mackl",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Dickmann",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Hatto",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 12000
+    },
+    {
+        "name": "Pinto",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Merjam",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Santos",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Bonde",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Matsoukas",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Kowalski",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Moughon",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Elsik",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Humphries",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Scott-Vargas",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Sigrist",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Damo Da Rosa",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Anteri",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Ward",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Foulkes",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Siow",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Harabas",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "McLaughlin",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Grace",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "DeCandio",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Chan",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "De Jesus Freitas",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Edel",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Kiefer",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 9000
+    },
+    {
+        "name": "Braun-Duin",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 6000
+    },
+    {
+        "name": "Manfield",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 6000
+    },
+    {
+        "name": "Nelson",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 6000
+    },
+    {
+        "name": "Ortiz Ros",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 6000
+    },
+    {
+        "name": "Ramiro",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 6000
+    },
+    {
+        "name": "Martos Donaire",
+        "propoints": 8,
+        "matchpoints": 27,
+        "money": 6000
+    },
+    {
+        "name": "Sajgalik",
+        "propoints": 5,
+        "matchpoints": 25,
+        "money": 6000
+    },
+    {
+        "name": "Huang",
+        "propoints": 5,
+        "matchpoints": 25,
+        "money": 6000
+    },
+    {
+        "name": "Yam",
+        "propoints": 5,
+        "matchpoints": 25,
+        "money": 6000
+    },
+    {
+        "name": "Klocker",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Papadopoulos",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Telarov",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Hauck",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Bausch",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Heuser",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Aurejac",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Violette",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Laguerre",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Matsumoto",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Mihara",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Fujita",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Rade",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Lantto",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Nystrom",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Hukka",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Kuisma",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Eloranta",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Pikula",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Locke",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Darby",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Yamamoto",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Ichikawa",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Yukuhiro",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Cuneo",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Finkel",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Rietzl",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Takahashi",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Takimura",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Fujimura",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Saito",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Dezani",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Levy",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Vieren",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Glogowski",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Molle",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Yoshino",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Utsunomiya",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Okai",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 6000
+    },
+    {
+        "name": "Hayne",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Floch",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Rubin",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "MacDonald",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Rood",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Pite",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Grimmer",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Severin",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Huschenbeth",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Sochurek",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Larsson",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Hendriks",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Mengucci",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Dominguez",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Calcano",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Budde",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Merkel",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Casadei",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Tsumura",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Hirosawa",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Tamada",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Duke",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Jensen",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Turtenwald",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Seck",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Parke",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Kibler",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Stankey",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Weiser",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Tenjum",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Christensen",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Sifuentes",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Berteaux",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Magalhaes",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Goldfarb",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Baugh",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Pinto",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Sajjad",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Miani",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Bachaud",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Bouillot",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Jochum",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Barlow",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Rogers",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Crasto",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Ikawa",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Morofuji",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Harane",
+        "propoints": 4,
+        "matchpoints": 24,
+        "money": 3000
+    },
+    {
+        "name": "Cubit",
+        "propoints": 3,
+        "matchpoints": 22
+    },
+    {
+        "name": "Sarap",
+        "propoints": 3,
+        "matchpoints": 22
+    },
+    {
+        "name": "Neris",
+        "propoints": 3,
+        "matchpoints": 22
+    },
+    {
+        "name": "Wilson",
+        "propoints": 3,
+        "matchpoints": 22
+    },
+    {
+        "name": "Munck",
+        "propoints": 3,
+        "matchpoints": 22
+    },
+    {
+        "name": "Boston",
+        "propoints": 3,
+        "matchpoints": 22
+    },
+    {
+        "name": "Hrycej",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Van Der Linden",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Vieren",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Hoaen",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Burkhart",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Rubin",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ferrer Rozalen",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Van Mourik",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Vargas",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Bernat",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Kaczmarczyk",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Lenz",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Lipp",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ashton",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Wu",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Fei",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Yeh",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Zhou",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Steele",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Fur",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Crossman",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Bertoncini",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Espinosa",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Rockenbach",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Sidher",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Holiday",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Demestrio",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Blohon",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Muller",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Baumeister",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Pisano",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Severson",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Weitz",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Friedman",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Strasky",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Tiu",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Kurata",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Urase",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Liu",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Wilks",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Schroder",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Linabury",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Fabiano",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ingram",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Fennell",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Brandlein",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Wise",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Steadham",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Frye",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Martin",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ho",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Kim",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Park",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Park",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Schumacher",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Rong",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Rianhard",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Saunders",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Lewis Jonns",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Estephan",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Sittner",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Casatti",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Caparroz",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Sondag",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ball",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Pechler",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Gutierrez",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Pages",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "De Castro",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Mize",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Pierson",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Maney",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Puszet",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Z",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Eyre",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ang",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Carlos",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Uy",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Shiels",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Snook",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Costa",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Maynard",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "McLaren",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Stern",
+        "propoints": 3,
+        "matchpoints": 21
+    },
+    {
+        "name": "Ngo",
+        "propoints": 3,
+        "matchpoints": 19
+    },
+    {
+        "name": "Leonard",
+        "propoints": 3,
+        "matchpoints": 19
+    },
+    {
+        "name": "Pham",
+        "propoints": 3,
+        "matchpoints": 19
+    },
+    {
+        "name": "Drohberg",
+        "propoints": 3,
+        "matchpoints": 19
+    },
+    {
+        "name": "Malik",
+        "propoints": 3,
+        "matchpoints": 19
+    },
+    {
+        "name": "Lindrath",
+        "propoints": 3,
+        "matchpoints": 19
+    },
+    {
+        "name": "Vidugiris",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Cifka",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Mowshowitz",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Butakov",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Freeman",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Ganz",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Landweber",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Mei",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Steuer",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Beland",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Guilbert",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Auger",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Yasooka",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Kakumae",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Watanabe",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Mabee",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Falakfarsa",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Sears",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Box",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Van De Sande",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Vos",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Angelin",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Rask",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Ahlstrom",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Prosek",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Prosek",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Ksandr",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Pettersen Forattini",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Reis",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Salas",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Sorakup",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Saetang",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Sawetsritawan",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Hunter",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Knox",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Ihlenfeldt",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Suzuike",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Tanaka",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Kato",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Sowers",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Haney",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Rea",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Silva",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Gautherin",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Ramirez Sanchez",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Roth",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Munk",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Hauch",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Tomajko",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Mcvety",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Hill",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Dempsey",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Fortini",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Bova",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Takamura",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Matsubara",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Yamamoto",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Ober",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Scholar",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Tanforan",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Townley",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Bradshaw",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Orchard",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Alm",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Agley",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Zimmer",
+        "propoints": 3,
+        "matchpoints": 18
+    },
+    {
+        "name": "Garcia Rosas",
+        "propoints": 3,
+        "matchpoints": 17
+    },
+    {
+        "name": "Gomez",
+        "propoints": 3,
+        "matchpoints": 17
+    },
+    {
+        "name": "Alvarado Picazo",
+        "propoints": 3,
+        "matchpoints": 17
+    },
+    {
+        "name": "Dolar",
+        "propoints": 3,
+        "matchpoints": 16
+    },
+    {
+        "name": "Rutar",
+        "propoints": 3,
+        "matchpoints": 16
+    },
+    {
+        "name": "Detecnik",
+        "propoints": 3,
+        "matchpoints": 16
+    },
+    {
+        "name": "Linde",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Lackey",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "McKay",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Li",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Gay",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Castell",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Moure",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Luminati",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Giorgio",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Hess",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Carter",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Schlegel",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Lim",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Tay",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Lim",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Egorov",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Marcotti",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Praviliev",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Kumagai",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Nakamura",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Inoue",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Mansoor",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Grebe",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Rolen",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Kazanskis",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Dreimanis",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Bukovskis",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Concha",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Sanchez",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Vega",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Tsarkov",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Stepanov",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Rozin",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Yu",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Lax",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Jacobson",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Frisch",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "O'Rourke",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Golding",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Uzuki",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Hashimoto",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Kobayashi",
+        "propoints": 3,
+        "matchpoints": 15
+    },
+    {
+        "name": "Olsen",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Casby",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "King",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Pardee",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Nass",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Black",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Bentley",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Lanthier",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Mills",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Smith",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Blum",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Crotts",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Tobiasch",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Dagen",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Polak-Rottmann",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Shibata",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Uemoto",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Ichihara",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Cooper",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Rios",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Berkowitz",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Zahorcak",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Kosiciar",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Surab",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Lavrenz",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Lamb",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Lavrenz",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Heijne",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Kreijne",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Geurts",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Bautista",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Breitman",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Papp",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Chen",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Pan",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Hua",
+        "propoints": 3,
+        "matchpoints": 12
+    },
+    {
+        "name": "Johnson",
+        "propoints": 3,
+        "matchpoints": 10
+    },
+    {
+        "name": "Naidu",
+        "propoints": 3,
+        "matchpoints": 10
+    },
+    {
+        "name": "Chang",
+        "propoints": 3,
+        "matchpoints": 10
+    },
+    {
+        "name": "Takeishi",
+        "propoints": 3,
+        "matchpoints": 10
+    },
+    {
+        "name": "Endo",
+        "propoints": 3,
+        "matchpoints": 10
+    },
+    {
+        "name": "Yotsumoto",
+        "propoints": 3,
+        "matchpoints": 10
+    },
+    {
+        "name": "Lippi",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "D'Aniello",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Moscato",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Morawski",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Majlaton",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Oliver",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Maliszewski",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Mitchell",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Montoya",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Hahn",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Teiken",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Pecsi",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Guinn",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Bradford",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Maldonado",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Ren",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Ling",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Zhang",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Eliatamby",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Jones",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Green",
+        "propoints": 3,
+        "matchpoints": 9
+    },
+    {
+        "name": "Burchett",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Yoo",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Noorlander",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Hatch",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Mehochko",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Pagan",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Lee",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Choi",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Park",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Siron",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Lemoine",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Loeb",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Laporte",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Abenhaim",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Gareau",
+        "propoints": 3,
+        "matchpoints": 6
+    },
+    {
+        "name": "Thompson",
+        "propoints": 3,
+        "matchpoints": 3
+    },
+    {
+        "name": "Van Cleave",
+        "propoints": 3,
+        "matchpoints": 3
+    },
+    {
+        "name": "Barich",
+        "propoints": 3,
+        "matchpoints": 3
+    },
+    {
+        "name": "Dean",
+        "propoints": 3,
+        "matchpoints": 3
+    },
+    {
+        "name": "Dang",
+        "propoints": 3,
+        "matchpoints": 3
+    },
+    {
+        "name": "Larsen",
+        "propoints": 3,
+        "matchpoints": 3
+    },
+    {
+        "name": "Thompson",
+        "propoints": 3,
+        "matchpoints": 0
+    },
+    {
+        "name": "Cho",
+        "propoints": 3,
+        "matchpoints": 0
+    },
+    {
+        "name": "Severa",
+        "propoints": 3,
+        "matchpoints": 0
+    }
+]
+}
