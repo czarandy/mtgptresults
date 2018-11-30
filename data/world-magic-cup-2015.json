@@ -177,7 +177,8 @@
         {
             "money": 1500,
             "name": "Evgeniy Zakharenkov",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "BLR"
         },
         {
             "money": 1500,
@@ -292,7 +293,8 @@
         {
             "money": 1500,
             "name": "Miodrag Kitanovic",
-            "propoints": 4
+            "propoints": 4,
+            "nationality": "SRB"
         },
         {
             "money": 1500,
@@ -774,7 +776,7 @@
             "propoints": 2
         },
         {
-            "name": "Endre Skjetne",
+            "name": "Endre H Skjetne",
             "propoints": 2
         },
         {
@@ -986,7 +988,7 @@
             "propoints": 2
         },
         {
-            "name": "Nam Sung Wook",
+            "name": "Sung Wook Nam",
             "propoints": 2
         },
         {
@@ -1139,7 +1141,8 @@
         },
         {
             "name": "Denis Skornik",
-            "propoints": 2
+            "propoints": 2,
+            "nationality": "LUX"
         },
         {
             "name": "Charel Steichen",
@@ -1154,7 +1157,7 @@
             "propoints": 2
         },
         {
-            "name": "Wee Pang Ming",
+            "name": "Pang Ming Wee",
             "propoints": 2
         },
         {
@@ -1270,7 +1273,7 @@
             "propoints": 2
         },
         {
-            "name": "Juan Carlos Vargas Carreras",
+            "name": "Juan Vargas Carreras",
             "propoints": 2
         },
         {
@@ -1303,7 +1306,8 @@
         },
         {
             "name": "Ivan Oro",
-            "propoints": 2
+            "propoints": 2,
+            "nationality": "PAN"
         }
     ],
     "teamsize": 4,

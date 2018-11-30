@@ -537,7 +537,8 @@
         {
             "money": 1000,
             "name": "Miodrag Kitanovic",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "SRB"    
         },
         {
             "money": 1000,
@@ -592,7 +593,8 @@
         {
             "money": 1000,
             "name": "Eduardo Sajgalik",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "ENG"
         },
         {
             "money": 1000,
@@ -602,7 +604,8 @@
         {
             "money": 1000,
             "name": "Graeme Mcintyre",
-            "propoints": 3
+            "propoints": 3,
+            "nationality": "ENG"    
         },
         {
             "money": 1000,
@@ -671,6 +674,10 @@
             "nationality": "PHI"
         },
         {
+            "name": "Mark Ramos",
+            "propoints": 2
+        },
+        {
             "name": "Zax Ozaki",
             "propoints": 2
         },
@@ -696,7 +703,8 @@
         },
         {
             "name": "Gabriel Nieves",
-            "propoints": 2
+            "propoints": 2,
+            "nationality": "PRI"
         },
         {
             "name": "Adrian Marquez",
@@ -836,10 +844,6 @@
         },
         {
             "name": "Asger Lundblad",
-            "propoints": 2
-        },
-        {
-            "name": "Tamas Nagy",
             "propoints": 2
         },
         {
