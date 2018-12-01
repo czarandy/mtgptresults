@@ -1598,7 +1598,7 @@
         "nationality": "POL"
     },
     "davy-loeb": {
-        "nationality": "POL"
+        "nationality": "FRA"
     },
     "yuuta-sasaki": {
         "nationality": "JPN"
@@ -3978,7 +3978,7 @@
     "christian-valenti": {
         "nationality": "USA"
     },
-    "dan-macdonald": {
+    "daniel-macdonald": {
         "nationality": "CAN"
     },
     "aaron-sewell": {
@@ -4626,7 +4626,7 @@
     "geoff-zhao": {
         "nationality": "AUS"
     },
-    "kouji-takeishi": {
+    "koji-takeishi": {
         "nationality": "JPN"
     },
     "jarvis-yu": {
@@ -8392,7 +8392,6 @@
     "alex-bakopoulos": {
         "nationality": "GRC"
     },
-    "alejandro-ramos-saez": {},
     "gines-hernandez": {
         "nationality": "ESP"
     },
@@ -24598,7 +24597,7 @@
         "nationality": "USA"
     },
     "niels-molle": {
-        "nationality": "IRL"
+        "nationality": "NLD"
     },
     "enrico-guarneri": {
         "nationality": "ZAF"
@@ -24891,7 +24890,9 @@
     "brian-kidney": {},
     "michael-girard": {},
     "denis-tagunov": {},
-    "kristof-van-holsbeeck": {},
+    "kristof-van-holsbeeck": {
+        "nationality": "BEL"
+    },
     "sabbe-cattrysse": {},
     "axel-reicherstorfer": {},
     "misha-gurevich": {},
@@ -30789,7 +30790,7 @@
         "nationality": "JPN"
     },
     "oleksii-riabokon": {
-        "nationality": "ARE"
+        "nationality": "UKR"
     },
     "tatsuhiko-ohki": {
         "nationality": "JPN"
@@ -34663,7 +34664,9 @@
     "michael-lew": {},
     "hyuma-ishiwata": {},
     "osvaldo-cardenas": {},
-    "calum-gittins": {},
+    "calum-gittins": {
+        "nationality": "AUS"
+    },
     "chris-bakmesian": {},
     "damien-guillet": {},
     "matthew-watton": {},
@@ -34682,7 +34685,9 @@
     "federico-saraceni": {},
     "yuki-mitsunaga": {},
     "david-lyford-smith": {},
-    "xavier-tang": {},
+    "xavier-tang": {
+        "nationality": "SGP"
+    },
     "shunsuke-satomura": {},
     "peter-greig": {},
     "brandon-cummings": {},
@@ -34697,8 +34702,6 @@
     },
     "constantine-vernikos": {},
     "sener-koczyigit": {},
-    "nicolay-potovin": {},
-    "chris-kane": {},
     "joo-hyon-oh": {
         "nationality": "KOR"
     },
@@ -35778,5 +35781,170 @@
     },
     "peter-hritsenchuk": {
         "nationality": "UKR"
+    },
+    "nils-gutierrez-von-porat": {
+        "nationality": "ESP"
+    },
+    "matthew-foulkes": {
+        "nationality": "ENG"
+    },
+    "chris-harabas": {
+        "nationality": "CAN"
+    },
+    "steve-noga": {
+        "nationality": "USA"
+    },
+    "aurelie-violette": {
+        "nationality": "FRA"
+    },
+    "mathieu-laguerre": {
+        "nationality": "FRA"
+    },
+    "joonas-eloranta": {
+        "nationality": "FIN"
+    },
+    "dirk-crasto": {
+        "nationality": "NZL"
+    },
+    "nicholas-barlow": {
+        "nationality": "NZL"
+    },
+    "cody-crossman": {
+        "nationality": "CAN"
+    },
+    "brett-steele": {
+        "nationality": "CAN"
+    },
+    "john-martin": {
+        "nationality": "USA"
+    },
+    "william-ho": {
+        "nationality": "USA"
+    },
+    "inhwan-kim": {
+        "nationality": "KOR"
+    },
+    "lachlan-saunders": {
+        "nationality": "AUS"
+    },
+    "ryan-lewis-jonns": {
+        "nationality": "AUS"
+    },
+    "jessica-catherine-estephan": {
+        "nationality": "AUS"
+    },
+    "gervaise-pechler": {
+        "nationality": "NLD"
+    },
+    "aaron-carlos": {
+        "nationality": "PHL"
+    },
+    "michael-jeffrey-uy": {
+        "nationality": "PHL"
+    },
+    "alan-ngo": {
+        "nationality": "CAN"
+    },
+    "christopher-leonard": {
+        "nationality": "CAN"
+    },
+    "hoang-ha-pham": {
+        "nationality": "CAN"
+    },
+    "soren-malik": {
+        "nationality": "DEU"
+    },
+    "daniel-mabee": {
+        "nationality": "USA"
+    },
+    "galan-falakfarsa": {
+        "nationality": "USA"
+    },
+    "matheus-pettersen-forattini": {
+        "nationality": "BRA"
+    },
+    "kazuki-takamura": {
+        "nationality": "JPN"
+    },
+    "yusuke-matsubara": {
+        "nationality": "JPN"
+    },
+    "ryoichi-yamamoto": {
+        "nationality": "JPN"
+    },
+    "luke-townley": {
+        "nationality": "ENG"
+    },
+    "sam-orchard": {
+        "nationality": "ENG"
+    },
+    "arturo-alvarado-picazo": {
+        "nationality": "MEX"
+    },
+    "alexander-praviliev": {
+        "nationality": "RUS"
+    },
+    "vitalijs-bukovskis": {
+        "nationality": "LVA"
+    },
+    "aidan-frisch": {
+        "nationality": "AUS"
+    },
+    "james-o-rourke": {
+        "nationality": "AUS"
+    },
+    "jacob-golding": {
+        "nationality": "AUS"
+    },
+    "jennifer-crotts": {
+        "nationality": "CAN"
+    },
+    "masataka-shibata": {
+        "nationality": "JPN"
+    },
+    "takahiro-uemoto": {
+        "nationality": "JPN"
+    },
+    "jamie-lavrenz": {
+        "nationality": "USA"
+    },
+    "jeremy-lavrenz": {
+        "nationality": "USA"
+    },
+    "jeroen-kreijne": {
+        "nationality": "NLD"
+    },
+    "simon-geurts": {
+        "nationality": "NLD"
+    },
+    "jiabin-chen": {
+        "nationality": "CHN"
+    },
+    "tai-pan": {
+        "nationality": "CHN"
+    },
+    "yukun-hua": {
+        "nationality": "CHN"
+    },
+    "yuki-yotsumoto": {
+        "nationality": "JPN"
+    },
+    "christoph-green": {
+        "nationality": "ENG"
+    },
+    "minseok-choi": {
+        "nationality": "KOR"
+    },
+    "jungmin-park": {
+        "nationality": "KOR"
+    },
+    "gabryel-laporte": {
+        "nationality": "CAN"
+    },
+    "julien-abenhaim": {
+        "nationality": "CAN"
+    },
+    "mark-ramos": {
+        "nationality": "PHL"
     }
 }
