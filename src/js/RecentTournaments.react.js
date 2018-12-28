@@ -24,7 +24,7 @@ const Logo = ({id, t}) => {
 const RecentTournaments = ({ filter = filterOnlyProTours }) => (
   <div className="col-md-offset-3 col-md-6">
     <div className="alert alert-info" role="alert">
-      {'This site is now open source on '}
+      {'This site is no longer being actively maintained. The source is available on '}
       <a className="alert-link" href="https://github.com/czarandy/mtgptresults">
         GitHub
       </a>.

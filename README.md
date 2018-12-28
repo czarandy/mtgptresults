@@ -1,3 +1,8 @@
+# WARNING
+
+This project is no longer actively maintained. If you are interested in becoming
+the primary maintainer, please [e-mail me](https://github.com/czarandy).
+
 # MTG PT Results
 
 A static site showing results for every MTG Pro Tour (as much as we've been able
@@ -6,7 +11,7 @@ gathering.
 
 ## Contributing
 
-We are open for community contributions. You have multiple possibilities: 
+We are open for community contributions. You have multiple possibilities:
 
 * Tweet us [@mtgptresults](https://twitter.com/mtgptresults)
 * [Raise an issue](https://github.com/czarandy/mtgptresults/issues)
@@ -14,8 +19,8 @@ We are open for community contributions. You have multiple possibilities:
 
 ## Pull Requests
 
-If you want to make any changes or corrections yourself make them to the files 
-in the `data` directory. To add a new tournament, simply create a new file that 
+If you want to make any changes or corrections yourself make them to the files
+in the `data` directory. To add a new tournament, simply create a new file that
 matches the format of the existing files:
 
 1. [Fork this repository](https://help.github.com/articles/fork-a-repo/).
@@ -26,16 +31,16 @@ matches the format of the existing files:
 ## Structure
 
 The site loads all data from the `data` directory. From this it
-generates the following derived views: 
+generates the following derived views:
 
-* `players.js` 
-* `recent.js` 
+* `players.js`
+* `recent.js`
 * `tournaments.js`
 
-which correspond to the views for … 
+which correspond to the views for …
 
-* … player pages, 
-* … the recent tournament view (the initial page that includes tournament 
+* … player pages,
+* … the recent tournament view (the initial page that includes tournament
 summaries)
 * … and the detailed tournament views.
 
@@ -64,5 +69,5 @@ Start a local web server in the build folder:
 
     $ grunt serve
 
-You can then test your changes in your browser, at `localhost:8000`.  
+You can then test your changes in your browser, at `localhost:8000`.
 Once you have verified your change looks good, submit the pull request.
